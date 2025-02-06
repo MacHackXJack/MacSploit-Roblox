@@ -1,0 +1,1040 @@
+2025-02-03T18:10:46.415Z,0.415087,5b5c3fc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs:(
+    "roblox-player:1+launchmode:play+gameinfo:oTTcFQGIO_JZooiL44P5OIVQZMLgVWfJNFaoga6-UFK1b7MG2e_ZgBobS-3xGgFLPr0EerG9UjzGJP5Hj-NYtP47zt6whrxb8S7Q-cYXGgqr1a91Tw0ofjeXL5gbCWWpnlEtMr5APaIWpt2dR6GISDaqyfQXDgW_BngUbit77X6ksMhg8eJ6B3Skd37uREPf6dqyKAKfU6TqntSnnzco85j1K7pe63Juaz8lPKAU2Wg+launchtime:1738606243811+placelauncherurl:https%3A%2F%2Fwww.roblox.com%2FGame%2FPlaceLauncher.ashx%3Frequest%3DRequestFollowUser%26browserTrackerId%3D1738344328674006%26userId%3D1929626652%26joinAttemptId%3Daf0adb0a-0b69-4315-9818-3480e6543ad0%26joinAttemptOrigin%3DJoinUser+browsertrackerid:1738344328674006+robloxLocale:en_us+gameLocale:en_us+channel:+LaunchExp:InApp"
+)
+2025-02-03T18:10:46.415Z,0.415269,5b5c3fc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs handling web launch
+2025-02-03T18:10:46.415Z,0.415333,5b5c3fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 1 = launchmode:play
+2025-02-03T18:10:46.415Z,0.415347,5b5c3fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 2 = gameinfo:oTTcFQGIO_JZooiL44P5OIVQZMLgVWfJNFaoga6-UFK1b7MG2e_ZgBobS-3xGgFLPr0EerG9UjzGJP5Hj-NYtP47zt6whrxb8S7Q-cYXGgqr1a91Tw0ofjeXL5gbCWWpnlEtMr5APaIWpt2dR6GISDaqyfQXDgW_BngUbit77X6ksMhg8eJ6B3Skd37uREPf6dqyKAKfU6TqntSnnzco85j1K7pe63Juaz8lPKAU2Wg
+2025-02-03T18:10:46.415Z,0.415358,5b5c3fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 3 = launchtime:1738606243811
+2025-02-03T18:10:46.415Z,0.415368,5b5c3fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 4 = placelauncherurl:https%3A%2F%2Fwww.roblox.com%2FGame%2FPlaceLauncher.ashx%3Frequest%3DRequestFollowUser%26browserTrackerId%3D1738344328674006%26userId%3D1929626652%26joinAttemptId%3Daf0adb0a-0b69-4315-9818-3480e6543ad0%26joinAttemptOrigin%3DJoinUser
+2025-02-03T18:10:46.415Z,0.415377,5b5c3fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 5 = browsertrackerid:1738344328674006
+2025-02-03T18:10:46.415Z,0.415387,5b5c3fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 6 = robloxLocale:en_us
+2025-02-03T18:10:46.415Z,0.415396,5b5c3fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 7 = gameLocale:en_us
+2025-02-03T18:10:46.415Z,0.415405,5b5c3fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 8 = channel:
+2025-02-03T18:10:46.415Z,0.415428,5b5c3fc0,6 [FLog::Output] Saved channel '' to 'com.roblox.RobloxPlayerChannel' for baseUrl 'www.roblox.com'
+2025-02-03T18:10:46.415Z,0.415445,5b5c3fc0,6 [FLog::Output] RobloxChannel has been set to production
+2025-02-03T18:10:46.415Z,0.415454,5b5c3fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 9 = LaunchExp:InApp
+2025-02-03T18:10:46.415Z,0.415502,5b5c3fc0,6 [FLog::MacLuaApp] (AppDelegate) reportClientStatus url: https://www.roblox.com/client-status/set?browserTrackerId=1738344328674006&status=BootstrapperInstalling
+2025-02-03T18:10:46.416Z,0.416796,5b5c3fc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs cold launch. Defer web launch until after initialization is complete.
+2025-02-03T18:10:46.416Z,0.416907,5b5c3fc0,6 [FLog::Output] (AppDelegate) applicationDidFinishLaunching
+2025-02-03T18:10:46.417Z,0.417010,5b5c3fc0,6,Info [FLog::UpdateController] UpdateController: versionQueryUrl: https://clientsettingscdn.roblox.com/v2/client-version/MacPlayer
+2025-02-03T18:10:46.417Z,0.417035,5b5c3fc0,6,Info [FLog::UpdateController] MacUpdateController: updaterFullPath: /Applications/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app/Contents/MacOS/RobloxPlayerInstaller
+2025-02-03T18:10:46.417Z,0.417098,a3c0000,6,Info [FLog::UpdateController] Update check thread started
+2025-02-03T18:10:46.417Z,0.417134,a3c0000,6,Info [FLog::UpdateController] Checking if updater exists at /Applications/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app/Contents/MacOS/RobloxPlayerInstaller. Returning 1
+2025-02-03T18:10:46.417Z,0.417147,5b5c3fc0,6 [FLog::Output] settingsUrl: https://clientsettingscdn.roblox.com/v2/settings-compressed/application/MacDesktopClient/876303bc5322fbc5499ad5d572b4a57fc6305ca10adf81769b9121c45b7d3a38.dcz
+2025-02-03T18:10:46.481Z,0.481878,a3c0000,6,Debug [FLog::UpdateController] version response: {"version":"0.658.0.6580461","clientVersionUpload":"version-4c01fa4a41074574","bootstrapperVersion":"6580461"}
+2025-02-03T18:10:46.482Z,0.482009,a3c0000,6,Info [FLog::UpdateController] Update check thread: updateRequired FALSE
+2025-02-03T18:10:46.482Z,0.482909,5b5c3fc0,6 [FLog::Output] Settings Date header was Mon, 03 Feb 2025 18:10:46 GMT
+2025-02-03T18:10:46.482Z,0.482955,5b5c3fc0,6 [FLog::Output] Settings Date timestamp is 1738606246
+2025-02-03T18:10:46.488Z,0.488640,a443000,12 [DFLog::HttpTraceError] HttpResponse(#0 0x7fd4a087ac20) time:149.1ms (net:149.0ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://accountsettings.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-03T18:10:46.494Z,0.494298,5b5c3fc0,6 [FLog::ClientRunInfo] RobloxGitHash: 6874f45ec658019a67f19ab7de6e688c50292b01
+2025-02-03T18:10:46.494Z,0.494472,5b5c3fc0,6 [FLog::ClientRunInfo] The base url is https://www.roblox.com/
+2025-02-03T18:10:46.494Z,0.494484,5b5c3fc0,6 [FLog::ClientRunInfo] The channel is production
+2025-02-03T18:10:46.504Z,0.504240,5b5c3fc0,6 [FLog::Output] *******
+** Validated reflection database in 5.948043 ms, found 5363 entries with the following skipped: 0 enums, 0 properties, 0 functions, 0 events, 0 callbacks, 0 classes.
+*******
+
+2025-02-03T18:10:46.504Z,0.504753,5b5c3fc0,6 [FLog::Output] (AppDelegate) Universal App on Mac: initialize...
+2025-02-03T18:10:46.504Z,0.504785,5b5c3fc0,6 [FLog::Output] syncCookiesFromNativeToEngine was skipped
+2025-02-03T18:10:46.504Z,0.504859,5b5c3fc0,6 [FLog::Output] Current file descriptor limit is 256, increasing to 2560
+2025-02-03T18:10:46.504Z,0.504873,5b5c3fc0,6 [FLog::Output] (AppDelegate) web browserTrackerId = [1738344328674006].
+2025-02-03T18:10:46.506Z,0.506887,5b5c3fc0,6 [FLog::Output] syncCookiesFromEngineToNative was skipped
+2025-02-03T18:10:46.506Z,0.506912,5b5c3fc0,6 [FLog::Output] (AppDelegate) launchTimeMillis = [-2065]
+2025-02-03T18:10:46.507Z,0.507170,5b5c3fc0,6,Info [FLog::PerformanceControlUtil] PerformanceControlUtil: registered single surface tunable (id=0)
+2025-02-03T18:10:46.507Z,0.507297,5b5c3fc0,6 [FLog::SingleSurfaceApp] initializeWithAppStarter
+2025-02-03T18:10:46.507Z,0.507311,5b5c3fc0,6 [FLog::SingleSurfaceApp] initializeSingleton
+2025-02-03T18:10:46.507Z,0.507676,5b5c3fc0,6 [FLog::Output] setAssetFolder /Applications/Roblox.app/Contents/Resources/content/
+2025-02-03T18:10:46.507Z,0.507909,5b5c3fc0,6 [FLog::Output] setExtraAssetFolder /Applications/Roblox.app/Contents/Resources/ExtraContent
+2025-02-03T18:10:46.508Z,0.508069,5b5c3fc0,6 [FLog::Output] Evaluating deferred inferred crashes
+2025-02-03T18:10:46.508Z,0.508622,5b5c3fc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)
+2025-02-03T18:10:46.508Z,0.508640,5b5c3fc0,6 [FLog::SingleSurfaceApp] setLocale
+2025-02-03T18:10:46.508Z,0.508651,5b5c3fc0,6,Warning [FLog::SingleSurfaceApp] instantiate controllers
+2025-02-03T18:10:46.508Z,0.508659,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::SurfaceController, count: 1
+2025-02-03T18:10:46.508Z,0.508669,5b5c3fc0,6,Warning [FLog::SingleSurfaceApp] instantiate experience coordinator
+2025-02-03T18:10:46.508Z,0.508691,5b5c3fc0,6,Info [FLog::PerformanceControlUtil] PerformanceControlUtil: registered single surface tunable (id=1)
+2025-02-03T18:10:46.508Z,0.508701,5b5c3fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController::CrossExperienceVoiceController() constructor
+2025-02-03T18:10:46.524Z,0.524125,a443000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-03T18:10:46.524Z,0.524173,a443000,12 [DFLog::HttpTraceError] HttpResponse(#5 0x7fd4a0889220) time:184.4ms (net:184.3ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://locale.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-03T18:10:46.528Z,0.528064,a443000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-03T18:10:46.528Z,0.528103,a443000,12 [DFLog::HttpTraceError] HttpResponse(#6 0x7fd4a0889820) time:188.4ms (net:188.3ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://users.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-03T18:10:46.544Z,0.544773,a443000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-03T18:10:46.544Z,0.544822,a443000,12 [DFLog::HttpTraceError] HttpResponse(#7 0x7fd4a0889e20) time:205.1ms (net:205.0ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://users.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-03T18:10:46.601Z,0.601261,a443000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-03T18:10:46.601Z,0.601312,a443000,12 [DFLog::HttpTraceError] HttpResponse(#2 0x7fd4a0863620) time:261.6ms (net:261.5ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.4 external:1 numberOfTimesRetried:0
+2025-02-03T18:10:46.615Z,0.615703,a443000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-03T18:10:46.615Z,0.615754,a443000,12 [DFLog::HttpTraceError] HttpResponse(#1 0x7fd4a0874e20) time:276.1ms (net:276.0ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.4 external:1 numberOfTimesRetried:0
+2025-02-03T18:10:46.619Z,0.619629,a443000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-03T18:10:46.619Z,0.619667,a443000,12 [DFLog::HttpTraceError] HttpResponse(#3 0x7fd4a0845e20) time:280.0ms (net:279.9ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.4 external:1 numberOfTimesRetried:0
+2025-02-03T18:10:46.619Z,0.619686,a443000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-03T18:10:46.619Z,0.619706,a443000,12 [DFLog::HttpTraceError] HttpResponse(#4 0x7fd4a0846420) time:280.0ms (net:279.9ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.4 external:1 numberOfTimesRetried:0
+2025-02-03T18:10:46.953Z,0.953488,5b5c3fc0,6 [FLog::SingleSurfaceApp] launchUGCGame: (stage:Native).
+2025-02-03T18:10:46.953Z,0.953523,5b5c3fc0,6 [FLog::SingleSurfaceApp] launchUGCGameInternal
+2025-02-03T18:10:46.956Z,0.956004,5b5c3fc0,6 [FLog::SingleSurfaceApp] applyLocale
+2025-02-03T18:10:46.956Z,0.956035,5b5c3fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: initialize:
+2025-02-03T18:10:46.956Z,0.956616,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Load configs for user key: app:1423803869895817846
+2025-02-03T18:10:46.957Z,0.957630,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Retrieving patch
+2025-02-03T18:10:46.957Z,0.957646,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch DataModelPatchConfig : type=1, assetId=5345954812, assetVersion=10769, maxAppVersion=658, localAssetURI=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-03T18:10:46.957Z,0.957655,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : numAttempts=10
+2025-02-03T18:10:46.957Z,0.957695,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : contentId=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-03T18:10:46.957Z,0.957705,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : get patch from content provider for Model
+2025-02-03T18:10:46.957Z,0.957786,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+2025-02-03T18:10:47.226Z,1.226431,5b5c3fc0,6,Warning [DFLog::BootcampCLI139737Log] Hello world!!!!!!!!!!!!!!!!!!!!
+2025-02-03T18:10:47.328Z,1.328196,5b5c3fc0,6,Info [FLog::Audio] OutputDevice 0: Cuffie esterne [BuiltIn] 48000/2
+2025-02-03T18:10:47.431Z,1.431195,5b5c3fc0,6,Info [FLog::Audio] InputDevice 0: Microfono esterno({af0144be-277e-8cc3-0000000000000000}) 48000/1/4
+2025-02-03T18:10:47.431Z,1.431226,5b5c3fc0,6,Info [FLog::Audio] InputDevice 1: Microfono iMac({50eb3c32-f018-032c-0000000000000000}) 48000/1/4
+2025-02-03T18:10:47.443Z,1.443332,5b5c3fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: join: initialized dm 0x7fd4a6fd7e00
+2025-02-03T18:10:47.443Z,1.443388,5b5c3fc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGame
+2025-02-03T18:10:47.443Z,1.443476,5b5c3fc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGamePostSpecificUser: URL: https://gamejoin.roblox.com/v1/play-with-user BODY: {"userIdToFollow":1929626652,"gameJoinAttemptId":"af0adb0a-0b69-4315-9818-3480e6543ad0"}
+2025-02-03T18:10:47.443Z,1.443536,5b5c3fc0,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 0, url: https://gamejoin.roblox.com/v1/play-with-user.
+2025-02-03T18:10:47.443Z,1.443556,5b5c3fc0,6 [FLog::GameJoinUtil] Delaying request by 0.00 seconds
+2025-02-03T18:10:47.443Z,1.443600,5b5c3fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Started - Ugc
+2025-02-03T18:10:47.443Z,1.443689,5b5c3fc0,6 [FLog::SurfaceController] [_:1]::replaceDataModel: (stage:0, window = 0x7fd4a1605880) [tid:0x7fd49e80f360]
+2025-02-03T18:10:47.444Z,1.444134,5b5c3fc0,6,Warning [FLog::Graphics] RenderView created[1]
+2025-02-03T18:10:47.448Z,1.448586,5b5c3fc0,6 [FLog::Graphics] Metal renderer: AMD Radeon Pro 5300
+2025-02-03T18:10:47.448Z,1.448614,5b5c3fc0,6 [channel] Caps: ThreadSafe 1 Framebuffer 1 FpFramebuffer 1 Shaders 1 Compute 1 Instancing 1 PerInstanceStream 1 ConstBuffers 1
+2025-02-03T18:10:47.448Z,1.448622,5b5c3fc0,6 [channel] Caps: Framebuffer: MRT 4 MSAA 8 Stencil 1
+2025-02-03T18:10:47.448Z,1.448628,5b5c3fc0,6 [channel] Caps: Framebuffer: Depth16 1 Depth24 1 DepthFloat 1 DepthClamp 1
+2025-02-03T18:10:47.448Z,1.448634,5b5c3fc0,6 [channel] Caps: Border Color 1
+2025-02-03T18:10:47.448Z,1.448639,5b5c3fc0,6 [channel] Caps: Texture: RGB10A2 1 RG11B10F 1 R16I 1
+2025-02-03T18:10:47.448Z,1.448645,5b5c3fc0,6 [channel] Caps: Texture: BC6H 1 ASTC HDR 0
+2025-02-03T18:10:47.448Z,1.448650,5b5c3fc0,6 [channel] Caps: Texture: DXT 1 PVR 0 ETC1 0 ETC2 0 Half 1
+2025-02-03T18:10:47.448Z,1.448656,5b5c3fc0,6 [channel] Caps: Texture: 3D 1 Array 1 Depth 1 MSAA 1 MSAAFP16 8
+2025-02-03T18:10:47.448Z,1.448712,5b5c3fc0,6 [channel] Caps: Texture: NPOT 1 PartialMips 1 CubeMipGen 1 CubeFramebuffer 1
+2025-02-03T18:10:47.448Z,1.448719,5b5c3fc0,6 [channel] Caps: Texture: Size 8192 Units 32 VertexUnits 32
+2025-02-03T18:10:47.448Z,1.448724,5b5c3fc0,6 [channel] Caps: ConstantBufferSize 65536
+2025-02-03T18:10:47.448Z,1.448730,5b5c3fc0,6 [channel] Caps: isAppleGPU 0
+2025-02-03T18:10:47.448Z,1.448735,5b5c3fc0,6 [channel] Caps: 32bIdx 1 Memoryless 0
+2025-02-03T18:10:47.448Z,1.448741,5b5c3fc0,6 [channel] Caps: ColorBGR 0 RTFlip 0 MinusOneToOneDepth 0
+2025-02-03T18:10:47.454Z,1.454390,5b5c3fc0,6 [FLog::Graphics] Metal: creating framebuffer 5120x2528
+2025-02-03T18:10:47.454Z,1.454427,5b5c3fc0,6 [FLog::Graphics] Video memory size: 2147483648
+2025-02-03T18:10:47.494Z,1.494472,a95b000,6,Info [FLog::UgcExperienceController] UgcExperienceController: submitStartGameTask: scrips are loaded 0x7fd4a6fd7e00
+2025-02-03T18:10:47.508Z,1.508042,5b5c3fc0,6 [FLog::Graphics] Loaded 1021 shaders from pack metal_osx variant default (7181513 bytes)
+2025-02-03T18:10:47.508Z,1.508065,5b5c3fc0,6 [FLog::Graphics] Compiled 677 shaders in 53 ms
+2025-02-03T18:10:47.527Z,1.527341,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController::disableVR
+2025-02-03T18:10:47.527Z,1.527457,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7fd4a6fd7e00)
+2025-02-03T18:10:47.527Z,1.527483,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:1]::RenderJob
+2025-02-03T18:10:47.527Z,1.527501,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7fd4a6fd7e00)
+2025-02-03T18:10:47.527Z,1.527514,5b5c3fc0,6 [FLog::SingleSurfaceApp] setStage: (stage:UGCGame)
+2025-02-03T18:10:47.527Z,1.527523,5b5c3fc0,6 [FLog::SingleSurfaceApp] userDidLogin
+2025-02-03T18:10:47.527Z,1.527531,5b5c3fc0,6 [FLog::SingleSurfaceApp] applyLocale
+2025-02-03T18:10:47.527Z,1.527555,a95b000,6 [FLog::Output] (AppDelegate) Doing machine id check.
+2025-02-03T18:10:47.529Z,1.529135,a858000,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+2025-02-03T18:10:47.640Z,1.640110,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+2025-02-03T18:10:47.645Z,1.645747,5b5c3fc0,6 [FLog::Graphics] LayeredClothingMode updated: LC=1 HSR=1
+2025-02-03T18:10:47.651Z,1.651285,5b5c3fc0,6 [FLog::Graphics] SceneManager: resizing main targets to 2560x1264
+2025-02-03T18:10:47.726Z,1.726507,5b5c3fc0,6 [FLog::Graphics] Metal: resizing main framebuffer to 5120x2880
+2025-02-03T18:10:47.731Z,1.731135,5b5c3fc0,6 [FLog::Graphics] SceneManager: resizing main targets to 2560x1440
+2025-02-03T18:10:48.809Z,2.809222,aa5e000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":"FollowFriend=81080628786688;af0adb0a-0b69-4315-9818-3480e6543ad0;1929626652","status":22,"statusData":null,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null,"queuePosition":1}
+status code: 200
+httpErrorCode: 0
+errorMessage: 
+
+2025-02-03T18:10:48.809Z,2.809290,aa5e000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 1, url: https://gamejoin.roblox.com/v1/play-with-user.
+2025-02-03T18:10:48.809Z,2.809324,aa5e000,6 [FLog::GameJoinUtil] Delaying request by 2.00 seconds
+2025-02-03T18:10:51.004Z,5.004092,aa5e000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":null,"status":22,"statusData":null,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null,"queuePosition":1}
+status code: 200
+httpErrorCode: 0
+errorMessage: 
+
+2025-02-03T18:10:51.004Z,5.004151,aa5e000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 2, url: https://gamejoin.roblox.com/v1/play-with-user.
+2025-02-03T18:10:51.004Z,5.004179,aa5e000,6 [FLog::GameJoinUtil] Delaying request by 2.00 seconds
+2025-02-03T18:10:53.195Z,7.195071,a858000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":null,"status":22,"statusData":null,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null,"queuePosition":1}
+status code: 200
+httpErrorCode: 0
+errorMessage: 
+
+2025-02-03T18:10:53.195Z,7.195143,a858000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 3, url: https://gamejoin.roblox.com/v1/play-with-user.
+2025-02-03T18:10:53.195Z,7.195179,a858000,6 [FLog::GameJoinUtil] Delaying request by 2.00 seconds
+2025-02-03T18:10:55.372Z,9.372296,aa5e000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":null,"status":22,"statusData":null,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null,"queuePosition":1}
+status code: 200
+httpErrorCode: 0
+errorMessage: 
+
+2025-02-03T18:10:55.372Z,9.372359,aa5e000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 4, url: https://gamejoin.roblox.com/v1/play-with-user.
+2025-02-03T18:10:55.372Z,9.372384,aa5e000,6 [FLog::GameJoinUtil] Delaying request by 2.00 seconds
+2025-02-03T18:10:57.562Z,11.562191,a95b000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":null,"status":22,"statusData":null,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null,"queuePosition":1}
+status code: 200
+httpErrorCode: 0
+errorMessage: 
+
+2025-02-03T18:10:57.562Z,11.562243,a95b000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 5, url: https://gamejoin.roblox.com/v1/play-with-user.
+2025-02-03T18:10:57.562Z,11.562263,a95b000,6 [FLog::GameJoinUtil] Delaying request by 2.00 seconds
+2025-02-03T18:10:59.761Z,13.761833,a95b000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":null,"status":22,"statusData":null,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null,"queuePosition":1}
+status code: 200
+httpErrorCode: 0
+errorMessage: 
+
+2025-02-03T18:10:59.761Z,13.761904,a95b000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 6, url: https://gamejoin.roblox.com/v1/play-with-user.
+2025-02-03T18:10:59.761Z,13.761926,a95b000,6 [FLog::GameJoinUtil] Delaying request by 2.00 seconds
+2025-02-03T18:11:01.944Z,15.944963,aa5e000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":null,"status":22,"statusData":null,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null,"queuePosition":1}
+status code: 200
+httpErrorCode: 0
+errorMessage: 
+
+2025-02-03T18:11:01.945Z,15.945042,aa5e000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 7, url: https://gamejoin.roblox.com/v1/play-with-user.
+2025-02-03T18:11:01.945Z,15.945076,aa5e000,6 [FLog::GameJoinUtil] Delaying request by 2.00 seconds
+2025-02-03T18:11:04.144Z,18.144373,a95b000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":null,"status":22,"statusData":null,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null,"queuePosition":1}
+status code: 200
+httpErrorCode: 0
+errorMessage: 
+
+2025-02-03T18:11:04.146Z,18.146345,a95b000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 8, url: https://gamejoin.roblox.com/v1/play-with-user.
+2025-02-03T18:11:04.146Z,18.146399,a95b000,6 [FLog::GameJoinUtil] Delaying request by 2.00 seconds
+2025-02-03T18:11:06.324Z,20.324949,a858000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":null,"status":22,"statusData":null,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null,"queuePosition":1}
+status code: 200
+httpErrorCode: 0
+errorMessage: 
+
+2025-02-03T18:11:06.325Z,20.325041,a858000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 9, url: https://gamejoin.roblox.com/v1/play-with-user.
+2025-02-03T18:11:06.325Z,20.325089,a858000,6 [FLog::GameJoinUtil] Delaying request by 2.00 seconds
+2025-02-03T18:11:07.659Z,21.659470,5b5c3fc0,6 [FLog::SingleSurfaceApp] returnToLuaApp: (stage:UGCGame).
+2025-02-03T18:11:07.659Z,21.659525,5b5c3fc0,6 [FLog::SingleSurfaceApp] leaveUGCGameInternal
+2025-02-03T18:11:07.659Z,21.659542,5b5c3fc0,6 [FLog::SurfaceController] stop
+2025-02-03T18:11:07.659Z,21.659554,5b5c3fc0,6 [FLog::SurfaceController] drainRenderingJobs
+2025-02-03T18:11:07.659Z,21.659586,aa5e000,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:1]::~RenderJob
+2025-02-03T18:11:07.660Z,21.660620,5b5c3fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: begin
+2025-02-03T18:11:07.660Z,21.660650,5b5c3fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: end
+2025-02-03T18:11:07.660Z,21.660664,5b5c3fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: stop: begin (blocking=false dataModel=0x7fd4a6fd7e00)
+2025-02-03T18:11:07.660Z,21.660685,5b5c3fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: sendAnalyticsBeforeLeave: sending event None_None
+2025-02-03T18:11:07.660Z,21.660707,5b5c3fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Stopped - Ugc
+2025-02-03T18:11:07.660Z,21.660719,5b5c3fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: removing all observers for type Ugc
+2025-02-03T18:11:07.661Z,21.661158,5b5c3fc0,6 [FLog::SingleSurfaceApp] returnToLuaAppInternal: ... App not yet initialized, returning from game.
+2025-02-03T18:11:07.661Z,21.661186,5b5c3fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Stopped - LuaApp
+2025-02-03T18:11:07.661Z,21.661432,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Retrieving patch
+2025-02-03T18:11:07.661Z,21.661451,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch DataModelPatchConfig : type=1, assetId=5345954812, assetVersion=10769, maxAppVersion=658, localAssetURI=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-03T18:11:07.661Z,21.661476,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : numAttempts=10
+2025-02-03T18:11:07.661Z,21.661528,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : contentId=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-03T18:11:07.661Z,21.661537,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : get patch from content provider for Model
+2025-02-03T18:11:07.661Z,21.661623,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+2025-02-03T18:11:07.919Z,21.919025,5b5c3fc0,6,Warning [DFLog::BootcampCLI139737Log] Hello world!!!!!!!!!!!!!!!!!!!!
+2025-02-03T18:11:07.922Z,21.922300,5b5c3fc0,6 [FLog::SingleSurfaceApp] setStage: (stage:InitializedLuaApp)
+2025-02-03T18:11:07.922Z,21.922323,5b5c3fc0,6 [FLog::SurfaceController] [_:1]::replaceDataModel: (stage:5, window = 0x7fd4a1605880) [tid:0x7fd49e80f360]
+2025-02-03T18:11:07.922Z,21.922333,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7fd4b77aec00)
+2025-02-03T18:11:07.922Z,21.922348,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:2]::RenderJob
+2025-02-03T18:11:07.922Z,21.922356,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7fd4b77aec00)
+2025-02-03T18:11:07.922Z,21.922375,5b5c3fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Started - LuaApp
+2025-02-03T18:11:07.922Z,21.922382,5b5c3fc0,6 [FLog::SingleSurfaceApp] setStage: (stage:LuaApp)
+2025-02-03T18:11:07.931Z,21.931311,a858000,6 [FLog::Output] Info: DataModel Loading rbxasset://places/Mobile.rbxl
+2025-02-03T18:11:07.942Z,21.942221,a858000,6 [FLog::DataModelPatchConfigurer] OTAPollingEnabled set to: false
+2025-02-03T18:11:07.962Z,21.962912,a858000,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Load configs for user key: user:3047960021
+2025-02-03T18:11:07.963Z,21.963463,a858000,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Retrieving patch
+2025-02-03T18:11:07.963Z,21.963478,a858000,6 [FLog::DataModelPatchConfigurer] getCachedPatch DataModelPatchConfig : type=1, assetId=16639814581, assetVersion=1967, maxAppVersion=658, localAssetURI=
+2025-02-03T18:11:08.018Z,22.018013,a858000,6,Info [FLog::AudioFocusManager] AudioFocusManager::AudioFocusManager() constructor
+2025-02-03T18:11:08.018Z,22.018053,a858000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() constructor
+2025-02-03T18:11:08.018Z,22.018063,a858000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-03T18:11:08.018Z,22.018070,a858000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider setup
+2025-02-03T18:11:08.242Z,22.242197,a858000,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+2025-02-03T18:11:08.242Z,22.242817,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+2025-02-03T18:11:08.248Z,22.248003,5b5c3fc0,6 [FLog::Graphics] Future is bright shadows
+2025-02-03T18:11:08.249Z,22.249971,5b5c3fc0,6 [FLog::Graphics] Terrain TextureArray 512x512, arraySize: 36, mip: 10
+2025-02-03T18:11:08.266Z,22.266014,a95b000,6 [FLog::Warning] Warning: Unable to fetch completed survey ids from app storage  
+2025-02-03T18:11:08.331Z,22.331940,aa5e000,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+2025-02-03T18:11:08.375Z,22.375244,a95b000,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+2025-02-03T18:11:08.384Z,22.384514,a858000,6 [FLog::Error] Asset (Image) "rbxthumb://type=AvatarHeadShot&id=&w=48&h=48&filters=circular" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-03T18:11:08.679Z,22.679243,a858000,6 [FLog::Error] Asset (Image) "rbxthumb://type=AvatarHeadShot&id=0&w=48&h=48&filters=circular" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-03T18:11:08.681Z,22.681734,a858000,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Update OTA config
+2025-02-03T18:11:08.687Z,22.687654,aa5e000,6 [DFLog::SignalRCoreError] ID: 1 Disconnected - stop() called
+2025-02-03T18:11:08.687Z,22.687986,a858000,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 28
+2025-02-03T18:11:08.711Z,22.711027,a858000,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+2025-02-03T18:11:08.711Z,22.711143,a858000,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+2025-02-03T18:11:08.843Z,22.843344,a443000,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Update OTA succeeded: {"SchemaVersion":"1","CanaryUserIds":[],"CanaryPercentage":0}
+2025-02-03T18:11:08.843Z,22.843374,a443000,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Update OTA config not deployed
+2025-02-03T18:11:09.267Z,23.267191,5b5c3fc0,6 [FLog::Output] Saved channel '' to 'com.roblox.RobloxPlayerChannel' for baseUrl 'www.roblox.com'
+2025-02-03T18:11:09.650Z,23.650976,a443000,6,Critical [DFLog::RbxStorage] RbxStorage::init [INIT] availableDiskSpace: 69481766912 bytes, oldCacheSize: -1 bytes, elapsed: 0.080 ms
+2025-02-03T18:11:09.669Z,23.669205,a443000,6,Error [DFLog::SQLite] sqlite3_error_log: 283 - recovered 493 frames from WAL file /private/var/folders/83/3w46ryz13191t1qd7k9xctdm0000gn/T/Roblox/rbx-storage.db-wal
+2025-02-03T18:11:09.672Z,23.672253,a443000,6,Critical [DFLog::RbxStorage] RbxStorage::init [DONE] name: TelemetryCache(SqliteCache+TelemetryCache(FileCache)), duration: 20.738 ms, dbOpenCount: 12, dbMaxMemory: 0.260 MiB, dbTotalSize: 0.000 MiB, dbNumItems: 1, fileTotalSize: 0.000 MiB, fileNumItems: 0
+2025-02-03T18:11:12.864Z,26.864967,5b5c3fc0,6 [FLog::SingleSurfaceApp] launchUGCGame: (stage:LuaApp).
+2025-02-03T18:11:12.865Z,26.865026,5b5c3fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Paused - LuaApp
+2025-02-03T18:11:12.865Z,26.865047,5b5c3fc0,6 [FLog::SingleSurfaceApp] launchUGCGameInternal
+2025-02-03T18:11:12.867Z,26.867355,5b5c3fc0,6 [FLog::SingleSurfaceApp] applyLocale
+2025-02-03T18:11:12.867Z,26.867374,5b5c3fc0,6,Warning [FLog::UgcExperienceController] UgcExperienceController: stop: Did not start due to state.
+2025-02-03T18:11:12.867Z,26.867384,5b5c3fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Stopped - Ugc
+2025-02-03T18:11:12.867Z,26.867393,5b5c3fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: removing all observers for type Ugc
+2025-02-03T18:11:12.867Z,26.867401,5b5c3fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: finalized
+2025-02-03T18:11:12.867Z,26.867409,5b5c3fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: initialize:
+2025-02-03T18:11:12.867Z,26.867945,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Retrieving patch
+2025-02-03T18:11:12.867Z,26.867966,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch DataModelPatchConfig : type=1, assetId=5345954812, assetVersion=10769, maxAppVersion=658, localAssetURI=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-03T18:11:12.867Z,26.867977,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : numAttempts=10
+2025-02-03T18:11:12.868Z,26.868042,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : contentId=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-03T18:11:12.868Z,26.868053,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : get patch from content provider for Model
+2025-02-03T18:11:12.868Z,26.868164,5b5c3fc0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+2025-02-03T18:11:13.103Z,27.103708,5b5c3fc0,6,Warning [DFLog::BootcampCLI139737Log] Hello world!!!!!!!!!!!!!!!!!!!!
+2025-02-03T18:11:13.106Z,27.106085,5b5c3fc0,6,Info [FLog::Audio] OutputDevice 0: Cuffie esterne [BuiltIn] 48000/2
+2025-02-03T18:11:13.171Z,27.171415,5b5c3fc0,6,Info [FLog::Audio] InputDevice 0: Microfono esterno({af0144be-277e-8cc3-0000000000000000}) 48000/1/4
+2025-02-03T18:11:13.171Z,27.171471,5b5c3fc0,6,Info [FLog::Audio] InputDevice 1: Microfono iMac({50eb3c32-f018-032c-0000000000000000}) 48000/1/4
+2025-02-03T18:11:13.174Z,27.174231,5b5c3fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: join: initialized dm 0x7fd4a9418c00
+2025-02-03T18:11:13.174Z,27.174263,5b5c3fc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGame
+2025-02-03T18:11:13.174Z,27.174311,5b5c3fc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGamePostSpecificUser: URL: https://gamejoin.roblox.com/v1/play-with-user BODY: {"userIdToFollow":1225077892,"placeId":16732694052,"gameJoinAttemptId":"a6d5e4bf-0eed-4cac-ac8c-0ebacbf201af"}
+2025-02-03T18:11:13.174Z,27.174360,5b5c3fc0,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 0, url: https://gamejoin.roblox.com/v1/play-with-user.
+2025-02-03T18:11:13.174Z,27.174377,5b5c3fc0,6 [FLog::GameJoinUtil] Delaying request by 0.00 seconds
+2025-02-03T18:11:13.174Z,27.174417,5b5c3fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Started - Ugc
+2025-02-03T18:11:13.174Z,27.174503,5b5c3fc0,6 [FLog::SurfaceController] [_:1]::replaceDataModel: (stage:3, window = 0x7fd4a1605880) [tid:0x7fd49e80f360]
+2025-02-03T18:11:13.174Z,27.174519,5b5c3fc0,6 [FLog::SurfaceController] stop
+2025-02-03T18:11:13.174Z,27.174526,5b5c3fc0,6 [FLog::SurfaceController] drainRenderingJobs
+2025-02-03T18:11:13.174Z,27.174543,a95b000,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:2]::~RenderJob
+2025-02-03T18:11:13.175Z,27.175077,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7fd4a9418c00)
+2025-02-03T18:11:13.175Z,27.175108,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:3]::RenderJob
+2025-02-03T18:11:13.175Z,27.175119,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7fd4a9418c00)
+2025-02-03T18:11:13.175Z,27.175129,5b5c3fc0,6 [FLog::SingleSurfaceApp] setStage: (stage:UGCGame)
+2025-02-03T18:11:13.229Z,27.229353,a95b000,6,Info [FLog::UgcExperienceController] UgcExperienceController: submitStartGameTask: scrips are loaded 0x7fd4a9418c00
+2025-02-03T18:11:13.229Z,27.229445,a95b000,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+2025-02-03T18:11:13.230Z,27.230164,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+2025-02-03T18:11:13.413Z,27.413857,aa5e000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":"8b246f61-3836-4c14-a09b-2f12d3e9ae94","status":2,"statusData":null,"joinScriptUrl":"https://assetgame.roblox.com/Game/Join.ashx?ticketVersion=2&ticket={\"UserId\"%3a3047960021%2c\"UserName\"%3a\"paninorealaccount009\"%2c\"DisplayName\"%3a\"Jack\"%2c\"CharacterFetchUrl\"%3a\"https%3a%2f%2fapi.roblox.com%2fv1.1%2favatar-fetch%2f%3fplaceId%3d16732694052%26userId%3d3047960021\"%2c\"GameId\"%3a\"8b246f61-3836-4c14-a09b-2f12d3e9ae94\"%2c\"PlaceId\"%3a16732694052%2c\"UniverseId\"%3a5750914919%2c\"ServerId\"%3a386352%2c\"ServerPort\"%3a60331%2c\"IsTeleport\"%3afalse%2c\"FollowUserId\"%3a1225077892%2c\"TimeStamp\"%3a\"02%2f03%2f2025+18%3a11%3a13\"%2c\"CharacterAppearanceId\"%3a3047960021%2c\"AlternateName\"%3anull%2c\"JoinTypeId\"%3a5%2c\"MatchmakingDecisionId\"%3anull%2c\"GameJoinMetadata\"%3a{\"JoinSource\"%3a0%2c\"RequestType\"%3a3%2c\"MatchmakingDecisionId\"%3a\"84d2f0db-02e1-45cd-8e9a-68
+2025-02-03T18:11:13.413Z,27.413973,aa5e000,6 [FLog::GameJoinUtil] GameJoin V2 stat Random Metric Value is: 2681.000000
+2025-02-03T18:11:13.414Z,27.414162,aa5e000,6 [FLog::GameJoinUtil] Game join succeeded.
+2025-02-03T18:11:13.414Z,27.414179,aa5e000,6 [FLog::GameJoinUtil] GameJoinUtil::processing join parameters
+2025-02-03T18:11:13.429Z,27.429214,aa5e000,7 [FLog::Network] NetworkClient:Create
+2025-02-03T18:11:13.429Z,27.429575,aa5e000,6 [FLog::GameJoinUtil] Null EventId
+2025-02-03T18:11:13.429Z,27.429659,aa5e000,10 [DFLog::KeyRing] Parsed config created at: 11:59 4/1/2024.
+2025-02-03T18:11:13.431Z,27.431559,aa5e000,6 [FLog::Output] AnalyticsSessionId is 01e0eed3-2141-4351-ae7e-af8d2073daeb.
+2025-02-03T18:11:13.431Z,27.431580,aa5e000,6 [FLog::Output] ! Joining game '8b246f61-3836-4c14-a09b-2f12d3e9ae94' place 16732694052 at 10.20.2.15
+2025-02-03T18:11:13.431Z,27.431610,aa5e000,6 [FLog::GameJoinLoadTime] Report game_join_loadtime: sid:01e0eed3-2141-4351-ae7e-af8d2073daeb, clienttime:1738606273.5529999733, join_time:0.56466525899999808757, referral_page:LuaChat, placeid:16732694052, userid:3047960021, universeid:5750914919, 
+2025-02-03T18:11:13.434Z,27.434021,aa5e000,7 [FLog::Network] Client will attempt to connect following server endpoints with threadSleepTime(-1)
+2025-02-03T18:11:13.434Z,27.434034,aa5e000,7 [FLog::Network] UDMUX Address = 128.116.50.33, Port = 60331 | RCC Server Address = 10.20.2.15, Port = 60331
+2025-02-03T18:11:13.434Z,27.434866,aa5e000,7 [FLog::Network] binding socket on inaddr_any:0
+
+2025-02-03T18:11:13.447Z,27.447330,aa5e000,6 [FLog::Output] Connecting to UDMUX server 128.116.50.33:60331, and RCC server 10.20.2.15:60331
+2025-02-03T18:11:14.129Z,28.129873,a858000,6 [FLog::Output] Connection accepted from 128.116.50.33|60331
+2025-02-03T18:11:14.131Z,28.131346,a858000,7 [FLog::Network] serverId: 128.116.50.33|60331
+2025-02-03T18:11:14.131Z,28.131433,a858000,7 [FLog::Network] Replicator created for player 128.116.50.33|60331
+2025-02-03T18:11:14.131Z,28.131447,a858000,7 [FLog::Network] Replicator created: 0x7fd4b57dba50
+2025-02-03T18:11:14.520Z,28.520140,a95b000,7 [FLog::Network] Time taken to initialize schema = 6.339858 ms
+2025-02-03T18:11:14.520Z,28.520424,a95b000,7 [FLog::Network] Assigned peer id = 1347
+2025-02-03T18:11:14.527Z,28.527802,a95b000,7 [FLog::Network] Join snapshot timer: 7.336582
+2025-02-03T18:11:14.571Z,28.571850,aa5e000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() constructor
+2025-02-03T18:11:14.571Z,28.571915,aa5e000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-03T18:11:14.571Z,28.571932,aa5e000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider setup
+2025-02-03T18:11:15.856Z,29.856100,a858000,6 [FLog::Error] Error: Failed to load sound rbxassetid://102597773270227: Requested asset is archived
+2025-02-03T18:11:16.640Z,30.640705,5b5c3fc0,6 [FLog::Graphics] Future is bright shadows
+2025-02-03T18:11:16.708Z,30.708988,5b5c3fc0,6 [FLog::Graphics] Terrain TextureArray 512x512, arraySize: 36, mip: 10
+2025-02-03T18:11:16.780Z,30.780201,a95b000,6 [FLog::Error] Error: Failed to load sound rbxassetid://5546573724: Asset is not approved for the requester
+2025-02-03T18:11:16.950Z,30.950945,b105000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=00000543453" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-03T18:11:19.662Z,33.662399,aa5e000,6 [FLog::Warning] Warning: Infinite yield possible on 'CoreGui:WaitForChild("TopBarApp")'
+2025-02-03T18:11:19.662Z,33.662445,aa5e000,6 [FLog::Output] Info: Stack Begin
+2025-02-03T18:11:19.662Z,33.662468,aa5e000,6 [FLog::Output] Info: Script 'CoreGui.RobloxGui.CoreScripts/AppChatMain', Line 18
+2025-02-03T18:11:19.662Z,33.662483,aa5e000,6 [FLog::Output] Info: Stack End
+2025-02-03T18:11:21.806Z,35.806595,a95b000,6 [FLog::Output] serverInfoSync started in 0.02ms
+2025-02-03T18:11:21.806Z,35.806698,a95b000,6 [FLog::Output] legacyLocalPlayerData started in 0.02ms
+2025-02-03T18:11:21.806Z,35.806728,a95b000,6 [FLog::Output] cinematic started in 0.00ms
+2025-02-03T18:11:21.807Z,35.807301,a95b000,6 [FLog::Output] client loaded in 101.51ms
+2025-02-03T18:11:21.808Z,35.808479,a95b000,6 [FLog::Output] 🍍 Running TopbarPlus v3.0.2 by ForeverHD
+2025-02-03T18:11:21.811Z,35.811127,a95b000,6 [FLog::Output] game took 6979.48 to load
+2025-02-03T18:11:21.816Z,35.816521,a95b000,6 [FLog::Output] Server RobloxGitHash: 6874f45ec658019a67f19ab7de6e688c50292b01
+2025-02-03T18:11:21.816Z,35.816559,a95b000,6 [FLog::Output] Server Prefix: 0.658.0.6580461_20250201T180131Z_RCC_ac220
+2025-02-03T18:11:22.603Z,36.603634,b105000,6 [FLog::Error] Asset (Animation) "rbxassetid://17737535694" load failed in Workspace.active.boats.ronald15808.Rowboat.owner.AC.Unoccupied.AnimationId: Animation failed to load
+2025-02-03T18:11:22.603Z,36.603687,b105000,6 [FLog::Error] Error: Failed to load animation with sanitized ID rbxassetid://17737535694: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=17737535694&serverplaceid=16732694052
+2025-02-03T18:11:22.603Z,36.603729,b105000,6 [FLog::Error] Asset (Animation) "rbxassetid://17737554380" load failed in Workspace.active.boats.ronald15808.Rowboat.owner.AC.Idle.AnimationId: Animation failed to load
+2025-02-03T18:11:22.603Z,36.603741,b105000,6 [FLog::Error] Error: Failed to load animation with sanitized ID rbxassetid://17737554380: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=17737554380&serverplaceid=16732694052
+2025-02-03T18:11:22.603Z,36.603771,b105000,6 [FLog::Error] Asset (Animation) "rbxassetid://17737574737" load failed in Workspace.active.boats.ronald15808.Rowboat.owner.AC.Active.AnimationId: Animation failed to load
+2025-02-03T18:11:22.603Z,36.603783,b105000,6 [FLog::Error] Error: Failed to load animation with sanitized ID rbxassetid://17737574737: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=17737574737&serverplaceid=16732694052
+2025-02-03T18:11:22.923Z,36.923092,a858000,6 [FLog::Output] setting cinematic mode to [false]
+2025-02-03T18:11:22.927Z,36.927238,a858000,6 [FLog::Output] // ASSET LOADING SKIPPED DUE TO WORK CONFIG VALUES.
+2025-02-03T18:11:23.071Z,37.071907,a95b000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:23.071Z,37.071934,a95b000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:23.071Z,37.071987,a95b000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:23.071Z,37.071995,a95b000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:23.072Z,37.072037,a95b000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:23.072Z,37.072044,a95b000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:23.103Z,37.103901,a95b000,6 [FLog::Output] 1
+2025-02-03T18:11:27.306Z,41.306526,aa5e000,6 [FLog::Output] Running Client handler for state true
+2025-02-03T18:11:27.890Z,41.890965,a858000,6 [FLog::Warning] Warning: Infinite yield possible on 'Workspace.world.map.Forsaken Shores.Actives:WaitForChild("DoorPart")'
+2025-02-03T18:11:27.891Z,41.891460,a858000,6 [FLog::Output] Info: Stack Begin
+2025-02-03T18:11:27.891Z,41.891487,a858000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerScripts.client.AtlantisClientSide', Line 54
+2025-02-03T18:11:27.891Z,41.891502,a858000,6 [FLog::Output] Info: Stack End
+2025-02-03T18:11:28.090Z,42.090069,a95b000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:28.090Z,42.090107,a95b000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:28.090Z,42.090157,a95b000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:28.090Z,42.090172,a95b000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:28.311Z,42.311359,b105000,6 [FLog::Error] Asset (Animation) "rbxassetid://16765683963" load failed in Animation.AnimationId: Animation failed to load
+2025-02-03T18:11:28.311Z,42.311710,b105000,6 [FLog::Error] Error: Failed to load animation with sanitized ID rbxassetid://16765683963: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=16765683963&serverplaceid=16732694052
+2025-02-03T18:11:28.356Z,42.356598,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:28.356Z,42.356655,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:28.590Z,42.590038,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.590Z,42.590523,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.590Z,42.590870,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.591Z,42.591923,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.592Z,42.592274,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.592Z,42.592709,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.593Z,42.593067,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.593Z,42.593365,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.597Z,42.597382,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.597Z,42.597813,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.598Z,42.598289,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.598Z,42.598671,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.599Z,42.599010,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.599Z,42.599331,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.599Z,42.599636,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.621Z,42.621048,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.621Z,42.621445,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.621Z,42.621807,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.626Z,42.626602,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.627Z,42.627007,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.627Z,42.627327,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.627Z,42.627640,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.628Z,42.628407,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.628Z,42.628731,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.629Z,42.629051,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.629Z,42.629368,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.633Z,42.633663,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.634Z,42.634136,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.634Z,42.634617,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.634Z,42.634941,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.635Z,42.635265,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.635Z,42.635601,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.635Z,42.635941,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.639Z,42.639832,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.640Z,42.640251,aa5e000,6 [FLog::Error] Error: Prompt is not a valid member of Model "Workspace.active.crabcages.Braxjacob7910.Cage"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.menu.menu_safezone.scroll.2Accessibility.showcrabcages.Toggle.BoolSetting', Line 55 - function updateCrabcage
+    Stack End
+2025-02-03T18:11:28.912Z,42.912262,b105000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=17083490979" load failed in Workspace.active.Mine Explosion.main.c.Texture: Request failed
+2025-02-03T18:11:29.182Z,43.182404,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:29.182Z,43.182453,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:29.182Z,43.182510,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:29.182Z,43.182518,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:29.182Z,43.182560,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:29.182Z,43.182575,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:29.315Z,43.315479,a95b000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:29.315Z,43.315514,a95b000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:34.663Z,48.663845,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:34.663Z,48.663925,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:34.663Z,48.663979,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:34.663Z,48.663990,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:34.664Z,48.664028,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:34.664Z,48.664036,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:36.328Z,50.328827,aa5e000,6 [FLog::Output] Client started with 43 fps
+2025-02-03T18:11:40.565Z,54.565228,a95b000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:40.565Z,54.565285,a95b000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:40.565Z,54.565346,a95b000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:40.565Z,54.565361,a95b000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:40.565Z,54.565403,a95b000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:40.565Z,54.565414,a95b000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:41.626Z,55.626190,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:41.626Z,55.626236,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:41.626Z,55.626297,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:41.626Z,55.626312,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:41.626Z,55.626369,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:41.626Z,55.626381,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:43.978Z,57.978729,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:43.978Z,57.978771,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:43.978Z,57.978828,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:43.978Z,57.978840,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:43.978Z,57.978882,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:43.978Z,57.978893,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:11:53.254Z,67.254501,a858000,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Update OTA config
+2025-02-03T18:11:53.418Z,67.418556,a443000,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Update OTA succeeded: {"SchemaVersion":"1","CanaryUserIds":[],"CanaryPercentage":0}
+2025-02-03T18:11:53.418Z,67.418610,a443000,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Update OTA config not deployed
+2025-02-03T18:11:54.197Z,68.197998,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:11:54.198Z,68.198044,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:00.074Z,74.074150,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:00.074Z,74.074181,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:00.074Z,74.074242,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:00.074Z,74.074249,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:00.233Z,74.233284,a95b000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:00.233Z,74.233322,a95b000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:01.295Z,75.295563,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:01.295Z,75.295609,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:01.295Z,75.295662,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:01.295Z,75.295677,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:01.383Z,75.383591,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:01.383Z,75.383629,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:08.444Z,82.444252,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:08.444Z,82.444313,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:08.444Z,82.444389,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:08.444Z,82.444405,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:08.444Z,82.444450,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:08.444Z,82.444458,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:13.018Z,87.018944,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:13.018Z,87.018990,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:13.019Z,87.019051,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:13.019Z,87.019058,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:13.019Z,87.019104,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:13.019Z,87.019119,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:13.019Z,87.019157,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:13.019Z,87.019173,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:13.075Z,87.075134,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:13.075Z,87.075172,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:36.552Z,110.552803,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:36.552Z,110.552849,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:36.552Z,110.552910,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:36.552Z,110.552925,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:36.552Z,110.552963,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:12:36.552Z,110.552979,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:12:47.610Z,121.610725,a443000,6 [FLog::Output] Settings Date header was Mon, 03 Feb 2025 18:12:19 GMT
+2025-02-03T18:12:47.610Z,121.610764,a443000,6 [FLog::Output] Settings Date timestamp is 1738606339
+2025-02-03T18:13:34.480Z,168.480591,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:13:34.480Z,168.480637,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:13:34.480Z,168.480698,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:13:34.480Z,168.480713,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:13:34.480Z,168.480759,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:13:34.480Z,168.480774,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:13:34.716Z,168.716537,b105000,6 [FLog::Error] Asset (Animation) "rbxassetid://16766146180" load failed in Animation.AnimationId: Animation failed to load
+2025-02-03T18:13:34.716Z,168.716583,b105000,6 [FLog::Error] Error: Failed to load animation with sanitized ID rbxassetid://16766146180: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=16766146180&serverplaceid=16732694052
+2025-02-03T18:13:35.209Z,169.209702,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:13:35.209Z,169.209747,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:13:35.209Z,169.209808,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:13:35.209Z,169.209824,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:13:35.209Z,169.209854,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:13:35.209Z,169.209869,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:13:46.350Z,180.350769,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:13:46.350Z,180.350815,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:13:46.350Z,180.350876,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:13:46.350Z,180.350891,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:13:46.350Z,180.350922,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:13:46.350Z,180.350937,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:14:20.232Z,214.232910,a858000,6 [FLog::Output] // DIALOG BEGAN
+2025-02-03T18:14:28.893Z,222.893738,aa5e000,6 [FLog::Output] // DIALOG ENDED - NO MORE DIALOG RESPONSES
+2025-02-03T18:14:35.285Z,229.285492,a95b000,6 [FLog::Error] Slot Exception
+2025-02-03T18:14:35.285Z,229.285538,a95b000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:14:35.285Z,229.285599,a95b000,6 [FLog::Error] Slot Exception
+2025-02-03T18:14:35.285Z,229.285614,a95b000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:14:35.285Z,229.285660,a95b000,6 [FLog::Error] Slot Exception
+2025-02-03T18:14:35.285Z,229.285675,a95b000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:14:35.515Z,229.515366,aa5e000,6 [FLog::Error] Asset (Animation) "rbxassetid://16765683963" load failed in Animation.AnimationId: Animation failed to load
+2025-02-03T18:14:44.758Z,238.758057,5b5c3fc0,6 [FLog::Error] Asset (Image) "" load failed in Workspace.world.interactables.Enchant Altar.Core.Decal.Texture: Unexpected URL
+2025-02-03T18:14:50.838Z,244.838486,a443000,6 [FLog::Output] Settings Date header was Mon, 03 Feb 2025 18:14:48 GMT
+2025-02-03T18:14:50.838Z,244.838531,a443000,6 [FLog::Output] Settings Date timestamp is 1738606488
+2025-02-03T18:15:01.450Z,255.450821,aa5e000,6 [FLog::Error] Slot Exception
+2025-02-03T18:15:01.450Z,255.450882,aa5e000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:15:02.590Z,256.590057,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:15:02.590Z,256.590088,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:15:05.450Z,259.450928,a95b000,6 [FLog::Error] Slot Exception
+2025-02-03T18:15:05.450Z,259.450958,a95b000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:15:20.014Z,274.014648,a858000,6 [FLog::Error] Slot Exception
+2025-02-03T18:15:20.014Z,274.014740,a858000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-03T18:15:30.340Z,284.340271,a95b000,6 [FLog::Output] setting cinematic mode to [false]
+2025-02-03T18:15:30.825Z,284.825256,a858000,6 [FLog::Output] table: 0x885d4a7aa373c0c6
+2025-02-03T18:16:47.055Z,361.055908,a858000,6 [FLog::Output] setting cinematic mode to [false]
+2025-02-03T18:16:47.523Z,361.523865,aa5e000,6 [FLog::Output] table: 0xa24eeba64ef61806
+2025-02-03T18:16:50.919Z,364.919220,a443000,6 [FLog::Output] Settings Date header was Mon, 03 Feb 2025 18:16:51 GMT
+2025-02-03T18:16:50.919Z,364.919281,a443000,6 [FLog::Output] Settings Date timestamp is 1738606611
+2025-02-03T18:16:55.890Z,369.890930,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Snowflake Flounder
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:55.909Z,369.909729,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glass of Milk
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:55.927Z,369.927094,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Sea Pickle
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:55.944Z,369.944641,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Bull Shark
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:55.962Z,369.962646,aa5e000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Darkened Piranha
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:55.979Z,369.979797,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Solarblaze Enchant Relic
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:56.035Z,370.035065,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent 14 Snowflake Flounder
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:56.226Z,370.226685,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glass of Milk
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:56.243Z,370.243347,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glossy Salmon
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:56.258Z,370.258881,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Snowflake Flounder
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:56.274Z,370.274445,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glass of Milk
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:56.289Z,370.289062,aa5e000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Sea Pickle
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:56.304Z,370.304840,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Bull Shark
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:56.322Z,370.322113,aa5e000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Darkened Piranha
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:56.340Z,370.340668,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Solarblaze Enchant Relic
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:56.957Z,370.957458,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Snowflake Flounder
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:56.976Z,370.976776,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glass of Milk
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:56.993Z,370.993164,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Sea Pickle
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:57.009Z,371.009094,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Bull Shark
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:57.024Z,371.024994,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Darkened Piranha
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:57.041Z,371.041718,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Solarblaze Enchant Relic
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:57.282Z,371.282562,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glossy Salmon
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:57.299Z,371.299713,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Snowflake Flounder
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:57.316Z,371.316986,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glass of Milk
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:57.334Z,371.334015,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Sea Pickle
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:57.351Z,371.351776,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Bull Shark
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:57.370Z,371.370239,aa5e000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Darkened Piranha
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:57.391Z,371.391724,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Solarblaze Enchant Relic
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:58.296Z,372.296478,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glossy Salmon
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:58.312Z,372.312683,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Snowflake Flounder
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:58.329Z,372.329559,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glass of Milk
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:58.347Z,372.347107,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Sea Pickle
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:58.365Z,372.365265,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Bull Shark
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:58.401Z,372.401581,aa5e000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Darkened Piranha
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:58.418Z,372.418793,aa5e000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Solarblaze Enchant Relic
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:58.621Z,372.621063,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glass of Milk
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:58.638Z,372.638092,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glossy Salmon
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:58.656Z,372.656891,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Snowflake Flounder
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:58.678Z,372.678101,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glass of Milk
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:58.696Z,372.696869,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Sea Pickle
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:16:58.712Z,372.712982,aa5e000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Bull Shark
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.113Z,390.113525,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Sea Pickle
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.128Z,390.128937,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Bull Shark
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.190Z,390.190979,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Darkened Piranha
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.206Z,390.206146,aa5e000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Solarblaze Enchant Relic
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.420Z,390.420135,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glass of Milk
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.437Z,390.437469,aa5e000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glossy Salmon
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.455Z,390.455170,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Snowflake Flounder
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.473Z,390.473846,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glass of Milk
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.490Z,390.490448,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Sea Pickle
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.507Z,390.507080,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Bull Shark
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.540Z,390.540466,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Darkened Piranha
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.558Z,390.558197,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Solarblaze Enchant Relic
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.755Z,390.755066,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glass of Milk
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.773Z,390.773102,aa5e000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glossy Salmon
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.788Z,390.788605,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Snowflake Flounder
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.819Z,390.819733,aa5e000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glass of Milk
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.835Z,390.835541,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Sea Pickle
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.851Z,390.851013,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Bull Shark
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.882Z,390.882080,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Darkened Piranha
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:16.899Z,390.899139,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Solarblaze Enchant Relic
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:17.098Z,391.098633,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glass of Milk
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:17.114Z,391.114990,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glossy Salmon
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:17.132Z,391.132233,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Snowflake Flounder
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:17.448Z,391.448883,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glossy Salmon
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:17.482Z,391.482422,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Snowflake Flounder
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:17.499Z,391.499603,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glass of Milk
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:17.516Z,391.516083,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Sea Pickle
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:17.533Z,391.533752,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Bull Shark
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:17.649Z,391.649994,a858000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Darkened Piranha
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:17.666Z,391.666260,aa5e000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Solarblaze Enchant Relic
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:18.494Z,392.494171,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Snowflake Flounder
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:18.509Z,392.509857,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Sparkling Glass of Milk
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:18.525Z,392.525635,a95b000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Sea Pickle
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:17:18.541Z,392.541412,aa5e000,6 [FLog::Error] Error: The Parent property of ImageLabel is locked, current parent: NULL, new parent Shiny Bull Shark
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 56 - function addParticle
+    Script 'Players.paninorealaccount009.PlayerGui.uiparticles.ParticleModule', Line 186
+    Stack End
+2025-02-03T18:18:50.994Z,484.994690,a443000,6 [FLog::Output] Settings Date header was Mon, 03 Feb 2025 18:18:49 GMT
+2025-02-03T18:18:50.994Z,484.994720,a443000,6 [FLog::Output] Settings Date timestamp is 1738606729
+2025-02-03T18:20:39.629Z,593.629822,a858000,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 35
+2025-02-03T18:20:39.642Z,593.642761,5b5c3fc0,6 [FLog::SingleSurfaceApp] leaveUGCGame: (stage:UGCGame) blocking=0.
+2025-02-03T18:20:39.642Z,593.642822,5b5c3fc0,6 [FLog::SingleSurfaceApp] leaveUGCGameInternal
+2025-02-03T18:20:39.644Z,593.644104,5b5c3fc0,6 [FLog::SurfaceController] stop
+2025-02-03T18:20:39.644Z,593.644104,5b5c3fc0,6 [FLog::SurfaceController] drainRenderingJobs
+2025-02-03T18:20:39.831Z,593.831543,5b5c3fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: begin
+2025-02-03T18:20:39.831Z,593.831543,5b5c3fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: end
+2025-02-03T18:20:39.831Z,593.831604,5b5c3fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: stop: begin (blocking=false dataModel=0x7fd4a9418c00)
+2025-02-03T18:20:39.831Z,593.831604,5b5c3fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: sendAnalyticsBeforeLeave: sending event None_None
+2025-02-03T18:20:39.831Z,593.831665,5b5c3fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Stopped - Ugc
+2025-02-03T18:20:39.831Z,593.831665,5b5c3fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: removing all observers for type Ugc
+2025-02-03T18:20:39.833Z,593.833313,5b5c3fc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)
+2025-02-03T18:20:39.833Z,593.833313,5b5c3fc0,6 [DFLog::SignalRCoreError] ID: 1 Disconnected - stop() called
+2025-02-03T18:20:39.840Z,593.840576,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:3]::~RenderJob
+2025-02-03T18:20:39.841Z,593.841675,a95b000,7 [FLog::Network] Client:Disconnect
+2025-02-03T18:20:39.853Z,593.853394,a95b000,7 [FLog::Network] Time to disconnect replication data: 11.663338
+2025-02-03T18:20:39.853Z,593.853943,a95b000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-03T18:20:39.854Z,593.854004,a95b000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-03T18:20:39.854Z,593.854004,b51d000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-03T18:20:42.465Z,596.465027,a95b000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-03T18:20:42.465Z,596.465088,a95b000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider teardown
+2025-02-03T18:20:42.465Z,596.465942,a95b000,7 [FLog::Network] Client:Disconnect
+2025-02-03T18:20:42.568Z,596.568970,a95b000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() destructor
+2025-02-03T18:20:42.579Z,596.579895,a95b000,7 [FLog::Network] NetworkClient:Remove
+2025-02-03T18:20:42.579Z,596.579956,a95b000,7 [DFLog::MegaReplicatorLogDisconnectCleanUpLog] Destroying MegaReplicator.
+2025-02-03T18:20:43.236Z,597.236511,aa5e000,7 [FLog::Network] Replicator destroyed: 0x7fd4b57dba50
+2025-02-03T18:20:43.687Z,597.687744,5b5c3fc0,6 [FLog::SingleSurfaceApp] shutDown: (stage:Native).
+2025-02-03T18:20:43.687Z,597.687805,5b5c3fc0,6 [FLog::SingleSurfaceApp] destroyLuaApp: (stage:Native) blocking:true.
+2025-02-03T18:20:43.687Z,597.687866,5b5c3fc0,6,Warning [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: finalize: Did not finalize due to state.
+2025-02-03T18:20:43.687Z,597.687866,5b5c3fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: finalized
+2025-02-03T18:20:44.688Z,598.688599,5b5c3fc0,12 [DFLog::HttpTraceError] HttpResponse(#3435 0x7fd49628f820) time:164.4ms (net:164.4ms callback:0.0ms timeInRetryQueue:0.0ms) error:9 message:HttpError: Aborted url:{ "https://ecsv2.roblox.com/client/pbe" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-03T18:20:45.154Z,599.154236,5b5c3fc0,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-03T18:20:45.154Z,599.154297,5b5c3fc0,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider teardown
+2025-02-03T18:20:45.231Z,599.231873,5b5c3fc0,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() destructor
+2025-02-03T18:20:45.259Z,599.259338,5b5c3fc0,6,Warning [FLog::SingleSurfaceApp] destroyLuaApp: (stage:Native)... finished destroying luaApp.
+2025-02-03T18:20:45.259Z,599.259399,5b5c3fc0,6 [FLog::SingleSurfaceApp] setStage: (stage:None)
+2025-02-03T18:20:45.259Z,599.259399,5b5c3fc0,6 [FLog::SingleSurfaceApp] destroy controllers
+2025-02-03T18:20:45.259Z,599.259460,5b5c3fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController::CrossExperienceVoiceController()
+2025-02-03T18:20:45.259Z,599.259521,5b5c3fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController::~UgcExperienceController()
+2025-02-03T18:20:45.259Z,599.259521,5b5c3fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::~SurfaceController, count: 0
+2025-02-03T18:20:45.259Z,599.259521,5b5c3fc0,6,Warning [FLog::Graphics] RenderView destroyed[1]
+2025-02-03T18:20:45.330Z,599.330017,5b5c3fc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)

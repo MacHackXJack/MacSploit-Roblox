@@ -1,0 +1,87 @@
+2025-02-02T08:13:47.618Z,0.618307,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs:(
+    "roblox-player:1+launchmode:play+gameinfo:ZX3_JV5IfKTEPeGrm7WZxhcjpra_JVBTCO-PoCtFX0lBhV8kJxzL36U61HQSTBAUc5Op2brlfJ6ii-4OMxU_IyHF1YB6T5GL1J3DWF-W1cXqp4TikhG7evRjrC2JngI1Fletuq_8zLL3GVDCad731ccr1pBSF__Lms-EaYKxnGX_Bd3j34LKYV_G5vBYTQP-rvIDZAXNJt-TQ00pcc0aUg1WNfOJi_gDcg-t8_2-oac+launchtime:1738481135705+placelauncherurl:https%3A%2F%2Fwww.roblox.com%2FGame%2FPlaceLauncher.ashx%3Frequest%3DRequestGame%26browserTrackerId%3D1738344328674006%26placeId%3D2753915549%26isPlayTogetherGame%3Dfalse%26referredByPlayerId%3D0%26joinAttemptId%3Dda27a923-1fe9-4199-8173-64dfe2d38280%26joinAttemptOrigin%3DPlayButton+browsertrackerid:1738344328674006+robloxLocale:en_us+gameLocale:en_us+channel:+LaunchExp:InApp"
+)
+2025-02-02T08:13:47.618Z,0.618526,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs handling web launch
+2025-02-02T08:13:47.618Z,0.618602,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 1 = launchmode:play
+2025-02-02T08:13:47.618Z,0.618616,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 2 = gameinfo:ZX3_JV5IfKTEPeGrm7WZxhcjpra_JVBTCO-PoCtFX0lBhV8kJxzL36U61HQSTBAUc5Op2brlfJ6ii-4OMxU_IyHF1YB6T5GL1J3DWF-W1cXqp4TikhG7evRjrC2JngI1Fletuq_8zLL3GVDCad731ccr1pBSF__Lms-EaYKxnGX_Bd3j34LKYV_G5vBYTQP-rvIDZAXNJt-TQ00pcc0aUg1WNfOJi_gDcg-t8_2-oac
+2025-02-02T08:13:47.618Z,0.618627,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 3 = launchtime:1738481135705
+2025-02-02T08:13:47.618Z,0.618636,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 4 = placelauncherurl:https%3A%2F%2Fwww.roblox.com%2FGame%2FPlaceLauncher.ashx%3Frequest%3DRequestGame%26browserTrackerId%3D1738344328674006%26placeId%3D2753915549%26isPlayTogetherGame%3Dfalse%26referredByPlayerId%3D0%26joinAttemptId%3Dda27a923-1fe9-4199-8173-64dfe2d38280%26joinAttemptOrigin%3DPlayButton
+2025-02-02T08:13:47.618Z,0.618646,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 5 = browsertrackerid:1738344328674006
+2025-02-02T08:13:47.618Z,0.618655,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 6 = robloxLocale:en_us
+2025-02-02T08:13:47.618Z,0.618664,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 7 = gameLocale:en_us
+2025-02-02T08:13:47.618Z,0.618672,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 8 = channel:
+2025-02-02T08:13:47.619Z,0.619609,4ea5efc0,6 [FLog::Output] Saved channel '' to 'com.roblox.RobloxPlayerChannel' for baseUrl 'www.roblox.com'
+2025-02-02T08:13:47.619Z,0.619641,4ea5efc0,6 [FLog::Output] RobloxChannel has been set to production
+2025-02-02T08:13:47.619Z,0.619651,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 9 = LaunchExp:InApp
+2025-02-02T08:13:47.619Z,0.619706,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) reportClientStatus url: https://www.roblox.com/client-status/set?browserTrackerId=1738344328674006&status=BootstrapperInstalling
+2025-02-02T08:13:47.621Z,0.621031,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs cold launch. Defer web launch until after initialization is complete.
+2025-02-02T08:13:47.621Z,0.621159,4ea5efc0,6 [FLog::Output] (AppDelegate) applicationDidFinishLaunching
+2025-02-02T08:13:47.622Z,0.622432,4ea5efc0,6,Info [FLog::UpdateController] UpdateController: versionQueryUrl: https://clientsettingscdn.roblox.com/v2/client-version/MacPlayer
+2025-02-02T08:13:47.622Z,0.622465,4ea5efc0,6,Info [FLog::UpdateController] MacUpdateController: updaterFullPath: /Applications/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app/Contents/MacOS/RobloxPlayerInstaller
+2025-02-02T08:13:47.622Z,0.622524,5408000,6,Info [FLog::UpdateController] Update check thread started
+2025-02-02T08:13:47.622Z,0.622573,5408000,6,Info [FLog::UpdateController] Checking if updater exists at /Applications/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app/Contents/MacOS/RobloxPlayerInstaller. Returning 1
+2025-02-02T08:13:47.622Z,0.622596,4ea5efc0,6 [FLog::Output] settingsUrl: https://clientsettingscdn.roblox.com/v2/settings-compressed/application/MacDesktopClient/876303bc5322fbc5499ad5d572b4a57fc6305ca10adf81769b9121c45b7d3a38.dcz
+2025-02-02T08:13:47.704Z,0.704848,5408000,6,Debug [FLog::UpdateController] version response: {"version":"0.658.0.6580461","clientVersionUpload":"version-4c01fa4a41074574","bootstrapperVersion":"6580461"}
+2025-02-02T08:13:47.705Z,0.705279,5408000,6,Info [FLog::UpdateController] Update check thread: updateRequired FALSE
+2025-02-02T08:13:47.707Z,0.707838,4ea5efc0,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 08:13:46 GMT
+2025-02-02T08:13:47.707Z,0.707892,4ea5efc0,6 [FLog::Output] Settings Date timestamp is 1738484026
+2025-02-02T08:13:47.720Z,0.720327,4ea5efc0,6 [FLog::ClientRunInfo] RobloxGitHash: 6874f45ec658019a67f19ab7de6e688c50292b01
+2025-02-02T08:13:47.720Z,0.720537,4ea5efc0,6 [FLog::ClientRunInfo] The base url is https://www.roblox.com/
+2025-02-02T08:13:47.720Z,0.720548,4ea5efc0,6 [FLog::ClientRunInfo] The channel is production
+2025-02-02T08:13:47.730Z,0.730391,548b000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T08:13:47.730Z,0.730440,548b000,12 [DFLog::HttpTraceError] HttpResponse(#0 0x7fc0a70b1020) time:162.1ms (net:161.0ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://accountsettings.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T08:13:47.733Z,0.733081,4ea5efc0,6 [FLog::Output] *******
+** Validated reflection database in 6.021182 ms, found 5363 entries with the following skipped: 0 enums, 0 properties, 0 functions, 0 events, 0 callbacks, 0 classes.
+*******
+
+2025-02-02T08:13:47.735Z,0.735215,4ea5efc0,6 [FLog::Output] (AppDelegate) Universal App on Mac: initialize...
+2025-02-02T08:13:47.735Z,0.735245,4ea5efc0,6 [FLog::Output] syncCookiesFromNativeToEngine was skipped
+2025-02-02T08:13:47.735Z,0.735314,4ea5efc0,6 [FLog::Output] Current file descriptor limit is 2560, no need to increase
+2025-02-02T08:13:47.735Z,0.735327,4ea5efc0,6 [FLog::Output] (AppDelegate) web browserTrackerId = [1738344328674006].
+2025-02-02T08:13:47.737Z,0.737972,548b000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T08:13:47.738Z,0.738013,548b000,12 [DFLog::HttpTraceError] HttpResponse(#5 0x7fc0a70cc820) time:169.4ms (net:168.9ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://locale.roblox.com/" } ip:128.116.123.4 external:1 numberOfTimesRetried:0
+2025-02-02T08:13:47.738Z,0.738480,4ea5efc0,6 [FLog::Output] syncCookiesFromEngineToNative was skipped
+2025-02-02T08:13:47.738Z,0.738504,4ea5efc0,6 [FLog::Output] (AppDelegate) launchTimeMillis = [-2891459]
+2025-02-02T08:13:47.740Z,0.740071,4ea5efc0,6,Info [FLog::PerformanceControlUtil] PerformanceControlUtil: registered single surface tunable (id=0)
+2025-02-02T08:13:47.740Z,0.740497,4ea5efc0,6 [FLog::SingleSurfaceApp] initializeWithAppStarter
+2025-02-02T08:13:47.740Z,0.740520,4ea5efc0,6 [FLog::SingleSurfaceApp] initializeSingleton
+2025-02-02T08:13:47.741Z,0.741222,4ea5efc0,6 [FLog::Output] setAssetFolder /Applications/Roblox.app/Contents/Resources/content/
+2025-02-02T08:13:47.741Z,0.741404,4ea5efc0,6 [FLog::Output] setExtraAssetFolder /Applications/Roblox.app/Contents/Resources/ExtraContent
+2025-02-02T08:13:47.742Z,0.742139,4ea5efc0,6 [FLog::Output] Evaluating deferred inferred crashes
+2025-02-02T08:13:47.742Z,0.742792,4ea5efc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)
+2025-02-02T08:13:47.742Z,0.742833,4ea5efc0,6 [FLog::SingleSurfaceApp] setLocale
+2025-02-02T08:13:47.742Z,0.742845,4ea5efc0,6,Warning [FLog::SingleSurfaceApp] instantiate controllers
+2025-02-02T08:13:47.742Z,0.742854,4ea5efc0,6 [FLog::SurfaceController] SurfaceController[_:1]::SurfaceController, count: 1
+2025-02-02T08:13:47.742Z,0.742863,4ea5efc0,6,Warning [FLog::SingleSurfaceApp] instantiate experience coordinator
+2025-02-02T08:13:47.742Z,0.742922,4ea5efc0,6,Info [FLog::PerformanceControlUtil] PerformanceControlUtil: registered single surface tunable (id=1)
+2025-02-02T08:13:47.742Z,0.742934,4ea5efc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController::CrossExperienceVoiceController() constructor
+2025-02-02T08:13:47.752Z,0.752906,548b000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T08:13:47.752Z,0.752971,548b000,12 [DFLog::HttpTraceError] HttpResponse(#7 0x7fc0a70c9020) time:184.3ms (net:183.8ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://users.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T08:13:47.761Z,0.761476,548b000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T08:13:47.761Z,0.761533,548b000,12 [DFLog::HttpTraceError] HttpResponse(#6 0x7fc0a70cce20) time:192.9ms (net:192.4ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://users.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T08:13:47.835Z,0.835721,548b000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T08:13:47.835Z,0.835774,548b000,12 [DFLog::HttpTraceError] HttpResponse(#2 0x7fc0a709ba20) time:267.2ms (net:266.7ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T08:13:47.853Z,0.853756,548b000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T08:13:47.853Z,0.853805,548b000,12 [DFLog::HttpTraceError] HttpResponse(#4 0x7fc0a70a0020) time:285.2ms (net:284.7ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T08:13:47.865Z,0.865889,548b000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T08:13:47.865Z,0.865932,548b000,12 [DFLog::HttpTraceError] HttpResponse(#1 0x7fc0a70b5420) time:297.4ms (net:296.9ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T08:13:47.865Z,0.865951,548b000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T08:13:47.865Z,0.865972,548b000,12 [DFLog::HttpTraceError] HttpResponse(#3 0x7fc0a709fa20) time:297.4ms (net:296.8ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T08:13:48.408Z,1.408106,548b000,12 [DFLog::HttpTraceError] HttpResponse(#14 0x7fc0a814a820) time:277.2ms (net:277.1ms callback:0.1ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:113 url:{ "https://auth.roblox.com/v1/authentication-ticket/redeem" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T08:13:48.408Z,1.408121,4ea5efc0,6,Warning [FLog::Warning] WebLogin http error: {"errors":[{"code":4,"message":"Authentication ticket was invalid.","userFacingMessage":"Something went wrong"}]}, statusCode: 403
+2025-02-02T08:13:48.408Z,1.408166,4ea5efc0,6 [FLog::Warning] (RobloxPlayerAppDelegate) WebLogin authentication failure error message: {"errors":[{"code":4,"message":"Authentication ticket was invalid.","userFacingMessage":"Something went wrong"}]}
+2025-02-02T08:13:51.512Z,4.512765,4ea5efc0,6 [FLog::SingleSurfaceApp] leaveUGCGame: (stage:Native) blocking=0.
+2025-02-02T08:13:51.512Z,4.512826,4ea5efc0,6 [FLog::SingleSurfaceApp] leaveUGCGame: ... no-op, not in-game
+2025-02-02T08:13:51.513Z,4.513286,4ea5efc0,6 [FLog::SingleSurfaceApp] leaveUGCGame: (stage:Native) blocking=0.
+2025-02-02T08:13:51.513Z,4.513306,4ea5efc0,6 [FLog::SingleSurfaceApp] leaveUGCGame: ... no-op, not in-game
+2025-02-02T08:13:51.986Z,4.986644,4ea5efc0,6 [FLog::SingleSurfaceApp] shutDown: (stage:Native).
+2025-02-02T08:13:51.986Z,4.986684,4ea5efc0,6 [FLog::SingleSurfaceApp] destroyLuaApp: (stage:Native) blocking:true.
+2025-02-02T08:13:51.986Z,4.986695,4ea5efc0,6,Warning [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: finalize: Did not finalize due to state.
+2025-02-02T08:13:51.986Z,4.986702,4ea5efc0,6,Warning [FLog::UgcExperienceController] UgcExperienceController: finalize: Did not finalize due to state.
+2025-02-02T08:13:51.986Z,4.986712,4ea5efc0,6,Warning [FLog::SingleSurfaceApp] destroyLuaApp: (stage:Native)... finished destroying luaApp.
+2025-02-02T08:13:51.986Z,4.986739,4ea5efc0,6 [FLog::SingleSurfaceApp] setStage: (stage:None)
+2025-02-02T08:13:51.986Z,4.986746,4ea5efc0,6 [FLog::SingleSurfaceApp] destroy controllers
+2025-02-02T08:13:51.986Z,4.986755,4ea5efc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController::CrossExperienceVoiceController()
+2025-02-02T08:13:51.986Z,4.986770,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController::~UgcExperienceController()
+2025-02-02T08:13:51.986Z,4.986782,4ea5efc0,6 [FLog::SurfaceController] SurfaceController[_:1]::~SurfaceController, count: 0
+2025-02-02T08:13:51.986Z,4.986790,4ea5efc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)

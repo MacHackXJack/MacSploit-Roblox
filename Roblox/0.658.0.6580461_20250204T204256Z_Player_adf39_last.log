@@ -1,0 +1,785 @@
+2025-02-04T20:42:56.471Z,0.471192,5cb6ffc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs:(
+    "roblox-player:1+launchmode:play+gameinfo:ZEi7RwrVDlrFdj9tc_nfRq-v1qOL1S8SwF5zx7mtY16y8t9nKga75CY_SFuD5G9DTW-gWrC_1b2gxzpkjA2N_IVA3y85gKHqPmPOs9AklXlMaFRJkYhy3NPzjFTD5-YsIPOeD_Fz8nDuvOv2f_S9C6xT9-MDPMrOge-KkLWIzh5VZI5FkR7uLWPlcwDTXGiCXH_cSlAqblC_k4KQB8mkpq-LL0BbYNQuhf-ohPoPmng+launchtime:1738701773071+placelauncherurl:https%3A%2F%2Fwww.roblox.com%2FGame%2FPlaceLauncher.ashx%3Frequest%3DRequestFollowUser%26browserTrackerId%3D1738344328674006%26userId%3D1929626652%26joinAttemptId%3D46d3a957-0745-4355-b7e9-7822ebc676ea%26joinAttemptOrigin%3DJoinUser+browsertrackerid:1738344328674006+robloxLocale:en_us+gameLocale:en_us+channel:+LaunchExp:InApp"
+)
+2025-02-04T20:42:56.471Z,0.471704,5cb6ffc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs handling web launch
+2025-02-04T20:42:56.471Z,0.471787,5cb6ffc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 1 = launchmode:play
+2025-02-04T20:42:56.471Z,0.471801,5cb6ffc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 2 = gameinfo:ZEi7RwrVDlrFdj9tc_nfRq-v1qOL1S8SwF5zx7mtY16y8t9nKga75CY_SFuD5G9DTW-gWrC_1b2gxzpkjA2N_IVA3y85gKHqPmPOs9AklXlMaFRJkYhy3NPzjFTD5-YsIPOeD_Fz8nDuvOv2f_S9C6xT9-MDPMrOge-KkLWIzh5VZI5FkR7uLWPlcwDTXGiCXH_cSlAqblC_k4KQB8mkpq-LL0BbYNQuhf-ohPoPmng
+2025-02-04T20:42:56.471Z,0.471812,5cb6ffc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 3 = launchtime:1738701773071
+2025-02-04T20:42:56.471Z,0.471821,5cb6ffc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 4 = placelauncherurl:https%3A%2F%2Fwww.roblox.com%2FGame%2FPlaceLauncher.ashx%3Frequest%3DRequestFollowUser%26browserTrackerId%3D1738344328674006%26userId%3D1929626652%26joinAttemptId%3D46d3a957-0745-4355-b7e9-7822ebc676ea%26joinAttemptOrigin%3DJoinUser
+2025-02-04T20:42:56.471Z,0.471831,5cb6ffc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 5 = browsertrackerid:1738344328674006
+2025-02-04T20:42:56.471Z,0.471840,5cb6ffc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 6 = robloxLocale:en_us
+2025-02-04T20:42:56.471Z,0.471849,5cb6ffc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 7 = gameLocale:en_us
+2025-02-04T20:42:56.471Z,0.471858,5cb6ffc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 8 = channel:
+2025-02-04T20:42:56.471Z,0.471882,5cb6ffc0,6 [FLog::Output] Saved channel '' to 'com.roblox.RobloxPlayerChannel' for baseUrl 'www.roblox.com'
+2025-02-04T20:42:56.471Z,0.471910,5cb6ffc0,6 [FLog::Output] RobloxChannel has been set to production
+2025-02-04T20:42:56.471Z,0.471920,5cb6ffc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 9 = LaunchExp:InApp
+2025-02-04T20:42:56.471Z,0.471970,5cb6ffc0,6 [FLog::MacLuaApp] (AppDelegate) reportClientStatus url: https://www.roblox.com/client-status/set?browserTrackerId=1738344328674006&status=BootstrapperInstalling
+2025-02-04T20:42:56.473Z,0.473358,5cb6ffc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs cold launch. Defer web launch until after initialization is complete.
+2025-02-04T20:42:56.473Z,0.473475,5cb6ffc0,6 [FLog::Output] (AppDelegate) applicationDidFinishLaunching
+2025-02-04T20:42:56.473Z,0.473771,5cb6ffc0,6,Info [FLog::UpdateController] UpdateController: versionQueryUrl: https://clientsettingscdn.roblox.com/v2/client-version/MacPlayer
+2025-02-04T20:42:56.473Z,0.473800,5cb6ffc0,6,Info [FLog::UpdateController] MacUpdateController: updaterFullPath: /Applications/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app/Contents/MacOS/RobloxPlayerInstaller
+2025-02-04T20:42:56.473Z,0.473861,8b6c000,6,Info [FLog::UpdateController] Update check thread started
+2025-02-04T20:42:56.473Z,0.473901,8b6c000,6,Info [FLog::UpdateController] Checking if updater exists at /Applications/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app/Contents/MacOS/RobloxPlayerInstaller. Returning 1
+2025-02-04T20:42:56.473Z,0.473938,5cb6ffc0,6 [FLog::Output] settingsUrl: https://clientsettingscdn.roblox.com/v2/settings-compressed/application/MacDesktopClient/876303bc5322fbc5499ad5d572b4a57fc6305ca10adf81769b9121c45b7d3a38.dcz
+2025-02-04T20:42:56.552Z,0.552958,8b6c000,6,Debug [FLog::UpdateController] version response: {"version":"0.658.0.6580461","clientVersionUpload":"version-4c01fa4a41074574","bootstrapperVersion":"6580461"}
+2025-02-04T20:42:56.553Z,0.553660,8b6c000,6,Info [FLog::UpdateController] Update check thread: updateRequired FALSE
+2025-02-04T20:42:56.557Z,0.557648,5cb6ffc0,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 20:42:33 GMT
+2025-02-04T20:42:56.557Z,0.557713,5cb6ffc0,6 [FLog::Output] Settings Date timestamp is 1738701753
+2025-02-04T20:42:56.570Z,0.570998,5cb6ffc0,6 [FLog::ClientRunInfo] RobloxGitHash: 6874f45ec658019a67f19ab7de6e688c50292b01
+2025-02-04T20:42:56.571Z,0.571466,5cb6ffc0,6 [FLog::ClientRunInfo] The base url is https://www.roblox.com/
+2025-02-04T20:42:56.571Z,0.571479,5cb6ffc0,6 [FLog::ClientRunInfo] The channel is production
+2025-02-04T20:42:56.585Z,0.585814,5cb6ffc0,6 [FLog::Output] *******
+** Validated reflection database in 6.698093 ms, found 5363 entries with the following skipped: 0 enums, 0 properties, 0 functions, 0 events, 0 callbacks, 0 classes.
+*******
+
+2025-02-04T20:42:56.587Z,0.587656,5cb6ffc0,6 [FLog::Output] (AppDelegate) Universal App on Mac: initialize...
+2025-02-04T20:42:56.587Z,0.587692,5cb6ffc0,6 [FLog::Output] syncCookiesFromNativeToEngine was skipped
+2025-02-04T20:42:56.587Z,0.587773,5cb6ffc0,6 [FLog::Output] Current file descriptor limit is 256, increasing to 2560
+2025-02-04T20:42:56.587Z,0.587791,5cb6ffc0,6 [FLog::Output] (AppDelegate) web browserTrackerId = [1738344328674006].
+2025-02-04T20:42:56.593Z,0.593989,5cb6ffc0,6 [FLog::Output] syncCookiesFromEngineToNative was skipped
+2025-02-04T20:42:56.595Z,0.595768,5cb6ffc0,6 [FLog::Output] (AppDelegate) launchTimeMillis = [-2797]
+2025-02-04T20:42:56.596Z,0.596665,5cb6ffc0,6,Info [FLog::PerformanceControlUtil] PerformanceControlUtil: registered single surface tunable (id=0)
+2025-02-04T20:42:56.596Z,0.596924,5cb6ffc0,6 [FLog::SingleSurfaceApp] initializeWithAppStarter
+2025-02-04T20:42:56.596Z,0.596942,5cb6ffc0,6 [FLog::SingleSurfaceApp] initializeSingleton
+2025-02-04T20:42:56.597Z,0.597607,5cb6ffc0,6 [FLog::Output] setAssetFolder /Applications/Roblox.app/Contents/Resources/content/
+2025-02-04T20:42:56.597Z,0.597834,5cb6ffc0,6 [FLog::Output] setExtraAssetFolder /Applications/Roblox.app/Contents/Resources/ExtraContent
+2025-02-04T20:42:56.598Z,0.598465,5cb6ffc0,6 [FLog::Output] Evaluating deferred inferred crashes
+2025-02-04T20:42:56.599Z,0.599196,5cb6ffc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)
+2025-02-04T20:42:56.599Z,0.599243,5cb6ffc0,6 [FLog::SingleSurfaceApp] setLocale
+2025-02-04T20:42:56.599Z,0.599258,5cb6ffc0,6,Warning [FLog::SingleSurfaceApp] instantiate controllers
+2025-02-04T20:42:56.599Z,0.599268,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController[_:1]::SurfaceController, count: 1
+2025-02-04T20:42:56.599Z,0.599279,5cb6ffc0,6,Warning [FLog::SingleSurfaceApp] instantiate experience coordinator
+2025-02-04T20:42:56.599Z,0.599362,5cb6ffc0,6,Info [FLog::PerformanceControlUtil] PerformanceControlUtil: registered single surface tunable (id=1)
+2025-02-04T20:42:56.599Z,0.599375,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController::CrossExperienceVoiceController() constructor
+2025-02-04T20:42:56.609Z,0.609997,8bef000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-04T20:42:56.610Z,0.610069,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#0 0x7fee7e0dce20) time:181.9ms (net:181.4ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://accountsettings.roblox.com/" } ip:128.116.123.4 external:1 numberOfTimesRetried:0
+2025-02-04T20:42:56.615Z,0.615221,8bef000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-04T20:42:56.615Z,0.615278,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#5 0x7fee7e833020) time:186.8ms (net:186.1ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://locale.roblox.com/" } ip:128.116.123.4 external:1 numberOfTimesRetried:0
+2025-02-04T20:42:56.648Z,0.648135,8bef000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-04T20:42:56.648Z,0.648192,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#7 0x7fee7e87ba20) time:219.7ms (net:219.0ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://users.roblox.com/" } ip:128.116.123.4 external:1 numberOfTimesRetried:0
+2025-02-04T20:42:56.649Z,0.649634,8bef000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-04T20:42:56.649Z,0.649665,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#6 0x7fee7e833620) time:221.2ms (net:220.5ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://users.roblox.com/" } ip:128.116.123.4 external:1 numberOfTimesRetried:0
+2025-02-04T20:42:56.689Z,0.689286,8bef000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-04T20:42:56.689Z,0.689347,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#3 0x7fee7e832420) time:260.9ms (net:260.2ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.123.4 external:1 numberOfTimesRetried:0
+2025-02-04T20:42:56.715Z,0.715754,8bef000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-04T20:42:56.715Z,0.715812,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#1 0x7fee7d855a20) time:287.4ms (net:286.7ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.123.4 external:1 numberOfTimesRetried:0
+2025-02-04T20:42:56.715Z,0.715838,8bef000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-04T20:42:56.715Z,0.715859,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#4 0x7fee7e832a20) time:287.3ms (net:286.7ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.123.4 external:1 numberOfTimesRetried:0
+2025-02-04T20:42:56.731Z,0.731535,8bef000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-04T20:42:56.731Z,0.731584,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#2 0x7fee7e831e20) time:303.1ms (net:302.5ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.123.4 external:1 numberOfTimesRetried:0
+2025-02-04T20:42:57.138Z,1.138427,5cb6ffc0,6 [FLog::SingleSurfaceApp] launchUGCGame: (stage:Native).
+2025-02-04T20:42:57.138Z,1.138447,5cb6ffc0,6 [FLog::SingleSurfaceApp] launchUGCGameInternal
+2025-02-04T20:42:57.140Z,1.140179,5cb6ffc0,6 [FLog::SingleSurfaceApp] applyLocale
+2025-02-04T20:42:57.140Z,1.140193,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: initialize:
+2025-02-04T20:42:57.140Z,1.140729,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Load configs for user key: app:1423803869895817846
+2025-02-04T20:42:57.141Z,1.141842,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Retrieving patch
+2025-02-04T20:42:57.141Z,1.141857,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch DataModelPatchConfig : type=1, assetId=5345954812, assetVersion=10769, maxAppVersion=658, localAssetURI=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-04T20:42:57.141Z,1.141866,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : numAttempts=10
+2025-02-04T20:42:57.141Z,1.141902,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : contentId=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-04T20:42:57.141Z,1.141911,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : get patch from content provider for Model
+2025-02-04T20:42:57.148Z,1.148365,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+2025-02-04T20:42:57.431Z,1.431269,5cb6ffc0,6,Warning [DFLog::BootcampCLI139737Log] Hello world!!!!!!!!!!!!!!!!!!!!
+2025-02-04T20:42:57.431Z,1.431305,5cb6ffc0,6,Warning [FLog::Output] Hello Earthlings!
+2025-02-04T20:42:57.510Z,1.510452,5cb6ffc0,6,Info [FLog::Audio] OutputDevice 0: Cuffie esterne [BuiltIn] 48000/2
+2025-02-04T20:42:57.586Z,1.586814,5cb6ffc0,6,Info [FLog::Audio] InputDevice 0: Microfono esterno({af0144be-277e-8cc3-0000000000000000}) 48000/1/4
+2025-02-04T20:42:57.586Z,1.586861,5cb6ffc0,6,Info [FLog::Audio] InputDevice 1: Microfono iMac({50eb3c32-f018-032c-0000000000000000}) 48000/1/4
+2025-02-04T20:42:57.610Z,1.610881,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: join: initialized dm 0x7fee8439d600
+2025-02-04T20:42:57.610Z,1.610931,5cb6ffc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGame
+2025-02-04T20:42:57.611Z,1.611036,5cb6ffc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGamePostSpecificUser: URL: https://gamejoin.roblox.com/v1/play-with-user BODY: {"userIdToFollow":1929626652,"gameJoinAttemptId":"46d3a957-0745-4355-b7e9-7822ebc676ea"}
+2025-02-04T20:42:57.611Z,1.611111,5cb6ffc0,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 0, url: https://gamejoin.roblox.com/v1/play-with-user.
+2025-02-04T20:42:57.611Z,1.611141,5cb6ffc0,6 [FLog::GameJoinUtil] Delaying request by 0.00 seconds
+2025-02-04T20:42:57.611Z,1.611246,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Started - Ugc
+2025-02-04T20:42:57.611Z,1.611404,5cb6ffc0,6 [FLog::SurfaceController] [_:1]::replaceDataModel: (stage:0, window = 0x7fee7fb30cf0) [tid:0x7fee7f00d760]
+2025-02-04T20:42:57.612Z,1.612025,5cb6ffc0,6,Warning [FLog::Graphics] RenderView created[1]
+2025-02-04T20:42:57.613Z,1.613887,5cb6ffc0,6 [FLog::Graphics] Metal renderer: AMD Radeon Pro 5300
+2025-02-04T20:42:57.613Z,1.613912,5cb6ffc0,6 [channel] Caps: ThreadSafe 1 Framebuffer 1 FpFramebuffer 1 Shaders 1 Compute 1 Instancing 1 PerInstanceStream 1 ConstBuffers 1
+2025-02-04T20:42:57.613Z,1.613924,5cb6ffc0,6 [channel] Caps: Framebuffer: MRT 4 MSAA 8 Stencil 1
+2025-02-04T20:42:57.613Z,1.613932,5cb6ffc0,6 [channel] Caps: Framebuffer: Depth16 1 Depth24 1 DepthFloat 1 DepthClamp 1
+2025-02-04T20:42:57.613Z,1.613938,5cb6ffc0,6 [channel] Caps: Border Color 1
+2025-02-04T20:42:57.613Z,1.613944,5cb6ffc0,6 [channel] Caps: Texture: RGB10A2 1 RG11B10F 1 R16I 1
+2025-02-04T20:42:57.613Z,1.613949,5cb6ffc0,6 [channel] Caps: Texture: BC6H 1 ASTC HDR 0
+2025-02-04T20:42:57.613Z,1.613955,5cb6ffc0,6 [channel] Caps: Texture: DXT 1 PVR 0 ETC1 0 ETC2 0 Half 1
+2025-02-04T20:42:57.613Z,1.613960,5cb6ffc0,6 [channel] Caps: Texture: 3D 1 Array 1 Depth 1 MSAA 1 MSAAFP16 8
+2025-02-04T20:42:57.613Z,1.613966,5cb6ffc0,6 [channel] Caps: Texture: NPOT 1 PartialMips 1 CubeMipGen 1 CubeFramebuffer 1
+2025-02-04T20:42:57.613Z,1.613971,5cb6ffc0,6 [channel] Caps: Texture: Size 8192 Units 32 VertexUnits 32
+2025-02-04T20:42:57.613Z,1.613976,5cb6ffc0,6 [channel] Caps: ConstantBufferSize 65536
+2025-02-04T20:42:57.613Z,1.613981,5cb6ffc0,6 [channel] Caps: isAppleGPU 0
+2025-02-04T20:42:57.613Z,1.613986,5cb6ffc0,6 [channel] Caps: 32bIdx 1 Memoryless 0
+2025-02-04T20:42:57.613Z,1.613991,5cb6ffc0,6 [channel] Caps: ColorBGR 0 RTFlip 0 MinusOneToOneDepth 0
+2025-02-04T20:42:57.618Z,1.618291,5cb6ffc0,6 [FLog::Graphics] Metal: creating framebuffer 5120x2528
+2025-02-04T20:42:57.618Z,1.618336,5cb6ffc0,6 [FLog::Graphics] Video memory size: 2147483648
+2025-02-04T20:42:57.666Z,1.666699,5cb6ffc0,6 [FLog::Graphics] Loaded 972 shaders from pack metal_osx variant default (7121760 bytes)
+2025-02-04T20:42:57.666Z,1.666725,5cb6ffc0,6 [FLog::Graphics] Compiled 677 shaders in 48 ms
+2025-02-04T20:42:57.666Z,1.666867,920a000,6,Info [FLog::UgcExperienceController] UgcExperienceController: submitStartGameTask: scrips are loaded 0x7fee8439d600
+2025-02-04T20:42:57.688Z,1.688832,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController::disableVR
+2025-02-04T20:42:57.688Z,1.688944,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7fee8439d600)
+2025-02-04T20:42:57.688Z,1.688969,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:1]::RenderJob
+2025-02-04T20:42:57.688Z,1.688979,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7fee8439d600)
+2025-02-04T20:42:57.688Z,1.688992,5cb6ffc0,6 [FLog::SingleSurfaceApp] setStage: (stage:UGCGame)
+2025-02-04T20:42:57.689Z,1.689002,5cb6ffc0,6 [FLog::SingleSurfaceApp] userDidLogin
+2025-02-04T20:42:57.689Z,1.689009,5cb6ffc0,6 [FLog::SingleSurfaceApp] applyLocale
+2025-02-04T20:42:57.689Z,1.689051,9004000,6 [FLog::Output] (AppDelegate) Doing machine id check.
+2025-02-04T20:42:57.705Z,1.705408,920a000,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+2025-02-04T20:42:57.733Z,1.733164,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+2025-02-04T20:42:57.741Z,1.741286,5cb6ffc0,6 [FLog::Graphics] LayeredClothingMode updated: LC=1 HSR=1
+2025-02-04T20:42:57.756Z,1.756769,5cb6ffc0,6 [FLog::Graphics] SceneManager: resizing main targets to 2560x1264
+2025-02-04T20:42:57.818Z,1.818943,5cb6ffc0,6 [FLog::Graphics] Metal: resizing main framebuffer to 5120x2880
+2025-02-04T20:42:57.824Z,1.824162,5cb6ffc0,6 [FLog::Graphics] SceneManager: resizing main targets to 2560x1440
+2025-02-04T20:42:58.948Z,2.948483,920a000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":"46d3a957-0745-4355-b7e9-7822ebc676ea","status":2,"statusData":null,"joinScriptUrl":"https://assetgame.roblox.com/Game/Join.ashx?ticketVersion=2&ticket={\"UserId\"%3a3047960021%2c\"UserName\"%3a\"paninorealaccount009\"%2c\"DisplayName\"%3a\"Jack\"%2c\"CharacterFetchUrl\"%3a\"https%3a%2f%2fapi.roblox.com%2fv1.1%2favatar-fetch%2f%3fplaceId%3d16732694052%26userId%3d3047960021\"%2c\"GameId\"%3a\"46d3a957-0745-4355-b7e9-7822ebc676ea\"%2c\"PlaceId\"%3a16732694052%2c\"UniverseId\"%3a5750914919%2c\"ServerId\"%3a1047400%2c\"ServerPort\"%3a58314%2c\"IsTeleport\"%3afalse%2c\"FollowUserId\"%3anull%2c\"TimeStamp\"%3a\"02%2f04%2f2025+20%3a42%3a58\"%2c\"CharacterAppearanceId\"%3a3047960021%2c\"AlternateName\"%3anull%2c\"JoinTypeId\"%3a6%2c\"MatchmakingDecisionId\"%3anull%2c\"GameJoinMetadata\"%3a{\"JoinSource\"%3a0%2c\"RequestType\"%3a3%2c\"MatchmakingDecisionId\"%3a\"6d3af0fe-a14d-41fc-9d94-31d1c917
+2025-02-04T20:42:58.948Z,2.948667,920a000,6 [FLog::GameJoinUtil] Game join succeeded.
+2025-02-04T20:42:58.948Z,2.948686,920a000,6 [FLog::GameJoinUtil] GameJoinUtil::processing join parameters
+2025-02-04T20:42:58.948Z,2.948910,9107000,7 [FLog::Network] NetworkClient:Create
+2025-02-04T20:42:58.949Z,2.949423,9107000,6 [FLog::GameJoinUtil] Null EventId
+2025-02-04T20:42:58.949Z,2.949533,9107000,10 [DFLog::KeyRing] Parsed config created at: 11:59 4/1/2024.
+2025-02-04T20:42:58.952Z,2.952439,9107000,6 [FLog::Output] AnalyticsSessionId is 5b04da86-a4c4-449e-b2fb-9adcb9e5599a.
+2025-02-04T20:42:58.952Z,2.952507,9107000,6 [FLog::Output] ! Joining game '46d3a957-0745-4355-b7e9-7822ebc676ea' place 16732694052 at 10.17.0.22
+2025-02-04T20:42:58.952Z,2.952560,9107000,6 [FLog::GameJoinLoadTime] Report game_join_loadtime: sid:5b04da86-a4c4-449e-b2fb-9adcb9e5599a, clienttime:1738701778.8190000057, join_time:1.8110206460000002338, referral_page:RequestFollowUser, placeid:16732694052, userid:3047960021, universeid:5750914919, 
+2025-02-04T20:42:58.955Z,2.955464,9107000,7 [FLog::Network] Client will attempt to connect following server endpoints with threadSleepTime(-1)
+2025-02-04T20:42:58.955Z,2.955490,9107000,7 [FLog::Network] UDMUX Address = 128.116.21.33, Port = 58314 | RCC Server Address = 10.17.0.22, Port = 58314
+2025-02-04T20:42:58.956Z,2.956791,9107000,7 [FLog::Network] binding socket on inaddr_any:0
+
+2025-02-04T20:42:58.969Z,2.969050,9107000,6 [FLog::Output] Connecting to UDMUX server 128.116.21.33:58314, and RCC server 10.17.0.22:58314
+2025-02-04T20:42:59.899Z,3.899217,9107000,6 [FLog::Output] Connection accepted from 128.116.21.33|58314
+2025-02-04T20:42:59.902Z,3.902994,9107000,7 [FLog::Network] serverId: 128.116.21.33|58314
+2025-02-04T20:42:59.903Z,3.903274,9107000,7 [FLog::Network] Replicator created for player 128.116.21.33|58314
+2025-02-04T20:42:59.903Z,3.903301,9107000,7 [FLog::Network] Replicator created: 0x7fee9909d580
+2025-02-04T20:43:01.114Z,5.114145,920a000,7 [FLog::Network] Time taken to initialize schema = 10.528137 ms
+2025-02-04T20:43:01.114Z,5.114447,920a000,7 [FLog::Network] Assigned peer id = 7
+2025-02-04T20:43:01.115Z,5.115095,920a000,7 [FLog::Network] Join snapshot timer: 0.628548
+2025-02-04T20:43:01.121Z,5.121800,920a000,6 [FLog::DataModelPatchConfigurer] OTAPollingEnabled set to: false
+2025-02-04T20:43:01.258Z,5.258884,920a000,6,Info [FLog::AudioFocusManager] AudioFocusManager::AudioFocusManager() constructor
+2025-02-04T20:43:01.258Z,5.258923,920a000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() constructor
+2025-02-04T20:43:01.258Z,5.258938,920a000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-04T20:43:01.258Z,5.258961,920a000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider setup
+2025-02-04T20:43:01.965Z,5.965597,8bef000,6,Critical [DFLog::RbxStorage] RbxStorage::init [INIT] availableDiskSpace: 55107682304 bytes, oldCacheSize: -1 bytes, elapsed: 0.059 ms
+2025-02-04T20:43:01.990Z,5.990687,8bef000,6,Error [DFLog::SQLite] sqlite3_error_log: 283 - recovered 405 frames from WAL file /private/var/folders/83/3w46ryz13191t1qd7k9xctdm0000gn/T/Roblox/rbx-storage.db-wal
+2025-02-04T20:43:01.994Z,5.994997,8bef000,6,Critical [DFLog::RbxStorage] RbxStorage::init [DONE] name: TelemetryCache(SqliteCache+TelemetryCache(FileCache)), duration: 28.803 ms, dbOpenCount: 10, dbMaxMemory: 0.260 MiB, dbTotalSize: 0.000 MiB, dbNumItems: 1, fileTotalSize: 0.000 MiB, fileNumItems: 0
+2025-02-04T20:43:02.542Z,6.542789,920a000,6 [FLog::Output] serverInfoSync started in 0.05ms
+2025-02-04T20:43:02.542Z,6.542848,920a000,6 [FLog::Output] legacyLocalPlayerData started in 0.01ms
+2025-02-04T20:43:02.542Z,6.542873,920a000,6 [FLog::Output] cinematic started in 0.01ms
+2025-02-04T20:43:02.543Z,6.543314,920a000,6 [FLog::Output] client loaded in 56.66ms
+2025-02-04T20:43:02.544Z,6.544049,920a000,6 [FLog::Output] 🍍 Running TopbarPlus v3.0.2 by ForeverHD
+2025-02-04T20:43:02.548Z,6.548212,920a000,6 [FLog::Output] game took 1077.68 to load
+2025-02-04T20:43:02.548Z,6.548429,920a000,6 [FLog::Output] Server RobloxGitHash: 6874f45ec658019a67f19ab7de6e688c50292b01
+2025-02-04T20:43:02.548Z,6.548444,920a000,6 [FLog::Output] Server Prefix: 0.658.0.6580461_20250204T195546Z_RCC_1bbd0
+2025-02-04T20:43:02.768Z,6.768686,5cb6ffc0,6 [FLog::Graphics] Future is bright shadows
+2025-02-04T20:43:02.771Z,6.771192,5cb6ffc0,6 [FLog::Graphics] Terrain TextureArray 512x512, arraySize: 36, mip: 10
+2025-02-04T20:43:03.006Z,7.006438,5cb6ffc0,6 [FLog::Graphics] SceneManager: resizing main targets to 2560x1440
+2025-02-04T20:43:06.931Z,10.931302,9107000,6 [FLog::Warning] Warning: Infinite yield possible on 'CoreGui:WaitForChild("TopBarApp")'
+2025-02-04T20:43:06.944Z,10.944737,9107000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T20:43:06.944Z,10.944862,9107000,6 [FLog::Output] Info: Script 'CoreGui.RobloxGui.CoreScripts/AppChatMain', Line 18
+2025-02-04T20:43:06.944Z,10.944904,9107000,6 [FLog::Output] Info: Stack End
+2025-02-04T20:43:07.077Z,11.077339,9004000,6 [FLog::Output] Running Client handler for state true
+2025-02-04T20:43:11.420Z,15.420001,9107000,6 [FLog::Output] setting cinematic mode to [false]
+2025-02-04T20:43:11.499Z,15.499927,9107000,6 [FLog::Output] // ASSET LOADING SKIPPED DUE TO WORK CONFIG VALUES.
+2025-02-04T20:43:11.500Z,15.500628,9107000,6 [FLog::Warning] Warning: Infinite yield possible on 'Workspace.world.map.Forsaken Shores.Actives:WaitForChild("DoorPart")'
+2025-02-04T20:43:11.500Z,15.500675,9107000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T20:43:11.500Z,15.500696,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerScripts.client.AtlantisClientSide', Line 54
+2025-02-04T20:43:11.500Z,15.500712,9107000,6 [FLog::Output] Info: Stack End
+2025-02-04T20:43:13.460Z,17.460705,920a000,6 [FLog::Output] 1
+2025-02-04T20:43:14.616Z,18.616716,9728000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=00000543453" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-04T20:43:15.459Z,19.459316,9728000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=17083490979" load failed in Workspace.active.Mine Explosion.main.c.Texture: Request failed
+2025-02-04T20:43:16.935Z,20.935469,9107000,6 [FLog::Output] Client started with 36 fps
+2025-02-04T20:44:57.770Z,121.770592,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 20:44:32 GMT
+2025-02-04T20:44:57.771Z,121.771034,8bef000,6 [FLog::Output] Settings Date timestamp is 1738701872
+2025-02-04T20:45:26.443Z,150.443817,920a000,6 [FLog::Output] // DIALOG BEGAN
+2025-02-04T20:45:28.677Z,152.677750,920a000,6 [FLog::Output] // DIALOG ENDED - NO MORE DIALOG RESPONSES
+2025-02-04T20:46:57.851Z,241.851181,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 20:46:57 GMT
+2025-02-04T20:46:57.851Z,241.851547,8bef000,6 [FLog::Output] Settings Date timestamp is 1738702017
+2025-02-04T20:48:57.936Z,361.936737,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 20:48:33 GMT
+2025-02-04T20:48:57.937Z,361.937988,8bef000,6 [FLog::Output] Settings Date timestamp is 1738702113
+2025-02-04T20:50:58.020Z,482.020630,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 20:50:58 GMT
+2025-02-04T20:50:58.021Z,482.021027,8bef000,6 [FLog::Output] Settings Date timestamp is 1738702258
+2025-02-04T20:52:58.100Z,602.100281,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 20:52:33 GMT
+2025-02-04T20:52:58.100Z,602.100647,8bef000,6 [FLog::Output] Settings Date timestamp is 1738702353
+2025-02-04T20:54:58.176Z,722.176514,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 20:54:58 GMT
+2025-02-04T20:54:58.177Z,722.177246,8bef000,6 [FLog::Output] Settings Date timestamp is 1738702498
+2025-02-04T20:56:58.251Z,842.251099,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 20:56:33 GMT
+2025-02-04T20:56:58.251Z,842.251892,8bef000,6 [FLog::Output] Settings Date timestamp is 1738702593
+2025-02-04T20:58:58.330Z,962.330078,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 20:58:58 GMT
+2025-02-04T20:58:58.332Z,962.332153,8bef000,6 [FLog::Output] Settings Date timestamp is 1738702738
+2025-02-04T21:00:58.416Z,1082.416382,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 21:00:34 GMT
+2025-02-04T21:00:58.416Z,1082.416992,8bef000,6 [FLog::Output] Settings Date timestamp is 1738702834
+2025-02-04T21:01:04.076Z,1088.076538,9004000,6 [FLog::Output] // DIALOG BEGAN
+2025-02-04T21:01:05.060Z,1089.060181,920a000,6 [FLog::Output] // DIALOG ENDED - NO MORE DIALOG RESPONSES
+2025-02-04T21:01:07.160Z,1091.160889,9107000,6 [FLog::Error] Error: Server Kick Message: ...
+2025-02-04T21:01:08.234Z,1092.234863,9e52000,7 [FLog::Network] Disconnect reason received: 267
+2025-02-04T21:01:08.246Z,1092.246094,9e52000,7 [FLog::Network] Connection lost
+2025-02-04T21:01:08.246Z,1092.246216,9e52000,7 [FLog::Network] Connection lost: connectMode: Peer Disconnected, timeMS:1092244, connectionTime 3072
+2025-02-04T21:01:08.246Z,1092.246216,9e52000,7 [FLog::Network] Connection lost: AckTimeout 0, IsOutgoingDataWaiting 1
+2025-02-04T21:01:08.246Z,1092.246216,9e52000,7 [FLog::Network] Disconnection Notification. Reason: 267
+2025-02-04T21:01:08.260Z,1092.260620,9004000,7 [FLog::Network] Disconnect from 128.116.21.33|58314: ID_DISCONNECTION_NOTIFICATION
+2025-02-04T21:01:08.260Z,1092.260742,9004000,6 [FLog::Output] Disconnect from 128.116.21.33|58314
+2025-02-04T21:01:08.261Z,1092.261230,9004000,7 [FLog::Network] Client has been disconnected with reason: You have been kicked from the game
+2025-02-04T21:01:08.288Z,1092.288452,9004000,6 [FLog::Output] Session Transition FSM: Error Occurred.
+2025-02-04T21:01:08.395Z,1092.395874,9107000,7 [FLog::Network] Time to disconnect replication data: 93.194145
+2025-02-04T21:01:08.405Z,1092.405029,9107000,7 [FLog::Network] Sending disconnect with reason: 267
+2025-02-04T21:01:08.457Z,1092.457642,9107000,7 [FLog::Network] Replicator destroyed: 0x7fee9909d580
+2025-02-04T21:01:09.435Z,1093.435425,5cb6ffc0,6 [FLog::SingleSurfaceApp] returnToLuaApp: (stage:UGCGame).
+2025-02-04T21:01:09.435Z,1093.435425,5cb6ffc0,6 [FLog::SingleSurfaceApp] leaveUGCGameInternal
+2025-02-04T21:01:09.435Z,1093.435913,5cb6ffc0,6 [FLog::SurfaceController] stop
+2025-02-04T21:01:09.436Z,1093.436035,5cb6ffc0,6 [FLog::SurfaceController] drainRenderingJobs
+2025-02-04T21:01:09.791Z,1093.791626,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: begin
+2025-02-04T21:01:09.791Z,1093.791992,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: end
+2025-02-04T21:01:09.791Z,1093.791992,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: stop: begin (blocking=false dataModel=0x7fee8439d600)
+2025-02-04T21:01:09.792Z,1093.792358,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: sendAnalyticsBeforeLeave: sending event None_None
+2025-02-04T21:01:09.793Z,1093.793701,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Stopped - Ugc
+2025-02-04T21:01:09.794Z,1093.794067,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: removing all observers for type Ugc
+2025-02-04T21:01:09.796Z,1093.796875,5cb6ffc0,6 [FLog::SingleSurfaceApp] returnToLuaAppInternal: ... App not yet initialized, returning from game.
+2025-02-04T21:01:09.796Z,1093.796875,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Stopped - LuaApp
+2025-02-04T21:01:09.799Z,1093.799194,9107000,7 [FLog::Network] Client:Disconnect
+2025-02-04T21:01:09.809Z,1093.809937,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Retrieving patch
+2025-02-04T21:01:09.809Z,1093.809937,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch DataModelPatchConfig : type=1, assetId=5345954812, assetVersion=10769, maxAppVersion=658, localAssetURI=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-04T21:01:09.810Z,1093.810181,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : numAttempts=10
+2025-02-04T21:01:09.810Z,1093.810791,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : contentId=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-04T21:01:09.810Z,1093.810791,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : get patch from content provider for Model
+2025-02-04T21:01:09.817Z,1093.817505,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+2025-02-04T21:01:10.102Z,1094.102173,5cb6ffc0,6,Warning [DFLog::BootcampCLI139737Log] Hello world!!!!!!!!!!!!!!!!!!!!
+2025-02-04T21:01:10.102Z,1094.102417,5cb6ffc0,6,Warning [FLog::Output] Hello Earthlings!
+2025-02-04T21:01:10.135Z,1094.135254,5cb6ffc0,6 [FLog::SingleSurfaceApp] setStage: (stage:InitializedLuaApp)
+2025-02-04T21:01:10.135Z,1094.135254,5cb6ffc0,6 [FLog::SurfaceController] [_:1]::replaceDataModel: (stage:5, window = 0x7fee7fb30cf0) [tid:0x7fee7f00d760]
+2025-02-04T21:01:10.135Z,1094.135376,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7fee89329400)
+2025-02-04T21:01:10.135Z,1094.135376,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:2]::RenderJob
+2025-02-04T21:01:10.135Z,1094.135376,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7fee89329400)
+2025-02-04T21:01:10.135Z,1094.135498,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Started - LuaApp
+2025-02-04T21:01:10.135Z,1094.135498,5cb6ffc0,6 [FLog::SingleSurfaceApp] setStage: (stage:LuaApp)
+2025-02-04T21:01:10.136Z,1094.136719,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:1]::~RenderJob
+2025-02-04T21:01:13.196Z,1097.196899,9107000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-04T21:01:13.197Z,1097.197021,9107000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider teardown
+2025-02-04T21:01:13.199Z,1097.199341,9107000,7 [FLog::Network] Client:Disconnect
+2025-02-04T21:01:13.396Z,1097.396240,9107000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() destructor
+2025-02-04T21:01:13.396Z,1097.396240,9107000,7 [FLog::Network] NetworkClient:Remove
+2025-02-04T21:01:13.396Z,1097.396484,9107000,7 [DFLog::MegaReplicatorLogDisconnectCleanUpLog] Destroying MegaReplicator.
+2025-02-04T21:01:14.192Z,1098.192627,9004000,6 [FLog::Output] Info: DataModel Loading rbxasset://places/Mobile.rbxl
+2025-02-04T21:01:14.254Z,1098.254150,9004000,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Load configs for user key: user:3047960021
+2025-02-04T21:01:14.256Z,1098.256104,9004000,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Retrieving patch
+2025-02-04T21:01:14.256Z,1098.256104,9004000,6 [FLog::DataModelPatchConfigurer] getCachedPatch DataModelPatchConfig : type=1, assetId=16639814581, assetVersion=1967, maxAppVersion=658, localAssetURI=
+2025-02-04T21:01:14.330Z,1098.330200,9004000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() constructor
+2025-02-04T21:01:14.330Z,1098.330322,9004000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-04T21:01:14.330Z,1098.330322,9004000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider setup
+2025-02-04T21:01:14.612Z,1098.612671,9004000,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+2025-02-04T21:01:14.613Z,1098.613281,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+2025-02-04T21:01:14.623Z,1098.623169,5cb6ffc0,6 [FLog::Graphics] Terrain TextureArray 512x512, arraySize: 36, mip: 10
+2025-02-04T21:01:14.637Z,1098.637817,9004000,6 [FLog::Warning] Warning: Unable to fetch completed survey ids from app storage  
+2025-02-04T21:01:14.710Z,1098.710449,920a000,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+2025-02-04T21:01:14.753Z,1098.753540,920a000,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+2025-02-04T21:01:14.763Z,1098.763794,9107000,6 [FLog::Error] Asset (Image) "rbxthumb://type=AvatarHeadShot&id=&w=48&h=48&filters=circular" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-04T21:01:15.066Z,1099.066528,9107000,6 [FLog::Error] Asset (Image) "rbxthumb://type=AvatarHeadShot&id=0&w=48&h=48&filters=circular" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-04T21:01:15.075Z,1099.075928,920a000,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 28
+2025-02-04T21:01:15.075Z,1099.075928,9004000,6 [DFLog::SignalRCoreError] ID: 1 Disconnected - stop() called
+2025-02-04T21:01:15.100Z,1099.100464,920a000,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+2025-02-04T21:01:15.100Z,1099.100586,920a000,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 10
+2025-02-04T21:01:15.541Z,1099.541382,5cb6ffc0,6 [FLog::Output] Saved channel '' to 'com.roblox.RobloxPlayerChannel' for baseUrl 'www.roblox.com'
+2025-02-04T21:01:16.130Z,1100.130493,920a000,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Update OTA config
+2025-02-04T21:01:16.302Z,1100.302612,8bef000,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Update OTA succeeded: {"SchemaVersion":"1","CanaryUserIds":[],"CanaryPercentage":0}
+2025-02-04T21:01:16.303Z,1100.303101,8bef000,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Update OTA config not deployed
+2025-02-04T21:01:18.587Z,1102.587158,5cb6ffc0,6 [FLog::SingleSurfaceApp] launchUGCGame: (stage:LuaApp).
+2025-02-04T21:01:18.587Z,1102.587158,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Paused - LuaApp
+2025-02-04T21:01:18.587Z,1102.587280,5cb6ffc0,6 [FLog::SingleSurfaceApp] launchUGCGameInternal
+2025-02-04T21:01:18.589Z,1102.589355,5cb6ffc0,6 [FLog::SingleSurfaceApp] applyLocale
+2025-02-04T21:01:18.589Z,1102.589355,5cb6ffc0,6,Warning [FLog::UgcExperienceController] UgcExperienceController: stop: Did not start due to state.
+2025-02-04T21:01:18.589Z,1102.589355,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Stopped - Ugc
+2025-02-04T21:01:18.589Z,1102.589355,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: removing all observers for type Ugc
+2025-02-04T21:01:18.589Z,1102.589722,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: finalized
+2025-02-04T21:01:18.589Z,1102.589722,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: initialize:
+2025-02-04T21:01:18.590Z,1102.590088,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Retrieving patch
+2025-02-04T21:01:18.590Z,1102.590088,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch DataModelPatchConfig : type=1, assetId=5345954812, assetVersion=10769, maxAppVersion=658, localAssetURI=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-04T21:01:18.590Z,1102.590088,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : numAttempts=10
+2025-02-04T21:01:18.590Z,1102.590210,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : contentId=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-04T21:01:18.590Z,1102.590210,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : get patch from content provider for Model
+2025-02-04T21:01:18.594Z,1102.594971,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+2025-02-04T21:01:18.822Z,1102.822021,5cb6ffc0,6,Warning [DFLog::BootcampCLI139737Log] Hello world!!!!!!!!!!!!!!!!!!!!
+2025-02-04T21:01:18.822Z,1102.822021,5cb6ffc0,6,Warning [FLog::Output] Hello Earthlings!
+2025-02-04T21:01:18.828Z,1102.828247,5cb6ffc0,6,Info [FLog::Audio] OutputDevice 0: Cuffie esterne [BuiltIn] 48000/2
+2025-02-04T21:01:18.904Z,1102.904419,5cb6ffc0,6,Info [FLog::Audio] InputDevice 0: Microfono esterno({af0144be-277e-8cc3-0000000000000000}) 48000/1/4
+2025-02-04T21:01:18.904Z,1102.904419,5cb6ffc0,6,Info [FLog::Audio] InputDevice 1: Microfono iMac({50eb3c32-f018-032c-0000000000000000}) 48000/1/4
+2025-02-04T21:01:18.908Z,1102.908447,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: join: initialized dm 0x7fee342eb200
+2025-02-04T21:01:18.909Z,1102.909058,5cb6ffc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGame
+2025-02-04T21:01:18.909Z,1102.909668,5cb6ffc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGamePostSpecificUser: URL: https://gamejoin.roblox.com/v1/play-with-user BODY: {"userIdToFollow":1929626652,"placeId":16732694052,"gameJoinAttemptId":"9f5cfb37-c7c7-4606-92f8-5699f66b6a3a"}
+2025-02-04T21:01:18.909Z,1102.909790,5cb6ffc0,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 0, url: https://gamejoin.roblox.com/v1/play-with-user.
+2025-02-04T21:01:18.910Z,1102.910034,5cb6ffc0,6 [FLog::GameJoinUtil] Delaying request by 0.00 seconds
+2025-02-04T21:01:18.910Z,1102.910278,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Started - Ugc
+2025-02-04T21:01:18.910Z,1102.910400,5cb6ffc0,6 [FLog::SurfaceController] [_:1]::replaceDataModel: (stage:3, window = 0x7fee7fb30cf0) [tid:0x7fee7f00d760]
+2025-02-04T21:01:18.910Z,1102.910400,5cb6ffc0,6 [FLog::SurfaceController] stop
+2025-02-04T21:01:18.910Z,1102.910400,5cb6ffc0,6 [FLog::SurfaceController] drainRenderingJobs
+2025-02-04T21:01:18.910Z,1102.910400,920a000,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:2]::~RenderJob
+2025-02-04T21:01:18.911Z,1102.911133,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7fee342eb200)
+2025-02-04T21:01:18.911Z,1102.911133,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:3]::RenderJob
+2025-02-04T21:01:18.911Z,1102.911133,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7fee342eb200)
+2025-02-04T21:01:18.911Z,1102.911133,5cb6ffc0,6 [FLog::SingleSurfaceApp] setStage: (stage:UGCGame)
+2025-02-04T21:01:18.924Z,1102.924927,920a000,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+2025-02-04T21:01:18.924Z,1102.924927,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+2025-02-04T21:01:18.984Z,1102.984863,9004000,6,Info [FLog::UgcExperienceController] UgcExperienceController: submitStartGameTask: scrips are loaded 0x7fee342eb200
+2025-02-04T21:01:19.365Z,1103.365845,920a000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":"46d3a957-0745-4355-b7e9-7822ebc676ea","status":2,"statusData":null,"joinScriptUrl":"https://assetgame.roblox.com/Game/Join.ashx?ticketVersion=2&ticket={\"UserId\"%3a3047960021%2c\"UserName\"%3a\"paninorealaccount009\"%2c\"DisplayName\"%3a\"Jack\"%2c\"CharacterFetchUrl\"%3a\"https%3a%2f%2fapi.roblox.com%2fv1.1%2favatar-fetch%2f%3fplaceId%3d16732694052%26userId%3d3047960021\"%2c\"GameId\"%3a\"46d3a957-0745-4355-b7e9-7822ebc676ea\"%2c\"PlaceId\"%3a16732694052%2c\"UniverseId\"%3a5750914919%2c\"ServerId\"%3a1047400%2c\"ServerPort\"%3a58314%2c\"IsTeleport\"%3afalse%2c\"FollowUserId\"%3anull%2c\"TimeStamp\"%3a\"02%2f04%2f2025+21%3a01%3a19\"%2c\"CharacterAppearanceId\"%3a3047960021%2c\"AlternateName\"%3anull%2c\"JoinTypeId\"%3a6%2c\"MatchmakingDecisionId\"%3anull%2c\"GameJoinMetadata\"%3a{\"JoinSource\"%3a0%2c\"RequestType\"%3a3%2c\"MatchmakingDecisionId\"%3a\"eb90e06a-b43c-4a1c-85f0-06a2c
+2025-02-04T21:01:19.366Z,1103.366089,920a000,6 [FLog::GameJoinUtil] Game join succeeded.
+2025-02-04T21:01:19.366Z,1103.366577,920a000,6 [FLog::GameJoinUtil] GameJoinUtil::processing join parameters
+2025-02-04T21:01:19.385Z,1103.385010,9107000,7 [FLog::Network] NetworkClient:Create
+2025-02-04T21:01:19.386Z,1103.386841,9107000,6 [FLog::GameJoinUtil] Null EventId
+2025-02-04T21:01:19.388Z,1103.388062,9107000,10 [DFLog::KeyRing] Parsed config created at: 11:59 4/1/2024.
+2025-02-04T21:01:19.390Z,1103.390381,9107000,6 [FLog::Output] AnalyticsSessionId is 09dc022d-c463-437c-875e-11653a58e00e.
+2025-02-04T21:01:19.390Z,1103.390503,9107000,6 [FLog::Output] ! Joining game '46d3a957-0745-4355-b7e9-7822ebc676ea' place 16732694052 at 10.17.0.22
+2025-02-04T21:01:19.390Z,1103.390503,9107000,6 [FLog::GameJoinLoadTime] Report game_join_loadtime: sid:09dc022d-c463-437c-875e-11653a58e00e, clienttime:1738702879.3399999142, join_time:0.8138166770002044359, referral_page:LuaChat, placeid:16732694052, userid:3047960021, universeid:5750914919, 
+2025-02-04T21:01:19.395Z,1103.395020,9107000,7 [FLog::Network] Client will attempt to connect following server endpoints with threadSleepTime(-1)
+2025-02-04T21:01:19.395Z,1103.395020,9107000,7 [FLog::Network] UDMUX Address = 128.116.21.33, Port = 58314 | RCC Server Address = 10.17.0.22, Port = 58314
+2025-02-04T21:01:19.396Z,1103.396606,9107000,7 [FLog::Network] binding socket on inaddr_any:0
+
+2025-02-04T21:01:19.408Z,1103.408936,9107000,6 [FLog::Output] Connecting to UDMUX server 128.116.21.33:58314, and RCC server 10.17.0.22:58314
+2025-02-04T21:01:19.584Z,1103.584595,920a000,6 [FLog::Output] Connection accepted from 128.116.21.33|58314
+2025-02-04T21:01:19.587Z,1103.587158,920a000,7 [FLog::Network] serverId: 128.116.21.33|58314
+2025-02-04T21:01:19.588Z,1103.588135,920a000,7 [FLog::Network] Replicator created for player 128.116.21.33|58314
+2025-02-04T21:01:19.588Z,1103.588135,920a000,7 [FLog::Network] Replicator created: 0x7fee5f481020
+2025-02-04T21:01:19.741Z,1103.741821,9004000,7 [FLog::Network] Time taken to initialize schema = 6.109016 ms
+2025-02-04T21:01:19.743Z,1103.743408,9004000,7 [FLog::Network] Assigned peer id = 8
+2025-02-04T21:01:19.746Z,1103.746460,9004000,7 [FLog::Network] Join snapshot timer: 3.054407
+2025-02-04T21:01:19.786Z,1103.786377,920a000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() constructor
+2025-02-04T21:01:19.786Z,1103.786377,920a000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-04T21:01:19.786Z,1103.786377,920a000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider setup
+2025-02-04T21:01:21.061Z,1105.061768,5cb6ffc0,6 [FLog::Graphics] Future is bright shadows
+2025-02-04T21:01:21.065Z,1105.065552,5cb6ffc0,6 [FLog::Graphics] Terrain TextureArray 512x512, arraySize: 36, mip: 10
+2025-02-04T21:01:21.801Z,1105.801636,9107000,6 [FLog::Output] serverInfoSync started in 0.55ms
+2025-02-04T21:01:21.802Z,1105.802124,9107000,6 [FLog::Output] legacyLocalPlayerData started in 0.03ms
+2025-02-04T21:01:21.802Z,1105.802124,9107000,6 [FLog::Output] cinematic started in 0.00ms
+2025-02-04T21:01:21.802Z,1105.802612,9107000,6 [FLog::Output] client loaded in 48.71ms
+2025-02-04T21:01:21.803Z,1105.803467,9107000,6 [FLog::Output] 🍍 Running TopbarPlus v3.0.2 by ForeverHD
+2025-02-04T21:01:21.806Z,1105.806763,9107000,6 [FLog::Output] game took 1690.10 to load
+2025-02-04T21:01:21.812Z,1105.812378,9107000,6 [FLog::Output] Server RobloxGitHash: 6874f45ec658019a67f19ab7de6e688c50292b01
+2025-02-04T21:01:21.812Z,1105.812378,9107000,6 [FLog::Output] Server Prefix: 0.658.0.6580461_20250204T195546Z_RCC_1bbd0
+2025-02-04T21:01:23.187Z,1107.187500,9004000,6 [FLog::Output] 1
+2025-02-04T21:01:23.229Z,1107.229980,920a000,6 [FLog::Output] setting cinematic mode to [false]
+2025-02-04T21:01:23.239Z,1107.239502,920a000,6 [FLog::Output] // ASSET LOADING SKIPPED DUE TO WORK CONFIG VALUES.
+2025-02-04T21:01:23.974Z,1107.974243,920a000,6 [FLog::Output] Running Client handler for state true
+2025-02-04T21:01:27.751Z,1111.751221,920a000,6 [FLog::Warning] Warning: Infinite yield possible on 'Workspace.world.map.Forsaken Shores.Actives:WaitForChild("DoorPart")'
+2025-02-04T21:01:27.751Z,1111.751953,920a000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:01:27.751Z,1111.751953,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerScripts.client.AtlantisClientSide', Line 54
+2025-02-04T21:01:27.752Z,1111.752075,920a000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:01:36.360Z,1120.360107,9107000,6 [FLog::Output] Client started with 53 fps
+2025-02-04T21:01:59.615Z,1143.615112,920a000,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Update OTA config
+2025-02-04T21:01:59.782Z,1143.782104,8bef000,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Update OTA succeeded: {"SchemaVersion":"1","CanaryUserIds":[],"CanaryPercentage":0}
+2025-02-04T21:01:59.782Z,1143.782227,8bef000,6 [FLog::DataModelPatchConfigurer] [discovery-ota] Update OTA config not deployed
+2025-02-04T21:02:03.579Z,1147.579346,9107000,6 [FLog::Error] Slot Exception
+2025-02-04T21:02:03.579Z,1147.579468,9107000,6 [FLog::Error] Error: exception while signaling: Cannot load the AnimationClipProvider Service.
+2025-02-04T21:02:58.489Z,1202.489624,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 21:02:58 GMT
+2025-02-04T21:02:58.489Z,1202.489624,8bef000,6 [FLog::Output] Settings Date timestamp is 1738702978
+2025-02-04T21:03:31.639Z,1235.639404,9004000,6 [FLog::Output] // DIALOG BEGAN
+2025-02-04T21:03:33.888Z,1237.888428,920a000,6 [FLog::Output] // DIALOG ENDED - NO MORE DIALOG RESPONSES
+2025-02-04T21:04:05.980Z,1269.980103,9107000,6 [FLog::Output] // DIALOG BEGAN
+2025-02-04T21:04:06.064Z,1270.064331,920a000,6 [FLog::Output] // DIALOG ENDED - NO MORE DIALOG RESPONSES
+2025-02-04T21:04:18.487Z,1282.487793,9004000,6 [FLog::Error] Error: Server Kick Message: ...
+2025-02-04T21:04:19.568Z,1283.568115,9dcf000,7 [FLog::Network] Disconnect reason received: 267
+2025-02-04T21:04:19.582Z,1283.582275,9dcf000,7 [FLog::Network] Connection lost
+2025-02-04T21:04:19.582Z,1283.582275,9dcf000,7 [FLog::Network] Connection lost: connectMode: Peer Disconnected, timeMS:1283582, connectionTime 1103527
+2025-02-04T21:04:19.582Z,1283.582275,9dcf000,7 [FLog::Network] Connection lost: AckTimeout 0, IsOutgoingDataWaiting 1
+2025-02-04T21:04:19.582Z,1283.582275,9dcf000,7 [FLog::Network] Disconnection Notification. Reason: 267
+2025-02-04T21:04:19.587Z,1283.587402,9107000,7 [FLog::Network] Disconnect from 128.116.21.33|58314: ID_DISCONNECTION_NOTIFICATION
+2025-02-04T21:04:19.587Z,1283.587524,9107000,6 [FLog::Output] Disconnect from 128.116.21.33|58314
+2025-02-04T21:04:19.587Z,1283.587524,9107000,7 [FLog::Network] Client has been disconnected with reason: You have been kicked from the game
+2025-02-04T21:04:19.596Z,1283.596436,9107000,6 [FLog::Output] Session Transition FSM: Error Occurred.
+2025-02-04T21:04:19.608Z,1283.608887,920a000,7 [FLog::Network] Time to disconnect replication data: 9.956181
+2025-02-04T21:04:19.609Z,1283.609619,920a000,7 [FLog::Network] Sending disconnect with reason: 267
+2025-02-04T21:04:19.630Z,1283.630127,920a000,7 [FLog::Network] Replicator destroyed: 0x7fee5f481020
+2025-02-04T21:04:19.745Z,1283.745117,5cb6ffc0,6 [FLog::SingleSurfaceApp] returnToLuaApp: (stage:UGCGame).
+2025-02-04T21:04:19.745Z,1283.745117,5cb6ffc0,6 [FLog::SingleSurfaceApp] returnToLuaApp: ... disable videoRecorder.
+2025-02-04T21:04:19.745Z,1283.745117,5cb6ffc0,6 [FLog::SingleSurfaceApp] leaveUGCGameInternal
+2025-02-04T21:04:19.745Z,1283.745239,5cb6ffc0,6 [FLog::SurfaceController] stop
+2025-02-04T21:04:19.745Z,1283.745239,5cb6ffc0,6 [FLog::SurfaceController] drainRenderingJobs
+2025-02-04T21:04:19.936Z,1283.936768,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: begin
+2025-02-04T21:04:19.936Z,1283.936768,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: end
+2025-02-04T21:04:19.936Z,1283.936768,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: stop: begin (blocking=false dataModel=0x7fee342eb200)
+2025-02-04T21:04:19.936Z,1283.936768,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: sendAnalyticsBeforeLeave: sending event None_None
+2025-02-04T21:04:19.936Z,1283.936890,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Stopped - Ugc
+2025-02-04T21:04:19.936Z,1283.936890,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: removing all observers for type Ugc
+2025-02-04T21:04:19.937Z,1283.937744,5cb6ffc0,6 [FLog::SingleSurfaceApp] returnToLuaAppInternal: ... App has been initialized, returning from game.
+2025-02-04T21:04:19.937Z,1283.937744,5cb6ffc0,6 [FLog::SurfaceController] [_:1]::replaceDataModel: (stage:5, window = 0x7fee7fb30cf0) [tid:0x7fee7f00d760]
+2025-02-04T21:04:19.937Z,1283.937744,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7fee89329400)
+2025-02-04T21:04:19.937Z,1283.937866,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:4]::RenderJob
+2025-02-04T21:04:19.937Z,1283.937866,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7fee89329400)
+2025-02-04T21:04:19.937Z,1283.937866,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Started - LuaApp
+2025-02-04T21:04:19.937Z,1283.937866,5cb6ffc0,6 [FLog::SingleSurfaceApp] setStage: (stage:LuaApp)
+2025-02-04T21:04:19.938Z,1283.938843,920a000,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+2025-02-04T21:04:19.939Z,1283.939575,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:3]::~RenderJob
+2025-02-04T21:04:19.941Z,1283.941772,9107000,7 [FLog::Network] Client:Disconnect
+2025-02-04T21:04:19.945Z,1283.945068,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+2025-02-04T21:04:19.956Z,1283.956543,5cb6ffc0,6 [FLog::Graphics] Terrain TextureArray 512x512, arraySize: 36, mip: 10
+2025-02-04T21:04:23.391Z,1287.391602,9107000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-04T21:04:23.391Z,1287.391968,9107000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider teardown
+2025-02-04T21:04:23.392Z,1287.392212,9107000,7 [FLog::Network] Client:Disconnect
+2025-02-04T21:04:23.620Z,1287.620850,9107000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() destructor
+2025-02-04T21:04:23.620Z,1287.620850,9107000,7 [FLog::Network] NetworkClient:Remove
+2025-02-04T21:04:23.620Z,1287.620972,9107000,7 [DFLog::MegaReplicatorLogDisconnectCleanUpLog] Destroying MegaReplicator.
+2025-02-04T21:04:48.610Z,1312.610962,5cb6ffc0,6 [FLog::SingleSurfaceApp] launchUGCGame: (stage:LuaApp).
+2025-02-04T21:04:48.611Z,1312.611450,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Paused - LuaApp
+2025-02-04T21:04:48.611Z,1312.611450,5cb6ffc0,6 [FLog::SingleSurfaceApp] launchUGCGameInternal
+2025-02-04T21:04:48.616Z,1312.616699,5cb6ffc0,6 [FLog::SingleSurfaceApp] applyLocale
+2025-02-04T21:04:48.616Z,1312.616699,5cb6ffc0,6,Warning [FLog::UgcExperienceController] UgcExperienceController: stop: Did not start due to state.
+2025-02-04T21:04:48.616Z,1312.616699,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Stopped - Ugc
+2025-02-04T21:04:48.616Z,1312.616821,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: removing all observers for type Ugc
+2025-02-04T21:04:48.616Z,1312.616821,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: finalized
+2025-02-04T21:04:48.616Z,1312.616821,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: initialize:
+2025-02-04T21:04:48.617Z,1312.617188,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Retrieving patch
+2025-02-04T21:04:48.617Z,1312.617310,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch DataModelPatchConfig : type=1, assetId=5345954812, assetVersion=10769, maxAppVersion=658, localAssetURI=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-04T21:04:48.617Z,1312.617310,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : numAttempts=10
+2025-02-04T21:04:48.617Z,1312.617310,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : contentId=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-04T21:04:48.617Z,1312.617310,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : get patch from content provider for Model
+2025-02-04T21:04:48.624Z,1312.624146,5cb6ffc0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+2025-02-04T21:04:48.855Z,1312.855591,5cb6ffc0,6,Warning [DFLog::BootcampCLI139737Log] Hello world!!!!!!!!!!!!!!!!!!!!
+2025-02-04T21:04:48.855Z,1312.855713,5cb6ffc0,6,Warning [FLog::Output] Hello Earthlings!
+2025-02-04T21:04:48.858Z,1312.858032,5cb6ffc0,6,Info [FLog::Audio] OutputDevice 0: Cuffie esterne [BuiltIn] 48000/2
+2025-02-04T21:04:48.926Z,1312.926758,5cb6ffc0,6,Info [FLog::Audio] InputDevice 0: Microfono esterno({af0144be-277e-8cc3-0000000000000000}) 48000/1/4
+2025-02-04T21:04:48.926Z,1312.926758,5cb6ffc0,6,Info [FLog::Audio] InputDevice 1: Microfono iMac({50eb3c32-f018-032c-0000000000000000}) 48000/1/4
+2025-02-04T21:04:48.932Z,1312.932129,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: join: initialized dm 0x7fee469ea200
+2025-02-04T21:04:48.932Z,1312.932251,5cb6ffc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGame
+2025-02-04T21:04:48.932Z,1312.932251,5cb6ffc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGamePostSpecificUser: URL: https://gamejoin.roblox.com/v1/play-with-user BODY: {"userIdToFollow":1929626652,"placeId":16732694052,"gameJoinAttemptId":"cce468b8-01a5-4a05-bd43-b3c93d50a3fc"}
+2025-02-04T21:04:48.932Z,1312.932373,5cb6ffc0,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 0, url: https://gamejoin.roblox.com/v1/play-with-user.
+2025-02-04T21:04:48.932Z,1312.932373,5cb6ffc0,6 [FLog::GameJoinUtil] Delaying request by 0.00 seconds
+2025-02-04T21:04:48.932Z,1312.932373,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Started - Ugc
+2025-02-04T21:04:48.932Z,1312.932495,5cb6ffc0,6 [FLog::SurfaceController] [_:1]::replaceDataModel: (stage:3, window = 0x7fee7fb30cf0) [tid:0x7fee7f00d760]
+2025-02-04T21:04:48.932Z,1312.932495,5cb6ffc0,6 [FLog::SurfaceController] stop
+2025-02-04T21:04:48.932Z,1312.932495,5cb6ffc0,6 [FLog::SurfaceController] drainRenderingJobs
+2025-02-04T21:04:48.932Z,1312.932495,9107000,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:4]::~RenderJob
+2025-02-04T21:04:48.934Z,1312.934326,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7fee469ea200)
+2025-02-04T21:04:48.934Z,1312.934326,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:5]::RenderJob
+2025-02-04T21:04:48.934Z,1312.934326,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7fee469ea200)
+2025-02-04T21:04:48.934Z,1312.934326,5cb6ffc0,6 [FLog::SingleSurfaceApp] setStage: (stage:UGCGame)
+2025-02-04T21:04:48.992Z,1312.992310,9004000,6,Info [FLog::UgcExperienceController] UgcExperienceController: submitStartGameTask: scrips are loaded 0x7fee469ea200
+2025-02-04T21:04:48.992Z,1312.992432,9004000,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+2025-02-04T21:04:48.993Z,1312.993408,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+2025-02-04T21:04:49.360Z,1313.360596,9004000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":"46d3a957-0745-4355-b7e9-7822ebc676ea","status":2,"statusData":null,"joinScriptUrl":"https://assetgame.roblox.com/Game/Join.ashx?ticketVersion=2&ticket={\"UserId\"%3a3047960021%2c\"UserName\"%3a\"paninorealaccount009\"%2c\"DisplayName\"%3a\"Jack\"%2c\"CharacterFetchUrl\"%3a\"https%3a%2f%2fapi.roblox.com%2fv1.1%2favatar-fetch%2f%3fplaceId%3d16732694052%26userId%3d3047960021\"%2c\"GameId\"%3a\"46d3a957-0745-4355-b7e9-7822ebc676ea\"%2c\"PlaceId\"%3a16732694052%2c\"UniverseId\"%3a5750914919%2c\"ServerId\"%3a1047400%2c\"ServerPort\"%3a58314%2c\"IsTeleport\"%3afalse%2c\"FollowUserId\"%3anull%2c\"TimeStamp\"%3a\"02%2f04%2f2025+21%3a04%3a49\"%2c\"CharacterAppearanceId\"%3a3047960021%2c\"AlternateName\"%3anull%2c\"JoinTypeId\"%3a6%2c\"MatchmakingDecisionId\"%3anull%2c\"GameJoinMetadata\"%3a{\"JoinSource\"%3a0%2c\"RequestType\"%3a3%2c\"MatchmakingDecisionId\"%3a\"339e9f0c-31c7-4932-8d98-d30a3
+2025-02-04T21:04:49.360Z,1313.360840,9004000,6 [FLog::GameJoinUtil] Game join succeeded.
+2025-02-04T21:04:49.360Z,1313.360840,9004000,6 [FLog::GameJoinUtil] GameJoinUtil::processing join parameters
+2025-02-04T21:04:49.374Z,1313.374390,9004000,7 [FLog::Network] NetworkClient:Create
+2025-02-04T21:04:49.375Z,1313.375854,9004000,6 [FLog::GameJoinUtil] Null EventId
+2025-02-04T21:04:49.376Z,1313.376099,9004000,10 [DFLog::KeyRing] Parsed config created at: 11:59 4/1/2024.
+2025-02-04T21:04:49.378Z,1313.378540,9004000,6 [FLog::Output] AnalyticsSessionId is 3a6b8419-1bb7-46d4-a6ab-42536b649bd0.
+2025-02-04T21:04:49.378Z,1313.378540,9004000,6 [FLog::Output] ! Joining game '46d3a957-0745-4355-b7e9-7822ebc676ea' place 16732694052 at 10.17.0.22
+2025-02-04T21:04:49.378Z,1313.378540,9004000,6 [FLog::GameJoinLoadTime] Report game_join_loadtime: sid:3a6b8419-1bb7-46d4-a6ab-42536b649bd0, clienttime:1738703089.3259999752, join_time:0.76500028399982511473, referral_page:LuaChat, placeid:16732694052, userid:3047960021, universeid:5750914919, 
+2025-02-04T21:04:49.381Z,1313.381226,9004000,7 [FLog::Network] Client will attempt to connect following server endpoints with threadSleepTime(-1)
+2025-02-04T21:04:49.381Z,1313.381226,9004000,7 [FLog::Network] UDMUX Address = 128.116.21.33, Port = 58314 | RCC Server Address = 10.17.0.22, Port = 58314
+2025-02-04T21:04:49.382Z,1313.382080,9004000,7 [FLog::Network] binding socket on inaddr_any:0
+
+2025-02-04T21:04:49.394Z,1313.394897,9004000,6 [FLog::Output] Connecting to UDMUX server 128.116.21.33:58314, and RCC server 10.17.0.22:58314
+2025-02-04T21:04:49.576Z,1313.576416,920a000,6 [FLog::Output] Connection accepted from 128.116.21.33|58314
+2025-02-04T21:04:49.578Z,1313.578125,920a000,7 [FLog::Network] serverId: 128.116.21.33|58314
+2025-02-04T21:04:49.578Z,1313.578247,920a000,7 [FLog::Network] Replicator created for player 128.116.21.33|58314
+2025-02-04T21:04:49.578Z,1313.578247,920a000,7 [FLog::Network] Replicator created: 0x7fee170578d0
+2025-02-04T21:04:50.068Z,1314.068115,920a000,7 [FLog::Network] Time taken to initialize schema = 148.891418 ms
+2025-02-04T21:04:50.068Z,1314.068726,920a000,7 [FLog::Network] Assigned peer id = 9
+2025-02-04T21:04:50.069Z,1314.069946,920a000,7 [FLog::Network] Join snapshot timer: 1.129182
+2025-02-04T21:04:50.194Z,1314.194702,9004000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() constructor
+2025-02-04T21:04:50.194Z,1314.194824,9004000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-04T21:04:50.194Z,1314.194824,9004000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider setup
+2025-02-04T21:04:52.408Z,1316.408569,5cb6ffc0,6 [FLog::Graphics] Future is bright shadows
+2025-02-04T21:04:52.412Z,1316.412476,5cb6ffc0,6 [FLog::Graphics] Terrain TextureArray 512x512, arraySize: 36, mip: 10
+2025-02-04T21:04:53.171Z,1317.171997,9004000,6 [FLog::Output] serverInfoSync started in 0.04ms
+2025-02-04T21:04:53.171Z,1317.171997,9004000,6 [FLog::Output] legacyLocalPlayerData started in 0.01ms
+2025-02-04T21:04:53.171Z,1317.171997,9004000,6 [FLog::Output] cinematic started in 0.00ms
+2025-02-04T21:04:53.172Z,1317.172729,9004000,6 [FLog::Output] client loaded in 68.34ms
+2025-02-04T21:04:53.174Z,1317.174194,9004000,6 [FLog::Output] 🍍 Running TopbarPlus v3.0.2 by ForeverHD
+2025-02-04T21:04:53.182Z,1317.182251,9004000,6 [FLog::Output] game took 2616.30 to load
+2025-02-04T21:04:53.187Z,1317.187622,9004000,6 [FLog::Output] Server RobloxGitHash: 6874f45ec658019a67f19ab7de6e688c50292b01
+2025-02-04T21:04:53.187Z,1317.187622,9004000,6 [FLog::Output] Server Prefix: 0.658.0.6580461_20250204T195546Z_RCC_1bbd0
+2025-02-04T21:04:54.870Z,1318.870239,9107000,6 [FLog::Output] // ASSET LOADING SKIPPED DUE TO WORK CONFIG VALUES.
+2025-02-04T21:04:58.544Z,1322.544556,920a000,6 [FLog::Output] 1
+2025-02-04T21:04:58.595Z,1322.595337,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 21:04:33 GMT
+2025-02-04T21:04:58.595Z,1322.595337,8bef000,6 [FLog::Output] Settings Date timestamp is 1738703073
+2025-02-04T21:04:58.622Z,1322.622925,9004000,6 [FLog::Warning] Warning: Infinite yield possible on 'CoreGui:WaitForChild("TopBarApp")'
+2025-02-04T21:04:58.623Z,1322.623657,9004000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:04:58.623Z,1322.623657,9004000,6 [FLog::Output] Info: Script 'CoreGui.RobloxGui.CoreScripts/AppChatMain', Line 18
+2025-02-04T21:04:58.623Z,1322.623657,9004000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:04:59.211Z,1323.211792,9107000,6 [FLog::Output] Running Client handler for state true
+2025-02-04T21:04:59.557Z,1323.557861,920a000,6 [FLog::Output] setting cinematic mode to [false]
+2025-02-04T21:04:59.874Z,1323.874146,9107000,6 [FLog::Warning] Warning: Infinite yield possible on 'Workspace.world.map.Forsaken Shores.Actives:WaitForChild("DoorPart")'
+2025-02-04T21:04:59.874Z,1323.874268,9107000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:04:59.874Z,1323.874268,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerScripts.client.AtlantisClientSide', Line 54
+2025-02-04T21:04:59.874Z,1323.874268,9107000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:05:08.623Z,1332.623169,9004000,6 [FLog::Output] Client started with 55 fps
+2025-02-04T21:06:58.677Z,1442.677246,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 21:06:58 GMT
+2025-02-04T21:06:58.677Z,1442.677979,8bef000,6 [FLog::Output] Settings Date timestamp is 1738703218
+2025-02-04T21:08:56.525Z,1560.525146,9107000,6 [FLog::Output] // DIALOG BEGAN
+2025-02-04T21:08:56.711Z,1560.711792,9abd000,6 [FLog::Error] Asset (Animation) "rbxassetid://18396354824" load failed in Workspace.world.npcs.Sunstone Angler.dialogAnimations.psst.AnimationId: Animation failed to load
+2025-02-04T21:08:56.713Z,1560.713257,9abd000,6 [FLog::Error] Error: Failed to load animation with sanitized ID rbxassetid://18396354824: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=18396354824&serverplaceid=16732694052
+2025-02-04T21:08:58.753Z,1562.753296,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 21:08:33 GMT
+2025-02-04T21:08:58.753Z,1562.753296,8bef000,6 [FLog::Output] Settings Date timestamp is 1738703313
+2025-02-04T21:09:00.061Z,1564.061523,9107000,6 [FLog::Output] // DIALOG ENDED - NO MORE DIALOG RESPONSES
+2025-02-04T21:09:04.607Z,1568.607056,9107000,6 [FLog::Output] // DIALOG BEGAN
+2025-02-04T21:09:07.157Z,1571.157349,9107000,6 [FLog::Output] // DIALOG ENDED - NO MORE DIALOG RESPONSES
+2025-02-04T21:10:58.833Z,1682.833984,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 21:10:52 GMT
+2025-02-04T21:10:58.834Z,1682.834351,8bef000,6 [FLog::Output] Settings Date timestamp is 1738703452
+2025-02-04T21:11:15.252Z,1699.252930,9107000,6 [FLog::Output] setting cinematic mode to [false]
+2025-02-04T21:11:31.785Z,1715.785156,9004000,6 [FLog::Output] setting cinematic mode to [false]
+2025-02-04T21:12:36.500Z,1780.500854,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=0" load failed in Workspace.world.npcs.Gatherer Archaeologist.Head.Face Decals.¬_¬ Overlay.Texture: Request failed
+2025-02-04T21:12:58.912Z,1802.912109,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 21:12:59 GMT
+2025-02-04T21:12:58.912Z,1802.912720,8bef000,6 [FLog::Output] Settings Date timestamp is 1738703579
+2025-02-04T21:14:58.992Z,1922.992554,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 21:14:34 GMT
+2025-02-04T21:14:58.992Z,1922.992676,8bef000,6 [FLog::Output] Settings Date timestamp is 1738703674
+2025-02-04T21:15:52.921Z,1976.921875,9107000,6 [FLog::Output] // DIALOG BEGAN
+2025-02-04T21:15:54.778Z,1978.778931,9004000,6 [FLog::Output] // DIALOG ENDED - NO MORE DIALOG RESPONSES
+2025-02-04T21:16:59.069Z,2043.069824,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 21:16:59 GMT
+2025-02-04T21:16:59.070Z,2043.070435,8bef000,6 [FLog::Output] Settings Date timestamp is 1738703819
+2025-02-04T21:17:33.739Z,2077.739746,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=17826437539" load failed in Workspace.world.npcs.Perditus.Humanoid.Clothes: Request failed
+2025-02-04T21:17:33.739Z,2077.739990,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=17826437539" load failed in Workspace.world.npcs.Perditus.Head.face.Texture: Request failed
+2025-02-04T21:17:40.687Z,2084.687256,920a000,6 [FLog::Output] 1
+2025-02-04T21:17:41.279Z,2085.279541,9107000,6 [FLog::Output] setting cinematic mode to [false]
+2025-02-04T21:17:52.117Z,2096.117432,9107000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:17:52.118Z,2096.118164,9107000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:17:52.118Z,2096.118164,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:17:52.118Z,2096.118164,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:17:52.118Z,2096.118164,9107000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:17:58.307Z,2102.307373,9107000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:17:58.307Z,2102.307373,9107000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:17:58.307Z,2102.307373,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:17:58.307Z,2102.307373,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:17:58.307Z,2102.307373,9107000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:18:05.258Z,2109.258301,920a000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:18:05.259Z,2109.259033,920a000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:18:05.259Z,2109.259277,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:18:05.259Z,2109.259277,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:18:05.259Z,2109.259277,920a000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:18:19.951Z,2123.951172,9004000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:18:19.951Z,2123.951904,9004000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:18:19.951Z,2123.951904,9004000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:18:19.951Z,2123.951904,9004000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:18:19.951Z,2123.951904,9004000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:18:21.008Z,2125.008057,9107000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:18:21.008Z,2125.008057,9107000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:18:21.008Z,2125.008057,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:18:21.008Z,2125.008057,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:18:21.008Z,2125.008057,9107000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:18:21.823Z,2125.823486,9107000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:18:21.823Z,2125.823730,9107000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:18:21.823Z,2125.823730,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:18:21.823Z,2125.823730,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:18:21.823Z,2125.823730,9107000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:18:59.150Z,2163.150879,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 21:18:59 GMT
+2025-02-04T21:18:59.151Z,2163.151611,8bef000,6 [FLog::Output] Settings Date timestamp is 1738703939
+2025-02-04T21:19:30.943Z,2194.943359,9107000,6 [FLog::Output] // DIALOG BEGAN
+2025-02-04T21:19:33.502Z,2197.502686,9004000,6 [FLog::Output] // DIALOG ENDED - NO MORE DIALOG RESPONSES
+2025-02-04T21:19:36.787Z,2200.787354,9107000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:19:36.787Z,2200.787598,9107000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:19:36.787Z,2200.787598,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:19:36.787Z,2200.787598,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:19:36.787Z,2200.787598,9107000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:19:37.190Z,2201.190186,920a000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:19:37.190Z,2201.190186,920a000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:19:37.190Z,2201.190186,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:19:37.190Z,2201.190186,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:19:37.190Z,2201.190430,920a000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:19:37.586Z,2201.586182,920a000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:19:37.586Z,2201.586182,920a000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:19:37.586Z,2201.586182,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:19:37.586Z,2201.586182,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:19:37.586Z,2201.586182,920a000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:20:01.071Z,2225.071045,9107000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:20:01.071Z,2225.071045,9107000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:20:01.071Z,2225.071045,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:20:01.071Z,2225.071045,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:20:01.071Z,2225.071045,9107000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:20:10.456Z,2234.456299,9004000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:20:10.457Z,2234.457520,9004000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:20:10.457Z,2234.457520,9004000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:20:10.457Z,2234.457520,9004000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:20:10.457Z,2234.457520,9004000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:20:19.901Z,2243.901611,9004000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:20:19.901Z,2243.901611,9004000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:20:19.901Z,2243.901611,9004000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:20:19.901Z,2243.901611,9004000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:20:19.901Z,2243.901611,9004000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:20:20.444Z,2244.444580,9107000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:20:20.444Z,2244.444824,9107000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:20:20.444Z,2244.444824,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:20:20.444Z,2244.444824,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:20:20.444Z,2244.444824,9107000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:20:59.225Z,2283.225098,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 21:20:33 GMT
+2025-02-04T21:20:59.225Z,2283.225342,8bef000,6 [FLog::Output] Settings Date timestamp is 1738704033
+2025-02-04T21:21:14.403Z,2298.403076,9107000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:21:14.403Z,2298.403076,9107000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:21:14.403Z,2298.403076,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:21:14.403Z,2298.403320,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:21:14.403Z,2298.403320,9107000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:21:19.844Z,2303.844971,920a000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:21:19.844Z,2303.844971,920a000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:21:19.844Z,2303.844971,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:21:19.844Z,2303.844971,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:21:19.844Z,2303.844971,920a000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:22:59.296Z,2403.296143,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 21:22:33 GMT
+2025-02-04T21:22:59.296Z,2403.296875,8bef000,6 [FLog::Output] Settings Date timestamp is 1738704153
+2025-02-04T21:23:13.635Z,2417.635742,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#11784 0x7fedb9f55820) time:16205.5ms (net:12896.3ms callback:0.0ms timeInRetryQueue:3000.3ms)status:502 Bad Gateway bodySize:14 url:{ "https://thumbnails.roblox.com/v1/batch" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-04T21:23:13.653Z,2417.653076,920a000,6 [FLog::Error] Asset (Image) "rbxthumb://type=AvatarHeadShot&id=259238245&w=420&h=420&filters=" load failed in Workspace.world.map.Executive Headquarters.Model.Part.Kiwi.Texture: Request failed
+2025-02-04T21:23:13.891Z,2417.891846,9004000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:23:13.892Z,2417.892090,9004000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:23:13.892Z,2417.892090,9004000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:23:13.892Z,2417.892090,9004000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:23:13.892Z,2417.892090,9004000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:23:14.148Z,2418.148926,9107000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:23:14.149Z,2418.149170,9107000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:23:14.149Z,2418.149170,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:23:14.149Z,2418.149170,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:23:14.149Z,2418.149170,9107000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:23:22.139Z,2426.139404,9107000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:23:22.140Z,2426.140137,9107000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:23:22.140Z,2426.140381,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:23:22.140Z,2426.140381,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:23:22.140Z,2426.140381,9107000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:23:22.566Z,2426.566895,920a000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:23:22.566Z,2426.566895,920a000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:23:22.566Z,2426.566895,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:23:22.566Z,2426.566895,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:23:22.566Z,2426.566895,920a000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:23:32.476Z,2436.476318,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#11924 0x7fedbecef820) time:4602.7ms (net:596.2ms callback:0.0ms timeInRetryQueue:3000.9ms)status:503 Service Unavailable bodySize:113 url:{ "https://assetdelivery.roblox.com/v1/assets/batch" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-04T21:23:32.476Z,2436.476318,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=102212146437571" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Categories.Credits.Star.Image: Request failed
+2025-02-04T21:23:32.477Z,2436.477051,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=94973641055196" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Categories.Featured.Star.Image: Request failed
+2025-02-04T21:23:32.477Z,2436.477051,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=109723750546964" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.Featured.LimitedBundles.Products.ORCA BUNDLE.Gift.icon.Image: Request failed
+2025-02-04T21:23:32.477Z,2436.477051,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=18823535533" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Categories.Featured.New.Glow.Image: Request failed
+2025-02-04T21:23:32.477Z,2436.477295,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=70998636649073" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.Featured.LimitedBundles.Products.ORCA BUNDLE.Limited.Flare.Image: Request failed
+2025-02-04T21:23:32.477Z,2436.477295,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=81334197392530" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.Featured.LimitedBundles.Products.ORCA BUNDLE.CustomIcon.bundleicon.Lantern.Image: Request failed
+2025-02-04T21:23:32.477Z,2436.477295,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=118526218894549" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.Featured.LimitedBundles.Products.ORCA BUNDLE.CustomIcon.bundleicon.Bobber.Image: Request failed
+2025-02-04T21:23:32.478Z,2436.478027,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=108745492711499" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.Featured.Template.Available.ImageLabel.Image: Request failed
+2025-02-04T21:23:32.478Z,2436.478027,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=93698999473647" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.Featured.LimitedBundles.Products.ORCA BUNDLE.CustomIcon.bundleicon.Boat.Image: Request failed
+2025-02-04T21:23:32.478Z,2436.478027,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=128751380744861" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.Featured.LimitedBundles.Products.ORCA BUNDLE.Icon.Image: Request failed
+2025-02-04T21:23:32.478Z,2436.478027,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=107771821539873" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.Featured.Template.Tiles.Image: Request failed
+2025-02-04T21:23:40.476Z,2444.476807,8ae9000,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: transfer closed with outstanding read data remaining
+2025-02-04T21:23:40.477Z,2444.477051,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#11936 0x7feda258b620) time:9615.4ms (net:9614.3ms callback:0.0ms timeInRetryQueue:0.0ms) error:12 message:HttpError: Unknown url:{ "https://assetdelivery.roblox.com/v1/assets/batch" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-04T21:23:40.477Z,2444.477051,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=113824054246259" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.LimitedItems.Products.Orca’s Demise.Icon.Img.Image: Request failed
+2025-02-04T21:23:40.477Z,2444.477295,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=105691840615958" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.LimitedItems.Products.Dionysus’s Chalice.Icon.Img.Image: Request failed
+2025-02-04T21:23:40.477Z,2444.477295,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=138577831664381" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.LimitedItems.Products.Dionysus’s Chalice.IconA.Image: Request failed
+2025-02-04T21:23:47.807Z,2451.807129,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#11964 0x7fedc5d23820) time:8416.3ms (net:5145.3ms callback:0.0ms timeInRetryQueue:3000.3ms)status:504 Load Balancer Service Timeout bodySize:69 url:{ "https://presence.roblox.com/v1/presence/users" } ip:128.116.123.4 external:0 numberOfTimesRetried:1
+2025-02-04T21:23:49.388Z,2453.388184,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#11968 0x7fedd65c4420) time:5418.1ms (net:306.3ms callback:0.0ms timeInRetryQueue:3000.6ms)status:503 Service Unavailable bodySize:113 url:{ "https://assetdelivery.roblox.com/v1/assets/batch" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-04T21:23:49.388Z,2453.388184,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=102289882305296" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.Limiteds.Products.Bundle.corner.Image: Request failed
+2025-02-04T21:23:49.388Z,2453.388184,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=83458555502965" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.Limiteds.Products.Bundle.Background.Image: Request failed
+2025-02-04T21:23:50.848Z,2454.848145,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#11976 0x7fedc1cd4c20) time:3535.6ms (net:172.3ms callback:0.0ms timeInRetryQueue:3000.2ms)status:503 Service Unavailable bodySize:113 url:{ "https://assetdelivery.roblox.com/v1/assets/batch" } ip:128.116.123.4 external:0 numberOfTimesRetried:1
+2025-02-04T21:23:50.848Z,2454.848145,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=139481410314976" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.Credits.5.Vector.Image: Request failed
+2025-02-04T21:23:50.848Z,2454.848389,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=102942685604097" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.Gamepasses.Bobber Pack.Icon.Image: Request failed
+2025-02-04T21:23:50.848Z,2454.848389,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=125275251497885" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.Gamepasses.Sell Anywhere.Icon.Image: Request failed
+2025-02-04T21:23:50.848Z,2454.848389,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=18282723485" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.Gamepasses.Double XP.Icon.Image: Request failed
+2025-02-04T21:23:50.848Z,2454.848389,9abd000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=18282554130" load failed in Players.paninorealaccount009.PlayerGui.hud.safezone.shop.Products.Views.Main.Gamepasses.Appraisers Luck.Icon.Image: Request failed
+2025-02-04T21:23:53.455Z,2457.455322,9004000,6 [FLog::Output] nil nil
+2025-02-04T21:23:58.720Z,2462.720703,8ae9000,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: transfer closed with outstanding read data remaining
+2025-02-04T21:23:58.720Z,2462.720703,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#11999 0x7fedbcf5fc20) time:4548.9ms (net:4548.4ms callback:0.0ms timeInRetryQueue:0.0ms) error:12 message:HttpError: Unknown url:{ "https://users.roblox.com/v1/users/authenticated/app-launch-info" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-04T21:24:00.412Z,2464.412109,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#11988 0x7feda0867620) time:10547.9ms (net:4713.0ms callback:0.0ms timeInRetryQueue:3000.8ms)status:503 Service Unavailable bodySize:113 url:{ "https://presence.roblox.com/v1/presence/users" } ip:128.116.123.4 external:0 numberOfTimesRetried:1
+2025-02-04T21:24:01.117Z,2465.117920,920a000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:24:01.117Z,2465.117920,920a000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:24:01.117Z,2465.117920,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:24:01.118Z,2465.118164,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:24:01.118Z,2465.118164,920a000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:24:02.177Z,2466.177979,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#12000 0x7fedbcf63a20) time:8005.7ms (net:3319.3ms callback:0.0ms timeInRetryQueue:3000.1ms)status:503 Service Unavailable bodySize:113 url:{ "https://economy.roblox.com/v1/user/currency" } ip:128.116.123.4 external:0 numberOfTimesRetried:1
+2025-02-04T21:24:08.245Z,2472.245117,9004000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:24:08.245Z,2472.245117,9004000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:24:08.245Z,2472.245117,9004000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:24:08.245Z,2472.245117,9004000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:24:08.245Z,2472.245117,9004000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:24:18.047Z,2482.047852,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#12039 0x7feda1cf1a20) time:4321.9ms (net:882.4ms callback:0.0ms timeInRetryQueue:3000.1ms)status:503 Service Unavailable bodySize:113 url:{ "https://presence.roblox.com/v1/presence/users" } ip:128.116.123.4 external:0 numberOfTimesRetried:1
+2025-02-04T21:24:22.589Z,2486.589844,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#11995 0x7fedbc30de20) time:30127.0ms (net:357.5ms callback:0.0ms timeInRetryQueue:3000.2ms)status:404 Not Found bodySize:55 url:{ "https://thumbnails.roblox.com/v1/batch" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-04T21:24:22.611Z,2486.611572,9107000,6 [FLog::Error] Asset (Image) "rbxthumb://type=AvatarHeadShot&id=5347279444&w=420&h=420&filters=" load failed in Players.paninorealaccount009.PlayerGui.Gifting.Main.Frame.PlayerList.Main.HoleWorrior.IconFrame.Icon.Image: Request failed
+2025-02-04T21:24:32.324Z,2496.324463,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#12057 0x7fed9f1b5c20) time:12239.7ms (net:12239.7ms callback:0.0ms timeInRetryQueue:0.0ms)status:503 Service Instances Unavailable bodySize:69 url:{ "https://presence.roblox.com/v1/presence/users" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-04T21:24:32.400Z,2496.400635,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#12019 0x7fedbce24c20) time:27947.1ms (net:24482.3ms callback:0.0ms timeInRetryQueue:3000.7ms)status:502 Bad Gateway bodySize:69 url:{ "https://presence.roblox.com/v1/presence/users" } ip:128.116.123.4 external:0 numberOfTimesRetried:1
+2025-02-04T21:24:39.911Z,2503.911621,920a000,6 [FLog::Output] // DIALOG BEGAN
+2025-02-04T21:24:41.989Z,2505.989014,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#12097 0x7fed9f1e0620) time:5629.2ms (net:5629.2ms callback:0.0ms timeInRetryQueue:0.0ms)status:504 Load Balancer Service Timeout bodySize:69 url:{ "https://presence.roblox.com/v1/presence/users" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-04T21:24:42.983Z,2506.983887,9107000,6 [FLog::Output] // DIALOG ENDED - NO MORE DIALOG RESPONSES
+2025-02-04T21:24:50.625Z,2514.625732,920a000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:24:50.625Z,2514.625732,920a000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:24:50.625Z,2514.625732,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:24:50.625Z,2514.625732,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:24:50.625Z,2514.625732,920a000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:24:52.753Z,2516.753906,8ae9000,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Empty reply from server
+2025-02-04T21:24:52.754Z,2516.754395,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#12114 0x7feda1eb9620) time:12304.3ms (net:12304.2ms callback:0.0ms timeInRetryQueue:0.0ms) error:12 message:HttpError: Unknown url:{ "https://presence.roblox.com/v1/presence/users" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-04T21:24:52.814Z,2516.814453,920a000,6 [FLog::Warning] Warning: Unhandled Promise rejection:
+
+<HttpResponse: >
+
+CoreGui.RobloxGui.Modules.LuaApp.Components.EventReceivers.PresenceEventReceiver:65
+CorePackages.Workspace.Packages._Workspace.AppCommonLib.AppCommonLib.Signal:71 function fire
+CorePackages.Workspace.Packages._Workspace.RealtimeDelivery.RealtimeDelivery.RobloxEventReceiver:54
+
+2025-02-04T21:24:53.311Z,2517.311279,9107000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:24:53.311Z,2517.311523,9107000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:24:53.311Z,2517.311523,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:24:53.311Z,2517.311523,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:24:53.311Z,2517.311523,9107000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:24:59.375Z,2523.375000,8bef000,6 [FLog::Output] Settings Date header was Tue, 04 Feb 2025 21:24:40 GMT
+2025-02-04T21:24:59.375Z,2523.375000,8bef000,6 [FLog::Output] Settings Date timestamp is 1738704280
+2025-02-04T21:25:11.099Z,2535.099121,8ae9000,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Empty reply from server
+2025-02-04T21:25:11.099Z,2535.099854,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#12150 0x7fee84dbd820) time:21085.9ms (net:12271.1ms callback:0.0ms timeInRetryQueue:3000.2ms) error:12 message:HttpError: Unknown url:{ "https://presence.roblox.com/v1/presence/users" } ip:128.116.123.4 external:0 numberOfTimesRetried:1
+2025-02-04T21:25:11.123Z,2535.123535,9107000,6 [FLog::Warning] Warning: Unhandled Promise rejection:
+
+<HttpResponse: >
+
+CoreGui.RobloxGui.Modules.LuaApp.Components.EventReceivers.PresenceEventReceiver:65
+CorePackages.Workspace.Packages._Workspace.AppCommonLib.AppCommonLib.Signal:71 function fire
+CorePackages.Workspace.Packages._Workspace.RealtimeDelivery.RealtimeDelivery.RobloxEventReceiver:54
+
+2025-02-04T21:25:21.718Z,2545.718506,8ae9000,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: transfer closed with outstanding read data remaining
+2025-02-04T21:25:21.719Z,2545.719482,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#12216 0x7fed9f11ae20) time:9436.1ms (net:9435.0ms callback:0.0ms timeInRetryQueue:0.0ms) error:12 message:HttpError: Unknown url:{ "https://assetdelivery.roblox.com/v1/assets/batch" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-04T21:25:37.291Z,2561.291992,9004000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:25:37.291Z,2561.291992,9004000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:25:37.291Z,2561.291992,9004000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:25:37.291Z,2561.291992,9004000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:25:37.292Z,2561.292236,9004000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:25:40.801Z,2564.801025,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#12176 0x7fedbce27020) time:42385.6ms (net:14114.0ms callback:0.0ms timeInRetryQueue:3000.4ms)status:504 Load Balancer Service Timeout bodySize:69 url:{ "https://presence.roblox.com/v1/presence/users" } ip:128.116.123.4 external:0 numberOfTimesRetried:1
+2025-02-04T21:26:06.213Z,2590.213379,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#12282 0x7fedbcfec620) time:23359.8ms (net:14848.0ms callback:0.0ms timeInRetryQueue:3001.1ms)status:503 Service Unavailable bodySize:113 url:{ "https://presence.roblox.com/v1/presence/users" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-04T21:26:08.123Z,2592.123779,9107000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:26:08.124Z,2592.124023,9107000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:26:08.124Z,2592.124023,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:26:08.124Z,2592.124023,9107000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:26:08.124Z,2592.124023,9107000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:26:09.831Z,2593.831055,920a000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:26:09.831Z,2593.831055,920a000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:26:09.831Z,2593.831299,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:26:09.831Z,2593.831299,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:26:09.831Z,2593.831299,920a000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:26:13.156Z,2597.156738,920a000,6 [FLog::Warning] Warning: Infinite yield possible on 'preview:WaitForChild("list")'
+2025-02-04T21:26:13.156Z,2597.156982,920a000,6 [FLog::Output] Info: Stack Begin
+2025-02-04T21:26:13.156Z,2597.156982,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 148 - function ShowTooltip
+2025-02-04T21:26:13.156Z,2597.156982,920a000,6 [FLog::Output] Info: Script 'Players.paninorealaccount009.PlayerGui.hud.safezone.crafting.craftingclient.CraftingController', Line 968
+2025-02-04T21:26:13.156Z,2597.156982,920a000,6 [FLog::Output] Info: Stack End
+2025-02-04T21:26:20.166Z,2604.166016,9107000,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 35
+2025-02-04T21:26:20.191Z,2604.191895,5cb6ffc0,6 [FLog::SingleSurfaceApp] leaveUGCGame: (stage:UGCGame) blocking=0.
+2025-02-04T21:26:20.191Z,2604.191895,5cb6ffc0,6 [FLog::SingleSurfaceApp] leaveUGCGameInternal
+2025-02-04T21:26:20.193Z,2604.193604,5cb6ffc0,6 [FLog::SurfaceController] stop
+2025-02-04T21:26:20.193Z,2604.193604,5cb6ffc0,6 [FLog::SurfaceController] drainRenderingJobs
+2025-02-04T21:26:20.194Z,2604.194092,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:5]::~RenderJob
+2025-02-04T21:26:20.734Z,2604.734619,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: begin
+2025-02-04T21:26:20.735Z,2604.735107,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: end
+2025-02-04T21:26:20.735Z,2604.735107,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: stop: begin (blocking=false dataModel=0x7fee469ea200)
+2025-02-04T21:26:20.736Z,2604.736084,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: sendAnalyticsBeforeLeave: sending event None_None
+2025-02-04T21:26:20.737Z,2604.737549,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Stopped - Ugc
+2025-02-04T21:26:20.737Z,2604.737793,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: removing all observers for type Ugc
+2025-02-04T21:26:20.740Z,2604.740723,5cb6ffc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)
+2025-02-04T21:26:20.740Z,2604.740967,5cb6ffc0,6 [DFLog::SignalRCoreError] ID: 1 Disconnected - stop() called
+2025-02-04T21:26:20.753Z,2604.753906,9107000,7 [FLog::Network] Client:Disconnect
+2025-02-04T21:26:20.864Z,2604.864990,9107000,7 [FLog::Network] Time to disconnect replication data: 110.289688
+2025-02-04T21:26:20.871Z,2604.871338,9107000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-04T21:26:20.871Z,2604.871826,9107000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-04T21:26:20.871Z,2604.871826,9dcf000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-04T21:26:20.871Z,2604.871826,9dcf000,7 [FLog::Network] Connection lost
+2025-02-04T21:26:20.871Z,2604.871826,9dcf000,7 [FLog::Network] Connection lost: connectMode: Disconnect ASAP, timeMS:2604871, connectionTime 1313517
+2025-02-04T21:26:20.871Z,2604.871826,9dcf000,7 [FLog::Network] Connection lost: AckTimeout 0, IsOutgoingDataWaiting 0
+2025-02-04T21:26:20.871Z,2604.871826,9dcf000,7 [FLog::Network] Disconnection Notification. Reason: 285
+2025-02-04T21:26:22.485Z,2606.485352,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#12345 0x7fed9f1b4620) time:6307.9ms (net:6307.9ms callback:0.4ms timeInRetryQueue:0.0ms)status:504 Load Balancer Service Timeout bodySize:69 url:{ "https://friends.roblox.com/v1/users/5347279444/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-04T21:26:25.370Z,2609.370117,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#12335 0x7fedbcd5ac20) time:15109.9ms (net:15109.9ms callback:2.2ms timeInRetryQueue:0.0ms)status:503 Service Instances Unavailable bodySize:69 url:{ "https://presence.roblox.com/v1/presence/users" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-04T21:26:28.813Z,2612.813477,9107000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-04T21:26:28.813Z,2612.813965,9107000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider teardown
+2025-02-04T21:26:28.824Z,2612.824219,9107000,7 [FLog::Network] Client:Disconnect
+2025-02-04T21:26:28.837Z,2612.837402,8ae9000,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: transfer closed with outstanding read data remaining
+2025-02-04T21:26:28.837Z,2612.837646,8bef000,12 [DFLog::HttpTraceError] HttpResponse(#12343 0x7feda2472820) time:13355.9ms (net:10184.6ms callback:0.0ms timeInRetryQueue:3000.2ms) error:12 message:HttpError: Unknown url:{ "https://thumbnails.roblox.com/v1/batch" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-04T21:26:29.054Z,2613.054199,9107000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() destructor
+2025-02-04T21:26:29.054Z,2613.054443,9107000,7 [FLog::Network] NetworkClient:Remove
+2025-02-04T21:26:29.054Z,2613.054688,9107000,7 [DFLog::MegaReplicatorLogDisconnectCleanUpLog] Destroying MegaReplicator.
+2025-02-04T21:26:30.822Z,2614.822754,920a000,7 [FLog::Network] Replicator destroyed: 0x7fee170578d0
+2025-02-04T21:26:31.169Z,2615.169189,5cb6ffc0,6 [FLog::SingleSurfaceApp] shutDown: (stage:Native).
+2025-02-04T21:26:31.170Z,2615.170166,5cb6ffc0,6 [FLog::SingleSurfaceApp] destroyLuaApp: (stage:Native) blocking:true.
+2025-02-04T21:26:31.170Z,2615.170654,5cb6ffc0,6,Warning [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: finalize: Did not finalize due to state.
+2025-02-04T21:26:31.170Z,2615.170898,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: finalized
+2025-02-04T21:26:32.175Z,2616.175293,5cb6ffc0,12 [DFLog::HttpTraceError] HttpResponse(#12368 0x7fee3b7e1c20) time:166.9ms (net:166.9ms callback:0.0ms timeInRetryQueue:0.0ms) error:9 message:HttpError: Aborted url:{ "https://ecsv2.roblox.com/client/pbe" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-04T21:26:33.250Z,2617.250244,5cb6ffc0,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-04T21:26:33.250Z,2617.250244,5cb6ffc0,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider teardown
+2025-02-04T21:26:33.647Z,2617.647461,5cb6ffc0,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() destructor
+2025-02-04T21:26:33.662Z,2617.662842,5cb6ffc0,6,Warning [FLog::SingleSurfaceApp] destroyLuaApp: (stage:Native)... finished destroying luaApp.
+2025-02-04T21:26:33.663Z,2617.663086,5cb6ffc0,6 [FLog::SingleSurfaceApp] setStage: (stage:None)
+2025-02-04T21:26:33.663Z,2617.663086,5cb6ffc0,6 [FLog::SingleSurfaceApp] destroy controllers
+2025-02-04T21:26:33.664Z,2617.664551,5cb6ffc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController::CrossExperienceVoiceController()
+2025-02-04T21:26:33.665Z,2617.665039,5cb6ffc0,6,Info [FLog::UgcExperienceController] UgcExperienceController::~UgcExperienceController()
+2025-02-04T21:26:33.665Z,2617.665283,5cb6ffc0,6 [FLog::SurfaceController] SurfaceController[_:1]::~SurfaceController, count: 0
+2025-02-04T21:26:33.665Z,2617.665771,5cb6ffc0,6,Warning [FLog::Graphics] RenderView destroyed[1]
+2025-02-04T21:26:33.880Z,2617.880371,5cb6ffc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)

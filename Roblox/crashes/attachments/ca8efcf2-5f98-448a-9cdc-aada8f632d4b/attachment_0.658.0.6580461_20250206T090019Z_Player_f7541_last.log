@@ -1,0 +1,2840 @@
+2025-02-06T09:00:19.282Z,0.282432,5a175fc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs:(
+    "roblox-player:1+launchmode:play+gameinfo:6ND8e1VrT6zIyXnIPIZR8UIofTUbEtZZNGN7xItOUP7dz00IrnePBW5yqKkYZ-yQn5W4MJ3XiuxO128jAQlgvG0Eccjm2bVMIVPVCvoMB_18APM3uy-rgTHwCTuFwFokSoi4Gk41PyGGdDbd8ir4yDm0BWrgX7Up4LGw4yH4-pg3pU0XyLt0fM10AXSkHHUoGiaWsaOziL4tZHRW4vqV9ssxN86YoJY5dYHglkENmBI+launchtime:1738832417163+placelauncherurl:https%3A%2F%2Fwww.roblox.com%2FGame%2FPlaceLauncher.ashx%3Frequest%3DRequestGame%26browserTrackerId%3D1738344328674006%26placeId%3D2753915549%26isPlayTogetherGame%3Dfalse%26referredByPlayerId%3D0%26joinAttemptId%3Ddc54d342-7d82-4945-a26a-e1ab614d4c5a%26joinAttemptOrigin%3DPlayButton+browsertrackerid:1738344328674006+robloxLocale:en_us+gameLocale:en_us+channel:+LaunchExp:InApp"
+)
+2025-02-06T09:00:19.282Z,0.282604,5a175fc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs handling web launch
+2025-02-06T09:00:19.282Z,0.282648,5a175fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 1 = launchmode:play
+2025-02-06T09:00:19.282Z,0.282662,5a175fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 2 = gameinfo:6ND8e1VrT6zIyXnIPIZR8UIofTUbEtZZNGN7xItOUP7dz00IrnePBW5yqKkYZ-yQn5W4MJ3XiuxO128jAQlgvG0Eccjm2bVMIVPVCvoMB_18APM3uy-rgTHwCTuFwFokSoi4Gk41PyGGdDbd8ir4yDm0BWrgX7Up4LGw4yH4-pg3pU0XyLt0fM10AXSkHHUoGiaWsaOziL4tZHRW4vqV9ssxN86YoJY5dYHglkENmBI
+2025-02-06T09:00:19.282Z,0.282672,5a175fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 3 = launchtime:1738832417163
+2025-02-06T09:00:19.282Z,0.282682,5a175fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 4 = placelauncherurl:https%3A%2F%2Fwww.roblox.com%2FGame%2FPlaceLauncher.ashx%3Frequest%3DRequestGame%26browserTrackerId%3D1738344328674006%26placeId%3D2753915549%26isPlayTogetherGame%3Dfalse%26referredByPlayerId%3D0%26joinAttemptId%3Ddc54d342-7d82-4945-a26a-e1ab614d4c5a%26joinAttemptOrigin%3DPlayButton
+2025-02-06T09:00:19.282Z,0.282694,5a175fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 5 = browsertrackerid:1738344328674006
+2025-02-06T09:00:19.282Z,0.282704,5a175fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 6 = robloxLocale:en_us
+2025-02-06T09:00:19.282Z,0.282713,5a175fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 7 = gameLocale:en_us
+2025-02-06T09:00:19.282Z,0.282722,5a175fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 8 = channel:
+2025-02-06T09:00:19.282Z,0.282745,5a175fc0,6 [FLog::Output] Saved channel '' to 'com.roblox.RobloxPlayerChannel' for baseUrl 'www.roblox.com'
+2025-02-06T09:00:19.282Z,0.282762,5a175fc0,6 [FLog::Output] RobloxChannel has been set to production
+2025-02-06T09:00:19.282Z,0.282771,5a175fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 9 = LaunchExp:InApp
+2025-02-06T09:00:19.282Z,0.282821,5a175fc0,6 [FLog::MacLuaApp] (AppDelegate) reportClientStatus url: https://www.roblox.com/client-status/set?browserTrackerId=1738344328674006&status=BootstrapperInstalling
+2025-02-06T09:00:19.284Z,0.284080,5a175fc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs cold launch. Defer web launch until after initialization is complete.
+2025-02-06T09:00:19.284Z,0.284195,5a175fc0,6 [FLog::Output] (AppDelegate) applicationDidFinishLaunching
+2025-02-06T09:00:19.284Z,0.284311,5a175fc0,6,Info [FLog::UpdateController] UpdateController: versionQueryUrl: https://clientsettingscdn.roblox.com/v2/client-version/MacPlayer
+2025-02-06T09:00:19.284Z,0.284339,5a175fc0,6,Info [FLog::UpdateController] MacUpdateController: updaterFullPath: /Applications/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app/Contents/MacOS/RobloxPlayerInstaller
+2025-02-06T09:00:19.284Z,0.284382,7135000,6,Info [FLog::UpdateController] Update check thread started
+2025-02-06T09:00:19.284Z,0.284416,7135000,6,Info [FLog::UpdateController] Checking if updater exists at /Applications/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app/Contents/MacOS/RobloxPlayerInstaller. Returning 0
+2025-02-06T09:00:19.284Z,0.284428,5a175fc0,6 [FLog::Output] settingsUrl: https://clientsettingscdn.roblox.com/v2/settings-compressed/application/MacDesktopClient/876303bc5322fbc5499ad5d572b4a57fc6305ca10adf81769b9121c45b7d3a38.dcz
+2025-02-06T09:00:19.284Z,0.284452,7135000,6,Warning [FLog::UpdateController] Updater not found. Skipping update
+2025-02-06T09:00:19.284Z,0.284506,7135000,6,Info [FLog::UpdateController] Update check thread: updateRequired FALSE
+2025-02-06T09:00:19.353Z,0.353913,5a175fc0,6 [FLog::Output] Settings Date header was Thu, 06 Feb 2025 09:00:03 GMT
+2025-02-06T09:00:19.353Z,0.353944,5a175fc0,6 [FLog::Output] Settings Date timestamp is 1738832403
+2025-02-06T09:00:19.364Z,0.364500,5a175fc0,6 [FLog::ClientRunInfo] RobloxGitHash: 6874f45ec658019a67f19ab7de6e688c50292b01
+2025-02-06T09:00:19.364Z,0.364661,5a175fc0,6 [FLog::ClientRunInfo] The base url is https://www.roblox.com/
+2025-02-06T09:00:19.364Z,0.364672,5a175fc0,6 [FLog::ClientRunInfo] The channel is production
+2025-02-06T09:00:19.377Z,0.377360,5a175fc0,6 [FLog::Output] *******
+** Validated reflection database in 5.877336 ms, found 5363 entries with the following skipped: 0 enums, 0 properties, 0 functions, 0 events, 0 callbacks, 0 classes.
+*******
+
+2025-02-06T09:00:19.377Z,0.377849,5a175fc0,6 [FLog::Output] (AppDelegate) Universal App on Mac: initialize...
+2025-02-06T09:00:19.377Z,0.377870,5a175fc0,6 [FLog::Output] syncCookiesFromNativeToEngine was skipped
+2025-02-06T09:00:19.377Z,0.377941,5a175fc0,6 [FLog::Output] Current file descriptor limit is 2560, no need to increase
+2025-02-06T09:00:19.377Z,0.377955,5a175fc0,6 [FLog::Output] (AppDelegate) web browserTrackerId = [1738344328674006].
+2025-02-06T09:00:19.379Z,0.379176,5a175fc0,6 [FLog::Output] syncCookiesFromEngineToNative was skipped
+2025-02-06T09:00:19.379Z,0.379207,5a175fc0,6 [FLog::Output] (AppDelegate) launchTimeMillis = [-2026]
+2025-02-06T09:00:19.379Z,0.379451,5a175fc0,6,Info [FLog::PerformanceControlUtil] PerformanceControlUtil: registered single surface tunable (id=0)
+2025-02-06T09:00:19.379Z,0.379560,5a175fc0,6 [FLog::SingleSurfaceApp] initializeWithAppStarter
+2025-02-06T09:00:19.379Z,0.379576,5a175fc0,6 [FLog::SingleSurfaceApp] initializeSingleton
+2025-02-06T09:00:19.379Z,0.379987,5a175fc0,6 [FLog::Output] setAssetFolder /Applications/Roblox.app/Contents/Resources/content/
+2025-02-06T09:00:19.380Z,0.380195,5a175fc0,6 [FLog::Output] setExtraAssetFolder /Applications/Roblox.app/Contents/Resources/ExtraContent
+2025-02-06T09:00:19.380Z,0.380647,5a175fc0,6 [FLog::Output] Evaluating deferred inferred crashes
+2025-02-06T09:00:19.381Z,0.381264,5a175fc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)
+2025-02-06T09:00:19.381Z,0.381284,5a175fc0,6 [FLog::SingleSurfaceApp] setLocale
+2025-02-06T09:00:19.381Z,0.381296,5a175fc0,6,Warning [FLog::SingleSurfaceApp] instantiate controllers
+2025-02-06T09:00:19.381Z,0.381308,5a175fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::SurfaceController, count: 1
+2025-02-06T09:00:19.381Z,0.381318,5a175fc0,6,Warning [FLog::SingleSurfaceApp] instantiate experience coordinator
+2025-02-06T09:00:19.381Z,0.381346,5a175fc0,6,Info [FLog::PerformanceControlUtil] PerformanceControlUtil: registered single surface tunable (id=1)
+2025-02-06T09:00:19.381Z,0.381357,5a175fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController::CrossExperienceVoiceController() constructor
+2025-02-06T09:00:19.394Z,0.394528,71b8000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-06T09:00:19.394Z,0.394584,71b8000,12 [DFLog::HttpTraceError] HttpResponse(#7 0x7feffc8aca20) time:148.6ms (net:148.5ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://users.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-06T09:00:19.428Z,0.428061,71b8000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-06T09:00:19.428Z,0.428113,71b8000,12 [DFLog::HttpTraceError] HttpResponse(#5 0x7feffc83e220) time:182.2ms (net:182.1ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://locale.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-06T09:00:19.429Z,0.429461,71b8000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-06T09:00:19.429Z,0.429491,71b8000,12 [DFLog::HttpTraceError] HttpResponse(#6 0x7feffc8ac420) time:183.6ms (net:183.5ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://users.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-06T09:00:19.458Z,0.458554,71b8000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-06T09:00:19.458Z,0.458609,71b8000,12 [DFLog::HttpTraceError] HttpResponse(#0 0x7feffc8c0020) time:212.8ms (net:212.7ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://accountsettings.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-06T09:00:19.509Z,0.509189,71b8000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-06T09:00:19.509Z,0.509257,71b8000,12 [DFLog::HttpTraceError] HttpResponse(#2 0x7feffc88fe20) time:263.4ms (net:263.3ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-06T09:00:19.520Z,0.520766,71b8000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-06T09:00:19.520Z,0.520806,71b8000,12 [DFLog::HttpTraceError] HttpResponse(#3 0x7feffc890420) time:274.9ms (net:274.9ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-06T09:00:19.524Z,0.524590,71b8000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-06T09:00:19.524Z,0.524625,71b8000,12 [DFLog::HttpTraceError] HttpResponse(#4 0x7feffc83dc20) time:278.7ms (net:278.6ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-06T09:00:19.525Z,0.525817,71b8000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-06T09:00:19.525Z,0.525841,71b8000,12 [DFLog::HttpTraceError] HttpResponse(#1 0x7feffc80a820) time:280.0ms (net:279.9ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-06T09:00:19.685Z,0.685348,5a175fc0,6 [FLog::SingleSurfaceApp] launchUGCGame: (stage:Native).
+2025-02-06T09:00:19.685Z,0.685366,5a175fc0,6 [FLog::SingleSurfaceApp] launchUGCGameInternal
+2025-02-06T09:00:19.686Z,0.686868,5a175fc0,6 [FLog::SingleSurfaceApp] applyLocale
+2025-02-06T09:00:19.686Z,0.686881,5a175fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: initialize:
+2025-02-06T09:00:19.687Z,0.687416,5a175fc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Load configs for user key: app:1423803869895817846
+2025-02-06T09:00:19.688Z,0.688109,5a175fc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Retrieving patch
+2025-02-06T09:00:19.688Z,0.688125,5a175fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch DataModelPatchConfig : type=1, assetId=5345954812, assetVersion=10769, maxAppVersion=658, localAssetURI=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-06T09:00:19.688Z,0.688134,5a175fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : numAttempts=10
+2025-02-06T09:00:19.688Z,0.688173,5a175fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : contentId=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-06T09:00:19.688Z,0.688182,5a175fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : get patch from content provider for Model
+2025-02-06T09:00:19.694Z,0.694509,5a175fc0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+2025-02-06T09:00:19.963Z,0.963616,5a175fc0,6,Warning [DFLog::BootcampCLI139737Log] Hello world!!!!!!!!!!!!!!!!!!!!
+2025-02-06T09:00:19.963Z,0.963650,5a175fc0,6,Warning [FLog::Output] Hello Earthlings!
+2025-02-06T09:00:20.016Z,1.016543,5a175fc0,6,Info [FLog::Audio] OutputDevice 0: Cuffie esterne [BuiltIn] 48000/2
+2025-02-06T09:00:20.091Z,1.091043,5a175fc0,6,Info [FLog::Audio] InputDevice 0: Microfono esterno({af0144be-277e-8cc3-0000000000000000}) 48000/1/4
+2025-02-06T09:00:20.091Z,1.091083,5a175fc0,6,Info [FLog::Audio] InputDevice 1: Microfono iMac({50eb3c32-f018-032c-0000000000000000}) 48000/1/4
+2025-02-06T09:00:20.126Z,1.126017,5a175fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: join: initialized dm 0x7feffc4cbc00
+2025-02-06T09:00:20.126Z,1.126050,5a175fc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGame
+2025-02-06T09:00:20.126Z,1.126133,5a175fc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGamePostStandard: URL: https://gamejoin.roblox.com/v1/join-game BODY: {"isTeleport":true,"placeId":2753915549,"gameJoinAttemptId":"dc54d342-7d82-4945-a26a-e1ab614d4c5a"}
+2025-02-06T09:00:20.126Z,1.126189,5a175fc0,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 0, url: https://gamejoin.roblox.com/v1/join-game.
+2025-02-06T09:00:20.126Z,1.126245,5a175fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Started - Ugc
+2025-02-06T09:00:20.126Z,1.126338,5a175fc0,6 [FLog::SurfaceController] [_:1]::replaceDataModel: (stage:0, window = 0x7feffa080de0) [tid:0x7feff982b760]
+2025-02-06T09:00:20.126Z,1.126771,5a175fc0,6,Warning [FLog::Graphics] RenderView created[1]
+2025-02-06T09:00:20.128Z,1.128528,5a175fc0,6 [FLog::Graphics] Metal renderer: AMD Radeon Pro 5300
+2025-02-06T09:00:20.128Z,1.128548,5a175fc0,6 [channel] Caps: ThreadSafe 1 Framebuffer 1 FpFramebuffer 1 Shaders 1 Compute 1 Instancing 1 PerInstanceStream 1 ConstBuffers 1
+2025-02-06T09:00:20.128Z,1.128556,5a175fc0,6 [channel] Caps: Framebuffer: MRT 4 MSAA 8 Stencil 1
+2025-02-06T09:00:20.128Z,1.128563,5a175fc0,6 [channel] Caps: Framebuffer: Depth16 1 Depth24 1 DepthFloat 1 DepthClamp 1
+2025-02-06T09:00:20.128Z,1.128568,5a175fc0,6 [channel] Caps: Border Color 1
+2025-02-06T09:00:20.128Z,1.128574,5a175fc0,6 [channel] Caps: Texture: RGB10A2 1 RG11B10F 1 R16I 1
+2025-02-06T09:00:20.128Z,1.128579,5a175fc0,6 [channel] Caps: Texture: BC6H 1 ASTC HDR 0
+2025-02-06T09:00:20.128Z,1.128585,5a175fc0,6 [channel] Caps: Texture: DXT 1 PVR 0 ETC1 0 ETC2 0 Half 1
+2025-02-06T09:00:20.128Z,1.128590,5a175fc0,6 [channel] Caps: Texture: 3D 1 Array 1 Depth 1 MSAA 1 MSAAFP16 8
+2025-02-06T09:00:20.128Z,1.128596,5a175fc0,6 [channel] Caps: Texture: NPOT 1 PartialMips 1 CubeMipGen 1 CubeFramebuffer 1
+2025-02-06T09:00:20.128Z,1.128601,5a175fc0,6 [channel] Caps: Texture: Size 8192 Units 32 VertexUnits 32
+2025-02-06T09:00:20.128Z,1.128607,5a175fc0,6 [channel] Caps: ConstantBufferSize 65536
+2025-02-06T09:00:20.128Z,1.128612,5a175fc0,6 [channel] Caps: isAppleGPU 0
+2025-02-06T09:00:20.128Z,1.128617,5a175fc0,6 [channel] Caps: 32bIdx 1 Memoryless 0
+2025-02-06T09:00:20.128Z,1.128623,5a175fc0,6 [channel] Caps: ColorBGR 0 RTFlip 0 MinusOneToOneDepth 0
+2025-02-06T09:00:20.132Z,1.132554,5a175fc0,6 [FLog::Graphics] Metal: creating framebuffer 5120x2528
+2025-02-06T09:00:20.132Z,1.132591,5a175fc0,6 [FLog::Graphics] Video memory size: 2147483648
+2025-02-06T09:00:20.181Z,1.181680,5a175fc0,6 [FLog::Graphics] Loaded 972 shaders from pack metal_osx variant default (7121760 bytes)
+2025-02-06T09:00:20.181Z,1.181708,5a175fc0,6 [FLog::Graphics] Compiled 677 shaders in 49 ms
+2025-02-06T09:00:20.204Z,1.204231,5a175fc0,6 [FLog::SurfaceController] SurfaceController::disableVR
+2025-02-06T09:00:20.204Z,1.204344,5a175fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7feffc4cbc00)
+2025-02-06T09:00:20.204Z,1.204370,5a175fc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:1]::RenderJob
+2025-02-06T09:00:20.204Z,1.204383,5a175fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7feffc4cbc00)
+2025-02-06T09:00:20.204Z,1.204396,5a175fc0,6 [FLog::SingleSurfaceApp] setStage: (stage:UGCGame)
+2025-02-06T09:00:20.204Z,1.204407,5a175fc0,6 [FLog::SingleSurfaceApp] userDidLogin
+2025-02-06T09:00:20.204Z,1.204414,5a175fc0,6 [FLog::SingleSurfaceApp] applyLocale
+2025-02-06T09:00:20.204Z,1.204438,77d3000,6 [FLog::Output] (AppDelegate) Doing machine id check.
+2025-02-06T09:00:20.218Z,1.218450,76d0000,6,Info [FLog::UgcExperienceController] UgcExperienceController: submitStartGameTask: scrips are loaded 0x7feffc4cbc00
+2025-02-06T09:00:20.218Z,1.218822,75cd000,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+2025-02-06T09:00:20.243Z,1.243506,5a175fc0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+2025-02-06T09:00:20.249Z,1.249834,5a175fc0,6 [FLog::Graphics] LayeredClothingMode updated: LC=1 HSR=1
+2025-02-06T09:00:20.254Z,1.254991,5a175fc0,6 [FLog::Graphics] SceneManager: resizing main targets to 2560x1264
+2025-02-06T09:00:20.341Z,1.341229,5a175fc0,6 [FLog::Graphics] Metal: resizing main framebuffer to 5120x2880
+2025-02-06T09:00:20.346Z,1.346295,5a175fc0,6 [FLog::Graphics] SceneManager: resizing main targets to 2560x1440
+2025-02-06T09:00:21.398Z,2.398747,75cd000,6 [FLog::GameJoinUtil] Game join succeeded.
+2025-02-06T09:00:21.398Z,2.398780,75cd000,6 [FLog::GameJoinUtil] GameJoinUtil::processing join parameters
+2025-02-06T09:00:21.402Z,2.402112,76d0000,7 [FLog::Network] NetworkClient:Create
+2025-02-06T09:00:21.402Z,2.402500,76d0000,6 [FLog::GameJoinUtil] Null EventId
+2025-02-06T09:00:21.402Z,2.402598,76d0000,10 [DFLog::KeyRing] Parsed config created at: 11:59 4/1/2024.
+2025-02-06T09:00:21.404Z,2.404542,76d0000,6 [FLog::Output] AnalyticsSessionId is b5d734fc-46aa-4728-8e7a-d9f0d143ff82.
+2025-02-06T09:00:21.404Z,2.404574,76d0000,6 [FLog::Output] ! Joining game '254bd593-5adc-4285-8658-a0d4da477d23' place 2753915549 at 10.206.11.17
+2025-02-06T09:00:21.404Z,2.404606,76d0000,6 [FLog::GameJoinLoadTime] Report game_join_loadtime: sid:b5d734fc-46aa-4728-8e7a-d9f0d143ff82, clienttime:1738832421.7190001011, join_time:1.717178703000000084, referral_page:RequestGame, placeid:2753915549, userid:3047960021, universeid:994732206, 
+2025-02-06T09:00:21.406Z,2.406393,76d0000,7 [FLog::Network] Client will attempt to connect following server endpoints with threadSleepTime(-1)
+2025-02-06T09:00:21.406Z,2.406423,76d0000,7 [FLog::Network] UDMUX Address = 128.116.5.33, Port = 65230 | RCC Server Address = 10.206.11.17, Port = 65230
+2025-02-06T09:00:21.407Z,2.407504,76d0000,7 [FLog::Network] binding socket on inaddr_any:0
+
+2025-02-06T09:00:21.419Z,2.419340,76d0000,6 [FLog::Output] Connecting to UDMUX server 128.116.5.33:65230, and RCC server 10.206.11.17:65230
+2025-02-06T09:00:21.489Z,2.489748,71b8000,6,Critical [DFLog::RbxStorage] RbxStorage::init [INIT] availableDiskSpace: 57807376384 bytes, oldCacheSize: -1 bytes, elapsed: 0.039 ms
+2025-02-06T09:00:21.507Z,2.507754,71b8000,6,Error [DFLog::SQLite] sqlite3_error_log: 283 - recovered 185 frames from WAL file /private/var/folders/83/3w46ryz13191t1qd7k9xctdm0000gn/T/Roblox/rbx-storage.db-wal
+2025-02-06T09:00:21.510Z,2.510831,71b8000,6,Critical [DFLog::RbxStorage] RbxStorage::init [DONE] name: TelemetryCache(SqliteCache+TelemetryCache(FileCache)), duration: 20.572 ms, dbOpenCount: 5, dbMaxMemory: 0.260 MiB, dbTotalSize: 0.000 MiB, dbNumItems: 1, fileTotalSize: 0.000 MiB, fileNumItems: 0
+2025-02-06T09:00:21.617Z,2.617651,76d0000,6 [FLog::Output] Connection accepted from 128.116.5.33|65230
+2025-02-06T09:00:21.619Z,2.619722,76d0000,7 [FLog::Network] serverId: 128.116.5.33|65230
+2025-02-06T09:00:21.619Z,2.619790,76d0000,7 [FLog::Network] Replicator created for player 128.116.5.33|65230
+2025-02-06T09:00:21.619Z,2.619800,76d0000,7 [FLog::Network] Replicator created: 0x7ff014c93ab0
+2025-02-06T09:00:21.805Z,2.805280,76d0000,7 [FLog::Network] Time taken to initialize schema = 3.866710 ms
+2025-02-06T09:00:21.805Z,2.805394,76d0000,7 [FLog::Network] Assigned peer id = 438
+2025-02-06T09:00:21.805Z,2.805584,76d0000,7 [FLog::Network] Join snapshot timer: 0.173525
+2025-02-06T09:00:21.816Z,2.816369,76d0000,6 [FLog::DataModelPatchConfigurer] OTAPollingEnabled set to: false
+2025-02-06T09:00:21.851Z,2.851237,76d0000,6,Info [FLog::AudioFocusManager] AudioFocusManager::AudioFocusManager() constructor
+2025-02-06T09:00:21.851Z,2.851292,76d0000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() constructor
+2025-02-06T09:00:21.851Z,2.851325,76d0000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-06T09:00:21.851Z,2.851381,76d0000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider setup
+2025-02-06T09:00:23.402Z,4.402794,77d3000,6 [FLog::Output] Chat message from unknown Player 128.116.5.33|65230 –¥—Ä—É–≥
+2025-02-06T09:00:23.471Z,4.471599,77d3000,6 [FLog::Warning] Warning: Cloud instance must exist under Terrain node in workspace to be visible.
+2025-02-06T09:00:24.687Z,5.687199,75cd000,6 [FLog::Warning] Warning: Cloud instance must exist under Terrain node in workspace to be visible.
+2025-02-06T09:00:24.733Z,5.733553,75cd000,6 [FLog::Output] Server RobloxGitHash: 56a89352ee772e2d2f053a2758f8679453495915
+2025-02-06T09:00:24.733Z,5.733835,75cd000,6 [FLog::Output] Server Prefix: 0.659.0.6590474_20250206T051941Z_RCC_a0c8a
+2025-02-06T09:00:25.057Z,6.057164,75cd000,6 [FLog::Warning] Warning: Players.paninorealaccount009.PlayerScripts.ShipController.Controllers.Movement:135: Clamped specified Density value of 999999 to 100. Acceptable range is 0.0001 to 100
+2025-02-06T09:00:25.084Z,6.084400,5a175fc0,6 [FLog::Graphics] LayeredClothingMode updated: LC=0 HSR=0
+2025-02-06T09:00:25.107Z,6.107103,5a175fc0,6 [FLog::Graphics] Terrain TextureArray 512x512, arraySize: 36, mip: 10
+2025-02-06T09:00:25.228Z,6.228216,5a175fc0,6 [FLog::Error] Asset (Image) "" load failed in Sky.SkyboxRt: Unexpected URL
+2025-02-06T09:00:25.242Z,6.242076,5a175fc0,6 [FLog::Error] Asset (Image) "" load failed in Workspace.Map.Sky.Waterfall.Mist.Mist.Texture: Unexpected URL
+2025-02-06T09:00:25.265Z,6.265762,5a175fc0,6 [FLog::GameJoinUtil] GameJoinUtil::initiateTeleportToPlace: URL: https://gamejoin.roblox.com/v1/join-game POST Body: {"isTeleport":true,"placeId":7449423635,"isTeleport":true,"isImmersiveAdsTeleport":false,"gameJoinAttemptId":"bcf3d0bf-10bd-40f1-9da8-9ada01a85c72"}
+2025-02-06T09:00:25.279Z,6.279831,5a175fc0,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequestForTeleport: requestCount: 0, url: https://gamejoin.roblox.com/v1/join-game
+2025-02-06T09:00:25.491Z,6.491976,75cd000,6 [FLog::Output] üçç Running TopbarPlus v3.0.2 by ForeverHD
+2025-02-06T09:00:25.735Z,6.735134,75cd000,6 [FLog::GameJoinUtil] Default handler, teleport succeeded.
+2025-02-06T09:00:25.736Z,6.736039,5a175fc0,6 [FLog::SurfaceController] stop
+2025-02-06T09:00:25.736Z,6.736066,5a175fc0,6 [FLog::SurfaceController] drainRenderingJobs
+2025-02-06T09:00:25.767Z,6.767162,5a175fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: doTeleport: url 
+2025-02-06T09:00:25.767Z,6.767202,5a175fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: doTeleport: ticket 
+2025-02-06T09:00:25.767Z,6.767213,5a175fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: doTeleport: joinScriptUrl https://assetgame.roblox.com/Game/Join.ashx?ticketVersion=2&ticket={"UserId"%3a3047960021%2c"UserName"%3a"paninorealaccount009"%2c"DisplayName"%3a"Jack"%2c"CharacterFetchUrl"%3a"https%3a%2f%2fapi.roblox.com%2fv1.1%2favatar-fetch%2f%3fplaceId%3d7449423635%26userId%3d3047960021"%2c"GameId"%3a"eb2e5673-8d02-445f-a1fe-f676d9f4d4ad"%2c"PlaceId"%3a7449423635%2c"UniverseId"%3a994732206%2c"ServerId"%3a124139%2c"ServerPort"%3a62072%2c"IsTeleport"%3atrue%2c"FollowUserId"%3anull%2c"TimeStamp"%3a"02%2f06%2f2025+09%3a00%3a25"%2c"CharacterAppearanceId"%3a3047960021%2c"AlternateName"%3anull%2c"JoinTypeId"%3a10%2c"MatchmakingDecisionId"%3a"e26fb7db-c60b-4134-9838-e3b75c364a73"%2c"GameJoinMetadata"%3a{"JoinSource"%3a1%2c"RequestType"%3a0%2c"MatchmakingDecisionId"%3a"e26fb7db-c60b-4134-9838-e3b75c364a73"%2c"IsPlaceVoiceChatEnabled"%3afalse}%2c"SourcePlaceId"%3a2753915549%2c"SourceUniverseId"%3a
+2025-02-06T09:00:25.767Z,6.767593,5a175fc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Retrieving patch
+2025-02-06T09:00:25.767Z,6.767616,5a175fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch DataModelPatchConfig : type=1, assetId=5345954812, assetVersion=10769, maxAppVersion=658, localAssetURI=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-06T09:00:25.767Z,6.767627,5a175fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : numAttempts=10
+2025-02-06T09:00:25.767Z,6.767687,5a175fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : contentId=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-06T09:00:25.767Z,6.767696,5a175fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : get patch from content provider for Model
+2025-02-06T09:00:25.772Z,6.772132,5a175fc0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+2025-02-06T09:00:25.776Z,6.776547,77d3000,7 [FLog::Network] Client:Disconnect
+2025-02-06T09:00:25.776Z,6.776931,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=98916321828215" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:25.776Z,6.776985,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=84013034085846" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:25.777Z,6.777017,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=122911500223006" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:25.777Z,6.777047,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=71327000551323" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:25.777Z,6.777091,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=99756311043187" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:25.777Z,6.777149,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=92294162795390" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:25.777Z,6.777192,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=7152367896" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:25.777Z,6.777230,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=10122845177" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:25.777Z,6.777272,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=10407131656" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:25.777Z,6.777321,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=112123119680813" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:25.777Z,6.777364,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=106086802206934" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:25.777Z,6.777448,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=94785990637998" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:25.777Z,6.777894,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=78785040232067" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:25.777Z,6.777996,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=130723287037570" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:25.778Z,6.778317,77d3000,7 [FLog::Network] Time to disconnect replication data: 1.739481
+2025-02-06T09:00:25.778Z,6.778361,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=7152363872" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:25.778Z,6.778935,77d3000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-06T09:00:25.778Z,6.778964,77d3000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-06T09:00:25.778Z,6.778986,6e23000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-06T09:00:25.779Z,6.779063,6e23000,7 [FLog::Network] Connection lost
+2025-02-06T09:00:25.779Z,6.779075,6e23000,7 [FLog::Network] Connection lost: connectMode: Disconnect ASAP, timeMS:6778, connectionTime 2546
+2025-02-06T09:00:25.779Z,6.779082,6e23000,7 [FLog::Network] Connection lost: AckTimeout 0, IsOutgoingDataWaiting 0
+2025-02-06T09:00:25.779Z,6.779102,6e23000,7 [FLog::Network] Disconnection Notification. Reason: 285
+2025-02-06T09:00:26.063Z,7.063367,5a175fc0,6,Warning [DFLog::BootcampCLI139737Log] Hello world!!!!!!!!!!!!!!!!!!!!
+2025-02-06T09:00:26.063Z,7.063395,5a175fc0,6,Warning [FLog::Output] Hello Earthlings!
+2025-02-06T09:00:26.066Z,7.066230,5a175fc0,6,Info [FLog::Audio] OutputDevice 0: Cuffie esterne [BuiltIn] 48000/2
+2025-02-06T09:00:26.072Z,7.072355,5a175fc0,6,Info [FLog::Audio] InputDevice 0: Microfono esterno({af0144be-277e-8cc3-0000000000000000}) 48000/1/4
+2025-02-06T09:00:26.072Z,7.072403,5a175fc0,6,Info [FLog::Audio] InputDevice 1: Microfono iMac({50eb3c32-f018-032c-0000000000000000}) 48000/1/4
+2025-02-06T09:00:26.076Z,7.076202,5a175fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: finishTeleportWithJoinScriptPayload: begin
+2025-02-06T09:00:26.076Z,7.076305,5a175fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: updateServerTypeAndSendAnalytics: sending event None_None
+2025-02-06T09:00:26.078Z,7.078613,5a175fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7fefeaed2200)
+2025-02-06T09:00:26.078Z,7.078678,5a175fc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:2]::RenderJob
+2025-02-06T09:00:26.078Z,7.078691,5a175fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7fefeaed2200)
+2025-02-06T09:00:26.078Z,7.078750,5a175fc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:1]::~RenderJob
+2025-02-06T09:00:26.157Z,7.157322,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=114570931132525" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:26.157Z,7.157499,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=133189396437938" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:26.157Z,7.157542,7c6e000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=84644330177202" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:26.592Z,7.592700,77d3000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-06T09:00:26.647Z,7.647562,77d3000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider teardown
+2025-02-06T09:00:26.647Z,7.647710,77d3000,7 [FLog::Network] Client:Disconnect
+2025-02-06T09:00:26.805Z,7.805471,77d3000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() destructor
+2025-02-06T09:00:26.820Z,7.820406,77d3000,7 [FLog::Network] NetworkClient:Remove
+2025-02-06T09:00:26.820Z,7.820440,77d3000,7 [DFLog::MegaReplicatorLogDisconnectCleanUpLog] Destroying MegaReplicator.
+2025-02-06T09:00:27.248Z,8.248130,76d0000,7 [FLog::Network] Replicator destroyed: 0x7ff014c93ab0
+2025-02-06T09:00:27.356Z,8.356388,76d0000,6,Info [FLog::UgcExperienceController] UgcExperienceController: submitStartGameTask: scrips are loaded 0x7fefeaed2200
+2025-02-06T09:00:27.356Z,8.356461,76d0000,7 [FLog::Network] NetworkClient:Create
+2025-02-06T09:00:27.356Z,8.356824,76d0000,10 [DFLog::KeyRing] Parsed config created at: 11:59 4/1/2024.
+2025-02-06T09:00:27.360Z,8.360215,76d0000,6 [FLog::Output] AnalyticsSessionId is 702b77f8-d7e6-47ba-b1db-efa6655fe07a.
+2025-02-06T09:00:27.360Z,8.360268,76d0000,6 [FLog::Output] ! Joining game 'eb2e5673-8d02-445f-a1fe-f676d9f4d4ad' place 7449423635 at 10.202.2.212
+2025-02-06T09:00:27.360Z,8.360325,76d0000,6 [FLog::GameJoinLoadTime] Report game_join_loadtime: sid:702b77f8-d7e6-47ba-b1db-efa6655fe07a, clienttime:1738832427.6749999523, join_time:0, referral_page:, placeid:7449423635, userid:3047960021, universeid:994732206, 
+2025-02-06T09:00:27.364Z,8.364045,76d0000,7 [FLog::Network] Client will attempt to connect following server endpoints with threadSleepTime(-1)
+2025-02-06T09:00:27.364Z,8.364062,76d0000,7 [FLog::Network] UDMUX Address = 128.116.33.33, Port = 62072 | RCC Server Address = 10.202.2.212, Port = 62072
+2025-02-06T09:00:27.364Z,8.364898,76d0000,7 [FLog::Network] binding socket on inaddr_any:0
+
+2025-02-06T09:00:27.377Z,8.377844,76d0000,6 [FLog::Output] Connecting to UDMUX server 128.116.33.33:62072, and RCC server 10.202.2.212:62072
+2025-02-06T09:00:27.378Z,8.378558,75cd000,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+2025-02-06T09:00:27.379Z,8.379039,5a175fc0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+2025-02-06T09:00:27.385Z,8.385975,5a175fc0,6 [FLog::Graphics] LayeredClothingMode updated: LC=1 HSR=1
+2025-02-06T09:00:27.566Z,8.566640,76d0000,6 [FLog::Output] Connection accepted from 128.116.33.33|62072
+2025-02-06T09:00:27.574Z,8.574266,76d0000,7 [FLog::Network] serverId: 128.116.33.33|62072
+2025-02-06T09:00:27.590Z,8.590922,76d0000,7 [FLog::Network] Replicator created for player 128.116.33.33|62072
+2025-02-06T09:00:27.590Z,8.590945,76d0000,7 [FLog::Network] Replicator created: 0x7ff023af2090
+2025-02-06T09:00:27.754Z,8.754230,76d0000,7 [FLog::Network] Time taken to initialize schema = 4.319186 ms
+2025-02-06T09:00:27.754Z,8.754422,76d0000,7 [FLog::Network] Assigned peer id = 481
+2025-02-06T09:00:27.754Z,8.754710,76d0000,7 [FLog::Network] Join snapshot timer: 0.273149
+2025-02-06T09:00:27.806Z,8.806207,75cd000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() constructor
+2025-02-06T09:00:27.813Z,8.813754,75cd000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-06T09:00:27.813Z,8.813787,75cd000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider setup
+2025-02-06T09:00:28.748Z,9.748211,75cd000,6 [FLog::Warning] Warning: Cloud instance must exist under Terrain node in workspace to be visible.
+2025-02-06T09:00:28.880Z,9.880684,5a175fc0,6 [FLog::Graphics] LayeredClothingMode updated: LC=0 HSR=0
+2025-02-06T09:00:29.918Z,10.918426,76d0000,6 [FLog::Warning] Warning: Cloud instance must exist under Terrain node in workspace to be visible.
+2025-02-06T09:00:29.934Z,10.934106,76d0000,6 [FLog::Output] Server RobloxGitHash: 56a89352ee772e2d2f053a2758f8679453495915
+2025-02-06T09:00:29.934Z,10.934141,76d0000,6 [FLog::Output] Server Prefix: 0.659.0.6590474_20250205T212032Z_RCC_61f81
+2025-02-06T09:00:30.092Z,11.092261,5a175fc0,6 [FLog::Graphics] Terrain TextureArray 512x512, arraySize: 36, mip: 10
+2025-02-06T09:00:30.383Z,11.383643,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=10407131656" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.383Z,11.383713,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=7152363872" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.383Z,11.383804,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=10122845177" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.383Z,11.383835,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=7152367896" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.676Z,11.676644,75cd000,6 [FLog::Output] üçç Running TopbarPlus v3.0.2 by ForeverHD
+2025-02-06T09:00:30.878Z,11.878833,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=94785990637998" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.878Z,11.878896,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=133189396437938" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.878Z,11.878929,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=98916321828215" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.878Z,11.878987,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=92294162795390" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.879Z,11.879087,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=130723287037570" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.879Z,11.879146,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=84013034085846" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.879Z,11.879190,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=122911500223006" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.879Z,11.879221,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=71327000551323" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.879Z,11.879247,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=78785040232067" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.879Z,11.879272,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=84644330177202" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.879Z,11.879303,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=99756311043187" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.879Z,11.879329,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=112123119680813" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.879Z,11.879354,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=114570931132525" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:30.879Z,11.879592,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=106086802206934" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:31.465Z,12.465393,76d0000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=630062557" load failed in Workspace.Characters.mehmet23717.Humanoid.Clothes: Failed to resolve texture format | 76 65 72 73 69 6f 6e 20 32 2e 30 30 0a 0c 00 24 0c ec 02 00 00 68 01 00 00 dd fe 94 be 40 54 87 be a2 76 07 3f ee 29 21 bf 3f fe 06 3d 3a b9 46 3f 00 7b 0f 3c 64 e5 63 3f 00 00 00 00 8a 61 55     version 2.00...$.Ï...h...›˛îæ@Táæ¢v.?Ó)!ø?˛.=:πF?.{.<dÂc?....äaU
+2025-02-06T09:00:35.710Z,16.710148,77d3000,6 [FLog::Warning] Warning: Infinite yield possible on 'Players.paninorealaccount009.PlayerGui:WaitForChild("Main")'
+2025-02-06T09:00:35.710Z,16.710463,77d3000,6 [FLog::Output] Info: Stack Begin
+2025-02-06T09:00:35.710Z,16.710526,77d3000,6 [FLog::Output] Info: Script 'Script Raptor.Thread', Line 495
+2025-02-06T09:00:35.710Z,16.710558,77d3000,6 [FLog::Output] Info: Script 'ReplicatedStorage.DialogueController', Line 30
+2025-02-06T09:00:35.710Z,16.710573,77d3000,6 [FLog::Output] Info: Stack End
+2025-02-06T09:00:36.167Z,17.167566,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=12986188447" load failed in Workspace.Map.Turtle.FanArt.2.Container.SurfaceGui.ImageLabel.Image: Request failed
+2025-02-06T09:00:36.556Z,17.556568,5a175fc0,6 [FLog::Error] Asset (Image) "rbxtemp://72" load failed in Workspace.ChestModels.DiamondChest.LootTexture.ParticleAttachment.CoinAttachment.Coins.Texture: Request failed
+2025-02-06T09:00:37.481Z,18.481171,75cd000,6 [FLog::Output] cleaning up selection controller
+2025-02-06T09:00:38.015Z,19.015959,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=1216115800" load failed in Workspace.NPCs.tort.NPC.Clothes: Request failed
+2025-02-06T09:00:38.163Z,19.163633,7d74000,6 [FLog::Error] Asset (Animation) "rbxassetid://11542374730" load failed in Animation.AnimationId: Animation failed to load
+2025-02-06T09:00:38.163Z,19.163685,7d74000,6 [FLog::Error] Error: Failed to load animation with sanitized ID rbxassetid://11542374730: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=11542374730&serverplaceid=7449423635
+2025-02-06T09:00:38.467Z,19.467031,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=78495205292189" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:38.467Z,19.467104,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=119223257080224" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:38.467Z,19.467157,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=76478811218378" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:38.467Z,19.467209,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=130909934312256" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:38.467Z,19.467257,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=99525562920027" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:38.467Z,19.467295,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=121175008816049" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:38.467Z,19.467337,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=74444414062000" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:38.467Z,19.467375,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=77675844427845" load failed in TextureManager::PreloadTexture: Request failed
+2025-02-06T09:00:44.701Z,25.701982,75cd000,6 [FLog::Output] ALCHEMY HUB UI LIBRARY SCRIPT
+
+This made by Alchemy Team ( io.Luable / ACM )
+Modification of the ui, or use the ui for any reason is not allowed.
+
+Copyright ¬© 2024 Alchemy Hub - Script. All Rights Reserved.
+
+2025-02-06T09:00:44.702Z,25.702526,75cd000,6 [FLog::Warning] Warning: 	ALCHEMY HUB UI LIBRARY SCRIPT
+	
+	This made by Alchemy Team ( io.Luable / ACM )
+	Modification of the ui, or use the ui for any reason is not allowed.
+	
+	Copyright ¬© 2024 Alchemy Hub - Script. All Rights Reserved.
+
+2025-02-06T09:00:45.927Z,26.927637,76d0000,6 [FLog::Output] 768187
+2025-02-06T09:00:46.819Z,27.819574,75cd000,6 [FLog::Output] ALCHEMY HUB UI LIBRARY SCRIPT
+
+This made by Alchemy Team ( io.Luable / ACM )
+Modification of the ui, or use the ui for any reason is not allowed.
+
+Copyright ¬© 2024 Alchemy Hub - Script. All Rights Reserved.
+
+2025-02-06T09:00:46.820Z,27.820107,75cd000,6 [FLog::Warning] Warning: 	ALCHEMY HUB UI LIBRARY SCRIPT
+	
+	This made by Alchemy Team ( io.Luable / ACM )
+	Modification of the ui, or use the ui for any reason is not allowed.
+	
+	Copyright ¬© 2024 Alchemy Hub - Script. All Rights Reserved.
+
+2025-02-06T09:00:47.166Z,28.166763,75cd000,6 [FLog::Output] discord.gg/alchemyhub
+2025-02-06T09:02:20.284Z,121.284088,71b8000,6 [FLog::Output] Settings Date header was Thu, 06 Feb 2025 09:02:02 GMT
+2025-02-06T09:02:20.284Z,121.284378,71b8000,6 [FLog::Output] Settings Date timestamp is 1738832522
+2025-02-06T09:02:46.345Z,147.345016,76d0000,6 [FLog::Error] Asset (Animation) "rbxassetid://11542374730" load failed in Animation.AnimationId: Animation failed to load
+2025-02-06T09:04:02.867Z,223.867950,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=12988467436" load failed in Workspace.Map.Turtle.FanArt.4.Container.SurfaceGui.ImageLabel.Image: Request failed
+2025-02-06T09:04:05.334Z,226.334137,76d0000,6 [FLog::Output] 763568
+2025-02-06T09:04:06.233Z,227.233902,77d3000,6 [FLog::Output] ALCHEMY HUB UI LIBRARY SCRIPT
+
+This made by Alchemy Team ( io.Luable / ACM )
+Modification of the ui, or use the ui for any reason is not allowed.
+
+Copyright ¬© 2024 Alchemy Hub - Script. All Rights Reserved.
+
+2025-02-06T09:04:06.234Z,227.234695,77d3000,6 [FLog::Warning] Warning: 	ALCHEMY HUB UI LIBRARY SCRIPT
+	
+	This made by Alchemy Team ( io.Luable / ACM )
+	Modification of the ui, or use the ui for any reason is not allowed.
+	
+	Copyright ¬© 2024 Alchemy Hub - Script. All Rights Reserved.
+
+2025-02-06T09:04:06.363Z,227.363266,75cd000,6 [FLog::Error] Error: Too many upvalues to hook closure.
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 3
+    Stack End
+2025-02-06T09:04:06.423Z,227.423447,77d3000,6 [FLog::Output] Mythological Pirate
+2025-02-06T09:04:06.423Z,227.423599,77d3000,6 [FLog::Output] MythologicalPirate
+2025-02-06T09:04:06.423Z,227.423676,77d3000,6 [FLog::Output] Mythological Pirate
+2025-02-06T09:04:06.423Z,227.423721,77d3000,6 [FLog::Output] MythologicalPirate
+2025-02-06T09:04:06.423Z,227.423767,77d3000,6 [FLog::Output] Forest Pirate
+2025-02-06T09:04:06.423Z,227.423828,77d3000,6 [FLog::Output] ForestPirate
+2025-02-06T09:04:06.423Z,227.423874,77d3000,6 [FLog::Output] Mythological Pirate
+2025-02-06T09:04:06.423Z,227.423920,77d3000,6 [FLog::Output] MythologicalPirate
+2025-02-06T09:04:06.423Z,227.423965,77d3000,6 [FLog::Output] Forest Pirate
+2025-02-06T09:04:06.424Z,227.424026,77d3000,6 [FLog::Output] ForestPirate
+2025-02-06T09:04:06.424Z,227.424088,77d3000,6 [FLog::Output] Forest Pirate
+2025-02-06T09:04:06.424Z,227.424133,77d3000,6 [FLog::Output] ForestPirate
+2025-02-06T09:04:06.424Z,227.424179,77d3000,6 [FLog::Output] Mythological Pirate
+2025-02-06T09:04:06.424Z,227.424225,77d3000,6 [FLog::Output] MythologicalPirate
+2025-02-06T09:04:06.424Z,227.424286,77d3000,6 [FLog::Output] Forest Pirate
+2025-02-06T09:04:06.424Z,227.424332,77d3000,6 [FLog::Output] ForestPirate
+2025-02-06T09:04:06.424Z,227.424377,77d3000,6 [FLog::Output] Forest Pirate
+2025-02-06T09:04:06.424Z,227.424423,77d3000,6 [FLog::Output] ForestPirate
+2025-02-06T09:04:06.424Z,227.424911,77d3000,6 [FLog::Output] LivingZombie
+2025-02-06T09:04:06.425Z,227.425095,77d3000,6 [FLog::Output] BeautifulPirate
+2025-02-06T09:04:06.425Z,227.425217,77d3000,6 [FLog::Output] Ghost
+2025-02-06T09:04:06.425Z,227.425385,77d3000,6 [FLog::Output] VenomousAssailant
+2025-02-06T09:04:06.425Z,227.425507,77d3000,6 [FLog::Output] LivingZombie
+2025-02-06T09:04:06.425Z,227.425644,77d3000,6 [FLog::Output] LivingZombie
+2025-02-06T09:04:06.425Z,227.425812,77d3000,6 [FLog::Output] CaptainElephant
+2025-02-06T09:04:06.425Z,227.425934,77d3000,6 [FLog::Output] Ghost
+2025-02-06T09:04:06.426Z,227.426086,77d3000,6 [FLog::Output] RebornSkeleton
+2025-02-06T09:04:06.426Z,227.426208,77d3000,6 [FLog::Output] RebornSkeleton
+2025-02-06T09:04:06.426Z,227.426315,77d3000,6 [FLog::Output] Ghost
+2025-02-06T09:04:06.426Z,227.426453,77d3000,6 [FLog::Output] RebornSkeleton
+2025-02-06T09:04:06.426Z,227.426575,77d3000,6 [FLog::Output] VenomousAssailant
+2025-02-06T09:04:06.426Z,227.426682,77d3000,6 [FLog::Output] RebornSkeleton
+2025-02-06T09:04:06.426Z,227.426788,77d3000,6 [FLog::Output] Ghost
+2025-02-06T09:04:06.426Z,227.426880,77d3000,6 [FLog::Output] Ghost
+2025-02-06T09:04:06.427Z,227.427017,77d3000,6 [FLog::Output] RebornSkeleton
+2025-02-06T09:04:06.427Z,227.427155,77d3000,6 [FLog::Output] HydraEnforcer
+2025-02-06T09:04:06.427Z,227.427261,77d3000,6 [FLog::Output] VenomousAssailant
+2025-02-06T09:04:06.427Z,227.427414,77d3000,6 [FLog::Output] RebornSkeleton
+2025-02-06T09:04:06.427Z,227.427536,77d3000,6 [FLog::Output] HydraLeader
+2025-02-06T09:04:06.427Z,227.427673,77d3000,6 [FLog::Output] VenomousAssailant
+2025-02-06T09:04:06.427Z,227.427795,77d3000,6 [FLog::Output] HydraEnforcer
+2025-02-06T09:04:06.427Z,227.427902,77d3000,6 [FLog::Output] HydraEnforcer
+2025-02-06T09:04:06.427Z,227.427994,77d3000,6 [FLog::Output] DemonicSoul
+2025-02-06T09:04:06.428Z,227.428101,77d3000,6 [FLog::Output] VenomousAssailant
+2025-02-06T09:04:06.428Z,227.428192,77d3000,6 [FLog::Output] DemonicSoul
+2025-02-06T09:04:06.428Z,227.428314,77d3000,6 [FLog::Output] VenomousAssailant
+2025-02-06T09:04:06.428Z,227.428452,77d3000,6 [FLog::Output] HydraEnforcer
+2025-02-06T09:04:06.428Z,227.428558,77d3000,6 [FLog::Output] RebornSkeleton
+2025-02-06T09:04:06.428Z,227.428665,77d3000,6 [FLog::Output] LivingZombie
+2025-02-06T09:04:06.428Z,227.428772,77d3000,6 [FLog::Output] Longma
+2025-02-06T09:04:06.428Z,227.428848,77d3000,6 [FLog::Output] DemonicSoul
+2025-02-06T09:04:06.428Z,227.428940,77d3000,6 [FLog::Output] DemonicSoul
+2025-02-06T09:04:06.429Z,227.429062,77d3000,6 [FLog::Output] HydraEnforcer
+2025-02-06T09:04:06.429Z,227.429138,77d3000,6 [FLog::Output] PistolBillionaire
+2025-02-06T09:04:06.429Z,227.429214,77d3000,6 [FLog::Output] PistolBillionaire
+2025-02-06T09:04:06.429Z,227.429321,77d3000,6 [FLog::Output] LivingZombie
+2025-02-06T09:04:06.429Z,227.429413,77d3000,6 [FLog::Output] HydraEnforcer
+2025-02-06T09:04:06.429Z,227.429520,77d3000,6 [FLog::Output] LivingZombie
+2025-02-06T09:04:06.429Z,227.429596,77d3000,6 [FLog::Output] DemonicSoul
+2025-02-06T09:04:06.429Z,227.429672,77d3000,6 [FLog::Output] Deandre
+2025-02-06T09:04:06.429Z,227.429733,77d3000,6 [FLog::Output] DemonicSoul
+2025-02-06T09:04:06.429Z,227.429810,77d3000,6 [FLog::Output] PistolBillionaire
+2025-02-06T09:04:06.429Z,227.429886,77d3000,6 [FLog::Output] PistolBillionaire
+2025-02-06T09:04:06.429Z,227.429962,77d3000,6 [FLog::Output] PirateMillionaire
+2025-02-06T09:04:06.430Z,227.430038,77d3000,6 [FLog::Output] PirateMillionaire
+2025-02-06T09:04:06.430Z,227.430115,77d3000,6 [FLog::Output] PirateMillionaire
+2025-02-06T09:04:06.430Z,227.430191,77d3000,6 [FLog::Output] MythologicalPirate
+2025-02-06T09:04:06.430Z,227.430267,77d3000,6 [FLog::Output] PosessedMummy
+2025-02-06T09:04:06.430Z,227.430344,77d3000,6 [FLog::Output] MythologicalPirate
+2025-02-06T09:04:06.430Z,227.430420,77d3000,6 [FLog::Output] ForestPirate
+2025-02-06T09:04:06.430Z,227.430496,77d3000,6 [FLog::Output] PosessedMummy
+2025-02-06T09:04:07.105Z,228.105164,77d3000,6 [FLog::Output] :SDFSDF2
+2025-02-06T09:04:07.106Z,228.106079,77d3000,6 [FLog::Output] :SDFSDF3
+2025-02-06T09:04:12.290Z,233.290909,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:17.307Z,238.307159,77d3000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:17.352Z,238.352249,77d3000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.032Z,239.032822,76d0000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.032Z,239.032898,76d0000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.032Z,239.032928,76d0000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.032Z,239.032959,76d0000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.032Z,239.032974,76d0000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.050Z,239.050751,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.050Z,239.050812,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.050Z,239.050842,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.050Z,239.050873,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.050Z,239.050903,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.050Z,239.050934,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.050Z,239.050949,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.050Z,239.050995,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.068Z,239.068588,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.068Z,239.068680,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.068Z,239.068710,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.068Z,239.068741,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.068Z,239.068771,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.068Z,239.068802,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.068Z,239.068832,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.068Z,239.068848,77d3000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.122Z,239.122482,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.122Z,239.122711,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.167Z,239.167801,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.167Z,239.167862,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.167Z,239.167892,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.167Z,239.167923,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.167Z,239.167953,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.167Z,239.167984,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.168Z,239.168015,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.168Z,239.168045,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.168Z,239.168076,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.168Z,239.168106,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.168Z,239.168121,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.168Z,239.168152,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.168Z,239.168182,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.168Z,239.168198,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.168Z,239.168594,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.168Z,239.168625,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.168Z,239.168655,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.168Z,239.168686,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.168Z,239.168732,75cd000,6 [FLog::Error] Error: missing argument #1 to 'resume' (thread expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.397Z,239.397018,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.397Z,239.397202,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.397Z,239.397339,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.397Z,239.397781,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.397Z,239.397934,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.398Z,239.398193,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.398Z,239.398529,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.398Z,239.398849,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.398Z,239.398987,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.399Z,239.399124,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.399Z,239.399246,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.399Z,239.399490,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.399Z,239.399628,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.526Z,239.526276,75cd000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.526Z,239.526596,75cd000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.526Z,239.526810,75cd000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.527Z,239.527069,75cd000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.527Z,239.527298,75cd000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:18.528Z,239.528046,75cd000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:20.359Z,241.359726,71b8000,6 [FLog::Output] Settings Date header was Thu, 06 Feb 2025 09:04:20 GMT
+2025-02-06T09:04:20.359Z,241.359756,71b8000,6 [FLog::Output] Settings Date timestamp is 1738832660
+2025-02-06T09:04:21.984Z,242.984894,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:24.300Z,245.300812,77d3000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:24.674Z,245.674545,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:24.698Z,245.698914,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:29.430Z,250.430923,76d0000,6 [FLog::Output] Finished RequestStreamAroundAsync AND some nearby objects were detected via physics check / raycast yesyes
+2025-02-06T09:04:30.097Z,251.097824,7d74000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=819276569" load failed in Workspace.NPCs.Plokster.NPC.Clothes: Request failed
+2025-02-06T09:04:35.605Z,256.605865,76d0000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:41.541Z,262.541840,77d3000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:42.359Z,263.359314,76d0000,6 [FLog::Error] Error: Trail is not a valid member of MeshPart "MusicNote"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClick', Line 151
+    Stack End
+2025-02-06T09:04:42.405Z,263.405792,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.428Z,263.428619,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.447Z,263.447845,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.470Z,263.470612,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.487Z,263.487915,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.501Z,263.501709,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.514Z,263.514557,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.530Z,263.530060,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.547Z,263.547882,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.564Z,263.564148,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.581Z,263.581970,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.603Z,263.603210,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.616Z,263.616974,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.630Z,263.630249,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.646Z,263.646729,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.663Z,263.663483,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.679Z,263.679443,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.705Z,263.705200,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.717Z,263.717560,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.737Z,263.737488,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.749Z,263.749756,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.762Z,263.762939,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.779Z,263.779694,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.779Z,263.779785,77d3000,6 [FLog::Error] Error: Electricity is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 115
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 24
+    Stack End
+2025-02-06T09:04:42.797Z,263.797791,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.813Z,263.813110,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.829Z,263.829376,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.848Z,263.848358,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.864Z,263.864227,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.880Z,263.880310,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.896Z,263.896545,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.914Z,263.914886,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.931Z,263.931519,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.947Z,263.947449,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.965Z,263.965515,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.982Z,263.982788,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:42.999Z,263.999054,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.026Z,264.026093,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.039Z,264.039398,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.061Z,264.061066,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.073Z,264.073944,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.089Z,264.089661,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.102Z,264.102966,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.116Z,264.116241,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.131Z,264.131653,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.148Z,264.148285,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.164Z,264.164276,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.182Z,264.182251,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.198Z,264.198059,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.215Z,264.215271,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.232Z,264.232147,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.248Z,264.248871,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.265Z,264.265472,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.282Z,264.282562,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.297Z,264.297058,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.314Z,264.314301,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.341Z,264.341522,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.355Z,264.355042,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.382Z,264.382172,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.402Z,264.402069,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.415Z,264.415771,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.430Z,264.430603,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.447Z,264.447876,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.464Z,264.464447,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.482Z,264.482422,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.498Z,264.498962,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.515Z,264.515839,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.530Z,264.530945,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.546Z,264.546906,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.563Z,264.563293,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.580Z,264.580322,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.596Z,264.596100,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:43.930Z,264.930634,75cd000,6 [FLog::Error] Error: Trail is not a valid member of MeshPart "MusicNote"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClick', Line 151
+    Stack End
+2025-02-06T09:04:44.358Z,265.358093,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.371Z,265.371002,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.385Z,265.385529,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.398Z,265.398438,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.419Z,265.419617,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.433Z,265.433441,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.452Z,265.452515,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.466Z,265.466614,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.485Z,265.485382,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.498Z,265.498718,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.518Z,265.518280,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.530Z,265.530396,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.551Z,265.551147,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.563Z,265.563293,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.584Z,265.584747,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.605Z,265.605133,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.617Z,265.617798,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.639Z,265.639435,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.657Z,265.657440,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.670Z,265.670441,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.686Z,265.686432,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.698Z,265.698517,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.719Z,265.719055,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.731Z,265.731354,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.751Z,265.751740,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.751Z,265.751831,75cd000,6 [FLog::Error] Error: Electricity is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 115
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 24
+    Stack End
+2025-02-06T09:04:44.763Z,265.763611,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.786Z,265.786224,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.803Z,265.803009,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.819Z,265.819183,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.831Z,265.831390,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.852Z,265.852448,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.872Z,265.872314,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.893Z,265.893738,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.916Z,265.916870,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.939Z,265.939270,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.957Z,265.957886,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.974Z,265.974792,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:44.989Z,265.989166,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.002Z,266.002258,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.019Z,266.019867,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.034Z,266.034943,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.052Z,266.052612,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.066Z,266.066132,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.080Z,266.080719,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.098Z,266.098022,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.114Z,266.114594,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.132Z,266.132660,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.147Z,266.147705,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.167Z,266.167664,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.181Z,266.181702,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.197Z,266.197815,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.213Z,266.213745,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.240Z,266.240326,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.253Z,266.253784,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.278Z,266.278778,75cd000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:45.279Z,266.279053,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.293Z,266.293304,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.307Z,266.307220,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.329Z,266.329956,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.343Z,266.343292,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.358Z,266.358978,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.372Z,266.372833,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.386Z,266.386383,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.399Z,266.399292,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.413Z,266.413574,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.431Z,266.431091,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.447Z,266.447662,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.464Z,266.464539,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.480Z,266.480225,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.498Z,266.498077,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.514Z,266.514496,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.531Z,266.531067,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.554Z,266.554321,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:45.567Z,266.567169,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:46.275Z,267.275513,76d0000,6 [FLog::Error] Error: Trail is not a valid member of MeshPart "MusicNote"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClick', Line 151
+    Stack End
+2025-02-06T09:04:46.905Z,267.905457,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:46.920Z,267.920624,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:46.936Z,267.936371,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:46.953Z,267.953522,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:46.969Z,267.969818,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:46.988Z,267.988647,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.002Z,268.002655,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.020Z,268.020050,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.035Z,268.035828,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.054Z,268.054352,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.069Z,268.069275,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.086Z,268.086456,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.103Z,268.103210,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.119Z,268.119049,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.144Z,268.144470,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.156Z,268.156952,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.174Z,268.174133,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.186Z,268.186127,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.204Z,268.204834,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.219Z,268.219299,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.238Z,268.238892,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.253Z,268.253052,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.269Z,268.269470,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.285Z,268.285858,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.285Z,268.285950,76d0000,6 [FLog::Error] Error: Electricity is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 115
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 24
+    Stack End
+2025-02-06T09:04:47.302Z,268.302673,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.321Z,268.321320,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.336Z,268.336548,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.357Z,268.357544,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.376Z,268.376923,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.391Z,268.391541,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.403Z,268.403687,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.418Z,268.418579,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.436Z,268.436188,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.462Z,268.462646,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.480Z,268.480042,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.504Z,268.504120,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.538Z,268.538086,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.576Z,268.576202,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.606Z,268.606812,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.638Z,268.638733,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.676Z,268.676331,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.710Z,268.710541,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.745Z,268.745605,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.783Z,268.783478,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.812Z,268.812927,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.848Z,268.848938,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.878Z,268.878143,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.908Z,268.908752,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.936Z,268.936981,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.964Z,268.964966,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:47.991Z,268.991638,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:48.018Z,269.018158,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:48.044Z,269.044861,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:48.075Z,269.075165,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:48.109Z,269.109436,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:49.135Z,270.135864,77d3000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:49.443Z,270.443909,75cd000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:50.620Z,271.620422,75cd000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:53.454Z,274.454895,76d0000,6 [FLog::Error] Error: Trail is not a valid member of MeshPart "MusicNote"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClick', Line 151
+    Stack End
+2025-02-06T09:04:53.853Z,274.853821,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:53.873Z,274.873291,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:53.903Z,274.903656,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:53.924Z,274.924042,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:53.942Z,274.942719,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:53.962Z,274.962250,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:53.979Z,274.979370,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.001Z,275.001770,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.022Z,275.022827,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.039Z,275.039490,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.055Z,275.055573,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.073Z,275.073517,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.097Z,275.097015,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.111Z,275.111389,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.127Z,275.127136,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.146Z,275.146698,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.169Z,275.169495,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.211Z,275.211151,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.242Z,275.242340,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.242Z,275.242432,77d3000,6 [FLog::Error] Error: Electricity is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 115
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 24
+    Stack End
+2025-02-06T09:04:54.257Z,275.257996,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.272Z,275.272583,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.286Z,275.286163,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.307Z,275.307098,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.330Z,275.330872,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.350Z,275.350281,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.369Z,275.369354,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.384Z,275.384521,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.399Z,275.399170,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.414Z,275.414520,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.438Z,275.438446,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.453Z,275.453827,75cd000,6 [FLog::Error] Error: ReplicatedStorage.Controllers.CombatController:650: attempt to call missing method 'GetPropertyChangedSignal' of table
+    Stack Begin
+    Script 'ReplicatedStorage.Controllers.CombatController', Line 650 - function Attack
+    Script 'Script Raptor.Thread', Line 3
+    Script 'Script Raptor.Thread', Line 3
+    Script 'Script Raptor.Thread', Line 3
+    Script 'Script Raptor.Thread', Line 3
+    Stack End
+2025-02-06T09:04:54.454Z,275.454620,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.467Z,275.467834,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.498Z,275.498260,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.512Z,275.512573,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.532Z,275.532196,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.546Z,275.546021,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.562Z,275.562805,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.584Z,275.584564,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.597Z,275.597687,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.612Z,275.612732,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.631Z,275.631012,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.652Z,275.652405,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.670Z,275.670349,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.683Z,275.683319,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.696Z,275.696869,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.723Z,275.723053,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.735Z,275.735809,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.764Z,275.764435,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.779Z,275.779236,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.791Z,275.791901,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.812Z,275.812531,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.824Z,275.824585,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.847Z,275.847260,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.862Z,275.862305,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.877Z,275.877716,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.890Z,275.890106,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.905Z,275.905304,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.917Z,275.917267,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.940Z,275.940094,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.952Z,275.952484,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.971Z,275.971710,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:54.987Z,275.987396,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.009Z,276.009613,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.024Z,276.024109,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.039Z,276.039490,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.051Z,276.051361,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.161Z,276.161591,75cd000,6 [FLog::Error] Error: Trail is not a valid member of MeshPart "MusicNote"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClick', Line 151
+    Stack End
+2025-02-06T09:04:55.615Z,276.615021,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.629Z,276.629913,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.646Z,276.646576,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.663Z,276.663544,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.680Z,276.680084,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.696Z,276.696686,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.712Z,276.712769,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.729Z,276.729431,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.745Z,276.745850,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.771Z,276.771149,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.784Z,276.784790,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.805Z,276.805817,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.819Z,276.819061,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.832Z,276.832947,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.849Z,276.849518,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.866Z,276.866608,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.879Z,276.879883,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.898Z,276.898102,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.914Z,276.914276,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.929Z,276.929443,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.948Z,276.948029,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.963Z,276.963654,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.984Z,276.984680,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.996Z,276.996063,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:55.996Z,276.996155,76d0000,6 [FLog::Error] Error: Electricity is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 115
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 24
+    Stack End
+2025-02-06T09:04:56.012Z,277.012329,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.029Z,277.029785,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.052Z,277.052490,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.069Z,277.069092,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.089Z,277.089355,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.102Z,277.102081,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.121Z,277.121002,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.134Z,277.134979,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.146Z,277.146881,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.163Z,277.163361,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.182Z,277.182159,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.196Z,277.196625,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.214Z,277.214050,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.230Z,277.230316,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.247Z,277.247925,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.264Z,277.264557,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.280Z,277.280243,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.299Z,277.299591,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.316Z,277.316895,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.332Z,277.332397,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.349Z,277.349457,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.363Z,277.363678,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.380Z,277.380981,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.408Z,277.408936,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.423Z,277.423370,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.444Z,277.444916,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.464Z,277.464508,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.483Z,277.483002,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.496Z,277.496796,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.511Z,277.511688,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.529Z,277.529358,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.544Z,277.544006,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.560Z,277.560150,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.578Z,277.578186,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.593Z,277.593048,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.607Z,277.607513,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.621Z,277.621002,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.633Z,277.633820,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.651Z,277.651642,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.667Z,277.667511,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.686Z,277.686371,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.707Z,277.707825,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.732Z,277.732910,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.764Z,277.764252,77d3000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.787Z,277.787598,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.800Z,277.800781,76d0000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:56.813Z,277.813965,75cd000,6 [FLog::Error] Error: ExpandingPart2 is not a valid member of Model "GuitarM1Impact"
+    Stack Begin
+    Script 'ReplicatedStorage.Effect.Container.SoulGuitar.LeftClickImpact', Line 124
+    Script 'ReplicatedStorage.Util.HeartbeatLoopFor', Line 15
+    Stack End
+2025-02-06T09:04:58.955Z,279.955017,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:58.955Z,279.955109,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:58.990Z,279.990204,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:58.990Z,279.990295,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.051Z,280.051117,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.051Z,280.051178,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.089Z,280.089386,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.089Z,280.089447,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.150Z,280.150024,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.150Z,280.150116,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.174Z,280.174377,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.174Z,280.174438,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.239Z,280.239105,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.239Z,280.239197,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.264Z,280.264771,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.264Z,280.264832,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.290Z,280.290314,75cd000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.307Z,280.307983,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.308Z,280.308044,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.354Z,280.354065,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.354Z,280.354156,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.354Z,280.354553,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.354Z,280.354584,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.435Z,280.435272,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.435Z,280.435333,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.468Z,280.468597,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.468Z,280.468658,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.494Z,280.494324,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.494Z,280.494415,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.539Z,280.539490,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.539Z,280.539581,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.592Z,280.592468,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.592Z,280.592560,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.593Z,280.593903,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.593Z,280.593964,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.658Z,280.658875,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.658Z,280.658966,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.687Z,280.687531,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.687Z,280.687622,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.749Z,280.749481,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.749Z,280.749573,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.787Z,280.787415,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.787Z,280.787476,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.854Z,280.854767,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.854Z,280.854858,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.891Z,280.891632,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.891Z,280.891693,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.891Z,280.891846,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.891Z,280.891907,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.951Z,280.951691,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:04:59.951Z,280.951782,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.005Z,281.005157,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.005Z,281.005249,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.005Z,281.005554,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.005Z,281.005585,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.116Z,281.116119,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.116Z,281.116211,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.129Z,281.129852,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.129Z,281.129944,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.196Z,281.196259,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.196Z,281.196350,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.231Z,281.231567,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.231Z,281.231628,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.306Z,281.306702,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.306Z,281.306763,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.323Z,281.323792,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.323Z,281.323853,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.412Z,281.412903,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.412Z,281.412964,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.447Z,281.447479,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.447Z,281.447571,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.515Z,281.515167,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.515Z,281.515228,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.574Z,281.574463,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.574Z,281.574554,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.590Z,281.590027,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.590Z,281.590088,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.668Z,281.668640,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.668Z,281.668732,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.718Z,281.718689,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.718Z,281.718781,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.788Z,281.788940,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.789Z,281.789032,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.806Z,281.806427,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.807Z,281.807129,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.865Z,281.865814,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.865Z,281.865906,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.957Z,281.957916,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:00.958Z,281.958344,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.040Z,282.040680,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.040Z,282.040741,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.109Z,282.109222,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.109Z,282.109283,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.213Z,282.213806,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.213Z,282.213867,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.215Z,282.215271,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.215Z,282.215332,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.240Z,282.240692,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.240Z,282.240753,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.241Z,282.241150,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.241Z,282.241211,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.241Z,282.241272,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.241Z,282.241302,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.305Z,282.305695,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.305Z,282.305786,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.305Z,282.305939,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.305Z,282.305969,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.339Z,282.339111,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.339Z,282.339203,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.449Z,282.449890,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.449Z,282.449951,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.531Z,282.531372,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.531Z,282.531464,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.646Z,282.646362,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.646Z,282.646454,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.784Z,282.784027,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.784Z,282.784088,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.840Z,282.840485,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.840Z,282.840546,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.900Z,282.900848,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.900Z,282.900940,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.968Z,282.968201,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:01.968Z,282.968292,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.042Z,283.042816,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.042Z,283.042877,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.094Z,283.094269,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.094Z,283.094360,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.110Z,283.110840,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.110Z,283.110931,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.213Z,283.213287,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.213Z,283.213379,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.318Z,283.318451,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.318Z,283.318512,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.436Z,283.436981,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.437Z,283.437042,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.469Z,283.469086,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.469Z,283.469147,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.580Z,283.580719,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.580Z,283.580811,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.663Z,283.663757,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.663Z,283.663849,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.720Z,283.720184,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.720Z,283.720276,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.806Z,283.806885,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.806Z,283.806946,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.890Z,283.890869,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:02.890Z,283.890961,76d0000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:03.007Z,284.007568,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:03.007Z,284.007660,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:03.105Z,284.105652,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:03.105Z,284.105713,75cd000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:03.201Z,284.201447,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:03.201Z,284.201508,77d3000,6 [FLog::Error] Error: Expected ':' not '.' calling member function Destroy
+    Stack Begin
+    Stack End
+2025-02-06T09:05:06.455Z,287.455780,77d3000,6 [FLog::Error] Error: missing argument #1 to 'Disconnect' (RBXScriptConnection expected)
+    Stack Begin
+    Stack End

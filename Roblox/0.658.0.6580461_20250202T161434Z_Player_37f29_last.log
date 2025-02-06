@@ -1,0 +1,2214 @@
+2025-02-02T16:14:34.381Z,0.381917,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs:(
+    "roblox-player:1+launchmode:play+gameinfo:65XyL9b_BBnLGsC2HjEl5Qq2OkdQA-y4hsJ6cEKJachUDDLN_ii9yLs0EwWBTo9BFbiQl0pgzriJAbJVMgvwFSliehklqADxM7S1LSe-6NuzAv9_Ood5AfvLEvWvOR-wB9yM6ZMg5JiYfBZKM8bCBlOf2_F4c0khiXIRu1_hT_T0iMlQoH-WDS-VHQx3agJVJEiVDGXdGEGUUDudtZ2e-CYbhEFpyMS3yecl9Y5Qax4+launchtime:1738512871080+placelauncherurl:https%3A%2F%2Fwww.roblox.com%2FGame%2FPlaceLauncher.ashx%3Frequest%3DRequestGame%26browserTrackerId%3D1738344328674006%26placeId%3D10449761463%26isPlayTogetherGame%3Dfalse%26referredByPlayerId%3D0%26joinAttemptId%3D9a5d767b-35ae-47b4-9aa8-6c12c3bfa607%26joinAttemptOrigin%3DPlayButton+browsertrackerid:1738344328674006+robloxLocale:en_us+gameLocale:en_us+channel:+LaunchExp:InApp"
+)
+2025-02-02T16:14:34.382Z,0.382385,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs handling web launch
+2025-02-02T16:14:34.382Z,0.382458,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 1 = launchmode:play
+2025-02-02T16:14:34.382Z,0.382472,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 2 = gameinfo:65XyL9b_BBnLGsC2HjEl5Qq2OkdQA-y4hsJ6cEKJachUDDLN_ii9yLs0EwWBTo9BFbiQl0pgzriJAbJVMgvwFSliehklqADxM7S1LSe-6NuzAv9_Ood5AfvLEvWvOR-wB9yM6ZMg5JiYfBZKM8bCBlOf2_F4c0khiXIRu1_hT_T0iMlQoH-WDS-VHQx3agJVJEiVDGXdGEGUUDudtZ2e-CYbhEFpyMS3yecl9Y5Qax4
+2025-02-02T16:14:34.382Z,0.382482,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 3 = launchtime:1738512871080
+2025-02-02T16:14:34.382Z,0.382492,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 4 = placelauncherurl:https%3A%2F%2Fwww.roblox.com%2FGame%2FPlaceLauncher.ashx%3Frequest%3DRequestGame%26browserTrackerId%3D1738344328674006%26placeId%3D10449761463%26isPlayTogetherGame%3Dfalse%26referredByPlayerId%3D0%26joinAttemptId%3D9a5d767b-35ae-47b4-9aa8-6c12c3bfa607%26joinAttemptOrigin%3DPlayButton
+2025-02-02T16:14:34.382Z,0.382502,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 5 = browsertrackerid:1738344328674006
+2025-02-02T16:14:34.382Z,0.382511,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 6 = robloxLocale:en_us
+2025-02-02T16:14:34.382Z,0.382520,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 7 = gameLocale:en_us
+2025-02-02T16:14:34.382Z,0.382529,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 8 = channel:
+2025-02-02T16:14:34.382Z,0.382551,4ea5efc0,6 [FLog::Output] Saved channel '' to 'com.roblox.RobloxPlayerChannel' for baseUrl 'www.roblox.com'
+2025-02-02T16:14:34.382Z,0.382578,4ea5efc0,6 [FLog::Output] RobloxChannel has been set to production
+2025-02-02T16:14:34.382Z,0.382587,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 9 = LaunchExp:InApp
+2025-02-02T16:14:34.382Z,0.382638,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) reportClientStatus url: https://www.roblox.com/client-status/set?browserTrackerId=1738344328674006&status=BootstrapperInstalling
+2025-02-02T16:14:34.383Z,0.383911,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs cold launch. Defer web launch until after initialization is complete.
+2025-02-02T16:14:34.384Z,0.384021,4ea5efc0,6 [FLog::Output] (AppDelegate) applicationDidFinishLaunching
+2025-02-02T16:14:34.384Z,0.384292,4ea5efc0,6,Info [FLog::UpdateController] UpdateController: versionQueryUrl: https://clientsettingscdn.roblox.com/v2/client-version/MacPlayer
+2025-02-02T16:14:34.384Z,0.384320,4ea5efc0,6,Info [FLog::UpdateController] MacUpdateController: updaterFullPath: /Applications/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app/Contents/MacOS/RobloxPlayerInstaller
+2025-02-02T16:14:34.384Z,0.384394,a099000,6,Info [FLog::UpdateController] Update check thread started
+2025-02-02T16:14:34.384Z,0.384432,a099000,6,Info [FLog::UpdateController] Checking if updater exists at /Applications/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app/Contents/MacOS/RobloxPlayerInstaller. Returning 1
+2025-02-02T16:14:34.384Z,0.384440,4ea5efc0,6 [FLog::Output] settingsUrl: https://clientsettingscdn.roblox.com/v2/settings-compressed/application/MacDesktopClient/876303bc5322fbc5499ad5d572b4a57fc6305ca10adf81769b9121c45b7d3a38.dcz
+2025-02-02T16:14:34.465Z,0.465998,a099000,6,Debug [FLog::UpdateController] version response: {"version":"0.658.0.6580461","clientVersionUpload":"version-4c01fa4a41074574","bootstrapperVersion":"6580461"}
+2025-02-02T16:14:34.466Z,0.466145,a099000,6,Info [FLog::UpdateController] Update check thread: updateRequired FALSE
+2025-02-02T16:14:34.468Z,0.468087,4ea5efc0,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 16:14:34 GMT
+2025-02-02T16:14:34.468Z,0.468144,4ea5efc0,6 [FLog::Output] Settings Date timestamp is 1738512874
+2025-02-02T16:14:34.479Z,0.479487,4ea5efc0,6 [FLog::ClientRunInfo] RobloxGitHash: 6874f45ec658019a67f19ab7de6e688c50292b01
+2025-02-02T16:14:34.479Z,0.479646,4ea5efc0,6 [FLog::ClientRunInfo] The base url is https://www.roblox.com/
+2025-02-02T16:14:34.479Z,0.479658,4ea5efc0,6 [FLog::ClientRunInfo] The channel is production
+2025-02-02T16:14:34.491Z,0.491405,4ea5efc0,6 [FLog::Output] *******
+** Validated reflection database in 6.106209 ms, found 5363 entries with the following skipped: 0 enums, 0 properties, 0 functions, 0 events, 0 callbacks, 0 classes.
+*******
+
+2025-02-02T16:14:34.492Z,0.492275,4ea5efc0,6 [FLog::Output] (AppDelegate) Universal App on Mac: initialize...
+2025-02-02T16:14:34.492Z,0.492310,4ea5efc0,6 [FLog::Output] syncCookiesFromNativeToEngine was skipped
+2025-02-02T16:14:34.492Z,0.492403,4ea5efc0,6 [FLog::Output] Current file descriptor limit is 256, increasing to 2560
+2025-02-02T16:14:34.492Z,0.492419,4ea5efc0,6 [FLog::Output] (AppDelegate) web browserTrackerId = [1738344328674006].
+2025-02-02T16:14:34.492Z,0.492434,a11c000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T16:14:34.492Z,0.492480,a11c000,12 [DFLog::HttpTraceError] HttpResponse(#0 0x7fe016887220) time:156.1ms (net:155.6ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://accountsettings.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T16:14:34.494Z,0.494412,4ea5efc0,6 [FLog::Output] syncCookiesFromEngineToNative was skipped
+2025-02-02T16:14:34.494Z,0.494437,4ea5efc0,6 [FLog::Output] (AppDelegate) launchTimeMillis = [-2690]
+2025-02-02T16:14:34.495Z,0.495817,4ea5efc0,6,Info [FLog::PerformanceControlUtil] PerformanceControlUtil: registered single surface tunable (id=0)
+2025-02-02T16:14:34.496Z,0.496052,4ea5efc0,6 [FLog::SingleSurfaceApp] initializeWithAppStarter
+2025-02-02T16:14:34.496Z,0.496069,4ea5efc0,6 [FLog::SingleSurfaceApp] initializeSingleton
+2025-02-02T16:14:34.496Z,0.496747,4ea5efc0,6 [FLog::Output] setAssetFolder /Applications/Roblox.app/Contents/Resources/content/
+2025-02-02T16:14:34.496Z,0.496961,4ea5efc0,6 [FLog::Output] setExtraAssetFolder /Applications/Roblox.app/Contents/Resources/ExtraContent
+2025-02-02T16:14:34.497Z,0.497445,4ea5efc0,6 [FLog::Output] Evaluating deferred inferred crashes
+2025-02-02T16:14:34.498Z,0.498060,4ea5efc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)
+2025-02-02T16:14:34.498Z,0.498100,4ea5efc0,6 [FLog::SingleSurfaceApp] setLocale
+2025-02-02T16:14:34.498Z,0.498111,4ea5efc0,6,Warning [FLog::SingleSurfaceApp] instantiate controllers
+2025-02-02T16:14:34.498Z,0.498121,4ea5efc0,6 [FLog::SurfaceController] SurfaceController[_:1]::SurfaceController, count: 1
+2025-02-02T16:14:34.498Z,0.498130,4ea5efc0,6,Warning [FLog::SingleSurfaceApp] instantiate experience coordinator
+2025-02-02T16:14:34.498Z,0.498185,4ea5efc0,6,Info [FLog::PerformanceControlUtil] PerformanceControlUtil: registered single surface tunable (id=1)
+2025-02-02T16:14:34.498Z,0.498197,4ea5efc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController::CrossExperienceVoiceController() constructor
+2025-02-02T16:14:34.507Z,0.507870,a11c000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T16:14:34.507Z,0.507912,a11c000,12 [DFLog::HttpTraceError] HttpResponse(#5 0x7fe017121420) time:171.6ms (net:171.1ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://locale.roblox.com/" } ip:128.116.123.4 external:1 numberOfTimesRetried:0
+2025-02-02T16:14:34.515Z,0.515090,a11c000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T16:14:34.515Z,0.515157,a11c000,12 [DFLog::HttpTraceError] HttpResponse(#7 0x7fe0170fa620) time:178.7ms (net:178.3ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://users.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T16:14:34.538Z,0.538127,a11c000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T16:14:34.538Z,0.538181,a11c000,12 [DFLog::HttpTraceError] HttpResponse(#6 0x7fe0170fa020) time:201.8ms (net:201.4ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://users.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T16:14:34.589Z,0.589658,a11c000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T16:14:34.589Z,0.589762,a11c000,12 [DFLog::HttpTraceError] HttpResponse(#1 0x7fe016889a20) time:253.5ms (net:252.9ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.123.4 external:1 numberOfTimesRetried:0
+2025-02-02T16:14:34.613Z,0.613016,a11c000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T16:14:34.613Z,0.613068,a11c000,12 [DFLog::HttpTraceError] HttpResponse(#3 0x7fe017107e20) time:276.8ms (net:276.3ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.123.4 external:1 numberOfTimesRetried:0
+2025-02-02T16:14:34.626Z,0.626029,a11c000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T16:14:34.626Z,0.626077,a11c000,12 [DFLog::HttpTraceError] HttpResponse(#4 0x7fe017114c20) time:289.7ms (net:289.3ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.123.4 external:1 numberOfTimesRetried:0
+2025-02-02T16:14:34.634Z,0.634545,a11c000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T16:14:34.634Z,0.634583,a11c000,12 [DFLog::HttpTraceError] HttpResponse(#2 0x7fe01710e220) time:298.3ms (net:297.8ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.123.4 external:1 numberOfTimesRetried:0
+2025-02-02T16:14:34.996Z,0.996025,4ea5efc0,6 [FLog::SingleSurfaceApp] launchUGCGame: (stage:Native).
+2025-02-02T16:14:34.996Z,0.996057,4ea5efc0,6 [FLog::SingleSurfaceApp] launchUGCGameInternal
+2025-02-02T16:14:34.998Z,0.998322,4ea5efc0,6 [FLog::SingleSurfaceApp] applyLocale
+2025-02-02T16:14:34.998Z,0.998341,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: initialize:
+2025-02-02T16:14:34.998Z,0.998891,4ea5efc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Load configs for user key: app:1423803869895817846
+2025-02-02T16:14:35.000Z,1.000383,4ea5efc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Retrieving patch
+2025-02-02T16:14:35.000Z,1.000400,4ea5efc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch DataModelPatchConfig : type=1, assetId=5345954812, assetVersion=10769, maxAppVersion=658, localAssetURI=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-02T16:14:35.000Z,1.000410,4ea5efc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : numAttempts=10
+2025-02-02T16:14:35.000Z,1.000459,4ea5efc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : contentId=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-02T16:14:35.000Z,1.000468,4ea5efc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : get patch from content provider for Model
+2025-02-02T16:14:35.000Z,1.000547,4ea5efc0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+2025-02-02T16:14:35.291Z,1.291957,4ea5efc0,6,Warning [DFLog::BootcampCLI139737Log] Hello world!!!!!!!!!!!!!!!!!!!!
+2025-02-02T16:14:35.393Z,1.393081,4ea5efc0,6,Info [FLog::Audio] OutputDevice 0: Cuffie esterne [BuiltIn] 48000/2
+2025-02-02T16:14:35.465Z,1.465450,4ea5efc0,6,Info [FLog::Audio] InputDevice 0: Microfono esterno({af0144be-277e-8cc3-0000000000000000}) 48000/1/4
+2025-02-02T16:14:35.465Z,1.465486,4ea5efc0,6,Info [FLog::Audio] InputDevice 1: Microfono iMac({50eb3c32-f018-032c-0000000000000000}) 48000/1/4
+2025-02-02T16:14:35.480Z,1.480378,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: join: initialized dm 0x7fe01d322400
+2025-02-02T16:14:35.480Z,1.480447,4ea5efc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGame
+2025-02-02T16:14:35.480Z,1.480559,4ea5efc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGamePostStandard: URL: https://gamejoin.roblox.com/v1/join-game BODY: {"placeId":10449761463,"gameJoinAttemptId":"9a5d767b-35ae-47b4-9aa8-6c12c3bfa607"}
+2025-02-02T16:14:35.480Z,1.480650,4ea5efc0,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 0, url: https://gamejoin.roblox.com/v1/join-game.
+2025-02-02T16:14:35.480Z,1.480698,4ea5efc0,6 [FLog::GameJoinUtil] Delaying request by 0.00 seconds
+2025-02-02T16:14:35.480Z,1.480780,4ea5efc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Started - Ugc
+2025-02-02T16:14:35.480Z,1.480877,4ea5efc0,6 [FLog::SurfaceController] [_:1]::replaceDataModel: (stage:0, window = 0x7fe014fb36e0) [tid:0x7fe01680d960]
+2025-02-02T16:14:35.481Z,1.481332,4ea5efc0,6,Warning [FLog::Graphics] RenderView created[1]
+2025-02-02T16:14:35.484Z,1.484824,4ea5efc0,6 [FLog::Graphics] Metal renderer: AMD Radeon Pro 5300
+2025-02-02T16:14:35.484Z,1.484855,4ea5efc0,6 [channel] Caps: ThreadSafe 1 Framebuffer 1 FpFramebuffer 1 Shaders 1 Compute 1 Instancing 1 PerInstanceStream 1 ConstBuffers 1
+2025-02-02T16:14:35.484Z,1.484864,4ea5efc0,6 [channel] Caps: Framebuffer: MRT 4 MSAA 8 Stencil 1
+2025-02-02T16:14:35.484Z,1.484871,4ea5efc0,6 [channel] Caps: Framebuffer: Depth16 1 Depth24 1 DepthFloat 1 DepthClamp 1
+2025-02-02T16:14:35.484Z,1.484877,4ea5efc0,6 [channel] Caps: Border Color 1
+2025-02-02T16:14:35.484Z,1.484883,4ea5efc0,6 [channel] Caps: Texture: RGB10A2 1 RG11B10F 1 R16I 1
+2025-02-02T16:14:35.484Z,1.484889,4ea5efc0,6 [channel] Caps: Texture: BC6H 1 ASTC HDR 0
+2025-02-02T16:14:35.484Z,1.484894,4ea5efc0,6 [channel] Caps: Texture: DXT 1 PVR 0 ETC1 0 ETC2 0 Half 1
+2025-02-02T16:14:35.484Z,1.484901,4ea5efc0,6 [channel] Caps: Texture: 3D 1 Array 1 Depth 1 MSAA 1 MSAAFP16 8
+2025-02-02T16:14:35.484Z,1.484906,4ea5efc0,6 [channel] Caps: Texture: NPOT 1 PartialMips 1 CubeMipGen 1 CubeFramebuffer 1
+2025-02-02T16:14:35.484Z,1.484912,4ea5efc0,6 [channel] Caps: Texture: Size 8192 Units 32 VertexUnits 32
+2025-02-02T16:14:35.484Z,1.484917,4ea5efc0,6 [channel] Caps: ConstantBufferSize 65536
+2025-02-02T16:14:35.484Z,1.484923,4ea5efc0,6 [channel] Caps: isAppleGPU 0
+2025-02-02T16:14:35.484Z,1.484928,4ea5efc0,6 [channel] Caps: 32bIdx 1 Memoryless 0
+2025-02-02T16:14:35.484Z,1.484933,4ea5efc0,6 [channel] Caps: ColorBGR 0 RTFlip 0 MinusOneToOneDepth 0
+2025-02-02T16:14:35.489Z,1.489560,4ea5efc0,6 [FLog::Graphics] Metal: creating framebuffer 5120x2528
+2025-02-02T16:14:35.489Z,1.489605,4ea5efc0,6 [FLog::Graphics] Video memory size: 2147483648
+2025-02-02T16:14:35.546Z,1.546693,a531000,6,Info [FLog::UgcExperienceController] UgcExperienceController: submitStartGameTask: scrips are loaded 0x7fe01d322400
+2025-02-02T16:14:35.563Z,1.563154,4ea5efc0,6 [FLog::Graphics] Loaded 1021 shaders from pack metal_osx variant default (7181513 bytes)
+2025-02-02T16:14:35.563Z,1.563188,4ea5efc0,6 [FLog::Graphics] Compiled 677 shaders in 73 ms
+2025-02-02T16:14:35.590Z,1.590492,4ea5efc0,6 [FLog::SurfaceController] SurfaceController::disableVR
+2025-02-02T16:14:35.590Z,1.590685,4ea5efc0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7fe01d322400)
+2025-02-02T16:14:35.590Z,1.590737,4ea5efc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:1]::RenderJob
+2025-02-02T16:14:35.590Z,1.590768,4ea5efc0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7fe01d322400)
+2025-02-02T16:14:35.590Z,1.590785,4ea5efc0,6 [FLog::SingleSurfaceApp] setStage: (stage:UGCGame)
+2025-02-02T16:14:35.590Z,1.590795,4ea5efc0,6 [FLog::SingleSurfaceApp] userDidLogin
+2025-02-02T16:14:35.590Z,1.590803,4ea5efc0,6 [FLog::SingleSurfaceApp] applyLocale
+2025-02-02T16:14:35.590Z,1.590904,a634000,6 [FLog::Output] (AppDelegate) Doing machine id check.
+2025-02-02T16:14:35.595Z,1.595547,a531000,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+2025-02-02T16:14:35.650Z,1.650378,4ea5efc0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+2025-02-02T16:14:35.658Z,1.658091,4ea5efc0,6 [FLog::Graphics] LayeredClothingMode updated: LC=1 HSR=1
+2025-02-02T16:14:35.665Z,1.665122,4ea5efc0,6 [FLog::Graphics] SceneManager: resizing main targets to 2560x1264
+2025-02-02T16:14:35.831Z,1.831568,4ea5efc0,6 [FLog::Graphics] Metal: resizing main framebuffer to 5120x2880
+2025-02-02T16:14:35.836Z,1.836496,4ea5efc0,6 [FLog::Graphics] SceneManager: resizing main targets to 2560x1440
+2025-02-02T16:14:36.098Z,2.098865,a531000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":"068d3ae3-9fd6-4389-98df-3e5c3d94c9c8","status":2,"statusData":null,"joinScriptUrl":"https://assetgame.roblox.com/Game/Join.ashx?ticketVersion=2&ticket={\"UserId\"%3a3047960021%2c\"UserName\"%3a\"paninorealaccount009\"%2c\"DisplayName\"%3a\"Jack\"%2c\"CharacterFetchUrl\"%3a\"https%3a%2f%2fapi.roblox.com%2fv1.1%2favatar-fetch%2f%3fplaceId%3d10449761463%26userId%3d3047960021\"%2c\"GameId\"%3a\"068d3ae3-9fd6-4389-98df-3e5c3d94c9c8\"%2c\"PlaceId\"%3a10449761463%2c\"UniverseId\"%3a3808081382%2c\"ServerId\"%3a1007924%2c\"ServerPort\"%3a61541%2c\"IsTeleport\"%3afalse%2c\"FollowUserId\"%3anull%2c\"TimeStamp\"%3a\"02%2f02%2f2025+16%3a14%3a35\"%2c\"CharacterAppearanceId\"%3a3047960021%2c\"AlternateName\"%3anull%2c\"JoinTypeId\"%3a10%2c\"MatchmakingDecisionId\"%3a\"38702f30-7c90-4ad9-b287-46cbab47935b\"%2c\"GameJoinMetadata\"%3a{\"JoinSource\"%3a0%2c\"RequestType\"%3a0%2c\"MatchmakingDecisionId\"
+2025-02-02T16:14:36.099Z,2.099036,a531000,6 [FLog::GameJoinUtil] Game join succeeded.
+2025-02-02T16:14:36.099Z,2.099056,a531000,6 [FLog::GameJoinUtil] GameJoinUtil::processing join parameters
+2025-02-02T16:14:36.115Z,2.115196,a634000,7 [FLog::Network] NetworkClient:Create
+2025-02-02T16:14:36.117Z,2.117113,a634000,6 [FLog::GameJoinUtil] Null EventId
+2025-02-02T16:14:36.117Z,2.117197,a634000,10 [DFLog::KeyRing] Parsed config created at: 11:59 4/1/2024.
+2025-02-02T16:14:36.119Z,2.119368,a634000,6 [FLog::Output] AnalyticsSessionId is 188e8cd6-0571-49f4-a4e6-330213c0c805.
+2025-02-02T16:14:36.119Z,2.119397,a634000,6 [FLog::Output] ! Joining game '068d3ae3-9fd6-4389-98df-3e5c3d94c9c8' place 10449761463 at 10.9.9.205
+2025-02-02T16:14:36.119Z,2.119431,a634000,6 [FLog::GameJoinLoadTime] Report game_join_loadtime: sid:188e8cd6-0571-49f4-a4e6-330213c0c805, clienttime:1738512875.9560000896, join_time:1.1211098639999999005, referral_page:RequestGame, placeid:10449761463, userid:3047960021, universeid:3808081382, 
+2025-02-02T16:14:36.120Z,2.120960,a634000,7 [FLog::Network] Client will attempt to connect following server endpoints with threadSleepTime(-1)
+2025-02-02T16:14:36.120Z,2.120974,a634000,7 [FLog::Network] UDMUX Address = 128.116.44.33, Port = 61541 | RCC Server Address = 10.9.9.205, Port = 61541
+2025-02-02T16:14:36.121Z,2.121896,a634000,7 [FLog::Network] binding socket on inaddr_any:0
+
+2025-02-02T16:14:36.134Z,2.134082,a634000,6 [FLog::Output] Connecting to UDMUX server 128.116.44.33:61541, and RCC server 10.9.9.205:61541
+2025-02-02T16:14:36.229Z,2.229684,a11c000,6,Critical [DFLog::RbxStorage] RbxStorage::init [INIT] availableDiskSpace: 67021758464 bytes, oldCacheSize: -1 bytes, elapsed: 0.052 ms
+2025-02-02T16:14:36.250Z,2.250393,a11c000,6,Error [DFLog::SQLite] sqlite3_error_log: 283 - recovered 185 frames from WAL file /private/var/folders/83/3w46ryz13191t1qd7k9xctdm0000gn/T/Roblox/rbx-storage.db-wal
+2025-02-02T16:14:36.253Z,2.253720,a11c000,6,Critical [DFLog::RbxStorage] RbxStorage::init [DONE] name: TelemetryCache(SqliteCache+TelemetryCache(FileCache)), duration: 23.487 ms, dbOpenCount: 5, dbMaxMemory: 0.260 MiB, dbTotalSize: 0.000 MiB, dbNumItems: 1, fileTotalSize: 0.000 MiB, fileNumItems: 0
+2025-02-02T16:14:36.282Z,2.282908,a634000,6 [FLog::Output] Connection accepted from 128.116.44.33|61541
+2025-02-02T16:14:36.287Z,2.287706,a634000,7 [FLog::Network] serverId: 128.116.44.33|61541
+2025-02-02T16:14:36.287Z,2.287923,a634000,7 [FLog::Network] Replicator created for player 128.116.44.33|61541
+2025-02-02T16:14:36.287Z,2.287944,a634000,7 [FLog::Network] Replicator created: 0x7fe02dba25f0
+2025-02-02T16:14:36.454Z,2.454786,a531000,7 [FLog::Network] Time taken to initialize schema = 6.220908 ms
+2025-02-02T16:14:36.454Z,2.454909,a531000,7 [FLog::Network] Assigned peer id = 548
+2025-02-02T16:14:36.455Z,2.455260,a531000,7 [FLog::Network] Join snapshot timer: 0.333946
+2025-02-02T16:14:36.465Z,2.465045,a634000,6 [FLog::DataModelPatchConfigurer] OTAPollingEnabled set to: false
+2025-02-02T16:14:36.465Z,2.465277,a634000,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Update OTA config
+2025-02-02T16:14:36.483Z,2.483189,a634000,6,Info [FLog::AudioFocusManager] AudioFocusManager::AudioFocusManager() constructor
+2025-02-02T16:14:36.483Z,2.483227,a634000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() constructor
+2025-02-02T16:14:36.483Z,2.483245,a634000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-02T16:14:36.483Z,2.483253,a634000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider setup
+2025-02-02T16:14:36.642Z,2.642534,a11c000,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Update OTA succeeded: {"SchemaVersion":"1","CanaryUserIds":[],"CanaryPercentage":0}
+2025-02-02T16:14:36.642Z,2.642664,a11c000,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Update OTA config not deployed
+2025-02-02T16:14:38.256Z,4.256982,a737000,6 [FLog::Output] INTERPRETER LOADED 71.1795068725
+2025-02-02T16:14:38.272Z,4.272620,a737000,6 [FLog::Output] Server RobloxGitHash: 6874f45ec658019a67f19ab7de6e688c50292b01
+2025-02-02T16:14:38.272Z,4.272648,a737000,6 [FLog::Output] Server Prefix: 0.658.0.6580461_20250202T091601Z_RCC_662f1
+2025-02-02T16:14:38.389Z,4.389273,a531000,6 [FLog::Output] REPLICATION LOADED 0.1564476490020752
+2025-02-02T16:14:38.445Z,4.445133,4ea5efc0,6 [FLog::Graphics] Future is bright shadows
+2025-02-02T16:14:38.452Z,4.452046,4ea5efc0,6 [FLog::Graphics] Terrain TextureArray 512x512, arraySize: 36, mip: 10
+2025-02-02T16:14:38.703Z,4.703732,a634000,6 [FLog::Output] CLIENT LOADED 0.4185197353363037
+2025-02-02T16:14:39.042Z,5.042521,a11c000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=7216855364'" load failed in Workspace.Live.jutdguru8.Right Arm.WaterPalm.ConstantEmit.3.Texture: Request failed
+2025-02-02T16:14:39.042Z,5.042575,a11c000,12 [DFLog::HttpTraceError] HttpResponse(#113 0x7fe01b0b0420) time:274.6ms (net:268.9ms callback:0.1ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:63 url:{ "https://assetdelivery.roblox.com/v1/asset?id=7216855364'" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-02T16:14:41.883Z,7.883959,4ea5efc0,6 [FLog::Error] Asset (Image) "" load failed in Workspace.ALEKSEJS958.Torso.roblox.Texture: Unexpected URL
+2025-02-02T16:14:42.036Z,8.036984,a737000,6 [FLog::Output] 
+
+
+⚽ [KJ] The Strongest Battlegrounds uses TopbarPlus v2.9.1
+🍍 TopbarPlus was developed by ForeverHD and the Nanoblox Team
+🚀 You can learn more and take a free copy by searching for 'TopbarPlus' on the DevForum
+
+
+2025-02-02T16:14:42.656Z,8.656959,abd2000,6 [FLog::Error] Asset (Animation) "rbxassetid://0" load failed in Animation.AnimationId: Animation failed to load
+2025-02-02T16:14:42.657Z,8.657011,abd2000,6 [FLog::Error] Error: Failed to load animation with sanitized ID rbxassetid://0: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=0&serverplaceid=10449761463
+2025-02-02T16:14:43.451Z,9.451083,4ea5efc0,6 [FLog::GameJoinUtil] GameJoinUtil::initiateTeleportToPlace: URL: https://gamejoin.roblox.com/v1/join-game POST Body: {"placeId":130818724007978,"isTeleport":true,"isImmersiveAdsTeleport":false,"gameJoinAttemptId":"3fcd9858-f802-4686-968d-5cea8cdbd869"}
+2025-02-02T16:14:43.451Z,9.451155,4ea5efc0,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequestForTeleport: requestCount: 0, url: https://gamejoin.roblox.com/v1/join-game
+2025-02-02T16:14:43.451Z,9.451190,4ea5efc0,6 [FLog::GameJoinUtil] Delaying request by 0.00 seconds
+2025-02-02T16:14:43.837Z,9.837379,abd2000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=13416781743" load failed in Workspace.Thrown.Artem0604186.Br.Particles.Orang.Texture: Request failed
+2025-02-02T16:14:43.837Z,9.837426,abd2000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=13914837887" load failed in Workspace.Thrown.Artem0604186.Br.Particles.Blue.Texture: Request failed
+2025-02-02T16:14:43.837Z,9.837455,abd2000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=13416661606" load failed in Workspace.Thrown.Artem0604186.Br.Particles.Black.Texture: Request failed
+2025-02-02T16:14:43.864Z,9.864552,a737000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequestForTeleport, response:
+{"jobId":"544dd191-bad0-449a-b0be-19b2c51cb81b","status":2,"statusData":null,"joinScriptUrl":"https://assetgame.roblox.com/Game/Join.ashx?ticketVersion=2&ticket={\"UserId\"%3a3047960021%2c\"UserName\"%3a\"paninorealaccount009\"%2c\"DisplayName\"%3a\"Jack\"%2c\"CharacterFetchUrl\"%3a\"https%3a%2f%2fapi.roblox.com%2fv1.1%2favatar-fetch%2f%3fplaceId%3d130818724007978%26userId%3d3047960021\"%2c\"GameId\"%3a\"544dd191-bad0-449a-b0be-19b2c51cb81b\"%2c\"PlaceId\"%3a130818724007978%2c\"UniverseId\"%3a3808081382%2c\"ServerId\"%3a270535%2c\"ServerPort\"%3a54066%2c\"IsTeleport\"%3atrue%2c\"FollowUserId\"%3anull%2c\"TimeStamp\"%3a\"02%2f02%2f2025+16%3a14%3a43\"%2c\"CharacterAppearanceId\"%3a3047960021%2c\"AlternateName\"%3anull%2c\"JoinTypeId\"%3a10%2c\"MatchmakingDecisionId\"%3a\"06b71971-34bc-44b6-bab9-4cd27e78b87c\"%2c\"GameJoinMetadata\"%3a{\"JoinSource\"%3a1%2c\"RequestType\"%3a0%2c\"Matchm
+2025-02-02T16:14:43.881Z,9.881107,a531000,6 [FLog::GameJoinUtil] Default handler, teleport succeeded.
+2025-02-02T16:14:43.881Z,9.881215,4ea5efc0,6 [FLog::SurfaceController] stop
+2025-02-02T16:14:43.881Z,9.881234,4ea5efc0,6 [FLog::SurfaceController] drainRenderingJobs
+2025-02-02T16:14:43.889Z,9.889234,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: doTeleport: url 
+2025-02-02T16:14:43.889Z,9.889234,a634000,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:1]::~RenderJob
+2025-02-02T16:14:43.889Z,9.889261,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: doTeleport: ticket 
+2025-02-02T16:14:43.889Z,9.889334,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: doTeleport: joinScriptUrl https://assetgame.roblox.com/Game/Join.ashx?ticketVersion=2&ticket={"UserId"%3a3047960021%2c"UserName"%3a"paninorealaccount009"%2c"DisplayName"%3a"Jack"%2c"CharacterFetchUrl"%3a"https%3a%2f%2fapi.roblox.com%2fv1.1%2favatar-fetch%2f%3fplaceId%3d130818724007978%26userId%3d3047960021"%2c"GameId"%3a"544dd191-bad0-449a-b0be-19b2c51cb81b"%2c"PlaceId"%3a130818724007978%2c"UniverseId"%3a3808081382%2c"ServerId"%3a270535%2c"ServerPort"%3a54066%2c"IsTeleport"%3atrue%2c"FollowUserId"%3anull%2c"TimeStamp"%3a"02%2f02%2f2025+16%3a14%3a43"%2c"CharacterAppearanceId"%3a3047960021%2c"AlternateName"%3anull%2c"JoinTypeId"%3a10%2c"MatchmakingDecisionId"%3a"06b71971-34bc-44b6-bab9-4cd27e78b87c"%2c"GameJoinMetadata"%3a{"JoinSource"%3a1%2c"RequestType"%3a0%2c"MatchmakingDecisionId"%3a"06b71971-34bc-44b6-bab9-4cd27e78b87c"%2c"IsPlaceVoiceChatEnabled"%3atrue}%2c"SourcePlaceId"%3a10449761463%2c"SourceUni
+2025-02-02T16:14:43.889Z,9.889877,4ea5efc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Retrieving patch
+2025-02-02T16:14:43.889Z,9.889894,4ea5efc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch DataModelPatchConfig : type=1, assetId=5345954812, assetVersion=10769, maxAppVersion=658, localAssetURI=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-02T16:14:43.889Z,9.889902,4ea5efc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : numAttempts=10
+2025-02-02T16:14:43.889Z,9.889997,4ea5efc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : contentId=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-02T16:14:43.890Z,9.890006,4ea5efc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : get patch from content provider for Model
+2025-02-02T16:14:43.890Z,9.890174,4ea5efc0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+2025-02-02T16:14:43.898Z,9.898446,a531000,7 [FLog::Network] Client:Disconnect
+2025-02-02T16:14:43.899Z,9.899663,a531000,7 [FLog::Network] Time to disconnect replication data: 1.170472
+2025-02-02T16:14:43.900Z,9.900227,a531000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-02T16:14:43.900Z,9.900253,a531000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-02T16:14:43.900Z,9.900269,b485000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-02T16:14:44.149Z,10.149497,4ea5efc0,6,Warning [DFLog::BootcampCLI139737Log] Hello world!!!!!!!!!!!!!!!!!!!!
+2025-02-02T16:14:44.152Z,10.152002,4ea5efc0,6,Info [FLog::Audio] OutputDevice 0: Cuffie esterne [BuiltIn] 48000/2
+2025-02-02T16:14:44.154Z,10.154232,a531000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-02T16:14:44.154Z,10.154251,a531000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider teardown
+2025-02-02T16:14:44.154Z,10.154325,a531000,7 [FLog::Network] Client:Disconnect
+2025-02-02T16:14:44.158Z,10.158513,4ea5efc0,6,Info [FLog::Audio] InputDevice 0: Microfono esterno({af0144be-277e-8cc3-0000000000000000}) 48000/1/4
+2025-02-02T16:14:44.158Z,10.158540,4ea5efc0,6,Info [FLog::Audio] InputDevice 1: Microfono iMac({50eb3c32-f018-032c-0000000000000000}) 48000/1/4
+2025-02-02T16:14:44.162Z,10.162367,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: finishTeleportWithJoinScriptPayload: begin
+2025-02-02T16:14:44.162Z,10.162437,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: updateServerTypeAndSendAnalytics: sending event None_None
+2025-02-02T16:14:44.164Z,10.164653,4ea5efc0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7fe01033c200)
+2025-02-02T16:14:44.164Z,10.164680,4ea5efc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:2]::RenderJob
+2025-02-02T16:14:44.164Z,10.164691,4ea5efc0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7fe01033c200)
+2025-02-02T16:14:44.234Z,10.234941,a531000,7 [FLog::Network] NetworkClient:Remove
+2025-02-02T16:14:44.234Z,10.234966,a531000,7 [DFLog::MegaReplicatorLogDisconnectCleanUpLog] Destroying MegaReplicator.
+2025-02-02T16:14:44.588Z,10.588638,a531000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() destructor
+2025-02-02T16:14:44.598Z,10.598673,a531000,7 [FLog::Network] Replicator destroyed: 0x7fe02dba25f0
+2025-02-02T16:14:44.648Z,10.648018,a634000,6,Info [FLog::UgcExperienceController] UgcExperienceController: submitStartGameTask: scrips are loaded 0x7fe01033c200
+2025-02-02T16:14:44.648Z,10.648090,a634000,7 [FLog::Network] NetworkClient:Create
+2025-02-02T16:14:44.648Z,10.648473,a634000,10 [DFLog::KeyRing] Parsed config created at: 11:59 4/1/2024.
+2025-02-02T16:14:44.650Z,10.650510,a634000,6 [FLog::Output] AnalyticsSessionId is 48651948-3eb8-4a39-b8ec-06a82b9d34c7.
+2025-02-02T16:14:44.650Z,10.650531,a634000,6 [FLog::Output] ! Joining game '544dd191-bad0-449a-b0be-19b2c51cb81b' place 130818724007978 at 10.206.18.152
+2025-02-02T16:14:44.650Z,10.650561,a634000,6 [FLog::GameJoinLoadTime] Report game_join_loadtime: sid:48651948-3eb8-4a39-b8ec-06a82b9d34c7, clienttime:1738512884.4869999886, join_time:0, referral_page:, placeid:130818724007978, userid:3047960021, universeid:3808081382, 
+2025-02-02T16:14:44.654Z,10.654986,a634000,7 [FLog::Network] Client will attempt to connect following server endpoints with threadSleepTime(-1)
+2025-02-02T16:14:44.655Z,10.655001,a634000,7 [FLog::Network] UDMUX Address = 128.116.5.33, Port = 54066 | RCC Server Address = 10.206.18.152, Port = 54066
+2025-02-02T16:14:44.655Z,10.655901,a634000,7 [FLog::Network] binding socket on inaddr_any:0
+
+2025-02-02T16:14:44.668Z,10.668637,a634000,6 [FLog::Output] Connecting to UDMUX server 128.116.5.33:54066, and RCC server 10.206.18.152:54066
+2025-02-02T16:14:44.668Z,10.668816,a634000,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+2025-02-02T16:14:44.669Z,10.669533,4ea5efc0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+2025-02-02T16:14:44.865Z,10.865708,a531000,6 [FLog::Output] Connection accepted from 128.116.5.33|54066
+2025-02-02T16:14:44.867Z,10.867316,a531000,7 [FLog::Network] serverId: 128.116.5.33|54066
+2025-02-02T16:14:44.867Z,10.867398,a531000,7 [FLog::Network] Replicator created for player 128.116.5.33|54066
+2025-02-02T16:14:44.867Z,10.867411,a531000,7 [FLog::Network] Replicator created: 0x7fe0259a7cf0
+2025-02-02T16:14:45.052Z,11.052282,a531000,7 [FLog::Network] Time taken to initialize schema = 4.486621 ms
+2025-02-02T16:14:45.052Z,11.052379,a531000,7 [FLog::Network] Assigned peer id = 232
+2025-02-02T16:14:45.052Z,11.052561,a531000,7 [FLog::Network] Join snapshot timer: 0.169191
+2025-02-02T16:14:45.083Z,11.083372,a634000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() constructor
+2025-02-02T16:14:45.083Z,11.083406,a634000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-02T16:14:45.083Z,11.083415,a634000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider setup
+2025-02-02T16:14:45.655Z,11.655049,4ea5efc0,6 [FLog::Graphics] Future is bright shadows
+2025-02-02T16:14:45.935Z,11.935752,a531000,6 [FLog::Output] INTERPRETER LOADED 87.1686679011
+2025-02-02T16:14:45.953Z,11.953052,a531000,6 [FLog::Output] Server RobloxGitHash: 6874f45ec658019a67f19ab7de6e688c50292b01
+2025-02-02T16:14:45.953Z,11.953084,a531000,6 [FLog::Output] Server Prefix: 0.658.0.6580461_20250202T115703Z_RCC_5eb94
+2025-02-02T16:14:46.013Z,12.013065,a737000,6 [FLog::Output] REPLICATION LOADED 0.09616804122924805
+2025-02-02T16:14:46.074Z,12.074161,4ea5efc0,6 [FLog::Graphics] Terrain TextureArray 512x512, arraySize: 36, mip: 10
+2025-02-02T16:14:46.245Z,12.245908,a737000,6 [FLog::Output] CLIENT LOADED 0.28132057189941406
+2025-02-02T16:14:47.719Z,13.719349,a531000,6 [FLog::Output] 
+
+
+⚽ The Strongest Battlegrounds [KJ] uses TopbarPlus v2.9.1
+🍍 TopbarPlus was developed by ForeverHD and the Nanoblox Team
+🚀 You can learn more and take a free copy by searching for 'TopbarPlus' on the DevForum
+
+
+2025-02-02T16:14:51.080Z,17.080294,9f93000,6 [FLog::Error] Asset (Animation) "rbxassetid://0" load failed in Animation.AnimationId: Animation failed to load
+2025-02-02T16:14:51.080Z,17.080370,9f93000,6 [FLog::Error] Error: Failed to load animation with sanitized ID rbxassetid://0: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=0&serverplaceid=130818724007978
+2025-02-02T16:14:52.668Z,18.668684,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:14:53.751Z,19.751757,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:15:05.567Z,31.567326,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:15:05.917Z,31.917091,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:15:14.231Z,40.231777,a737000,6 [FLog::Error] Error: Spin1575895218 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:15:17.835Z,43.835430,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:15:25.253Z,51.253036,a737000,6 [FLog::Error] Error: Spin1695041265 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:15:28.850Z,54.850449,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:15:29.757Z,55.757191,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:15:37.933Z,63.933823,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:15:45.200Z,71.200546,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:15:55.664Z,81.664314,a531000,6 [FLog::Error] Error: Spin71309944 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:15:55.665Z,81.665138,a531000,6 [FLog::Error] Error: Spin1575895218 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:15:59.581Z,85.581299,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:16:08.067Z,94.067741,a634000,6 [FLog::Error] Error: Spin956286149 is not a valid member of Part "Workspace.Live.erwrle6.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:16:10.751Z,96.751648,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:16:11.682Z,97.682213,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:16:25.138Z,111.138435,a531000,6 [FLog::Error] Error: Spin1356549583 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:16:25.139Z,111.139038,a531000,6 [FLog::Error] Error: Spin71309944 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:16:25.139Z,111.139107,a531000,6 [FLog::Error] Error: Spin1575895218 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:16:29.031Z,115.031769,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:16:34.603Z,120.603310,a634000,6 [FLog::Warning] Warning: shook
+2025-02-02T16:16:35.666Z,121.666786,a11c000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 16:16:32 GMT
+2025-02-02T16:16:35.666Z,121.666824,a11c000,6 [FLog::Output] Settings Date timestamp is 1738512992
+2025-02-02T16:16:50.179Z,136.179031,a531000,6 [FLog::Error] Error: Spin560326646 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:16:50.181Z,136.181808,a531000,6 [FLog::Error] Error: Spin1356549583 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:16:50.181Z,136.181870,a531000,6 [FLog::Error] Error: Spin71309944 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:16:50.181Z,136.181946,a531000,6 [FLog::Error] Error: Spin1575895218 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:16:53.482Z,139.482590,a634000,6 [FLog::Error] Error: Spin1622743022 is not a valid member of Part "Workspace.Live.erwrle6.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:16:53.482Z,139.482697,a634000,6 [FLog::Error] Error: Spin956286149 is not a valid member of Part "Workspace.Live.erwrle6.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:16:53.781Z,139.781540,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:16:56.716Z,142.716339,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:16:57.099Z,143.099411,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:16:59.656Z,145.656738,a737000,6 [FLog::Error] Error: Spin177859139 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:01.230Z,147.230972,a634000,6 [FLog::Error] Error: Spin1875790021 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:01.231Z,147.231110,a634000,6 [FLog::Error] Error: Spin1695041265 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:03.547Z,149.547470,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:17:05.102Z,151.102600,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:17:05.825Z,151.825363,a634000,6 [FLog::Error] Error: Spin1906473470 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:09.706Z,155.706924,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:17:14.963Z,160.963043,a531000,6 [FLog::Error] Error: Spin1120081622 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:14.963Z,160.963852,a531000,6 [FLog::Error] Error: Spin560326646 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:14.963Z,160.963913,a531000,6 [FLog::Error] Error: Spin1356549583 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:14.963Z,160.963959,a531000,6 [FLog::Error] Error: Spin71309944 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:14.964Z,160.964005,a531000,6 [FLog::Error] Error: Spin1575895218 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:16.047Z,162.047501,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:17:18.411Z,164.411591,a531000,6 [FLog::Error] Error: Spin1324821451 is not a valid member of Part "Workspace.Live.mrocznyada.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:18.565Z,164.565002,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:17:22.011Z,168.011398,a737000,6 [FLog::Error] Asset (Animation) "rbxassetid://0" load failed in Animation.AnimationId: Animation failed to load
+2025-02-02T16:17:22.032Z,168.032333,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:17:26.177Z,172.177887,a531000,6 [FLog::Error] Error: Spin1166347731 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:26.180Z,172.180603,a531000,6 [FLog::Error] Error: Spin1875790021 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:26.180Z,172.180679,a531000,6 [FLog::Error] Error: Spin1695041265 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:26.793Z,172.793945,a737000,6 [FLog::Error] Error: Spin958419150 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:26.794Z,172.794052,a737000,6 [FLog::Error] Error: Spin177859139 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:30.059Z,176.059189,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:17:30.677Z,176.677475,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:17:35.097Z,181.097122,a737000,6 [FLog::Error] Error: Spin215868361 is not a valid member of Part "Workspace.Live.ELEMENTAL15567.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:37.379Z,183.379807,a531000,6 [FLog::Error] Error: Spin742570296 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:37.379Z,183.379944,a531000,6 [FLog::Error] Error: Spin1906473470 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:38.194Z,184.194061,a634000,6 [FLog::Error] Error: Spin102563311 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:38.194Z,184.194153,a634000,6 [FLog::Error] Error: Spin1120081622 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:38.194Z,184.194214,a634000,6 [FLog::Error] Error: Spin560326646 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:38.194Z,184.194290,a634000,6 [FLog::Error] Error: Spin1356549583 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:38.194Z,184.194382,a634000,6 [FLog::Error] Error: Spin71309944 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:38.194Z,184.194443,a634000,6 [FLog::Error] Error: Spin1575895218 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:38.995Z,184.995361,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:17:41.417Z,187.417862,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:17:41.797Z,187.797211,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:17:50.046Z,196.046494,a531000,6 [FLog::Error] Error: Spin678522581 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:50.047Z,196.047333,a531000,6 [FLog::Error] Error: Spin958419150 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:50.047Z,196.047394,a531000,6 [FLog::Error] Error: Spin177859139 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:50.147Z,196.147507,a737000,6 [FLog::Error] Error: Spin1331216720 is not a valid member of Part "Workspace.Live.erwrle6.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:50.147Z,196.147614,a737000,6 [FLog::Error] Error: Spin1622743022 is not a valid member of Part "Workspace.Live.erwrle6.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:50.147Z,196.147675,a737000,6 [FLog::Error] Error: Spin956286149 is not a valid member of Part "Workspace.Live.erwrle6.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:50.696Z,196.696793,a737000,6 [FLog::Error] Error: Spin678522581 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:50.696Z,196.696915,a737000,6 [FLog::Error] Error: Spin958419150 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:50.696Z,196.696991,a737000,6 [FLog::Error] Error: Spin177859139 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:53.931Z,199.931366,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:17:54.033Z,200.033585,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:17:57.599Z,203.599167,a531000,6 [FLog::Error] Error: Spin980561044 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:57.599Z,203.599380,a531000,6 [FLog::Error] Error: Spin1166347731 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:57.599Z,203.599472,a531000,6 [FLog::Error] Error: Spin1875790021 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:17:57.599Z,203.599518,a531000,6 [FLog::Error] Error: Spin1695041265 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:00.233Z,206.233002,a737000,6 [FLog::Error] Error: Spin347572706 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:00.233Z,206.233078,a737000,6 [FLog::Error] Error: Spin742570296 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:00.233Z,206.233124,a737000,6 [FLog::Error] Error: Spin1906473470 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:01.202Z,207.202774,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:18:04.086Z,210.086731,a634000,6 [FLog::Error] Error: Spin310346433 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:04.086Z,210.086823,a634000,6 [FLog::Error] Error: Spin102563311 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:04.086Z,210.086868,a634000,6 [FLog::Error] Error: Spin1120081622 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:04.086Z,210.086914,a634000,6 [FLog::Error] Error: Spin560326646 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:04.086Z,210.086960,a634000,6 [FLog::Error] Error: Spin1356549583 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:04.086Z,210.086990,a634000,6 [FLog::Error] Error: Spin71309944 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:04.087Z,210.087036,a634000,6 [FLog::Error] Error: Spin1575895218 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:04.122Z,210.122437,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:18:05.744Z,211.744156,a634000,6 [FLog::Error] Error: Spin1104628938 is not a valid member of Part "Workspace.Live.ELEMENTAL15567.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:05.744Z,211.744278,a634000,6 [FLog::Error] Error: Spin215868361 is not a valid member of Part "Workspace.Live.ELEMENTAL15567.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:07.430Z,213.430038,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:18:07.977Z,213.977570,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:18:09.353Z,215.353638,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:18:20.710Z,226.710709,a634000,6 [FLog::Error] Error: Spin1071328896 is not a valid member of Part "Workspace.Live.erwrle6.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:20.711Z,226.711243,a634000,6 [FLog::Error] Error: Spin1331216720 is not a valid member of Part "Workspace.Live.erwrle6.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:20.711Z,226.711472,a634000,6 [FLog::Error] Error: Spin1622743022 is not a valid member of Part "Workspace.Live.erwrle6.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:20.711Z,226.711578,a634000,6 [FLog::Error] Error: Spin956286149 is not a valid member of Part "Workspace.Live.erwrle6.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:24.074Z,230.074127,a531000,6,Error [FLog::FMOD] FMOD API error, FMOD_RESULT:46, instance:0x7fe01d85c008, functionname:System::playSound, functionparams:0x7fe00c05ad28, 0x7fe01ed33928, true, 0x7fe00de29dd0
+2025-02-02T16:18:24.074Z,230.074188,a531000,6,Error [FLog::FMOD] FMOD object: 0x7fe01d85c008, parent: 0x7fe00de29d10, fmodOperation: playSound, error: Operation could not be performed because specified sound/DSP connection is not ready.
+2025-02-02T16:18:24.761Z,230.761032,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:18:33.461Z,239.461380,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:18:35.738Z,241.738754,a11c000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 16:18:24 GMT
+2025-02-02T16:18:35.738Z,241.738785,a11c000,6 [FLog::Output] Settings Date timestamp is 1738513104
+2025-02-02T16:18:39.480Z,245.480240,a634000,6 [FLog::Error] Error: Spin1501146473 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:39.480Z,245.480331,a634000,6 [FLog::Error] Error: Spin980561044 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:39.480Z,245.480392,a634000,6 [FLog::Error] Error: Spin1166347731 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:39.480Z,245.480438,a634000,6 [FLog::Error] Error: Spin1875790021 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:39.480Z,245.480484,a634000,6 [FLog::Error] Error: Spin1695041265 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:43.376Z,249.376129,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:18:49.810Z,255.810059,a634000,6 [FLog::Error] Error: Spin1185093905 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:49.810Z,255.810532,a634000,6 [FLog::Error] Error: Spin310346433 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:49.810Z,255.810608,a634000,6 [FLog::Error] Error: Spin102563311 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:49.810Z,255.810654,a634000,6 [FLog::Error] Error: Spin1120081622 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:49.810Z,255.810699,a634000,6 [FLog::Error] Error: Spin560326646 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:49.810Z,255.810745,a634000,6 [FLog::Error] Error: Spin1356549583 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:49.810Z,255.810791,a634000,6 [FLog::Error] Error: Spin71309944 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:49.810Z,255.810837,a634000,6 [FLog::Error] Error: Spin1575895218 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:52.742Z,258.742706,a531000,6 [FLog::Error] Error: Spin787009574 is not a valid member of Part "Workspace.Live.mrocznyada.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:52.742Z,258.742798,a531000,6 [FLog::Error] Error: Spin1324821451 is not a valid member of Part "Workspace.Live.mrocznyada.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:18:53.693Z,259.693329,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:18:56.370Z,262.370972,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:19:02.292Z,268.292633,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:19:13.288Z,279.288300,a634000,6 [FLog::Error] Error: Spin1809179902 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:13.288Z,279.288391,a634000,6 [FLog::Error] Error: Spin1501146473 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:13.288Z,279.288452,a634000,6 [FLog::Error] Error: Spin980561044 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:13.288Z,279.288544,a634000,6 [FLog::Error] Error: Spin1166347731 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:13.288Z,279.288605,a634000,6 [FLog::Error] Error: Spin1875790021 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:13.288Z,279.288666,a634000,6 [FLog::Error] Error: Spin1695041265 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:15.308Z,281.308838,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:19:17.579Z,283.579590,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:19:22.099Z,288.099701,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:19:22.175Z,288.175140,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:19:37.921Z,303.921326,a531000,6 [FLog::Error] Error: Spin507979706 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:38.740Z,304.740479,a531000,6 [FLog::Error] Error: Spin1858239175 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:38.740Z,304.740570,a531000,6 [FLog::Error] Error: Spin1809179902 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:38.740Z,304.740631,a531000,6 [FLog::Error] Error: Spin1501146473 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:38.740Z,304.740662,a531000,6 [FLog::Error] Error: Spin980561044 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:38.740Z,304.740723,a531000,6 [FLog::Error] Error: Spin1166347731 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:38.740Z,304.740753,a531000,6 [FLog::Error] Error: Spin1875790021 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:38.740Z,304.740845,a531000,6 [FLog::Error] Error: Spin1695041265 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:39.997Z,305.997192,a634000,6 [FLog::Error] Error: Spin1818678464 is not a valid member of Part "Workspace.Live.mrocznyada.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:39.997Z,305.997284,a634000,6 [FLog::Error] Error: Spin787009574 is not a valid member of Part "Workspace.Live.mrocznyada.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:39.997Z,305.997345,a634000,6 [FLog::Error] Error: Spin1324821451 is not a valid member of Part "Workspace.Live.mrocznyada.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:42.158Z,308.158295,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:19:42.342Z,308.342529,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:19:43.606Z,309.606689,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:19:54.418Z,320.418152,a634000,6 [FLog::Error] Error: Spin456720791 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:19:58.025Z,324.025970,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:19:59.278Z,325.278015,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:20:02.035Z,328.035339,a634000,6 [FLog::Error] Error: Spin1832237990 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:02.035Z,328.035431,a634000,6 [FLog::Error] Error: Spin507979706 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:06.324Z,332.324127,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:20:12.388Z,338.388489,a634000,6 [FLog::Error] Error: Spin1590219321 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:16.256Z,342.256531,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:20:21.789Z,347.789612,a737000,6 [FLog::Error] Error: Spin272890740 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:21.790Z,347.790039,a737000,6 [FLog::Error] Error: Spin456720791 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:22.726Z,348.726501,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:20:25.397Z,351.397491,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:20:26.508Z,352.508728,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:20:35.818Z,361.818237,a11c000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 16:20:35 GMT
+2025-02-02T16:20:35.819Z,361.819000,a11c000,6 [FLog::Output] Settings Date timestamp is 1738513235
+2025-02-02T16:20:38.505Z,364.505127,a634000,6 [FLog::Error] Error: Spin1961748590 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:38.505Z,364.505249,a634000,6 [FLog::Error] Error: Spin1590219321 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:39.361Z,365.361725,a737000,6 [FLog::Error] Error: Spin769234696 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:39.361Z,365.361816,a737000,6 [FLog::Error] Error: Spin1858239175 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:39.361Z,365.361908,a737000,6 [FLog::Error] Error: Spin1809179902 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:39.362Z,365.362061,a737000,6 [FLog::Error] Error: Spin1501146473 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:39.362Z,365.362183,a737000,6 [FLog::Error] Error: Spin980561044 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:39.362Z,365.362335,a737000,6 [FLog::Error] Error: Spin1166347731 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:39.362Z,365.362396,a737000,6 [FLog::Error] Error: Spin1875790021 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:39.362Z,365.362457,a737000,6 [FLog::Error] Error: Spin1695041265 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:42.120Z,368.120117,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:20:43.253Z,369.253174,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:20:47.930Z,373.930450,a531000,6 [FLog::Error] Error: Spin835386368 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:51.541Z,377.541107,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:20:52.387Z,378.387299,a737000,6 [FLog::Error] Error: Spin739512456 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:52.688Z,378.688141,a737000,6 [FLog::Error] Error: Spin465652291 is not a valid member of Part "Workspace.Live.mrocznyada.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:52.688Z,378.688232,a737000,6 [FLog::Error] Error: Spin1818678464 is not a valid member of Part "Workspace.Live.mrocznyada.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:52.688Z,378.688293,a737000,6 [FLog::Error] Error: Spin787009574 is not a valid member of Part "Workspace.Live.mrocznyada.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:52.688Z,378.688324,a737000,6 [FLog::Error] Error: Spin1324821451 is not a valid member of Part "Workspace.Live.mrocznyada.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:54.750Z,380.750000,a634000,6 [FLog::Error] Error: Spin739512456 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:20:55.987Z,381.987061,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:20:56.288Z,382.288422,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:20:58.570Z,384.570740,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:21:02.218Z,388.218719,a737000,6 [FLog::Error] Error: Spin226144228 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:02.218Z,388.218842,a737000,6 [FLog::Error] Error: Spin1961748590 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:02.218Z,388.218872,a737000,6 [FLog::Error] Error: Spin1590219321 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:06.088Z,392.088257,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:21:07.785Z,393.785431,a737000,6 [FLog::Error] Error: Spin1758215892 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:07.785Z,393.785553,a737000,6 [FLog::Error] Error: Spin769234696 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:07.785Z,393.785614,a737000,6 [FLog::Error] Error: Spin1858239175 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:07.785Z,393.785675,a737000,6 [FLog::Error] Error: Spin1809179902 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:07.785Z,393.785736,a737000,6 [FLog::Error] Error: Spin1501146473 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:07.785Z,393.785828,a737000,6 [FLog::Error] Error: Spin980561044 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:07.785Z,393.785919,a737000,6 [FLog::Error] Error: Spin1166347731 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:07.785Z,393.785980,a737000,6 [FLog::Error] Error: Spin1875790021 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:07.786Z,393.786072,a737000,6 [FLog::Error] Error: Spin1695041265 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:11.655Z,397.655426,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:21:13.869Z,399.869385,a737000,6 [FLog::Error] Error: Spin155800157 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:13.869Z,399.869507,a737000,6 [FLog::Error] Error: Spin835386368 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:14.995Z,400.995667,a634000,6 [FLog::Error] Error: Spin938327204 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:14.995Z,400.995758,a634000,6 [FLog::Error] Error: Spin739512456 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:17.474Z,403.474274,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:21:18.608Z,404.608612,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:21:32.084Z,418.084747,a634000,6 [FLog::Error] Error: Spin644501547 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:32.085Z,418.085571,a634000,6 [FLog::Error] Error: Spin1758215892 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:32.085Z,418.085632,a634000,6 [FLog::Error] Error: Spin769234696 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:32.085Z,418.085693,a634000,6 [FLog::Error] Error: Spin1858239175 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:32.085Z,418.085724,a634000,6 [FLog::Error] Error: Spin1809179902 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:32.085Z,418.085785,a634000,6 [FLog::Error] Error: Spin1501146473 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:32.085Z,418.085815,a634000,6 [FLog::Error] Error: Spin980561044 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:32.085Z,418.085876,a634000,6 [FLog::Error] Error: Spin1166347731 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:32.085Z,418.085907,a634000,6 [FLog::Error] Error: Spin1875790021 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:32.085Z,418.085968,a634000,6 [FLog::Error] Error: Spin1695041265 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:35.294Z,421.294739,a531000,6 [FLog::Error] Error: Spin795945547 is not a valid member of Part "Workspace.Live.mrocznyada.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:35.294Z,421.294861,a531000,6 [FLog::Error] Error: Spin465652291 is not a valid member of Part "Workspace.Live.mrocznyada.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:35.294Z,421.294952,a531000,6 [FLog::Error] Error: Spin1818678464 is not a valid member of Part "Workspace.Live.mrocznyada.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:35.295Z,421.295105,a531000,6 [FLog::Error] Error: Spin787009574 is not a valid member of Part "Workspace.Live.mrocznyada.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:35.295Z,421.295166,a531000,6 [FLog::Error] Error: Spin1324821451 is not a valid member of Part "Workspace.Live.mrocznyada.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:35.671Z,421.671173,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:21:38.269Z,424.269684,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:21:39.170Z,425.170135,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:21:39.930Z,425.930267,a737000,6 [FLog::Error] Error: Spin952747900 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:39.930Z,425.930359,a737000,6 [FLog::Error] Error: Spin155800157 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:39.930Z,425.930420,a737000,6 [FLog::Error] Error: Spin835386368 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:40.628Z,426.628113,a737000,6 [FLog::Error] Error: Spin1908661285 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:21:41.481Z,427.481232,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:21:43.803Z,429.803406,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:21:44.720Z,430.720612,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:21:56.536Z,442.536957,a634000,6 [FLog::Warning] Warning: sync
+2025-02-02T16:21:56.607Z,442.607941,a531000,6 [FLog::Warning] Warning: StarterGui:SetCoreGuiEnabled is not supported on type SelfView.
+2025-02-02T16:21:56.719Z,442.719147,a11c000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=14214957542%2F" load failed in Workspace.BG.Bem.beams.Background.Texture: Request failed
+2025-02-02T16:21:56.719Z,442.719238,a11c000,12 [DFLog::HttpTraceError] HttpResponse(#13753 0x7fdfe8844e20) time:158.2ms (net:158.2ms callback:0.1ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:63 url:{ "https://assetdelivery.roblox.com/v1/asset?id=14214957542%2F" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-02T16:22:03.301Z,449.301483,a531000,6 [FLog::Error] Error: Spin2013129 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:22:03.301Z,449.301697,a531000,6 [FLog::Error] Error: Spin952747900 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:22:03.301Z,449.301727,a531000,6 [FLog::Error] Error: Spin155800157 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:22:03.301Z,449.301788,a531000,6 [FLog::Error] Error: Spin835386368 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:22:04.751Z,450.751770,a634000,6 [FLog::Warning] Warning: theyung
+2025-02-02T16:22:06.934Z,452.934662,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:22:07.550Z,453.550049,a737000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T16:22:07.553Z,453.553436,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:07.570Z,453.570770,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:07.601Z,453.601532,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:07.634Z,453.634033,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:07.666Z,453.666351,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:07.701Z,453.701019,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:07.723Z,453.723175,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:07.754Z,453.754669,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:07.781Z,453.781555,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:07.806Z,453.806366,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:07.837Z,453.837250,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:07.871Z,453.871033,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:07.903Z,453.903381,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:07.935Z,453.935791,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:07.970Z,453.970947,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.004Z,454.004578,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.037Z,454.037262,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.071Z,454.071075,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.102Z,454.102600,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.138Z,454.138489,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.167Z,454.167114,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.200Z,454.200378,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.234Z,454.234528,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.266Z,454.266205,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.299Z,454.299072,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.334Z,454.334137,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.368Z,454.368256,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.401Z,454.401276,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.433Z,454.433167,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.466Z,454.466003,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.493Z,454.493835,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.521Z,454.521301,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:08.553Z,454.553009,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:22:09.384Z,455.384186,a531000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T16:22:09.384Z,455.384949,a531000,6 [FLog::Output] did
+2025-02-02T16:22:09.384Z,455.384979,a531000,6 [FLog::Output] did
+2025-02-02T16:22:09.385Z,455.385040,a531000,6 [FLog::Output] did
+2025-02-02T16:22:10.219Z,456.219727,a531000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T16:22:14.652Z,460.652649,a634000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T16:22:16.668Z,462.668182,a634000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T16:22:18.630Z,464.630920,a737000,6 [FLog::Error] Error: Spin1701792804 is not a valid member of Part "Workspace.Live.omarbakhour1.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:22:19.543Z,465.543915,a737000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T16:22:22.519Z,468.519562,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:22:26.882Z,472.882629,a737000,6 [FLog::Error] Error: Spin1306969166 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:22:26.882Z,472.882721,a737000,6 [FLog::Error] Error: Spin2013129 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:22:26.882Z,472.882751,a737000,6 [FLog::Error] Error: Spin952747900 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:22:26.882Z,472.882812,a737000,6 [FLog::Error] Error: Spin155800157 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:22:26.882Z,472.882843,a737000,6 [FLog::Error] Error: Spin835386368 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:22:30.474Z,476.474915,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:22:34.828Z,480.828461,a634000,6 [FLog::Error] Error: Spin1304311632 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:22:34.828Z,480.828552,a634000,6 [FLog::Error] Error: Spin938327204 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:22:34.828Z,480.828644,a634000,6 [FLog::Error] Error: Spin739512456 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:22:35.899Z,481.899719,a11c000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 16:22:35 GMT
+2025-02-02T16:22:35.899Z,481.899780,a11c000,6 [FLog::Output] Settings Date timestamp is 1738513355
+2025-02-02T16:22:38.451Z,484.451202,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:22:42.055Z,488.055115,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:22:46.383Z,492.383026,a634000,6 [FLog::Error] Error: Spin1516545278 is not a valid member of Part "Workspace.Live.omarbakhour1.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:22:46.383Z,492.383118,a634000,6 [FLog::Error] Error: Spin1701792804 is not a valid member of Part "Workspace.Live.omarbakhour1.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:22:50.005Z,496.005676,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:22:54.227Z,500.227234,a531000,6 [FLog::Error] Error: The Parent property of LastTheme is locked, current parent: NULL, new parent Attachment
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 37659
+    Stack End
+2025-02-02T16:22:58.336Z,504.336517,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:23:01.465Z,507.465973,a634000,6 [FLog::Error] Error: Spin256714570 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:23:05.339Z,511.339996,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:23:10.381Z,516.381348,a737000,6 [FLog::Error] Error: Spin78750722 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:23:10.381Z,516.381470,a737000,6 [FLog::Error] Error: Spin1304311632 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:23:10.381Z,516.381531,a737000,6 [FLog::Error] Error: Spin938327204 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:23:10.381Z,516.381592,a737000,6 [FLog::Error] Error: Spin739512456 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:23:13.998Z,519.998535,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:23:17.648Z,523.648376,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:23:18.987Z,524.987793,a737000,6 [FLog::Error] Error: Spin1937158793 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:23:19.328Z,525.328369,a531000,6 [FLog::Error] Error: Spin81724565 is not a valid member of Part "Workspace.Live.omarbakhour1.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:23:19.328Z,525.328613,a531000,6 [FLog::Error] Error: Spin1516545278 is not a valid member of Part "Workspace.Live.omarbakhour1.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:23:19.328Z,525.328735,a531000,6 [FLog::Error] Error: Spin1701792804 is not a valid member of Part "Workspace.Live.omarbakhour1.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:23:22.600Z,528.600220,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:23:23.086Z,529.086060,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:23:25.664Z,531.664734,a531000,6 [FLog::Error] Error: Spin975170062 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:23:25.664Z,531.664856,a531000,6 [FLog::Error] Error: Spin256714570 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:23:29.565Z,535.565369,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:23:47.933Z,553.933960,a634000,6 [FLog::Warning] Warning: shook
+2025-02-02T16:23:53.694Z,559.694885,a531000,6 [FLog::Error] Error: Spin1538267961 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:23:53.695Z,559.695312,a531000,6 [FLog::Error] Error: Spin975170062 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:23:53.695Z,559.695374,a531000,6 [FLog::Error] Error: Spin256714570 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:23:57.568Z,563.568481,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:24:03.370Z,569.370056,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:24:03.554Z,569.554993,a737000,6 [FLog::Error] Error: Spin101565029 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:24:03.555Z,569.555115,a737000,6 [FLog::Error] Error: Spin78750722 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:24:03.555Z,569.555176,a737000,6 [FLog::Error] Error: Spin1304311632 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:24:03.555Z,569.555237,a737000,6 [FLog::Error] Error: Spin938327204 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:24:03.555Z,569.555237,a737000,6 [FLog::Error] Error: Spin739512456 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:24:07.568Z,573.568909,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:24:08.348Z,574.348022,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:24:26.561Z,592.561523,a531000,6 [FLog::Error] Error: Spin674351084 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:24:30.424Z,596.424622,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:24:31.564Z,597.564453,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:24:35.682Z,601.682068,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:24:35.980Z,601.980591,a11c000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 16:24:24 GMT
+2025-02-02T16:24:35.980Z,601.980652,a11c000,6 [FLog::Output] Settings Date timestamp is 1738513464
+2025-02-02T16:24:37.317Z,603.317078,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:24:39.818Z,605.818054,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:24:40.314Z,606.314819,a531000,6 [FLog::Error] Error: Spin1378219809 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:24:44.213Z,610.213013,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:24:46.531Z,612.531982,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:24:50.153Z,616.153687,a634000,6 [FLog::Error] Error: Spin1174094266 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:24:50.154Z,616.154297,a634000,6 [FLog::Error] Error: Spin674351084 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:24:54.030Z,620.030334,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:25:00.674Z,626.674377,a634000,6 [FLog::Error] Error: Spin826136597 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:00.993Z,626.993347,a531000,6 [FLog::Error] Error: Spin1657717989 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:03.349Z,629.349976,a737000,6 [FLog::Error] Error: Spin183402306 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:03.350Z,629.350342,a737000,6 [FLog::Error] Error: Spin1378219809 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:04.295Z,630.295044,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:25:04.611Z,630.611938,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:25:05.278Z,631.278992,a531000,6 [FLog::Error] Error: Spin776782570 is not a valid member of Part "Workspace.Live.tojtek74155.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:06.809Z,632.809753,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:25:07.159Z,633.159851,a634000,6 [FLog::Error] Error: Spin279536261 is not a valid member of Part "Workspace.Live.omarbakhour1.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:08.928Z,634.928467,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:25:10.779Z,636.779175,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:25:17.226Z,643.226929,a634000,6 [FLog::Error] Error: Spin1626614329 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:21.113Z,647.113525,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:25:25.595Z,651.595276,a531000,6 [FLog::Error] Error: Spin543342872 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:25.595Z,651.595703,a531000,6 [FLog::Error] Error: Spin1657717989 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:25.946Z,651.946289,a531000,6 [FLog::Error] Error: Spin543342872 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:25.946Z,651.946411,a531000,6 [FLog::Error] Error: Spin1657717989 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:26.787Z,652.787109,a634000,6 [FLog::Error] Error: Spin1949303096 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:26.787Z,652.787170,a634000,6 [FLog::Error] Error: Spin1174094266 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:26.787Z,652.787231,a634000,6 [FLog::Error] Error: Spin674351084 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:29.499Z,655.499634,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:25:30.399Z,656.399475,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:25:48.427Z,674.427185,a531000,6 [FLog::Error] Error: Spin420695786 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:48.427Z,674.427612,a531000,6 [FLog::Error] Error: Spin543342872 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:48.427Z,674.427673,a531000,6 [FLog::Error] Error: Spin1657717989 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:52.307Z,678.307068,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:25:52.707Z,678.707031,a531000,6 [FLog::Error] Error: Spin1357895469 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:52.707Z,678.707153,a531000,6 [FLog::Error] Error: Spin1949303096 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:52.707Z,678.707214,a531000,6 [FLog::Error] Error: Spin1174094266 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:52.707Z,678.707214,a531000,6 [FLog::Error] Error: Spin674351084 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:25:56.309Z,682.309631,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:26:11.791Z,697.791382,a634000,6 [FLog::Error] Error: Spin510794799 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:26:11.792Z,697.792664,a634000,6 [FLog::Error] Error: Spin420695786 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:26:11.792Z,697.792725,a634000,6 [FLog::Error] Error: Spin543342872 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:26:11.792Z,697.792725,a634000,6 [FLog::Error] Error: Spin1657717989 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:26:13.091Z,699.091248,a634000,6 [FLog::Error] Error: Spin191190497 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:26:13.091Z,699.091309,a634000,6 [FLog::Error] Error: Spin1626614329 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:26:15.393Z,701.393188,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:26:17.145Z,703.145081,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:26:28.173Z,714.173767,a634000,6 [FLog::Error] Error: Spin187199617 is not a valid member of Part "Workspace.Live.omarbakhour1.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:26:28.173Z,714.173828,a634000,6 [FLog::Error] Error: Spin279536261 is not a valid member of Part "Workspace.Live.omarbakhour1.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:26:31.791Z,717.791931,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:26:36.006Z,722.006226,a737000,6 [FLog::Error] Error: Spin366007497 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:26:36.006Z,722.006287,a737000,6 [FLog::Error] Error: Spin191190497 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:26:36.006Z,722.006348,a737000,6 [FLog::Error] Error: Spin1626614329 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:26:36.069Z,722.069397,a11c000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 16:26:29 GMT
+2025-02-02T16:26:36.069Z,722.069458,a11c000,6 [FLog::Output] Settings Date timestamp is 1738513589
+2025-02-02T16:26:39.896Z,725.896179,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:26:52.273Z,738.273621,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:26:52.488Z,738.488708,a737000,6 [FLog::Warning] Warning: shook
+2025-02-02T16:26:54.942Z,740.942017,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:26:59.057Z,745.057068,a737000,6 [FLog::Error] Error: Spin454475581 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:26:59.057Z,745.057190,a737000,6 [FLog::Error] Error: Spin826136597 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:02.657Z,748.657410,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:27:03.592Z,749.592590,a531000,6 [FLog::Error] Error: Spin154926528 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:03.592Z,749.592651,a531000,6 [FLog::Error] Error: Spin366007497 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:03.592Z,749.592712,a531000,6 [FLog::Error] Error: Spin191190497 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:03.592Z,749.592773,a531000,6 [FLog::Error] Error: Spin1626614329 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:04.459Z,750.459229,a634000,6 [FLog::Error] Error: Spin695351657 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:04.459Z,750.459351,a634000,6 [FLog::Error] Error: Spin510794799 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:04.459Z,750.459351,a634000,6 [FLog::Error] Error: Spin420695786 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:04.459Z,750.459412,a634000,6 [FLog::Error] Error: Spin543342872 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:04.459Z,750.459473,a634000,6 [FLog::Error] Error: Spin1657717989 is not a valid member of Part "Workspace.Live.jumaa51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:07.376Z,753.376831,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:27:08.341Z,754.341858,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:27:15.841Z,761.841064,a634000,6 [FLog::Error] Error: Spin1116317146 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:16.156Z,762.156006,a531000,6 [FLog::Error] Error: Spin1116317146 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:18.506Z,764.506836,a531000,6 [FLog::Error] Error: Spin1430918908 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:19.456Z,765.456360,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:27:21.139Z,767.139099,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:27:22.121Z,768.121948,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:27:30.856Z,776.856018,a737000,6 [FLog::Error] Error: Spin556711426 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:30.856Z,776.856079,a737000,6 [FLog::Error] Error: Spin454475581 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:30.856Z,776.856140,a737000,6 [FLog::Error] Error: Spin826136597 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:34.460Z,780.460938,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:27:47.286Z,793.286865,a531000,6 [FLog::Error] Error: Spin1405605715 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:47.286Z,793.286987,a531000,6 [FLog::Error] Error: Spin1430918908 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:50.127Z,796.127441,a737000,6 [FLog::Error] Error: Spin729690872 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:50.127Z,796.127502,a737000,6 [FLog::Error] Error: Spin1116317146 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:27:50.893Z,796.893005,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:27:54.007Z,800.007324,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:28:06.970Z,812.970703,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:28:28.485Z,834.485535,a737000,6 [FLog::Warning] Warning: shook
+2025-02-02T16:28:30.654Z,836.654236,a737000,6 [FLog::Error] Error: Spin1593444845 is not a valid member of Part "Workspace.Live.omarbakhour1.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:28:34.552Z,840.552673,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:28:36.147Z,842.147278,a11c000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 16:28:36 GMT
+2025-02-02T16:28:36.147Z,842.147339,a11c000,6 [FLog::Output] Settings Date timestamp is 1738513716
+2025-02-02T16:28:51.637Z,857.637756,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:28:55.422Z,861.422485,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:29:12.931Z,878.931641,a634000,6 [FLog::Error] Error: Spin1708692956 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:29:12.932Z,878.932068,a634000,6 [FLog::Error] Error: Spin154926528 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:29:12.932Z,878.932129,a634000,6 [FLog::Error] Error: Spin366007497 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:29:12.932Z,878.932190,a634000,6 [FLog::Error] Error: Spin191190497 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:29:12.932Z,878.932251,a634000,6 [FLog::Error] Error: Spin1626614329 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:29:17.002Z,883.002991,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:29:41.185Z,907.185303,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:29:50.138Z,916.138489,a737000,6 [FLog::Error] Error: Spin235652700 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:29:52.017Z,918.017578,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:29:54.033Z,920.033447,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:30:12.497Z,938.497498,a634000,6 [FLog::Error] Error: Spin1417062405 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:30:16.116Z,942.116394,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:30:28.497Z,954.497498,a531000,6 [FLog::Error] Error: Spin1906444 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:30:28.497Z,954.497742,a531000,6 [FLog::Error] Error: Spin235652700 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:30:31.917Z,957.917542,a634000,6 [FLog::Error] Error: Spin1252356940 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:30:32.718Z,958.718018,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:30:32.754Z,958.754700,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:30:35.519Z,961.519165,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:30:36.262Z,962.262939,a11c000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 16:30:32 GMT
+2025-02-02T16:30:36.263Z,962.263000,a11c000,6 [FLog::Output] Settings Date timestamp is 1738513832
+2025-02-02T16:30:51.930Z,977.930542,a634000,6 [FLog::Error] Error: Spin1590848165 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:30:51.931Z,977.931335,a634000,6 [FLog::Error] Error: Spin1906444 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:30:51.931Z,977.931396,a634000,6 [FLog::Error] Error: Spin235652700 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:30:52.963Z,978.963684,a531000,6 [FLog::Error] Error: Spin1693529343 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:30:52.963Z,978.963745,a531000,6 [FLog::Error] Error: Spin1417062405 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:30:53.112Z,979.112122,a737000,6 [FLog::Error] Error: Spin433059006 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:30:55.813Z,981.813110,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:30:56.564Z,982.564453,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:30:57.112Z,983.112793,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:31:09.394Z,995.394714,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:31:15.751Z,1001.751038,a531000,6 [FLog::Error] Error: Spin1046451242 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:15.751Z,1001.751160,a531000,6 [FLog::Error] Error: Spin1693529343 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:15.751Z,1001.751221,a531000,6 [FLog::Error] Error: Spin1417062405 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:19.364Z,1005.364075,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:31:22.615Z,1008.615051,a531000,6 [FLog::Error] Error: Spin1238169336 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:22.615Z,1008.615112,a531000,6 [FLog::Error] Error: Spin433059006 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:26.517Z,1012.517334,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:31:29.983Z,1015.983643,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:31:32.687Z,1018.687195,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:31:33.145Z,1019.145630,a531000,6 [FLog::Error] Error: Spin1316778148 is not a valid member of Part "Workspace.Live.Eric452864qh.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:36.761Z,1022.761963,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:31:38.209Z,1024.209717,a531000,6,Error [FLog::FMOD] FMOD API error, FMOD_RESULT:46, instance:0x7fe01d85c008, functionname:System::playSound, functionparams:0x7fe01e053dc8, 0x7fe01ed33928, true, 0x7fdfe86610e0
+2025-02-02T16:31:38.209Z,1024.209839,a531000,6,Error [FLog::FMOD] FMOD object: 0x7fe01d85c008, parent: 0x7fdfe8661020, fmodOperation: playSound, error: Operation could not be performed because specified sound/DSP connection is not ready.
+2025-02-02T16:31:56.157Z,1042.157349,a634000,6 [FLog::Error] Error: Spin1617591801 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:56.157Z,1042.157715,a634000,6 [FLog::Error] Error: Spin1046451242 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:56.157Z,1042.157837,a634000,6 [FLog::Error] Error: Spin1693529343 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:56.157Z,1042.157837,a634000,6 [FLog::Error] Error: Spin1417062405 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:56.907Z,1042.907349,a634000,6 [FLog::Error] Error: Spin1026448465 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:57.910Z,1043.910278,a737000,6 [FLog::Error] Error: Spin1007524198 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:57.910Z,1043.910400,a737000,6 [FLog::Error] Error: Spin1238169336 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:57.910Z,1043.910522,a737000,6 [FLog::Error] Error: Spin433059006 is not a valid member of Part "Workspace.Live.ftzftu231.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:59.729Z,1045.729248,a737000,6 [FLog::Error] Error: Spin872290453 is not a valid member of Part "Workspace.Live.Eric452864qh.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:59.729Z,1045.729370,a737000,6 [FLog::Error] Error: Spin1316778148 is not a valid member of Part "Workspace.Live.Eric452864qh.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:31:59.745Z,1045.745972,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:32:00.845Z,1046.845581,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:32:01.809Z,1047.809814,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:32:03.312Z,1049.312134,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:32:21.575Z,1067.575195,a634000,6 [FLog::Error] Error: Spin1731858723 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:32:21.575Z,1067.575928,a634000,6 [FLog::Error] Error: Spin1617591801 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:32:21.576Z,1067.576050,a634000,6 [FLog::Error] Error: Spin1046451242 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:32:21.576Z,1067.576050,a634000,6 [FLog::Error] Error: Spin1693529343 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:32:21.576Z,1067.576172,a634000,6 [FLog::Error] Error: Spin1417062405 is not a valid member of Part "Workspace.Live.Hamzafh_51.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:32:25.187Z,1071.187378,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:32:34.057Z,1080.057739,a531000,6 [FLog::Warning] Warning: sync
+2025-02-02T16:32:34.147Z,1080.147583,a531000,6 [FLog::Warning] Warning: StarterGui:SetCoreGuiEnabled is not supported on type SelfView.
+2025-02-02T16:32:36.345Z,1082.345703,a11c000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 16:32:23 GMT
+2025-02-02T16:32:36.345Z,1082.345703,a11c000,6 [FLog::Output] Settings Date timestamp is 1738513943
+2025-02-02T16:32:42.274Z,1088.274658,a737000,6 [FLog::Warning] Warning: theyung
+2025-02-02T16:32:45.074Z,1091.074341,a737000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T16:32:45.076Z,1091.076904,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.096Z,1091.096924,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.126Z,1091.126099,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.159Z,1091.159058,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.192Z,1091.192383,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.225Z,1091.225952,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.258Z,1091.258057,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.292Z,1091.292114,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.322Z,1091.322754,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.357Z,1091.357422,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.390Z,1091.390747,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.435Z,1091.435303,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.459Z,1091.459595,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.490Z,1091.490967,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.522Z,1091.522217,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.557Z,1091.557129,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.592Z,1091.592651,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.624Z,1091.624023,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.658Z,1091.658203,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.691Z,1091.691528,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.723Z,1091.723999,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.744Z,1091.744507,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.774Z,1091.774780,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.807Z,1091.807739,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.838Z,1091.838989,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.873Z,1091.873535,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.907Z,1091.907959,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.940Z,1091.940796,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:45.976Z,1091.976074,a634000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:46.008Z,1092.008423,a531000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:46.040Z,1092.040527,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:46.075Z,1092.075195,a737000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T16:32:46.910Z,1092.910156,a634000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T16:32:46.911Z,1092.911011,a634000,6 [FLog::Output] did
+2025-02-02T16:32:46.911Z,1092.911133,a634000,6 [FLog::Output] did
+2025-02-02T16:32:46.911Z,1092.911133,a634000,6 [FLog::Output] did
+2025-02-02T16:32:47.056Z,1093.056274,a634000,6 [FLog::Warning] Warning: shook
+2025-02-02T16:32:47.775Z,1093.775146,a634000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T16:32:52.172Z,1098.172852,a531000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T16:32:54.190Z,1100.190308,a531000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T16:32:57.093Z,1103.093872,a634000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T16:33:04.741Z,1110.741821,a634000,6 [FLog::Error] Error: Spin433696426 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:33:04.741Z,1110.741821,a634000,6 [FLog::Error] Error: Spin1252356940 is not a valid member of Part "Workspace.Live.Bummie879.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:33:06.407Z,1112.407715,a634000,6 [FLog::Error] Error: Spin879980055 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:33:06.407Z,1112.407715,a634000,6 [FLog::Error] Error: Spin1026448465 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:33:08.660Z,1114.660400,a531000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:33:09.693Z,1115.693604,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:33:10.297Z,1116.297974,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:33:15.414Z,1121.414185,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:33:28.772Z,1134.772705,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:33:29.574Z,1135.574707,a634000,6 [FLog::Error] Error: Spin1872587952 is not a valid member of Part "Workspace.Live.Eric452864qh.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:33:33.476Z,1139.476318,a737000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:33:33.889Z,1139.889526,a634000,6 [FLog::Error] Error: Spin384579113 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:33:33.889Z,1139.889648,a634000,6 [FLog::Error] Error: Spin879980055 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:33:33.889Z,1139.889771,a634000,6 [FLog::Error] Error: Spin1026448465 is not a valid member of Part "Workspace.Live.Maksiuklocek.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T16:33:35.302Z,1141.302490,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:33:37.492Z,1143.492676,a634000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T16:33:41.820Z,1147.820679,a634000,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 35
+2025-02-02T16:33:41.833Z,1147.833496,4ea5efc0,6 [FLog::SingleSurfaceApp] leaveUGCGame: (stage:UGCGame) blocking=0.
+2025-02-02T16:33:41.833Z,1147.833496,4ea5efc0,6 [FLog::SingleSurfaceApp] leaveUGCGameInternal
+2025-02-02T16:33:41.834Z,1147.834229,4ea5efc0,6 [FLog::SurfaceController] stop
+2025-02-02T16:33:41.834Z,1147.834229,4ea5efc0,6 [FLog::SurfaceController] drainRenderingJobs
+2025-02-02T16:33:41.834Z,1147.834351,a634000,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:2]::~RenderJob
+2025-02-02T16:33:41.851Z,1147.851807,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: begin
+2025-02-02T16:33:41.851Z,1147.851929,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: end
+2025-02-02T16:33:41.851Z,1147.851929,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: stop: begin (blocking=false dataModel=0x7fe01033c200)
+2025-02-02T16:33:41.851Z,1147.851929,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: sendAnalyticsBeforeLeave: sending event None_None
+2025-02-02T16:33:41.851Z,1147.851929,4ea5efc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Stopped - Ugc
+2025-02-02T16:33:41.851Z,1147.851929,4ea5efc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: removing all observers for type Ugc
+2025-02-02T16:33:41.856Z,1147.856445,4ea5efc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)
+2025-02-02T16:33:41.856Z,1147.856567,4ea5efc0,6 [DFLog::SignalRCoreError] ID: 1 Disconnected - stop() called
+2025-02-02T16:33:41.859Z,1147.859009,a634000,7 [FLog::Network] Client:Disconnect
+2025-02-02T16:33:41.861Z,1147.861694,a634000,7 [FLog::Network] Time to disconnect replication data: 2.674335
+2025-02-02T16:33:41.862Z,1147.862183,a634000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-02T16:33:41.862Z,1147.862305,a634000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-02T16:33:41.862Z,1147.862305,abd2000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-02T16:33:42.441Z,1148.441528,a634000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-02T16:33:42.441Z,1148.441650,a634000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider teardown
+2025-02-02T16:33:42.442Z,1148.442261,a634000,7 [FLog::Network] Client:Disconnect
+2025-02-02T16:33:42.608Z,1148.608887,a634000,7 [FLog::Network] NetworkClient:Remove
+2025-02-02T16:33:42.608Z,1148.608887,a634000,7 [DFLog::MegaReplicatorLogDisconnectCleanUpLog] Destroying MegaReplicator.
+2025-02-02T16:33:43.009Z,1149.009644,a634000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() destructor
+2025-02-02T16:33:43.019Z,1149.019287,a737000,7 [FLog::Network] Replicator destroyed: 0x7fe0259a7cf0
+2025-02-02T16:33:43.450Z,1149.450073,4ea5efc0,6 [FLog::SingleSurfaceApp] shutDown: (stage:Native).
+2025-02-02T16:33:43.450Z,1149.450195,4ea5efc0,6 [FLog::SingleSurfaceApp] destroyLuaApp: (stage:Native) blocking:true.
+2025-02-02T16:33:43.450Z,1149.450195,4ea5efc0,6,Warning [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: finalize: Did not finalize due to state.
+2025-02-02T16:33:43.450Z,1149.450195,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: finalized
+2025-02-02T16:33:43.450Z,1149.450195,4ea5efc0,6,Warning [FLog::SingleSurfaceApp] destroyLuaApp: (stage:Native)... finished destroying luaApp.
+2025-02-02T16:33:43.450Z,1149.450195,4ea5efc0,6 [FLog::SingleSurfaceApp] setStage: (stage:None)
+2025-02-02T16:33:43.450Z,1149.450195,4ea5efc0,6 [FLog::SingleSurfaceApp] destroy controllers
+2025-02-02T16:33:43.450Z,1149.450317,4ea5efc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController::CrossExperienceVoiceController()
+2025-02-02T16:33:43.450Z,1149.450317,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController::~UgcExperienceController()
+2025-02-02T16:33:43.450Z,1149.450439,4ea5efc0,6 [FLog::SurfaceController] SurfaceController[_:1]::~SurfaceController, count: 0
+2025-02-02T16:33:43.450Z,1149.450439,4ea5efc0,6,Warning [FLog::Graphics] RenderView destroyed[1]
+2025-02-02T16:33:43.505Z,1149.505493,4ea5efc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)

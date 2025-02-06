@@ -1,0 +1,507 @@
+2025-02-05T21:42:10.317Z,0.317471,4a953fc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs:(
+    "roblox-player:1+launchmode:play+gameinfo:P_ONHvTCLksOIUA0LWFpU012u8E0VRoA5Rbkm9akFcKA0M01pSt_sgiRlB6SmQG1csV8v-tRl6CGt0O3-WJ9o2wNqX5WirRVrDSrGWjpZL-CpEMOqOf1HmJp3ZrxvrdPN4_0EZqpG3nDqHTcq3Sz8dh6w-nH1J3a86OThz_Ld26esuXYQ85Kf2a_AtFe2dV69a8XdFTYsGtQTG2rzFBRXEqCY3vP20qzZSEYWQPhfEw+launchtime:1738791727404+placelauncherurl:https%3A%2F%2Fwww.roblox.com%2FGame%2FPlaceLauncher.ashx%3Frequest%3DRequestGame%26browserTrackerId%3D1738344328674006%26placeId%3D8286149869%26isPlayTogetherGame%3Dfalse%26referredByPlayerId%3D0%26joinAttemptId%3Deacd52da-e24d-464d-a666-509cb0f98829%26joinAttemptOrigin%3DPlayButton+browsertrackerid:1738344328674006+robloxLocale:en_us+gameLocale:en_us+channel:+LaunchExp:InApp"
+)
+2025-02-05T21:42:10.317Z,0.317894,4a953fc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs handling web launch
+2025-02-05T21:42:10.317Z,0.317942,4a953fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 1 = launchmode:play
+2025-02-05T21:42:10.317Z,0.317957,4a953fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 2 = gameinfo:P_ONHvTCLksOIUA0LWFpU012u8E0VRoA5Rbkm9akFcKA0M01pSt_sgiRlB6SmQG1csV8v-tRl6CGt0O3-WJ9o2wNqX5WirRVrDSrGWjpZL-CpEMOqOf1HmJp3ZrxvrdPN4_0EZqpG3nDqHTcq3Sz8dh6w-nH1J3a86OThz_Ld26esuXYQ85Kf2a_AtFe2dV69a8XdFTYsGtQTG2rzFBRXEqCY3vP20qzZSEYWQPhfEw
+2025-02-05T21:42:10.317Z,0.317968,4a953fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 3 = launchtime:1738791727404
+2025-02-05T21:42:10.317Z,0.317977,4a953fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 4 = placelauncherurl:https%3A%2F%2Fwww.roblox.com%2FGame%2FPlaceLauncher.ashx%3Frequest%3DRequestGame%26browserTrackerId%3D1738344328674006%26placeId%3D8286149869%26isPlayTogetherGame%3Dfalse%26referredByPlayerId%3D0%26joinAttemptId%3Deacd52da-e24d-464d-a666-509cb0f98829%26joinAttemptOrigin%3DPlayButton
+2025-02-05T21:42:10.317Z,0.317987,4a953fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 5 = browsertrackerid:1738344328674006
+2025-02-05T21:42:10.317Z,0.317997,4a953fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 6 = robloxLocale:en_us
+2025-02-05T21:42:10.318Z,0.318006,4a953fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 7 = gameLocale:en_us
+2025-02-05T21:42:10.318Z,0.318015,4a953fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 8 = channel:
+2025-02-05T21:42:10.318Z,0.318037,4a953fc0,6 [FLog::Output] Saved channel '' to 'com.roblox.RobloxPlayerChannel' for baseUrl 'www.roblox.com'
+2025-02-05T21:42:10.318Z,0.318052,4a953fc0,6 [FLog::Output] RobloxChannel has been set to production
+2025-02-05T21:42:10.318Z,0.318061,4a953fc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 9 = LaunchExp:InApp
+2025-02-05T21:42:10.318Z,0.318111,4a953fc0,6 [FLog::MacLuaApp] (AppDelegate) reportClientStatus url: https://www.roblox.com/client-status/set?browserTrackerId=1738344328674006&status=BootstrapperInstalling
+2025-02-05T21:42:10.319Z,0.319337,4a953fc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs cold launch. Defer web launch until after initialization is complete.
+2025-02-05T21:42:10.319Z,0.319447,4a953fc0,6 [FLog::Output] (AppDelegate) applicationDidFinishLaunching
+2025-02-05T21:42:10.319Z,0.319549,4a953fc0,6,Info [FLog::UpdateController] UpdateController: versionQueryUrl: https://clientsettingscdn.roblox.com/v2/client-version/MacPlayer
+2025-02-05T21:42:10.319Z,0.319576,4a953fc0,6,Info [FLog::UpdateController] MacUpdateController: updaterFullPath: /Applications/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app/Contents/MacOS/RobloxPlayerInstaller
+2025-02-05T21:42:10.319Z,0.319616,192b000,6,Info [FLog::UpdateController] Update check thread started
+2025-02-05T21:42:10.319Z,0.319645,192b000,6,Info [FLog::UpdateController] Checking if updater exists at /Applications/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app/Contents/MacOS/RobloxPlayerInstaller. Returning 0
+2025-02-05T21:42:10.319Z,0.319657,192b000,6,Warning [FLog::UpdateController] Updater not found. Skipping update
+2025-02-05T21:42:10.319Z,0.319661,4a953fc0,6 [FLog::Output] settingsUrl: https://clientsettingscdn.roblox.com/v2/settings-compressed/application/MacDesktopClient/876303bc5322fbc5499ad5d572b4a57fc6305ca10adf81769b9121c45b7d3a38.dcz
+2025-02-05T21:42:10.319Z,0.319674,192b000,6,Info [FLog::UpdateController] Update check thread: updateRequired FALSE
+2025-02-05T21:42:10.383Z,0.383460,4a953fc0,6 [FLog::Output] Settings Date header was Wed, 05 Feb 2025 21:41:55 GMT
+2025-02-05T21:42:10.383Z,0.383489,4a953fc0,6 [FLog::Output] Settings Date timestamp is 1738791715
+2025-02-05T21:42:10.393Z,0.393565,4a953fc0,6 [FLog::ClientRunInfo] RobloxGitHash: 6874f45ec658019a67f19ab7de6e688c50292b01
+2025-02-05T21:42:10.393Z,0.393721,4a953fc0,6 [FLog::ClientRunInfo] The base url is https://www.roblox.com/
+2025-02-05T21:42:10.393Z,0.393732,4a953fc0,6 [FLog::ClientRunInfo] The channel is production
+2025-02-05T21:42:10.405Z,0.405229,4a953fc0,6 [FLog::Output] *******
+** Validated reflection database in 6.261495 ms, found 5363 entries with the following skipped: 0 enums, 0 properties, 0 functions, 0 events, 0 callbacks, 0 classes.
+*******
+
+2025-02-05T21:42:10.405Z,0.405913,4a953fc0,6 [FLog::Output] (AppDelegate) Universal App on Mac: initialize...
+2025-02-05T21:42:10.405Z,0.405941,4a953fc0,6 [FLog::Output] syncCookiesFromNativeToEngine was skipped
+2025-02-05T21:42:10.406Z,0.406014,4a953fc0,6 [FLog::Output] Current file descriptor limit is 2560, no need to increase
+2025-02-05T21:42:10.406Z,0.406027,4a953fc0,6 [FLog::Output] (AppDelegate) web browserTrackerId = [1738344328674006].
+2025-02-05T21:42:10.407Z,0.407687,4a953fc0,6 [FLog::Output] syncCookiesFromEngineToNative was skipped
+2025-02-05T21:42:10.407Z,0.407717,4a953fc0,6 [FLog::Output] (AppDelegate) launchTimeMillis = [-2406]
+2025-02-05T21:42:10.408Z,0.408070,4a953fc0,6,Info [FLog::PerformanceControlUtil] PerformanceControlUtil: registered single surface tunable (id=0)
+2025-02-05T21:42:10.408Z,0.408249,4a953fc0,6 [FLog::SingleSurfaceApp] initializeWithAppStarter
+2025-02-05T21:42:10.408Z,0.408269,4a953fc0,6 [FLog::SingleSurfaceApp] initializeSingleton
+2025-02-05T21:42:10.408Z,0.408610,4a953fc0,6 [FLog::Output] setAssetFolder /Applications/Roblox.app/Contents/Resources/content/
+2025-02-05T21:42:10.408Z,0.408789,4a953fc0,6 [FLog::Output] setExtraAssetFolder /Applications/Roblox.app/Contents/Resources/ExtraContent
+2025-02-05T21:42:10.409Z,0.409061,4a953fc0,6 [FLog::Output] Evaluating deferred inferred crashes
+2025-02-05T21:42:10.409Z,0.409669,4a953fc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)
+2025-02-05T21:42:10.409Z,0.409697,4a953fc0,6 [FLog::SingleSurfaceApp] setLocale
+2025-02-05T21:42:10.409Z,0.409709,4a953fc0,6,Warning [FLog::SingleSurfaceApp] instantiate controllers
+2025-02-05T21:42:10.409Z,0.409721,4a953fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::SurfaceController, count: 1
+2025-02-05T21:42:10.409Z,0.409733,4a953fc0,6,Warning [FLog::SingleSurfaceApp] instantiate experience coordinator
+2025-02-05T21:42:10.409Z,0.409788,4a953fc0,6,Info [FLog::PerformanceControlUtil] PerformanceControlUtil: registered single surface tunable (id=1)
+2025-02-05T21:42:10.409Z,0.409800,4a953fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController::CrossExperienceVoiceController() constructor
+2025-02-05T21:42:10.432Z,0.432211,19ae000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-05T21:42:10.432Z,0.432303,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#6 0x7fa482878e20) time:157.8ms (net:157.7ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://users.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-05T21:42:10.452Z,0.452357,19ae000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-05T21:42:10.452Z,0.452410,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#5 0x7fa482878820) time:178.0ms (net:177.9ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://locale.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-05T21:42:10.454Z,0.454230,19ae000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-05T21:42:10.454Z,0.454274,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#7 0x7fa482879420) time:179.8ms (net:179.7ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://users.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-05T21:42:10.455Z,0.455502,19ae000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-05T21:42:10.455Z,0.455536,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#0 0x7fa482867820) time:181.2ms (net:181.1ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://accountsettings.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-05T21:42:10.523Z,0.523661,19ae000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-05T21:42:10.523Z,0.523721,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#1 0x7fa48285e620) time:249.3ms (net:249.2ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-05T21:42:10.554Z,0.554418,19ae000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-05T21:42:10.554Z,0.554472,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#3 0x7fa482877c20) time:280.0ms (net:280.0ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-05T21:42:10.555Z,0.555716,19ae000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-05T21:42:10.555Z,0.555767,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#4 0x7fa482878220) time:281.3ms (net:281.3ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-05T21:42:10.572Z,0.572859,19ae000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-05T21:42:10.572Z,0.572924,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2 0x7fa482877620) time:298.5ms (net:298.4ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-05T21:42:10.759Z,0.759518,4a953fc0,6 [FLog::SingleSurfaceApp] launchUGCGame: (stage:Native).
+2025-02-05T21:42:10.759Z,0.759540,4a953fc0,6 [FLog::SingleSurfaceApp] launchUGCGameInternal
+2025-02-05T21:42:10.761Z,0.761111,4a953fc0,6 [FLog::SingleSurfaceApp] applyLocale
+2025-02-05T21:42:10.761Z,0.761125,4a953fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: initialize:
+2025-02-05T21:42:10.761Z,0.761778,4a953fc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Load configs for user key: app:1423803869895817846
+2025-02-05T21:42:10.762Z,0.762934,4a953fc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Retrieving patch
+2025-02-05T21:42:10.762Z,0.762951,4a953fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch DataModelPatchConfig : type=1, assetId=5345954812, assetVersion=10769, maxAppVersion=658, localAssetURI=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-05T21:42:10.762Z,0.762960,4a953fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : numAttempts=10
+2025-02-05T21:42:10.763Z,0.763002,4a953fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : contentId=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-05T21:42:10.763Z,0.763011,4a953fc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : get patch from content provider for Model
+2025-02-05T21:42:10.771Z,0.771031,4a953fc0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+2025-02-05T21:42:11.040Z,1.040194,4a953fc0,6,Warning [DFLog::BootcampCLI139737Log] Hello world!!!!!!!!!!!!!!!!!!!!
+2025-02-05T21:42:11.040Z,1.040230,4a953fc0,6,Warning [FLog::Output] Hello Earthlings!
+2025-02-05T21:42:11.097Z,1.097935,4a953fc0,6,Info [FLog::Audio] OutputDevice 0: Cuffie esterne [BuiltIn] 48000/2
+2025-02-05T21:42:11.121Z,1.121113,4a953fc0,6,Info [FLog::Audio] InputDevice 0: Microfono esterno({af0144be-277e-8cc3-0000000000000000}) 48000/1/4
+2025-02-05T21:42:11.121Z,1.121150,4a953fc0,6,Info [FLog::Audio] InputDevice 1: Microfono iMac({50eb3c32-f018-032c-0000000000000000}) 48000/1/4
+2025-02-05T21:42:11.164Z,1.164588,4a953fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: join: initialized dm 0x7fa486f6d800
+2025-02-05T21:42:11.164Z,1.164620,4a953fc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGame
+2025-02-05T21:42:11.164Z,1.164701,4a953fc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGamePostStandard: URL: https://gamejoin.roblox.com/v1/join-game BODY: {"isTeleport":true,"placeId":8286149869,"gameJoinAttemptId":"eacd52da-e24d-464d-a666-509cb0f98829"}
+2025-02-05T21:42:11.164Z,1.164760,4a953fc0,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 0, url: https://gamejoin.roblox.com/v1/join-game.
+2025-02-05T21:42:11.164Z,1.164779,4a953fc0,6 [FLog::GameJoinUtil] Delaying request by 0.00 seconds
+2025-02-05T21:42:11.164Z,1.164829,4a953fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Started - Ugc
+2025-02-05T21:42:11.164Z,1.164932,4a953fc0,6 [FLog::SurfaceController] [_:1]::replaceDataModel: (stage:0, window = 0x7fa480436d60) [tid:0x7fa48100b560]
+2025-02-05T21:42:11.165Z,1.165375,4a953fc0,6,Warning [FLog::Graphics] RenderView created[1]
+2025-02-05T21:42:11.167Z,1.167431,4a953fc0,6 [FLog::Graphics] Metal renderer: AMD Radeon Pro 5300
+2025-02-05T21:42:11.167Z,1.167457,4a953fc0,6 [channel] Caps: ThreadSafe 1 Framebuffer 1 FpFramebuffer 1 Shaders 1 Compute 1 Instancing 1 PerInstanceStream 1 ConstBuffers 1
+2025-02-05T21:42:11.167Z,1.167465,4a953fc0,6 [channel] Caps: Framebuffer: MRT 4 MSAA 8 Stencil 1
+2025-02-05T21:42:11.167Z,1.167472,4a953fc0,6 [channel] Caps: Framebuffer: Depth16 1 Depth24 1 DepthFloat 1 DepthClamp 1
+2025-02-05T21:42:11.167Z,1.167478,4a953fc0,6 [channel] Caps: Border Color 1
+2025-02-05T21:42:11.167Z,1.167484,4a953fc0,6 [channel] Caps: Texture: RGB10A2 1 RG11B10F 1 R16I 1
+2025-02-05T21:42:11.167Z,1.167490,4a953fc0,6 [channel] Caps: Texture: BC6H 1 ASTC HDR 0
+2025-02-05T21:42:11.167Z,1.167497,4a953fc0,6 [channel] Caps: Texture: DXT 1 PVR 0 ETC1 0 ETC2 0 Half 1
+2025-02-05T21:42:11.167Z,1.167502,4a953fc0,6 [channel] Caps: Texture: 3D 1 Array 1 Depth 1 MSAA 1 MSAAFP16 8
+2025-02-05T21:42:11.167Z,1.167508,4a953fc0,6 [channel] Caps: Texture: NPOT 1 PartialMips 1 CubeMipGen 1 CubeFramebuffer 1
+2025-02-05T21:42:11.167Z,1.167514,4a953fc0,6 [channel] Caps: Texture: Size 8192 Units 32 VertexUnits 32
+2025-02-05T21:42:11.167Z,1.167520,4a953fc0,6 [channel] Caps: ConstantBufferSize 65536
+2025-02-05T21:42:11.167Z,1.167525,4a953fc0,6 [channel] Caps: isAppleGPU 0
+2025-02-05T21:42:11.167Z,1.167531,4a953fc0,6 [channel] Caps: 32bIdx 1 Memoryless 0
+2025-02-05T21:42:11.167Z,1.167537,4a953fc0,6 [channel] Caps: ColorBGR 0 RTFlip 0 MinusOneToOneDepth 0
+2025-02-05T21:42:11.172Z,1.172345,4a953fc0,6 [FLog::Graphics] Metal: creating framebuffer 5120x2528
+2025-02-05T21:42:11.172Z,1.172392,4a953fc0,6 [FLog::Graphics] Video memory size: 2147483648
+2025-02-05T21:42:11.225Z,1.225706,4a953fc0,6 [FLog::Graphics] Loaded 972 shaders from pack metal_osx variant default (7121760 bytes)
+2025-02-05T21:42:11.225Z,1.225733,4a953fc0,6 [FLog::Graphics] Compiled 677 shaders in 53 ms
+2025-02-05T21:42:11.250Z,1.250745,4a953fc0,6 [FLog::SurfaceController] SurfaceController::disableVR
+2025-02-05T21:42:11.250Z,1.250855,4a953fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7fa486f6d800)
+2025-02-05T21:42:11.250Z,1.250886,4a953fc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:1]::RenderJob
+2025-02-05T21:42:11.250Z,1.250897,4a953fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7fa486f6d800)
+2025-02-05T21:42:11.250Z,1.250910,4a953fc0,6 [FLog::SingleSurfaceApp] setStage: (stage:UGCGame)
+2025-02-05T21:42:11.250Z,1.250920,4a953fc0,6 [FLog::SingleSurfaceApp] userDidLogin
+2025-02-05T21:42:11.250Z,1.250928,4a953fc0,6 [FLog::SingleSurfaceApp] applyLocale
+2025-02-05T21:42:11.250Z,1.250947,1fc9000,6 [FLog::Output] (AppDelegate) Doing machine id check.
+2025-02-05T21:42:11.260Z,1.260316,1dc3000,6,Info [FLog::UgcExperienceController] UgcExperienceController: submitStartGameTask: scrips are loaded 0x7fa486f6d800
+2025-02-05T21:42:11.260Z,1.260653,1ec6000,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+2025-02-05T21:42:11.292Z,1.292316,4a953fc0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+2025-02-05T21:42:11.299Z,1.299615,4a953fc0,6 [FLog::Graphics] LayeredClothingMode updated: LC=1 HSR=1
+2025-02-05T21:42:11.304Z,1.304357,4a953fc0,6 [FLog::Graphics] SceneManager: resizing main targets to 2560x1264
+2025-02-05T21:42:11.398Z,1.398269,4a953fc0,6 [FLog::Graphics] Metal: resizing main framebuffer to 5120x2880
+2025-02-05T21:42:11.404Z,1.404277,4a953fc0,6 [FLog::Graphics] SceneManager: resizing main targets to 2560x1440
+2025-02-05T21:42:12.436Z,2.436443,1ec6000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":"47011fbc-ed76-41c0-a551-5bb64f536ebf","status":2,"statusData":null,"joinScriptUrl":"https://assetgame.roblox.com/Game/Join.ashx?ticketVersion=2&ticket={\"UserId\"%3a3047960021%2c\"UserName\"%3a\"paninorealaccount009\"%2c\"DisplayName\"%3a\"Jack\"%2c\"CharacterFetchUrl\"%3a\"https%3a%2f%2fapi.roblox.com%2fv1.1%2favatar-fetch%2f%3fplaceId%3d8286149869%26userId%3d3047960021\"%2c\"GameId\"%3a\"47011fbc-ed76-41c0-a551-5bb64f536ebf\"%2c\"PlaceId\"%3a8286149869%2c\"UniverseId\"%3a3177453609%2c\"ServerId\"%3a1059226%2c\"ServerPort\"%3a53953%2c\"IsTeleport\"%3atrue%2c\"FollowUserId\"%3anull%2c\"TimeStamp\"%3a\"02%2f05%2f2025+21%3a42%3a11\"%2c\"CharacterAppearanceId\"%3a3047960021%2c\"AlternateName\"%3anull%2c\"JoinTypeId\"%3a10%2c\"MatchmakingDecisionId\"%3a\"b1de3efd-84ee-4d9d-ae84-39f7161d1ab0\"%2c\"GameJoinMetadata\"%3a{\"JoinSource\"%3a1%2c\"RequestType\"%3a0%2c\"MatchmakingDecisionId\"%3a
+2025-02-05T21:42:12.436Z,2.436653,1ec6000,6 [FLog::GameJoinUtil] Game join succeeded.
+2025-02-05T21:42:12.436Z,2.436679,1ec6000,6 [FLog::GameJoinUtil] GameJoinUtil::processing join parameters
+2025-02-05T21:42:12.462Z,2.462462,1ec6000,7 [FLog::Network] NetworkClient:Create
+2025-02-05T21:42:12.464Z,2.464947,1ec6000,6 [FLog::GameJoinUtil] Null EventId
+2025-02-05T21:42:12.465Z,2.465092,1ec6000,10 [DFLog::KeyRing] Parsed config created at: 11:59 4/1/2024.
+2025-02-05T21:42:12.468Z,2.468354,1ec6000,6 [FLog::Output] AnalyticsSessionId is 81c3a445-2a15-4289-9dc9-e16604dfb299.
+2025-02-05T21:42:12.468Z,2.468433,1ec6000,6 [FLog::Output] ! Joining game '47011fbc-ed76-41c0-a551-5bb64f536ebf' place 8286149869 at 10.17.3.103
+2025-02-05T21:42:12.468Z,2.468520,1ec6000,6 [FLog::GameJoinLoadTime] Report game_join_loadtime: sid:81c3a445-2a15-4289-9dc9-e16604dfb299, clienttime:1738791732.4040000439, join_time:1.7054705549999997771, referral_page:RequestGame, placeid:8286149869, userid:3047960021, universeid:3177453609, 
+2025-02-05T21:42:12.471Z,2.471036,1ec6000,7 [FLog::Network] Client will attempt to connect following server endpoints with threadSleepTime(-1)
+2025-02-05T21:42:12.471Z,2.471056,1ec6000,7 [FLog::Network] UDMUX Address = 128.116.21.33, Port = 53953 | RCC Server Address = 10.17.3.103, Port = 53953
+2025-02-05T21:42:12.472Z,2.472089,1ec6000,7 [FLog::Network] binding socket on inaddr_any:0
+
+2025-02-05T21:42:12.484Z,2.484969,1ec6000,6 [FLog::Output] Connecting to UDMUX server 128.116.21.33:53953, and RCC server 10.17.3.103:53953
+2025-02-05T21:42:13.139Z,3.139045,1fc9000,6 [FLog::Output] Connection accepted from 128.116.21.33|53953
+2025-02-05T21:42:13.142Z,3.142160,1fc9000,7 [FLog::Network] serverId: 128.116.21.33|53953
+2025-02-05T21:42:13.142Z,3.142376,1fc9000,7 [FLog::Network] Replicator created for player 128.116.21.33|53953
+2025-02-05T21:42:13.142Z,3.142396,1fc9000,7 [FLog::Network] Replicator created: 0x7fa4a649dff0
+2025-02-05T21:42:13.246Z,3.246769,1fc9000,7 [FLog::Network] call to onreceive before physicsReceiver is initialized are ready, dropping packet
+2025-02-05T21:42:13.313Z,3.313404,1ec6000,7 [FLog::Network] call to onreceive before physicsReceiver is initialized are ready, dropping packet
+2025-02-05T21:42:13.313Z,3.313502,1ec6000,7 [FLog::Network] call to onreceive before physicsReceiver is initialized are ready, dropping packet
+2025-02-05T21:42:13.375Z,3.375739,1dc3000,7 [FLog::Network] Time taken to initialize schema = 11.643784 ms
+2025-02-05T21:42:13.375Z,3.375981,1dc3000,7 [FLog::Network] Assigned peer id = 107
+2025-02-05T21:42:13.376Z,3.376346,1dc3000,7 [FLog::Network] Join snapshot timer: 0.335173
+2025-02-05T21:42:13.380Z,3.380953,1fc9000,6 [FLog::DataModelPatchConfigurer] OTAPollingEnabled set to: false
+2025-02-05T21:42:13.438Z,3.438005,1fc9000,6,Info [FLog::AudioFocusManager] AudioFocusManager::AudioFocusManager() constructor
+2025-02-05T21:42:13.438Z,3.438043,1fc9000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() constructor
+2025-02-05T21:42:13.438Z,3.438055,1fc9000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-05T21:42:13.438Z,3.438062,1fc9000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider setup
+2025-02-05T21:42:14.123Z,4.123933,19ae000,6,Critical [DFLog::RbxStorage] RbxStorage::init [INIT] availableDiskSpace: 54650290176 bytes, oldCacheSize: -1 bytes, elapsed: 0.069 ms
+2025-02-05T21:42:14.130Z,4.130007,1ec6000,6 [FLog::Output] Server RobloxGitHash: 56a89352ee772e2d2f053a2758f8679453495915
+2025-02-05T21:42:14.130Z,4.130031,1ec6000,6 [FLog::Output] Server Prefix: 0.659.0.6590474_20250205T211957Z_RCC_153d9
+2025-02-05T21:42:14.147Z,4.147223,19ae000,6,Error [DFLog::SQLite] sqlite3_error_log: 283 - recovered 405 frames from WAL file /private/var/folders/83/3w46ryz13191t1qd7k9xctdm0000gn/T/Roblox/rbx-storage.db-wal
+2025-02-05T21:42:14.152Z,4.152797,19ae000,6,Critical [DFLog::RbxStorage] RbxStorage::init [DONE] name: TelemetryCache(SqliteCache+TelemetryCache(FileCache)), duration: 28.232 ms, dbOpenCount: 10, dbMaxMemory: 0.260 MiB, dbTotalSize: 0.000 MiB, dbNumItems: 1, fileTotalSize: 0.000 MiB, fileNumItems: 0
+2025-02-05T21:42:14.361Z,4.361694,4a953fc0,6 [FLog::Graphics] Terrain TextureArray 512x512, arraySize: 36, mip: 10
+2025-02-05T21:42:14.418Z,4.418298,4a953fc0,6 [FLog::Error] Asset (Image) "" load failed: Unexpected URL
+2025-02-05T21:42:15.289Z,5.289156,1ec6000,6 [FLog::Error] Error: Failed to load sound rbxassetid://2400723864: User is not authorized to access Asset.
+2025-02-05T21:42:15.289Z,5.289190,1ec6000,6 [FLog::Error] Error: Failed to load sound rbxassetid://1372259: User is not authorized to access Asset.
+2025-02-05T21:42:15.289Z,5.289205,1ec6000,6 [FLog::Error] Error: Failed to load sound rbxassetid://11420933: User is not authorized to access Asset.
+2025-02-05T21:42:15.445Z,5.445900,1ec6000,6,Info [DFLog::TrackerAnimationStreamSourceTrace] open
+2025-02-05T21:42:15.644Z,5.644961,1dc3000,6 [FLog::Output] Hidden Surface Removal data for RightUpperArm in rooshi13 rbxassetid://128598539585619 is invalid, reason: HSR data has not uploaded as hsrId, please publish the place or the model. HSR data is empty.
+2025-02-05T21:42:15.644Z,5.644987,1dc3000,6 [FLog::Output] HSR data for RightUpperArmWrapTarget has not uploaded as hsrId, please publish the place or the model.
+2025-02-05T21:42:17.928Z,7.928324,1ec6000,6 [FLog::Error] Error: SendNotification is not a valid member of ScreenGui "CoreGui.RobloxGui"
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 79
+    Script 'Script Raptor.Thread', Line 4960
+    Stack End
+2025-02-05T21:42:23.303Z,13.303004,1ec6000,6 [FLog::Output] Hidden Surface Removal data for RightUpperArm in rooshi13 rbxassetid://128598539585619 is invalid, reason: HSR data has not uploaded as hsrId, please publish the place or the model. HSR data is empty.
+2025-02-05T21:42:23.303Z,13.303048,1ec6000,6 [FLog::Output] HSR data for RightUpperArmWrapTarget has not uploaded as hsrId, please publish the place or the model.
+2025-02-05T21:42:58.235Z,48.235661,1fc9000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=630062557" load failed in Workspace.fizzrizz_1.Humanoid.Clothes: Failed to resolve texture format | 76 65 72 73 69 6f 6e 20 32 2e 30 30 0a 0c 00 24 0c ec 02 00 00 68 01 00 00 dd fe 94 be 40 54 87 be a2 76 07 3f ee 29 21 bf 3f fe 06 3d 3a b9 46 3f 00 7b 0f 3c 64 e5 63 3f 00 00 00 00 8a 61 55     version 2.00...$.ì...h...Ýþ”¾@T‡¾¢v.?î)!¿?þ.=:¹F?.{.<dåc?....ŠaU
+2025-02-05T21:42:58.372Z,48.372292,1dc3000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=630062557" load failed in Workspace.fizzrizz_1.LeftLowerLeg.TextureID: Failed to resolve texture format | 76 65 72 73 69 6f 6e 20 32 2e 30 30 0a 0c 00 24 0c ec 02 00 00 68 01 00 00 dd fe 94 be 40 54 87 be a2 76 07 3f ee 29 21 bf 3f fe 06 3d 3a b9 46 3f 00 7b 0f 3c 64 e5 63 3f 00 00 00 00 8a 61 55     version 2.00...$.ì...h...Ýþ”¾@T‡¾¢v.?î)!¿?þ.=:¹F?.{.<dåc?....ŠaU
+2025-02-05T21:43:39.341Z,89.341682,1dc3000,6 [FLog::Error] Error: Torso is not a valid member of Model "Workspace.paninorealaccount009"
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 1750 - function dickShooter
+    Script 'Script Raptor.Thread', Line 4788
+    Script 'Script Raptor.Thread', Line 2224
+    Stack End
+2025-02-05T21:43:50.624Z,100.624802,1dc3000,6 [FLog::Output] no loadstring lol
+2025-02-05T21:44:11.329Z,121.329582,19ae000,6 [FLog::Output] Settings Date header was Wed, 05 Feb 2025 21:43:52 GMT
+2025-02-05T21:44:11.329Z,121.329628,19ae000,6 [FLog::Output] Settings Date timestamp is 1738791832
+2025-02-05T21:46:11.534Z,241.534363,19ae000,6 [FLog::Output] Settings Date header was Wed, 05 Feb 2025 21:46:11 GMT
+2025-02-05T21:46:11.535Z,241.535080,19ae000,6 [FLog::Output] Settings Date timestamp is 1738791971
+2025-02-05T21:46:32.224Z,262.224365,1dc3000,6 [FLog::Error] Error: BrickColo is not a valid member of MeshPart "Workspace.FrejaVikinga19.Head"
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 4210
+    Script 'Script Raptor.Thread', Line 1402 - function doPlayers
+    Script 'Script Raptor.Thread', Line 4178
+    Script 'Script Raptor.Thread', Line 2224
+    Stack End
+2025-02-05T21:46:55.834Z,285.834045,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/decline-friend-request success
+2025-02-05T21:47:03.110Z,293.110046,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2013 0x7fa47dc91620) time:270.2ms (net:269.9ms callback:0.0ms timeInRetryQueue:0.0ms)status:400 Bad Request bodySize:110 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-05T21:47:03.115Z,293.115265,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2014 0x7fa477ede620) time:275.5ms (net:275.1ms callback:0.0ms timeInRetryQueue:0.0ms)status:400 Bad Request bodySize:110 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-05T21:47:03.116Z,293.116272,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship success
+2025-02-05T21:47:03.116Z,293.116364,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 400 (Bad Request)
+2025-02-05T21:47:03.116Z,293.116364,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 400 (Bad Request)
+2025-02-05T21:47:03.123Z,293.123169,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2012 0x7fa477ba7c20) time:283.4ms (net:283.2ms callback:0.0ms timeInRetryQueue:0.0ms)status:400 Bad Request bodySize:110 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-05T21:47:03.132Z,293.132965,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 400 (Bad Request)
+2025-02-05T21:47:03.145Z,293.145142,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2016 0x7fa477a60220) time:305.2ms (net:304.7ms callback:0.0ms timeInRetryQueue:0.0ms)status:400 Bad Request bodySize:110 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-05T21:47:03.150Z,293.150635,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 400 (Bad Request)
+2025-02-05T21:47:03.155Z,293.155396,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2018 0x7fa477fc2c20) time:315.4ms (net:314.8ms callback:0.0ms timeInRetryQueue:0.0ms)status:400 Bad Request bodySize:110 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-05T21:47:03.166Z,293.166290,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 400 (Bad Request)
+2025-02-05T21:47:03.170Z,293.170197,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2015 0x7fa47db7e420) time:330.4ms (net:329.9ms callback:0.0ms timeInRetryQueue:0.0ms)status:400 Bad Request bodySize:110 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-05T21:47:03.173Z,293.173279,1ec6000,6 [FLog::Error] Error: RequestFriendship rate limit reached.
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 4068
+    Stack End
+2025-02-05T21:47:03.173Z,293.173401,1ec6000,6 [FLog::Error] Error: RequestFriendship rate limit reached.
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 4068
+    Stack End
+2025-02-05T21:47:03.173Z,293.173462,1ec6000,6 [FLog::Error] Error: RequestFriendship rate limit reached.
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 4068
+    Stack End
+2025-02-05T21:47:03.173Z,293.173523,1ec6000,6 [FLog::Error] Error: RequestFriendship rate limit reached.
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 4068
+    Stack End
+2025-02-05T21:47:03.173Z,293.173615,1ec6000,6 [FLog::Error] Error: RequestFriendship rate limit reached.
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 4068
+    Stack End
+2025-02-05T21:47:03.173Z,293.173676,1ec6000,6 [FLog::Error] Error: RequestFriendship rate limit reached.
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 4068
+    Stack End
+2025-02-05T21:47:03.173Z,293.173737,1ec6000,6 [FLog::Error] Error: RequestFriendship rate limit reached.
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 4068
+    Stack End
+2025-02-05T21:47:03.173Z,293.173798,1ec6000,6 [FLog::Error] Error: RequestFriendship rate limit reached.
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 4068
+    Stack End
+2025-02-05T21:47:03.173Z,293.173859,1ec6000,6 [FLog::Error] Error: RequestFriendship rate limit reached.
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 4068
+    Stack End
+2025-02-05T21:47:03.182Z,293.182495,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 400 (Bad Request)
+2025-02-05T21:47:03.204Z,293.204437,1fc9000,6 [FLog::Error] Error: RequestFriendship rate limit reached.
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 4068
+    Stack End
+2025-02-05T21:47:03.279Z,293.279846,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2017 0x7fa477d95a20) time:439.9ms (net:439.3ms callback:0.0ms timeInRetryQueue:0.0ms)status:400 Bad Request bodySize:110 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-05T21:47:03.283Z,293.283142,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 400 (Bad Request)
+2025-02-05T21:47:03.301Z,293.301514,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2020 0x7fa477fc3820) time:461.4ms (net:191.5ms callback:0.0ms timeInRetryQueue:0.0ms)status:400 Bad Request bodySize:110 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-05T21:47:03.303Z,293.303497,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2021 0x7fa476a52820) time:428.7ms (net:188.2ms callback:0.0ms timeInRetryQueue:0.0ms)status:400 Bad Request bodySize:110 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-05T21:47:03.308Z,293.308960,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 400 (Bad Request)
+2025-02-05T21:47:03.309Z,293.309021,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 400 (Bad Request)
+2025-02-05T21:47:06.429Z,296.429504,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2022 0x7fa487109620) time:3554.6ms (net:154.2ms callback:0.0ms timeInRetryQueue:3000.7ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.433Z,296.433258,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.434Z,296.434631,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2019 0x7fa46752a020) time:3594.6ms (net:164.6ms callback:0.0ms timeInRetryQueue:3000.5ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.445Z,296.445618,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2023 0x7fa452322c20) time:3570.7ms (net:143.2ms callback:0.0ms timeInRetryQueue:3000.5ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.456Z,296.456207,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.456Z,296.456268,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.461Z,296.461823,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2024 0x7fa45205ce20) time:3586.8ms (net:145.1ms callback:0.0ms timeInRetryQueue:3000.6ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.466Z,296.466156,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.500Z,296.500580,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2025 0x7fa45223e820) time:3625.6ms (net:162.6ms callback:0.0ms timeInRetryQueue:3000.9ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.506Z,296.506927,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.579Z,296.579193,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2027 0x7fa476eb7820) time:3704.2ms (net:155.1ms callback:0.0ms timeInRetryQueue:3000.5ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.583Z,296.583191,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.588Z,296.588501,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2028 0x7fa452290c20) time:3713.4ms (net:147.1ms callback:0.0ms timeInRetryQueue:3001.1ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.588Z,296.588623,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2029 0x7fa476a55820) time:3713.5ms (net:143.3ms callback:0.0ms timeInRetryQueue:3001.0ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.599Z,296.599396,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.599Z,296.599487,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.600Z,296.600433,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2026 0x7fa476b51e20) time:3725.4ms (net:164.5ms callback:0.0ms timeInRetryQueue:3000.9ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.603Z,296.603241,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2030 0x7fa4520c2c20) time:3728.1ms (net:141.4ms callback:0.0ms timeInRetryQueue:3000.5ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.615Z,296.615845,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.615Z,296.615875,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.615Z,296.615997,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2031 0x7fa4689f1820) time:3709.4ms (net:162.9ms callback:0.0ms timeInRetryQueue:3000.1ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.632Z,296.632690,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.637Z,296.637634,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2032 0x7fa4689f1e20) time:3731.0ms (net:158.2ms callback:0.0ms timeInRetryQueue:3000.7ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.656Z,296.656128,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.668Z,296.668457,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2033 0x7fa4689f2420) time:3761.8ms (net:166.6ms callback:0.0ms timeInRetryQueue:3000.7ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.683Z,296.683624,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.735Z,296.735413,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2034 0x7fa468efd220) time:3828.7ms (net:156.2ms callback:0.0ms timeInRetryQueue:3000.1ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.737Z,296.737061,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2037 0x7fa45f548620) time:3830.3ms (net:148.5ms callback:0.0ms timeInRetryQueue:3000.8ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.741Z,296.741364,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2038 0x7fa45f548c20) time:3834.5ms (net:143.8ms callback:0.0ms timeInRetryQueue:3001.3ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.750Z,296.750183,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2036 0x7fa468efde20) time:3843.5ms (net:143.4ms callback:0.0ms timeInRetryQueue:3000.1ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.755Z,296.755676,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.755Z,296.755737,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.755Z,296.755737,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.755Z,296.755768,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.764Z,296.764252,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2035 0x7fa468efd820) time:3857.5ms (net:163.8ms callback:0.0ms timeInRetryQueue:3000.3ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.776Z,296.776367,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.784Z,296.784241,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2039 0x7fa45f549220) time:3877.4ms (net:166.9ms callback:0.0ms timeInRetryQueue:3000.6ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.799Z,296.799530,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.804Z,296.804535,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2040 0x7fa468e08420) time:3897.6ms (net:162.0ms callback:0.0ms timeInRetryQueue:3000.7ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.816Z,296.816589,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.834Z,296.834076,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2041 0x7fa4840b1c20) time:3893.1ms (net:165.6ms callback:0.0ms timeInRetryQueue:3000.7ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.849Z,296.849762,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.879Z,296.879883,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2044 0x7fa48400cc20) time:3938.7ms (net:137.4ms callback:0.0ms timeInRetryQueue:3000.6ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.882Z,296.882660,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.890Z,296.890564,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2043 0x7fa46094ba20) time:3949.5ms (net:153.5ms callback:0.0ms timeInRetryQueue:3000.1ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.892Z,296.892181,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2042 0x7fa4609c4220) time:3951.1ms (net:156.7ms callback:0.0ms timeInRetryQueue:3000.7ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.900Z,296.900238,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.900Z,296.900299,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.907Z,296.907196,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2045 0x7fa484060020) time:3966.0ms (net:144.5ms callback:0.0ms timeInRetryQueue:3000.6ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.915Z,296.915771,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.931Z,296.931549,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2047 0x7fa4840e4e20) time:3990.3ms (net:161.1ms callback:0.0ms timeInRetryQueue:3000.2ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.932Z,296.932922,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.945Z,296.945190,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2046 0x7fa484074a20) time:4004.0ms (net:160.9ms callback:0.0ms timeInRetryQueue:3000.2ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.949Z,296.949219,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.964Z,296.964417,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2048 0x7fa474e70620) time:4023.0ms (net:159.9ms callback:0.1ms timeInRetryQueue:3000.4ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:06.966Z,296.966339,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:06.997Z,296.997986,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2049 0x7fa474db4a20) time:4056.6ms (net:163.9ms callback:0.0ms timeInRetryQueue:3000.1ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.004Z,297.004181,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.023Z,297.023041,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2050 0x7fa474e6fe20) time:4081.6ms (net:143.1ms callback:0.0ms timeInRetryQueue:3000.9ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.032Z,297.032959,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.037Z,297.037750,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2051 0x7fa47b873a20) time:4065.9ms (net:147.2ms callback:0.0ms timeInRetryQueue:3000.2ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.049Z,297.049347,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2052 0x7fa467b06c20) time:4077.4ms (net:157.2ms callback:0.0ms timeInRetryQueue:3000.8ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.057Z,297.057068,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.057Z,297.057098,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.069Z,297.069366,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2054 0x7fa47a728220) time:4097.4ms (net:143.2ms callback:0.0ms timeInRetryQueue:3000.1ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.082Z,297.082764,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.095Z,297.095642,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2053 0x7fa467b07220) time:4123.7ms (net:164.1ms callback:0.0ms timeInRetryQueue:3001.4ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.109Z,297.109467,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2055 0x7fa47a728820) time:4137.4ms (net:164.2ms callback:0.0ms timeInRetryQueue:3000.2ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.111Z,297.111328,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.111Z,297.111389,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.121Z,297.121735,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2056 0x7fa474dbec20) time:4149.7ms (net:157.4ms callback:0.0ms timeInRetryQueue:3000.2ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.142Z,297.142975,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.165Z,297.165192,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2057 0x7fa474dbf220) time:4193.1ms (net:163.6ms callback:0.0ms timeInRetryQueue:3000.7ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.165Z,297.165283,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2058 0x7fa484081e20) time:4193.1ms (net:142.2ms callback:0.0ms timeInRetryQueue:3000.3ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.165Z,297.165985,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.166Z,297.166016,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.186Z,297.186676,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2059 0x7fa47a454c20) time:4214.5ms (net:148.9ms callback:0.0ms timeInRetryQueue:3000.6ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.201Z,297.201416,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2060 0x7fa47a455220) time:4229.2ms (net:152.1ms callback:0.0ms timeInRetryQueue:3000.2ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.211Z,297.211212,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.211Z,297.211273,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.231Z,297.231964,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2062 0x7fa479eaea20) time:4225.1ms (net:145.4ms callback:0.0ms timeInRetryQueue:3000.2ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.232Z,297.232788,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.264Z,297.264191,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2061 0x7fa479e4d620) time:4257.4ms (net:168.6ms callback:0.0ms timeInRetryQueue:3000.7ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.272Z,297.272430,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.273Z,297.273010,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2063 0x7fa48174fa20) time:4266.1ms (net:163.5ms callback:0.0ms timeInRetryQueue:3000.3ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.277Z,297.277100,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2064 0x7fa4849bc620) time:4270.1ms (net:155.3ms callback:0.0ms timeInRetryQueue:3000.5ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.282Z,297.282562,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.282Z,297.282623,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.307Z,297.307220,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2066 0x7fa4511a1c20) time:4300.1ms (net:142.0ms callback:0.0ms timeInRetryQueue:3000.2ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.321Z,297.321838,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.329Z,297.329803,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2065 0x7fa484937220) time:4322.8ms (net:164.3ms callback:0.0ms timeInRetryQueue:3000.1ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.332Z,297.332367,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.332Z,297.332550,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2067 0x7fa4798fdc20) time:4325.5ms (net:145.8ms callback:0.0ms timeInRetryQueue:3001.0ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.349Z,297.349762,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.352Z,297.352478,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2068 0x7fa45156d220) time:4345.4ms (net:151.1ms callback:0.0ms timeInRetryQueue:3000.5ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.377Z,297.377655,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.380Z,297.380859,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2069 0x7fa479e0ba20) time:4373.7ms (net:141.1ms callback:0.0ms timeInRetryQueue:3000.9ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.382Z,297.382996,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.430Z,297.430420,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2070 0x7fa451583420) time:4423.3ms (net:166.2ms callback:0.0ms timeInRetryQueue:3000.1ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.432Z,297.432709,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.434Z,297.434113,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2072 0x7fa476a4be20) time:4395.2ms (net:155.7ms callback:0.0ms timeInRetryQueue:3000.5ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.435Z,297.435791,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2071 0x7fa476ee7c20) time:4396.9ms (net:162.8ms callback:0.0ms timeInRetryQueue:3001.0ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.449Z,297.449493,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.449Z,297.449585,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.449Z,297.449707,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2073 0x7fa452205a20) time:4410.8ms (net:142.5ms callback:0.0ms timeInRetryQueue:3000.2ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.466Z,297.466461,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.483Z,297.483551,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2075 0x7fa476c65e20) time:4444.5ms (net:151.0ms callback:0.0ms timeInRetryQueue:3000.2ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.491Z,297.491455,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2074 0x7fa452206020) time:4452.5ms (net:161.6ms callback:0.0ms timeInRetryQueue:3000.9ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.499Z,297.499237,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.499Z,297.499298,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.503Z,297.503021,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2076 0x7fa476c66420) time:4464.0ms (net:150.5ms callback:0.0ms timeInRetryQueue:3000.9ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.526Z,297.526520,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.545Z,297.545685,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2077 0x7fa476c66a20) time:4506.6ms (net:147.9ms callback:0.0ms timeInRetryQueue:3001.0ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.549Z,297.549957,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.593Z,297.593964,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2081 0x7fa45101e420) time:4521.4ms (net:144.2ms callback:0.0ms timeInRetryQueue:3000.2ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.595Z,297.595398,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2078 0x7fa452033c20) time:4556.3ms (net:165.0ms callback:0.0ms timeInRetryQueue:3000.5ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.595Z,297.595459,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2079 0x7fa452034220) time:4556.3ms (net:161.3ms callback:0.0ms timeInRetryQueue:3000.1ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.599Z,297.599548,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.599Z,297.599609,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.599Z,297.599609,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.600Z,297.600800,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2080 0x7fa452034820) time:4561.6ms (net:163.9ms callback:0.0ms timeInRetryQueue:3000.4ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.621Z,297.621826,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.629Z,297.629761,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2082 0x7fa451205020) time:4557.2ms (net:146.2ms callback:0.0ms timeInRetryQueue:3000.5ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.632Z,297.632751,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.655Z,297.655792,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2084 0x7fa479ac6c20) time:4583.1ms (net:152.8ms callback:0.0ms timeInRetryQueue:3000.7ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.657Z,297.657257,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2083 0x7fa4815e7220) time:4584.6ms (net:165.8ms callback:0.0ms timeInRetryQueue:3000.9ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.676Z,297.676300,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.676Z,297.676361,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.768Z,297.768158,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2085 0x7fa479b1e620) time:4671.4ms (net:182.6ms callback:0.1ms timeInRetryQueue:3000.6ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.768Z,297.768524,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2086 0x7fa479b1ec20) time:4695.6ms (net:174.3ms callback:0.0ms timeInRetryQueue:3000.3ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.768Z,297.768677,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2087 0x7fa451590c20) time:4695.6ms (net:172.9ms callback:0.0ms timeInRetryQueue:3000.8ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.768Z,297.768799,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2088 0x7fa451591220) time:4695.8ms (net:173.0ms callback:0.0ms timeInRetryQueue:3000.0ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.768Z,297.768890,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2089 0x7fa451591820) time:4695.9ms (net:167.9ms callback:0.0ms timeInRetryQueue:3000.4ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.776Z,297.776398,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2090 0x7fa451492020) time:4703.5ms (net:146.6ms callback:0.1ms timeInRetryQueue:3000.8ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.808Z,297.808441,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2091 0x7fa45101d820) time:4701.4ms (net:152.7ms callback:0.0ms timeInRetryQueue:3000.3ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.813Z,297.813599,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.813Z,297.813660,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.813Z,297.813690,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.813Z,297.813721,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.813Z,297.813751,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.813Z,297.813751,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.813Z,297.813782,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.822Z,297.822693,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2092 0x7fa45101de20) time:4715.6ms (net:165.4ms callback:0.0ms timeInRetryQueue:3000.3ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.846Z,297.846436,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.910Z,297.910248,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2094 0x7fa451568c20) time:4803.1ms (net:141.2ms callback:0.0ms timeInRetryQueue:3021.6ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.914Z,297.914337,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2095 0x7fa47bf7c420) time:4807.1ms (net:145.2ms callback:0.0ms timeInRetryQueue:3035.4ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.915Z,297.915680,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.915Z,297.915710,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.920Z,297.920959,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2098 0x7fa47a0d2220) time:4813.7ms (net:144.6ms callback:0.0ms timeInRetryQueue:3010.9ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.932Z,297.932373,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.932Z,297.932404,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2096 0x7fa47bf7d020) time:4825.2ms (net:163.1ms callback:0.0ms timeInRetryQueue:3014.1ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.932Z,297.932434,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.932Z,297.932495,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2097 0x7fa486989e20) time:4825.1ms (net:163.1ms callback:0.0ms timeInRetryQueue:3012.6ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.935Z,297.935303,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2093 0x7fa451568620) time:4828.2ms (net:166.5ms callback:0.0ms timeInRetryQueue:3052.0ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.949Z,297.949432,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.949Z,297.949463,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.961Z,297.961182,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2099 0x7fa47a0d2820) time:4853.8ms (net:152.7ms callback:0.0ms timeInRetryQueue:3009.4ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.965Z,297.965973,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:07.985Z,297.985504,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2100 0x7fa486877820) time:4878.1ms (net:162.8ms callback:0.0ms timeInRetryQueue:3000.4ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:07.988Z,297.988678,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:08.055Z,298.055206,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2101 0x7fa460c8e620) time:4916.7ms (net:145.0ms callback:0.0ms timeInRetryQueue:3000.9ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:08.059Z,298.059631,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2102 0x7fa479177820) time:4921.1ms (net:145.3ms callback:0.0ms timeInRetryQueue:3000.4ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:08.066Z,298.066010,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:08.066Z,298.066040,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:08.068Z,298.068695,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2103 0x7fa460f2b420) time:4930.1ms (net:147.7ms callback:0.0ms timeInRetryQueue:3000.6ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:08.082Z,298.082428,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:08.092Z,298.092010,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2104 0x7fa460c8f220) time:4953.4ms (net:159.6ms callback:0.0ms timeInRetryQueue:3000.5ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:08.094Z,298.094666,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2105 0x7fa462e1ee20) time:4956.0ms (net:162.0ms callback:0.0ms timeInRetryQueue:3000.4ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:08.097Z,298.097229,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2106 0x7fa462e1f420) time:4958.6ms (net:162.0ms callback:0.0ms timeInRetryQueue:3000.4ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:08.098Z,298.098999,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:08.099Z,298.099030,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:08.099Z,298.099060,1dc3000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:08.114Z,298.114716,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2107 0x7fa4795f4620) time:4976.0ms (net:153.5ms callback:0.0ms timeInRetryQueue:3001.0ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:08.117Z,298.117065,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:08.153Z,298.153259,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2108 0x7fa4840c6420) time:5014.5ms (net:167.8ms callback:0.0ms timeInRetryQueue:3001.0ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:08.155Z,298.155060,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:08.199Z,298.199707,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2109 0x7fa4795f4c20) time:5060.9ms (net:144.5ms callback:0.0ms timeInRetryQueue:3000.1ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:08.204Z,298.204926,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:08.206Z,298.206940,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2110 0x7fa4795f5220) time:5068.1ms (net:147.3ms callback:0.0ms timeInRetryQueue:3000.0ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:08.216Z,298.216919,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:08.219Z,298.219086,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2111 0x7fa47bf7ca20) time:5045.8ms (net:150.4ms callback:0.0ms timeInRetryQueue:3000.4ms)status:429 Too Many Requests bodySize:53 url:{ "https://friends.roblox.com/v1/users/7662097221/request-friendship" } ip:128.116.44.3 external:0 numberOfTimesRetried:1
+2025-02-05T21:47:08.232Z,298.232605,1fc9000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/request-friendship error: HTTP 429 (Too Many Requests)
+2025-02-05T21:47:10.455Z,300.455292,1ec6000,6 [DFLog::FriendServiceLocalRequests] https://friends.roblox.com/v1/users/7662097221/unfriend success
+2025-02-05T21:47:30.882Z,320.882019,1ec6000,6 [FLog::Warning] Warning: Player [FrejaVikinga19] is R15.
+2025-02-05T21:47:32.619Z,322.619110,18a8000,12 [DFLog::HttpTraceError] CURLINFO_OS_ERRNO: 54 Connection reset by peer
+2025-02-05T21:47:32.619Z,322.619171,18a8000,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Recv failure: Connection reset by peer
+2025-02-05T21:47:32.619Z,322.619263,2670000,6 [FLog::Error] Error: MeshContentProvider failed to process https://assetdelivery.roblox.com/v1/asset?id=15814695615 because 'could not fetch'
+2025-02-05T21:47:32.619Z,322.619293,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2001 0x7fa47df82c20) time:30102.8ms (net:30066.6ms callback:0.0ms timeInRetryQueue:0.0ms) error:10 message:HttpError: SslConnectFail url:{ "https://sc3.rbxcdn.com/<REDACTED>?__token__=<REDACTED>&Expires=1740001653&Policy=<REDACTED>&Signature=<REDACTED>&Key-Pair-Id=<REDACTED>" } ip: external:0 numberOfTimesRetried:0
+2025-02-05T21:47:33.447Z,323.447327,18a8000,12 [DFLog::HttpTraceError] CURLINFO_OS_ERRNO: 54 Connection reset by peer
+2025-02-05T21:47:33.447Z,323.447357,18a8000,12 [DFLog::HttpTraceError] CURLOPT_ERRORBUFFER: Recv failure: Connection reset by peer
+2025-02-05T21:47:33.447Z,323.447449,19ae000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=16363040566" load failed: Request failed
+2025-02-05T21:47:33.447Z,323.447510,19ae000,12 [DFLog::HttpTraceError] HttpResponse(#2010 0x7fa46769d620) time:30930.8ms (net:30815.5ms callback:0.1ms timeInRetryQueue:0.0ms) error:10 message:HttpError: SslConnectFail url:{ "https://t3.rbxcdn.com/<REDACTED>" } ip: external:0 numberOfTimesRetried:0
+2025-02-05T21:48:11.767Z,361.767395,19ae000,6 [FLog::Output] Settings Date header was Wed, 05 Feb 2025 21:48:11 GMT
+2025-02-05T21:48:11.768Z,361.768921,19ae000,6 [FLog::Output] Settings Date timestamp is 1738792091
+2025-02-05T21:48:15.359Z,365.359467,1dc3000,6 [FLog::Output] Hidden Surface Removal data for RightUpperArm in rooshi13 rbxassetid://128598539585619 is invalid, reason: HSR data has not uploaded as hsrId, please publish the place or the model. HSR data is empty.
+2025-02-05T21:48:15.359Z,365.359497,1dc3000,6 [FLog::Output] HSR data for RightUpperArmWrapTarget has not uploaded as hsrId, please publish the place or the model.
+2025-02-05T21:48:43.396Z,393.396271,1dc3000,6 [FLog::Error] Error: Torso is not a valid member of Model "Workspace.paninorealaccount009"
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 1750 - function dickShooter
+    Script 'Script Raptor.Thread', Line 4788
+    Script 'Script Raptor.Thread', Line 2224
+    Stack End
+2025-02-05T21:48:48.329Z,398.329865,1ec6000,6 [FLog::Error] Error: Torso is not a valid member of Model "Workspace.paninorealaccount009"
+    Stack Begin
+    Script 'Script Raptor.Thread', Line 1750 - function dickShooter
+    Script 'Script Raptor.Thread', Line 4788
+    Script 'Script Raptor.Thread', Line 2224
+    Stack End
+2025-02-05T21:49:23.966Z,433.966980,23e1000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=48308661" load failed in CoreGui.ScreenGui.Base.ServerContainer.ScrollingFrame.TextButton.ImageLabel.Image: Request failed
+2025-02-05T21:49:23.967Z,433.967804,23e1000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=244905904" load failed in CoreGui.ScreenGui.Base.ServerContainer.ScrollingFrame.TextButton.ImageLabel.Image: Request failed
+2025-02-05T21:49:28.380Z,438.380371,1dc3000,6 [FLog::Error] Error: Failed to load sound rbxassetid://152840862: User is not authorized to access Asset.
+2025-02-05T21:49:46.267Z,456.267670,1dc3000,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 35
+2025-02-05T21:49:46.285Z,456.285797,4a953fc0,6 [FLog::SingleSurfaceApp] leaveUGCGame: (stage:UGCGame) blocking=0.
+2025-02-05T21:49:46.285Z,456.285858,4a953fc0,6 [FLog::SingleSurfaceApp] leaveUGCGameInternal
+2025-02-05T21:49:46.286Z,456.286591,4a953fc0,6 [FLog::SurfaceController] stop
+2025-02-05T21:49:46.286Z,456.286621,4a953fc0,6 [FLog::SurfaceController] drainRenderingJobs
+2025-02-05T21:49:46.286Z,456.286713,4a953fc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:1]::~RenderJob
+2025-02-05T21:49:46.361Z,456.361908,4a953fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: begin
+2025-02-05T21:49:46.361Z,456.361938,4a953fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: end
+2025-02-05T21:49:46.361Z,456.361969,4a953fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: stop: begin (blocking=false dataModel=0x7fa486f6d800)
+2025-02-05T21:49:46.361Z,456.362000,4a953fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: sendAnalyticsBeforeLeave: sending event None_None
+2025-02-05T21:49:46.362Z,456.362030,4a953fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Stopped - Ugc
+2025-02-05T21:49:46.362Z,456.362030,4a953fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: removing all observers for type Ugc
+2025-02-05T21:49:46.362Z,456.362793,4a953fc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)
+2025-02-05T21:49:46.362Z,456.362823,4a953fc0,6 [DFLog::SignalRCoreError] ID: 1 Disconnected - stop() called
+2025-02-05T21:49:46.371Z,456.371490,1ec6000,6,Info [DFLog::TrackerAnimationStreamSourceTrace] close
+2025-02-05T21:49:46.405Z,456.405609,1ec6000,7 [FLog::Network] Client:Disconnect
+2025-02-05T21:49:46.406Z,456.406097,1ec6000,7 [FLog::Network] Time to disconnect replication data: 0.431696
+2025-02-05T21:49:46.406Z,456.406799,1ec6000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-05T21:49:46.406Z,456.406830,1ec6000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-05T21:49:46.406Z,456.406860,1619000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-05T21:49:47.013Z,457.013550,1ec6000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-05T21:49:47.013Z,457.013580,1ec6000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider teardown
+2025-02-05T21:49:47.013Z,457.013977,1ec6000,7 [FLog::Network] Client:Disconnect
+2025-02-05T21:49:47.146Z,457.146454,1ec6000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() destructor
+2025-02-05T21:49:47.158Z,457.158813,1ec6000,7 [FLog::Network] NetworkClient:Remove
+2025-02-05T21:49:47.158Z,457.158844,1ec6000,7 [DFLog::MegaReplicatorLogDisconnectCleanUpLog] Destroying MegaReplicator.
+2025-02-05T21:49:47.263Z,457.263672,1dc3000,7 [FLog::Network] Replicator destroyed: 0x7fa4a649dff0
+2025-02-05T21:49:47.829Z,457.829254,4a953fc0,6 [FLog::SingleSurfaceApp] shutDown: (stage:Native).
+2025-02-05T21:49:47.829Z,457.829346,4a953fc0,6 [FLog::SingleSurfaceApp] destroyLuaApp: (stage:Native) blocking:true.
+2025-02-05T21:49:47.829Z,457.829376,4a953fc0,6,Warning [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: finalize: Did not finalize due to state.
+2025-02-05T21:49:47.829Z,457.829407,4a953fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: finalized
+2025-02-05T21:49:47.829Z,457.829407,4a953fc0,6,Warning [FLog::SingleSurfaceApp] destroyLuaApp: (stage:Native)... finished destroying luaApp.
+2025-02-05T21:49:47.829Z,457.829437,4a953fc0,6 [FLog::SingleSurfaceApp] setStage: (stage:None)
+2025-02-05T21:49:47.829Z,457.829437,4a953fc0,6 [FLog::SingleSurfaceApp] destroy controllers
+2025-02-05T21:49:47.829Z,457.829468,4a953fc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController::CrossExperienceVoiceController()
+2025-02-05T21:49:47.829Z,457.829529,4a953fc0,6,Info [FLog::UgcExperienceController] UgcExperienceController::~UgcExperienceController()
+2025-02-05T21:49:47.829Z,457.829529,4a953fc0,6 [FLog::SurfaceController] SurfaceController[_:1]::~SurfaceController, count: 0
+2025-02-05T21:49:47.829Z,457.829559,4a953fc0,6,Warning [FLog::Graphics] RenderView destroyed[1]
+2025-02-05T21:49:47.872Z,457.872864,4a953fc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)

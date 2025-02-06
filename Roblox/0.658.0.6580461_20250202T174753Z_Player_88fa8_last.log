@@ -1,0 +1,887 @@
+2025-02-02T17:47:53.289Z,0.289775,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs:(
+    "roblox-player:1+launchmode:play+gameinfo:JbEy7Nk-gortISgr6_ACigpPI6ETS8mGPQt6Qt8XZNwih3QvgKP49Zm9GHytTTxtKugFRAzh2WBmV2qd1ZJq5UweoMRQsLFFP_vY38B8gCcAWgKsj1cnGkglTpxuJPNY5ns4RUMgsECXkGZotO8PWcbqxMRZrCVIu4ZT9XOY7mgy2vu_ZhvyeJfvUNP_rZirKdN8HyfeUpRViMW9mjXRXeU_zVVAB416_bDOGuH4YR0+launchtime:1738518470216+placelauncherurl:https%3A%2F%2Fwww.roblox.com%2FGame%2FPlaceLauncher.ashx%3Frequest%3DRequestPrivateGame%26browserTrackerId%3D1738344328674006%26placeId%3D10449761463%26accessCode%3D782fec9a-a323-4339-8dba-53e3dff5526d%26joinAttemptId%3D2402cf17-d5fa-4974-9777-5cc016c60f1d%26joinAttemptOrigin%3DprivateServerListJoin+browsertrackerid:1738344328674006+robloxLocale:en_us+gameLocale:en_us+channel:+LaunchExp:InApp"
+)
+2025-02-02T17:47:53.289Z,0.289958,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs handling web launch
+2025-02-02T17:47:53.290Z,0.290001,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 1 = launchmode:play
+2025-02-02T17:47:53.290Z,0.290014,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 2 = gameinfo:JbEy7Nk-gortISgr6_ACigpPI6ETS8mGPQt6Qt8XZNwih3QvgKP49Zm9GHytTTxtKugFRAzh2WBmV2qd1ZJq5UweoMRQsLFFP_vY38B8gCcAWgKsj1cnGkglTpxuJPNY5ns4RUMgsECXkGZotO8PWcbqxMRZrCVIu4ZT9XOY7mgy2vu_ZhvyeJfvUNP_rZirKdN8HyfeUpRViMW9mjXRXeU_zVVAB416_bDOGuH4YR0
+2025-02-02T17:47:53.290Z,0.290025,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 3 = launchtime:1738518470216
+2025-02-02T17:47:53.290Z,0.290035,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 4 = placelauncherurl:https%3A%2F%2Fwww.roblox.com%2FGame%2FPlaceLauncher.ashx%3Frequest%3DRequestPrivateGame%26browserTrackerId%3D1738344328674006%26placeId%3D10449761463%26accessCode%3D782fec9a-a323-4339-8dba-53e3dff5526d%26joinAttemptId%3D2402cf17-d5fa-4974-9777-5cc016c60f1d%26joinAttemptOrigin%3DprivateServerListJoin
+2025-02-02T17:47:53.290Z,0.290045,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 5 = browsertrackerid:1738344328674006
+2025-02-02T17:47:53.290Z,0.290054,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 6 = robloxLocale:en_us
+2025-02-02T17:47:53.290Z,0.290063,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 7 = gameLocale:en_us
+2025-02-02T17:47:53.290Z,0.290071,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 8 = channel:
+2025-02-02T17:47:53.290Z,0.290093,4ea5efc0,6 [FLog::Output] Saved channel '' to 'com.roblox.RobloxPlayerChannel' for baseUrl 'www.roblox.com'
+2025-02-02T17:47:53.290Z,0.290109,4ea5efc0,6 [FLog::Output] RobloxChannel has been set to production
+2025-02-02T17:47:53.290Z,0.290118,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) Argument 9 = LaunchExp:InApp
+2025-02-02T17:47:53.290Z,0.290165,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) reportClientStatus url: https://www.roblox.com/client-status/set?browserTrackerId=1738344328674006&status=BootstrapperInstalling
+2025-02-02T17:47:53.291Z,0.291439,4ea5efc0,6 [FLog::MacLuaApp] (AppDelegate) application:openURLs cold launch. Defer web launch until after initialization is complete.
+2025-02-02T17:47:53.291Z,0.291546,4ea5efc0,6 [FLog::Output] (AppDelegate) applicationDidFinishLaunching
+2025-02-02T17:47:53.291Z,0.291641,4ea5efc0,6,Info [FLog::UpdateController] UpdateController: versionQueryUrl: https://clientsettingscdn.roblox.com/v2/client-version/MacPlayer
+2025-02-02T17:47:53.291Z,0.291666,4ea5efc0,6,Info [FLog::UpdateController] MacUpdateController: updaterFullPath: /Applications/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app/Contents/MacOS/RobloxPlayerInstaller
+2025-02-02T17:47:53.291Z,0.291717,fff7000,6,Info [FLog::UpdateController] Update check thread started
+2025-02-02T17:47:53.291Z,0.291753,fff7000,6,Info [FLog::UpdateController] Checking if updater exists at /Applications/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app/Contents/MacOS/RobloxPlayerInstaller. Returning 1
+2025-02-02T17:47:53.291Z,0.291755,4ea5efc0,6 [FLog::Output] settingsUrl: https://clientsettingscdn.roblox.com/v2/settings-compressed/application/MacDesktopClient/876303bc5322fbc5499ad5d572b4a57fc6305ca10adf81769b9121c45b7d3a38.dcz
+2025-02-02T17:47:53.368Z,0.368333,4ea5efc0,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 17:47:53 GMT
+2025-02-02T17:47:53.368Z,0.368377,4ea5efc0,6 [FLog::Output] Settings Date timestamp is 1738518473
+2025-02-02T17:47:53.369Z,0.369251,fff7000,6,Debug [FLog::UpdateController] version response: {"version":"0.658.0.6580461","clientVersionUpload":"version-4c01fa4a41074574","bootstrapperVersion":"6580461"}
+2025-02-02T17:47:53.369Z,0.369296,fff7000,6,Info [FLog::UpdateController] Update check thread: updateRequired FALSE
+2025-02-02T17:47:53.379Z,0.379044,4ea5efc0,6 [FLog::ClientRunInfo] RobloxGitHash: 6874f45ec658019a67f19ab7de6e688c50292b01
+2025-02-02T17:47:53.379Z,0.379207,4ea5efc0,6 [FLog::ClientRunInfo] The base url is https://www.roblox.com/
+2025-02-02T17:47:53.379Z,0.379218,4ea5efc0,6 [FLog::ClientRunInfo] The channel is production
+2025-02-02T17:47:53.388Z,0.388623,4ea5efc0,6 [FLog::Output] *******
+** Validated reflection database in 5.647647 ms, found 5363 entries with the following skipped: 0 enums, 0 properties, 0 functions, 0 events, 0 callbacks, 0 classes.
+*******
+
+2025-02-02T17:47:53.389Z,0.389068,4ea5efc0,6 [FLog::Output] (AppDelegate) Universal App on Mac: initialize...
+2025-02-02T17:47:53.389Z,0.389090,4ea5efc0,6 [FLog::Output] syncCookiesFromNativeToEngine was skipped
+2025-02-02T17:47:53.389Z,0.389115,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:47:53.389Z,0.389162,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#7 0x7f8b9d81f620) time:140.1ms (net:140.0ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://users.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T17:47:53.389Z,0.389167,4ea5efc0,6 [FLog::Output] Current file descriptor limit is 256, increasing to 2560
+2025-02-02T17:47:53.389Z,0.389216,4ea5efc0,6 [FLog::Output] (AppDelegate) web browserTrackerId = [1738344328674006].
+2025-02-02T17:47:53.390Z,0.390507,4ea5efc0,6 [FLog::Output] syncCookiesFromEngineToNative was skipped
+2025-02-02T17:47:53.390Z,0.390532,4ea5efc0,6 [FLog::Output] (AppDelegate) launchTimeMillis = [-2972]
+2025-02-02T17:47:53.390Z,0.390752,4ea5efc0,6,Info [FLog::PerformanceControlUtil] PerformanceControlUtil: registered single surface tunable (id=0)
+2025-02-02T17:47:53.390Z,0.390847,4ea5efc0,6 [FLog::SingleSurfaceApp] initializeWithAppStarter
+2025-02-02T17:47:53.390Z,0.390860,4ea5efc0,6 [FLog::SingleSurfaceApp] initializeSingleton
+2025-02-02T17:47:53.391Z,0.391194,4ea5efc0,6 [FLog::Output] setAssetFolder /Applications/Roblox.app/Contents/Resources/content/
+2025-02-02T17:47:53.391Z,0.391404,4ea5efc0,6 [FLog::Output] setExtraAssetFolder /Applications/Roblox.app/Contents/Resources/ExtraContent
+2025-02-02T17:47:53.391Z,0.391545,4ea5efc0,6 [FLog::Output] Evaluating deferred inferred crashes
+2025-02-02T17:47:53.392Z,0.392244,4ea5efc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)
+2025-02-02T17:47:53.392Z,0.392264,4ea5efc0,6 [FLog::SingleSurfaceApp] setLocale
+2025-02-02T17:47:53.392Z,0.392289,4ea5efc0,6,Warning [FLog::SingleSurfaceApp] instantiate controllers
+2025-02-02T17:47:53.392Z,0.392298,4ea5efc0,6 [FLog::SurfaceController] SurfaceController[_:1]::SurfaceController, count: 1
+2025-02-02T17:47:53.392Z,0.392307,4ea5efc0,6,Warning [FLog::SingleSurfaceApp] instantiate experience coordinator
+2025-02-02T17:47:53.392Z,0.392335,4ea5efc0,6,Info [FLog::PerformanceControlUtil] PerformanceControlUtil: registered single surface tunable (id=1)
+2025-02-02T17:47:53.392Z,0.392346,4ea5efc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController::CrossExperienceVoiceController() constructor
+2025-02-02T17:47:53.434Z,0.434339,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:47:53.434Z,0.434396,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#0 0x7f8b9f031820) time:185.5ms (net:185.4ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://accountsettings.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T17:47:53.440Z,0.440959,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:47:53.441Z,0.441023,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#6 0x7f8b9d81f020) time:192.0ms (net:191.9ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://users.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T17:47:53.455Z,0.455740,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:47:53.455Z,0.455782,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5 0x7f8b9d818020) time:206.8ms (net:206.7ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://locale.roblox.com/" } ip:128.116.44.4 external:1 numberOfTimesRetried:0
+2025-02-02T17:47:53.508Z,0.508929,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:47:53.509Z,0.509019,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#3 0x7f8b9f04be20) time:260.0ms (net:259.9ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T17:47:53.515Z,0.515453,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:47:53.515Z,0.515510,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#4 0x7f8b9d81ca20) time:266.5ms (net:266.5ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T17:47:53.538Z,0.538520,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:47:53.538Z,0.538608,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#2 0x7f8b9f04b820) time:289.6ms (net:289.5ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T17:47:53.541Z,0.541253,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:47:53.541Z,0.541311,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#1 0x7f8b9f030e20) time:292.4ms (net:292.3ms callback:0.0ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:0 url:{ "https://apis.roblox.com/" } ip:128.116.44.3 external:1 numberOfTimesRetried:0
+2025-02-02T17:47:53.756Z,0.756414,4ea5efc0,6 [FLog::SingleSurfaceApp] launchUGCGame: (stage:Native).
+2025-02-02T17:47:53.756Z,0.756446,4ea5efc0,6 [FLog::SingleSurfaceApp] launchUGCGameInternal
+2025-02-02T17:47:53.758Z,0.758483,4ea5efc0,6 [FLog::SingleSurfaceApp] applyLocale
+2025-02-02T17:47:53.758Z,0.758500,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: initialize:
+2025-02-02T17:47:53.759Z,0.759076,4ea5efc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Load configs for user key: app:1423803869895817846
+2025-02-02T17:47:53.760Z,0.760694,4ea5efc0,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Retrieving patch
+2025-02-02T17:47:53.760Z,0.760712,4ea5efc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch DataModelPatchConfig : type=1, assetId=5345954812, assetVersion=10769, maxAppVersion=658, localAssetURI=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-02T17:47:53.760Z,0.760722,4ea5efc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : numAttempts=10
+2025-02-02T17:47:53.760Z,0.760766,4ea5efc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : contentId=rbxasset://models/DataModelPatch/DataModelPatch.rbxm
+2025-02-02T17:47:53.760Z,0.760777,4ea5efc0,6 [FLog::DataModelPatchConfigurer] getCachedPatch : get patch from content provider for Model
+2025-02-02T17:47:53.760Z,0.760869,4ea5efc0,6 [FLog::DataModelPatchConfigurer] deserializeAndVerifyPatch with blake3
+2025-02-02T17:47:54.043Z,1.043971,4ea5efc0,6,Warning [DFLog::BootcampCLI139737Log] Hello world!!!!!!!!!!!!!!!!!!!!
+2025-02-02T17:47:54.121Z,1.121345,4ea5efc0,6,Info [FLog::Audio] OutputDevice 0: Cuffie esterne [BuiltIn] 48000/2
+2025-02-02T17:47:54.140Z,1.140087,4ea5efc0,6,Info [FLog::Audio] InputDevice 0: Microfono esterno({af0144be-277e-8cc3-0000000000000000}) 48000/1/4
+2025-02-02T17:47:54.140Z,1.140140,4ea5efc0,6,Info [FLog::Audio] InputDevice 1: Microfono iMac({50eb3c32-f018-032c-0000000000000000}) 48000/1/4
+2025-02-02T17:47:54.151Z,1.151415,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: join: initialized dm 0x7f8ba6f7e600
+2025-02-02T17:47:54.151Z,1.151452,4ea5efc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGame
+2025-02-02T17:47:54.151Z,1.151539,4ea5efc0,6 [FLog::GameJoinUtil] GameJoinUtil::joinGamePostPrivateServer: URL: https://gamejoin.roblox.com/v1/join-private-game BODY: {"placeId":10449761463,"gameJoinAttemptId":"2402cf17-d5fa-4974-9777-5cc016c60f1d","accessCode":"782fec9a-a323-4339-8dba-53e3dff5526d"}
+2025-02-02T17:47:54.151Z,1.151594,4ea5efc0,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 0, url: https://gamejoin.roblox.com/v1/join-private-game.
+2025-02-02T17:47:54.151Z,1.151612,4ea5efc0,6 [FLog::GameJoinUtil] Delaying request by 0.00 seconds
+2025-02-02T17:47:54.151Z,1.151657,4ea5efc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Started - Ugc
+2025-02-02T17:47:54.151Z,1.151762,4ea5efc0,6 [FLog::SurfaceController] [_:1]::replaceDataModel: (stage:0, window = 0x7f8b9ed18750) [tid:0x7f8b9d00f560]
+2025-02-02T17:47:54.152Z,1.152214,4ea5efc0,6,Warning [FLog::Graphics] RenderView created[1]
+2025-02-02T17:47:54.153Z,1.153907,4ea5efc0,6 [FLog::Graphics] Metal renderer: AMD Radeon Pro 5300
+2025-02-02T17:47:54.153Z,1.153931,4ea5efc0,6 [channel] Caps: ThreadSafe 1 Framebuffer 1 FpFramebuffer 1 Shaders 1 Compute 1 Instancing 1 PerInstanceStream 1 ConstBuffers 1
+2025-02-02T17:47:54.153Z,1.153945,4ea5efc0,6 [channel] Caps: Framebuffer: MRT 4 MSAA 8 Stencil 1
+2025-02-02T17:47:54.153Z,1.153955,4ea5efc0,6 [channel] Caps: Framebuffer: Depth16 1 Depth24 1 DepthFloat 1 DepthClamp 1
+2025-02-02T17:47:54.153Z,1.153963,4ea5efc0,6 [channel] Caps: Border Color 1
+2025-02-02T17:47:54.153Z,1.153969,4ea5efc0,6 [channel] Caps: Texture: RGB10A2 1 RG11B10F 1 R16I 1
+2025-02-02T17:47:54.153Z,1.153977,4ea5efc0,6 [channel] Caps: Texture: BC6H 1 ASTC HDR 0
+2025-02-02T17:47:54.153Z,1.153983,4ea5efc0,6 [channel] Caps: Texture: DXT 1 PVR 0 ETC1 0 ETC2 0 Half 1
+2025-02-02T17:47:54.153Z,1.153989,4ea5efc0,6 [channel] Caps: Texture: 3D 1 Array 1 Depth 1 MSAA 1 MSAAFP16 8
+2025-02-02T17:47:54.153Z,1.153995,4ea5efc0,6 [channel] Caps: Texture: NPOT 1 PartialMips 1 CubeMipGen 1 CubeFramebuffer 1
+2025-02-02T17:47:54.154Z,1.154000,4ea5efc0,6 [channel] Caps: Texture: Size 8192 Units 32 VertexUnits 32
+2025-02-02T17:47:54.154Z,1.154006,4ea5efc0,6 [channel] Caps: ConstantBufferSize 65536
+2025-02-02T17:47:54.154Z,1.154012,4ea5efc0,6 [channel] Caps: isAppleGPU 0
+2025-02-02T17:47:54.154Z,1.154017,4ea5efc0,6 [channel] Caps: 32bIdx 1 Memoryless 0
+2025-02-02T17:47:54.154Z,1.154022,4ea5efc0,6 [channel] Caps: ColorBGR 0 RTFlip 0 MinusOneToOneDepth 0
+2025-02-02T17:47:54.158Z,1.158270,4ea5efc0,6 [FLog::Graphics] Metal: creating framebuffer 5120x2528
+2025-02-02T17:47:54.158Z,1.158313,4ea5efc0,6 [FLog::Graphics] Video memory size: 2147483648
+2025-02-02T17:47:54.207Z,1.207797,10592000,6,Info [FLog::UgcExperienceController] UgcExperienceController: submitStartGameTask: scrips are loaded 0x7f8ba6f7e600
+2025-02-02T17:47:54.220Z,1.220698,4ea5efc0,6 [FLog::Graphics] Loaded 1021 shaders from pack metal_osx variant default (7181513 bytes)
+2025-02-02T17:47:54.220Z,1.220731,4ea5efc0,6 [FLog::Graphics] Compiled 677 shaders in 62 ms
+2025-02-02T17:47:54.241Z,1.241428,4ea5efc0,6 [FLog::SurfaceController] SurfaceController::disableVR
+2025-02-02T17:47:54.241Z,1.241549,4ea5efc0,6 [FLog::SurfaceController] SurfaceController[_:1]::start dataModel(0x7f8ba6f7e600)
+2025-02-02T17:47:54.241Z,1.241576,4ea5efc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:1]::RenderJob
+2025-02-02T17:47:54.241Z,1.241586,4ea5efc0,6 [FLog::SurfaceController] SurfaceController[_:1]::run dataModel(0x7f8ba6f7e600)
+2025-02-02T17:47:54.241Z,1.241599,4ea5efc0,6 [FLog::SingleSurfaceApp] setStage: (stage:UGCGame)
+2025-02-02T17:47:54.241Z,1.241611,4ea5efc0,6 [FLog::SingleSurfaceApp] userDidLogin
+2025-02-02T17:47:54.241Z,1.241640,4ea5efc0,6 [FLog::SingleSurfaceApp] applyLocale
+2025-02-02T17:47:54.241Z,1.241670,10695000,6 [FLog::Output] (AppDelegate) Doing machine id check.
+2025-02-02T17:47:54.245Z,1.245366,1048f000,6 [FLog::SurfaceController] SurfaceController::RenderJob::stepDataModelJob: No DM yet. Continue...
+2025-02-02T17:47:54.283Z,1.283594,4ea5efc0,6 [FLog::SurfaceController] SurfaceController::RenderJob::scheduleRender: No data model. Bind workspace now...
+2025-02-02T17:47:54.289Z,1.289614,4ea5efc0,6 [FLog::Graphics] LayeredClothingMode updated: LC=1 HSR=1
+2025-02-02T17:47:54.307Z,1.307752,4ea5efc0,6 [FLog::Graphics] SceneManager: resizing main targets to 2560x1264
+2025-02-02T17:47:54.421Z,1.421173,4ea5efc0,6 [FLog::Graphics] Metal: resizing main framebuffer to 5120x2880
+2025-02-02T17:47:54.425Z,1.425605,4ea5efc0,6 [FLog::Graphics] SceneManager: resizing main targets to 2560x1440
+2025-02-02T17:47:54.487Z,1.487565,10592000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":"JoinPrivateGame:PlaceId=10449761463&AccessCode=782fec9a-a323-4339-8dba-53e3dff5526d","status":0,"statusData":null,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null,"queuePosition":0}
+status code: 200
+httpErrorCode: 0
+errorMessage: 
+
+2025-02-02T17:47:54.487Z,1.487635,10592000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 1, url: https://gamejoin.roblox.com/v1/join-private-game.
+2025-02-02T17:47:54.487Z,1.487669,10592000,6 [FLog::GameJoinUtil] Delaying request by 1.00 seconds
+2025-02-02T17:47:55.769Z,2.769934,1048f000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":null,"status":0,"statusData":null,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null,"queuePosition":0}
+status code: 200
+httpErrorCode: 0
+errorMessage: 
+
+2025-02-02T17:47:55.770Z,2.770001,1048f000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 2, url: https://gamejoin.roblox.com/v1/join-private-game.
+2025-02-02T17:47:55.770Z,2.770025,1048f000,6 [FLog::GameJoinUtil] Delaying request by 1.00 seconds
+2025-02-02T17:47:56.945Z,3.945190,10592000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":null,"status":0,"statusData":null,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null,"queuePosition":0}
+status code: 200
+httpErrorCode: 0
+errorMessage: 
+
+2025-02-02T17:47:56.945Z,3.945261,10592000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 3, url: https://gamejoin.roblox.com/v1/join-private-game.
+2025-02-02T17:47:56.945Z,3.945298,10592000,6 [FLog::GameJoinUtil] Delaying request by 1.02 seconds
+2025-02-02T17:47:58.146Z,5.146199,10592000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":null,"status":0,"statusData":null,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null,"queuePosition":0}
+status code: 200
+httpErrorCode: 0
+errorMessage: 
+
+2025-02-02T17:47:58.146Z,5.146270,10592000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 4, url: https://gamejoin.roblox.com/v1/join-private-game.
+2025-02-02T17:47:58.146Z,5.146307,10592000,6 [FLog::GameJoinUtil] Delaying request by 1.66 seconds
+2025-02-02T17:47:59.982Z,6.982769,1048f000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":null,"status":0,"statusData":null,"joinScriptUrl":null,"authenticationUrl":null,"authenticationTicket":null,"message":null,"joinScript":null,"queuePosition":0}
+status code: 200
+httpErrorCode: 0
+errorMessage: 
+
+2025-02-02T17:47:59.982Z,6.982844,1048f000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest: requestCount: 5, url: https://gamejoin.roblox.com/v1/join-private-game.
+2025-02-02T17:47:59.982Z,6.982878,1048f000,6 [FLog::GameJoinUtil] Delaying request by 1.88 seconds
+2025-02-02T17:48:02.247Z,9.247775,10695000,6 [FLog::GameJoinUtil] GameJoinUtil::makePlaceLauncherRequest, response:
+{"jobId":"d56c0622-7ddd-415c-b7c9-d5b2fa144ca6","status":2,"statusData":null,"joinScriptUrl":"https://assetgame.roblox.com/Game/Join.ashx?ticketVersion=2&ticket={\"UserId\"%3a3047960021%2c\"UserName\"%3a\"paninorealaccount009\"%2c\"DisplayName\"%3a\"Jack\"%2c\"CharacterFetchUrl\"%3a\"https%3a%2f%2fapi.roblox.com%2fv1.1%2favatar-fetch%2f%3fplaceId%3d10449761463%26userId%3d3047960021\"%2c\"GameId\"%3a\"d56c0622-7ddd-415c-b7c9-d5b2fa144ca6\"%2c\"PlaceId\"%3a10449761463%2c\"UniverseId\"%3a3808081382%2c\"ServerId\"%3a1047690%2c\"ServerPort\"%3a52836%2c\"IsTeleport\"%3afalse%2c\"FollowUserId\"%3anull%2c\"TimeStamp\"%3a\"02%2f02%2f2025+17%3a48%3a02\"%2c\"CharacterAppearanceId\"%3a3047960021%2c\"AlternateName\"%3anull%2c\"JoinTypeId\"%3a6%2c\"MatchmakingDecisionId\"%3anull%2c\"GameJoinMetadata\"%3a{\"JoinSource\"%3a0%2c\"RequestType\"%3a1%2c\"MatchmakingDecisionId\"%3a\"00000000-0000-0000-0000-0000000
+2025-02-02T17:48:02.247Z,9.247940,10695000,6 [FLog::GameJoinUtil] Game join succeeded.
+2025-02-02T17:48:02.247Z,9.247961,10695000,6 [FLog::GameJoinUtil] GameJoinUtil::processing join parameters
+2025-02-02T17:48:02.265Z,9.265013,10695000,7 [FLog::Network] NetworkClient:Create
+2025-02-02T17:48:02.265Z,9.265699,10695000,6 [FLog::GameJoinUtil] Null EventId
+2025-02-02T17:48:02.265Z,9.265841,10695000,10 [DFLog::KeyRing] Parsed config created at: 11:59 4/1/2024.
+2025-02-02T17:48:02.268Z,9.268124,10695000,6 [FLog::Output] AnalyticsSessionId is da70dd8c-3153-4bc3-9813-1b5b33ccff98.
+2025-02-02T17:48:02.268Z,9.268148,10695000,6 [FLog::Output] ! Joining game 'd56c0622-7ddd-415c-b7c9-d5b2fa144ca6' place 10449761463 at 10.17.9.146
+2025-02-02T17:48:02.268Z,9.268182,10695000,6 [FLog::GameJoinLoadTime] Report game_join_loadtime: sid:da70dd8c-3153-4bc3-9813-1b5b33ccff98, clienttime:1738518482.4909999371, join_time:8.5093284420000010471, referral_page:RequestPrivateGame, placeid:10449761463, userid:3047960021, universeid:3808081382, 
+2025-02-02T17:48:02.270Z,9.270015,10695000,7 [FLog::Network] Client will attempt to connect following server endpoints with threadSleepTime(-1)
+2025-02-02T17:48:02.270Z,9.270030,10695000,7 [FLog::Network] UDMUX Address = 128.116.21.33, Port = 52836 | RCC Server Address = 10.17.9.146, Port = 52836
+2025-02-02T17:48:02.270Z,9.270865,10695000,7 [FLog::Network] binding socket on inaddr_any:0
+
+2025-02-02T17:48:02.283Z,9.283605,10695000,6 [FLog::Output] Connecting to UDMUX server 128.116.21.33:52836, and RCC server 10.17.9.146:52836
+2025-02-02T17:48:02.480Z,9.480843,10592000,6 [FLog::Output] Connection accepted from 128.116.21.33|52836
+2025-02-02T17:48:02.482Z,9.482480,10592000,7 [FLog::Network] serverId: 128.116.21.33|52836
+2025-02-02T17:48:02.482Z,9.482581,10592000,7 [FLog::Network] Replicator created for player 128.116.21.33|52836
+2025-02-02T17:48:02.482Z,9.482595,10592000,7 [FLog::Network] Replicator created: 0x7f8bd1a77050
+2025-02-02T17:48:02.654Z,9.654030,1048f000,7 [FLog::Network] Time taken to initialize schema = 4.957365 ms
+2025-02-02T17:48:02.654Z,9.654127,1048f000,7 [FLog::Network] Assigned peer id = 4
+2025-02-02T17:48:02.654Z,9.654330,1048f000,7 [FLog::Network] Join snapshot timer: 0.185987
+2025-02-02T17:48:02.866Z,9.866014,1048f000,6 [FLog::DataModelPatchConfigurer] OTAPollingEnabled set to: false
+2025-02-02T17:48:02.866Z,9.866372,1048f000,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Update OTA config
+2025-02-02T17:48:02.883Z,9.883882,1048f000,6,Info [FLog::AudioFocusManager] AudioFocusManager::AudioFocusManager() constructor
+2025-02-02T17:48:02.883Z,9.883918,1048f000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() constructor
+2025-02-02T17:48:02.883Z,9.883928,1048f000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-02T17:48:02.883Z,9.883935,1048f000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider setup
+2025-02-02T17:48:03.029Z,10.029158,1007a000,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Update OTA succeeded: {"SchemaVersion":"1","CanaryUserIds":[],"CanaryPercentage":0}
+2025-02-02T17:48:03.029Z,10.029225,1007a000,6 [FLog::DataModelPatchConfigurer] [_DataModelPatch] Update OTA config not deployed
+2025-02-02T17:48:03.151Z,10.151313,4ea5efc0,6 [FLog::Graphics] Future is bright shadows
+2025-02-02T17:48:03.377Z,10.377875,1007a000,6,Critical [DFLog::RbxStorage] RbxStorage::init [INIT] availableDiskSpace: 66667319296 bytes, oldCacheSize: -1 bytes, elapsed: 0.127 ms
+2025-02-02T17:48:03.398Z,10.398594,1007a000,6,Error [DFLog::SQLite] sqlite3_error_log: 283 - recovered 273 frames from WAL file /private/var/folders/83/3w46ryz13191t1qd7k9xctdm0000gn/T/Roblox/rbx-storage.db-wal
+2025-02-02T17:48:03.401Z,10.401458,1007a000,6,Critical [DFLog::RbxStorage] RbxStorage::init [DONE] name: TelemetryCache(SqliteCache+TelemetryCache(FileCache)), duration: 23.108 ms, dbOpenCount: 7, dbMaxMemory: 0.260 MiB, dbTotalSize: 0.000 MiB, dbNumItems: 1, fileTotalSize: 0.000 MiB, fileNumItems: 0
+2025-02-02T17:48:03.458Z,10.458582,4ea5efc0,6 [FLog::Graphics] Terrain TextureArray 512x512, arraySize: 36, mip: 10
+2025-02-02T17:48:03.715Z,10.715052,1048f000,6 [FLog::Output] INTERPRETER LOADED 15.1140593933
+2025-02-02T17:48:03.726Z,10.726139,1048f000,6 [FLog::Output] Server RobloxGitHash: 6874f45ec658019a67f19ab7de6e688c50292b01
+2025-02-02T17:48:03.726Z,10.726165,1048f000,6 [FLog::Output] Server Prefix: 0.658.0.6580461_20250202T174753Z_RCC_08539
+2025-02-02T17:48:03.771Z,10.771299,10695000,6 [FLog::Output] REPLICATION LOADED 0.07699012756347656
+2025-02-02T17:48:03.965Z,10.965099,10592000,6 [FLog::Output] CLIENT LOADED 0.22399497032165527
+2025-02-02T17:48:04.653Z,11.653996,1007a000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=7216855364'" load failed in Workspace.Live.paninorealaccount009.Left Arm.WaterPalm.ConstantEmit.3.Texture: Request failed
+2025-02-02T17:48:04.654Z,11.654071,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#331 0x7f8b91e4c420) time:284.9ms (net:284.9ms callback:0.1ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:63 url:{ "https://assetdelivery.roblox.com/v1/asset?id=7216855364'" } ip:128.116.44.3 external:0 numberOfTimesRetried:0
+2025-02-02T17:48:05.082Z,12.082491,1048f000,6 [FLog::Output] 
+
+
+⚽ [KJ] The Strongest Battlegrounds uses TopbarPlus v2.9.1
+🍍 TopbarPlus was developed by ForeverHD and the Nanoblox Team
+🚀 You can learn more and take a free copy by searching for 'TopbarPlus' on the DevForum
+
+
+2025-02-02T17:48:08.866Z,15.866901,10aad000,6 [FLog::Error] Asset (Animation) "rbxassetid://0" load failed in Animation.AnimationId: Animation failed to load
+2025-02-02T17:48:08.866Z,15.866948,10aad000,6 [FLog::Error] Error: Failed to load animation with sanitized ID rbxassetid://0: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=0&serverplaceid=10449761463
+2025-02-02T17:48:24.178Z,31.178310,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:24.311Z,31.311632,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:24.624Z,31.624447,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:24.870Z,31.870525,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:25.004Z,32.004898,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:25.135Z,32.135960,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:25.284Z,32.284058,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:25.432Z,32.432873,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:25.762Z,32.762741,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:25.915Z,32.915195,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:26.062Z,33.062550,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:26.293Z,33.293552,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:26.443Z,33.443134,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:26.593Z,33.593075,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:26.741Z,33.741589,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:26.889Z,33.889606,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:27.022Z,34.022049,1007a000,6,Warning [FLog::HttpOpenTelemetryTracing] No active span to end
+2025-02-02T17:48:43.752Z,50.752861,10695000,6,Error [FLog::FMOD] FMOD API error, FMOD_RESULT:46, instance:0x7f8ba556c008, functionname:System::playSound, functionparams:0x7f8b7e1ae088, 0x7f8b8e0a8be8, true, 0x7f8b972880b0
+2025-02-02T17:48:43.752Z,50.752907,10695000,6,Error [FLog::FMOD] FMOD object: 0x7f8ba556c008, parent: 0x7f8b97287ff0, fmodOperation: playSound, error: Operation could not be performed because specified sound/DSP connection is not ready.
+2025-02-02T17:48:47.028Z,54.028587,4ea5efc0,6 [FLog::Error] Asset (Image) "" load failed in Workspace.Live.Weakest Dummy.Torso.roblox.Texture: Unexpected URL
+2025-02-02T17:49:54.322Z,121.322388,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 17:49:54 GMT
+2025-02-02T17:49:54.322Z,121.322754,1007a000,6 [FLog::Output] Settings Date timestamp is 1738518594
+2025-02-02T17:51:54.397Z,241.397980,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 17:51:54 GMT
+2025-02-02T17:51:54.398Z,241.398331,1007a000,6 [FLog::Output] Settings Date timestamp is 1738518714
+2025-02-02T17:52:52.307Z,299.307159,10592000,6 [FLog::Warning] Warning: Something unexpectedly tried to set the parent of Sound to NULL while trying to set the parent of Sound. Current parent is Attachment.
+2025-02-02T17:53:54.467Z,361.467957,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 17:53:51 GMT
+2025-02-02T17:53:54.468Z,361.468292,1007a000,6 [FLog::Output] Settings Date timestamp is 1738518831
+2025-02-02T17:55:54.544Z,481.544434,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 17:55:54 GMT
+2025-02-02T17:55:54.544Z,481.544830,1007a000,6 [FLog::Output] Settings Date timestamp is 1738518954
+2025-02-02T17:57:54.630Z,601.630310,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 17:57:51 GMT
+2025-02-02T17:57:54.632Z,601.632996,1007a000,6 [FLog::Output] Settings Date timestamp is 1738519071
+2025-02-02T17:59:54.727Z,721.727905,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 17:59:55 GMT
+2025-02-02T17:59:54.728Z,721.728271,1007a000,6 [FLog::Output] Settings Date timestamp is 1738519195
+2025-02-02T18:01:11.254Z,798.254333,10695000,6 [FLog::Warning] Warning: anim isnt playing
+2025-02-02T18:01:11.789Z,798.789490,10695000,6 [FLog::Warning] Warning: anim isnt playing
+2025-02-02T18:01:12.302Z,799.302490,10592000,6 [FLog::Warning] Warning: anim isnt playing
+2025-02-02T18:01:52.765Z,839.765808,10695000,6 [FLog::Warning] Warning: anim isnt playing
+2025-02-02T18:01:54.805Z,841.805725,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:01:51 GMT
+2025-02-02T18:01:54.805Z,841.805786,1007a000,6 [FLog::Output] Settings Date timestamp is 1738519311
+2025-02-02T18:02:58.172Z,905.172546,10592000,6 [FLog::Warning] Warning: anim isnt playing
+2025-02-02T18:02:58.721Z,905.721497,1048f000,6 [FLog::Warning] Warning: anim isnt playing
+2025-02-02T18:02:59.221Z,906.221924,1048f000,6 [FLog::Warning] Warning: anim isnt playing
+2025-02-02T18:03:54.770Z,961.770874,1048f000,6 [FLog::Warning] Warning: anim isnt playing
+2025-02-02T18:03:54.975Z,961.975830,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:03:55 GMT
+2025-02-02T18:03:54.975Z,961.975891,1007a000,6 [FLog::Output] Settings Date timestamp is 1738519435
+2025-02-02T18:03:55.263Z,962.263245,1048f000,6 [FLog::Warning] Warning: anim isnt playing
+2025-02-02T18:05:55.167Z,1082.167480,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:05:55 GMT
+2025-02-02T18:05:55.167Z,1082.167847,1007a000,6 [FLog::Output] Settings Date timestamp is 1738519555
+2025-02-02T18:06:03.908Z,1090.908813,1048f000,6 [FLog::Warning] Warning: anim isnt playing
+2025-02-02T18:06:04.476Z,1091.476807,10695000,6 [FLog::Warning] Warning: anim isnt playing
+2025-02-02T18:06:04.957Z,1091.957397,1048f000,6 [FLog::Warning] Warning: anim isnt playing
+2025-02-02T18:07:52.521Z,1199.521362,10aad000,6 [FLog::Error] Asset (Animation) "rbxassetid://0" load failed in Animation.AnimationId: Animation failed to load
+2025-02-02T18:07:52.522Z,1199.522217,10aad000,6 [FLog::Error] Error: Failed to load animation with sanitized ID rbxassetid://0: Animation failed to load, assetId: https://assetdelivery.roblox.com/v1/asset?id=0&serverplaceid=10449761463
+2025-02-02T18:07:55.273Z,1202.273560,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:07:55 GMT
+2025-02-02T18:07:55.273Z,1202.273560,1007a000,6 [FLog::Output] Settings Date timestamp is 1738519675
+2025-02-02T18:08:14.387Z,1221.387573,10695000,6 [FLog::Warning] Warning: anim isnt playing
+2025-02-02T18:08:14.890Z,1221.890015,10695000,6 [FLog::Warning] Warning: anim isnt playing
+2025-02-02T18:09:04.322Z,1271.322510,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5783 0x7f8b844a6820) time:255.8ms (net:255.7ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/2510235063/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.352Z,1271.352661,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5786 0x7f8b840c2420) time:285.7ms (net:285.4ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/619541458/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.367Z,1271.367920,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5789 0x7f8b84308e20) time:300.5ms (net:300.3ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/619537468/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.377Z,1271.377930,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5792 0x7f8b8ef9b820) time:310.1ms (net:309.8ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/619522642/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.385Z,1271.385132,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5795 0x7f8b9d30cc20) time:317.1ms (net:316.8ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/76233968067050/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.510Z,1271.510620,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5798 0x7f8b8e8ecc20) time:442.3ms (net:158.0ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/619536621/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.532Z,1271.532837,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5801 0x7f8b7dc3be20) time:464.2ms (net:162.0ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/619542888/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.550Z,1271.550537,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5804 0x7f8b82dd1e20) time:481.7ms (net:172.7ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/619541867/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.558Z,1271.558960,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5807 0x7f8b82b34c20) time:489.7ms (net:173.6ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/139607718/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.593Z,1271.593994,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5810 0x7f8b82ae7a20) time:524.5ms (net:195.4ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/5816649750/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.736Z,1271.736328,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5813 0x7f8b82a6b220) time:666.5ms (net:175.7ms callback:0.1ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/16844344599/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.761Z,1271.761230,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5816 0x7f8b829fd620) time:691.2ms (net:161.0ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/8966711821/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.824Z,1271.824097,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5819 0x7f8b7df13020) time:753.8ms (net:173.3ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/10159600649/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.878Z,1271.878906,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5825 0x7f8b82c85820) time:808.2ms (net:178.5ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/16477149823/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.882Z,1271.882812,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5822 0x7f8b82b21820) time:812.4ms (net:198.7ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/15874155844/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.893Z,1271.893677,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5828 0x7f8b82cb2e20) time:822.7ms (net:157.3ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/110673146052704/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:04.970Z,1271.970581,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5831 0x7f8b82d24a20) time:899.4ms (net:209.4ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/3576686446/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:05.051Z,1272.051880,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5843 0x7f8b7ddac020) time:979.2ms (net:158.2ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/5915779043/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:05.091Z,1272.091675,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5837 0x7f8b82c3ec20) time:1019.8ms (net:239.9ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/3576968026/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:05.135Z,1272.135498,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5840 0x7f8b7df9cc20) time:1063.2ms (net:258.3ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/5104377791/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:05.137Z,1272.137939,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5834 0x7f8b7dcb4620) time:1066.5ms (net:314.0ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/3360692915/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:05.140Z,1272.140381,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5846 0x7f8b802be420) time:1067.3ms (net:183.2ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/7202896732/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:05.179Z,1272.179688,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5849 0x7f8b93693620) time:1106.2ms (net:176.5ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/3360686498/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:05.274Z,1272.274048,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#5852 0x7f8b935bea20) time:1200.2ms (net:248.0ms callback:0.0ms timeInRetryQueue:0.0ms)status:403 Forbidden bodySize:144 url:{ "https://develop.roblox.com/v1/assets/3360689775/saved-versions" } ip:128.116.123.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:09:55.489Z,1322.489868,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:09:55 GMT
+2025-02-02T18:09:55.490Z,1322.490845,1007a000,6 [FLog::Output] Settings Date timestamp is 1738519795
+2025-02-02T18:10:51.195Z,1378.195312,10695000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:11:11.198Z,1398.198975,10592000,6 [FLog::Error] Error: Spin784133323 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:11:15.280Z,1402.280762,10592000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:11:49.715Z,1436.715942,10592000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:11:55.575Z,1442.575928,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:11:55 GMT
+2025-02-02T18:11:55.575Z,1442.575928,1007a000,6 [FLog::Output] Settings Date timestamp is 1738519915
+2025-02-02T18:12:12.400Z,1459.400757,10695000,6 [FLog::Error] Error: Spin1445933146 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:12:16.299Z,1463.299927,10592000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:12:43.764Z,1490.764404,10695000,6 [FLog::Error] Error: Spin657270114 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:12:43.764Z,1490.764526,10695000,6 [FLog::Error] Error: Spin1445933146 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:12:47.392Z,1494.392944,10695000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:13:13.281Z,1520.281738,10592000,6 [FLog::Error] Error: Spin1106287155 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:13:13.282Z,1520.282227,10592000,6 [FLog::Error] Error: Spin657270114 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:13:13.282Z,1520.282349,10592000,6 [FLog::Error] Error: Spin1445933146 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:13:16.892Z,1523.892090,10695000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:13:55.653Z,1562.653931,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:13:56 GMT
+2025-02-02T18:13:55.654Z,1562.654297,1007a000,6 [FLog::Output] Settings Date timestamp is 1738520036
+2025-02-02T18:14:19.039Z,1586.039062,10592000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:14:33.155Z,1600.155762,10592000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:14:43.259Z,1610.259277,1048f000,6 [FLog::Error] Error: Spin576749058 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:14:46.893Z,1613.893066,1048f000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:14:58.770Z,1625.770996,1048f000,6 [FLog::Error] Error: Spin146903171 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:15:02.385Z,1629.385986,10592000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:15:21.907Z,1648.907837,1048f000,6 [FLog::Error] Error: Spin1765863592 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:15:21.908Z,1648.908325,1048f000,6 [FLog::Error] Error: Spin576749058 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:15:24.019Z,1651.019043,10592000,6 [FLog::Error] Error: Spin232590830 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:15:24.019Z,1651.019165,10592000,6 [FLog::Error] Error: Spin146903171 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:15:25.505Z,1652.505371,1048f000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:15:27.887Z,1654.887817,1048f000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:15:44.621Z,1671.621948,10695000,6 [FLog::Error] Error: Spin623276341 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:15:44.622Z,1671.622925,10695000,6 [FLog::Error] Error: Spin1765863592 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:15:44.623Z,1671.623047,10695000,6 [FLog::Error] Error: Spin576749058 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:15:48.353Z,1675.353271,1048f000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:15:55.732Z,1682.732300,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:15:56 GMT
+2025-02-02T18:15:55.733Z,1682.733032,1007a000,6 [FLog::Output] Settings Date timestamp is 1738520156
+2025-02-02T18:16:09.565Z,1696.565674,10695000,6 [FLog::Error] Error: Spin1367363457 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:16:09.565Z,1696.565796,10695000,6 [FLog::Error] Error: Spin623276341 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:16:09.565Z,1696.565918,10695000,6 [FLog::Error] Error: Spin1765863592 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:16:09.565Z,1696.565918,10695000,6 [FLog::Error] Error: Spin576749058 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:16:13.435Z,1700.435791,10695000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:16:32.161Z,1719.161621,10695000,6 [FLog::Error] Error: Spin1031208948 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:16:32.161Z,1719.161743,10695000,6 [FLog::Error] Error: Spin1367363457 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:16:32.161Z,1719.161865,10695000,6 [FLog::Error] Error: Spin623276341 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:16:32.161Z,1719.161865,10695000,6 [FLog::Error] Error: Spin1765863592 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:16:32.161Z,1719.161987,10695000,6 [FLog::Error] Error: Spin576749058 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:16:33.472Z,1720.472534,1048f000,6 [FLog::Error] Error: Spin329384120 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:16:33.472Z,1720.472656,1048f000,6 [FLog::Error] Error: Spin232590830 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:16:33.472Z,1720.472656,1048f000,6 [FLog::Error] Error: Spin146903171 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:16:36.043Z,1723.043457,10592000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:16:37.091Z,1724.091187,10695000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:17:00.807Z,1747.807983,1048f000,6 [FLog::Error] Error: Spin824931428 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:17:00.808Z,1747.808838,1048f000,6 [FLog::Error] Error: Spin1031208948 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:17:00.808Z,1747.808960,1048f000,6 [FLog::Error] Error: Spin1367363457 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:17:00.809Z,1747.809082,1048f000,6 [FLog::Error] Error: Spin623276341 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:17:00.809Z,1747.809082,1048f000,6 [FLog::Error] Error: Spin1765863592 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:17:00.809Z,1747.809204,1048f000,6 [FLog::Error] Error: Spin576749058 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:17:04.770Z,1751.770752,10695000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:17:04.997Z,1751.997925,10695000,6 [FLog::Error] Error: Spin786460280 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:17:04.998Z,1751.998169,10695000,6 [FLog::Error] Error: Spin329384120 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:17:04.998Z,1751.998169,10695000,6 [FLog::Error] Error: Spin232590830 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:17:04.998Z,1751.998291,10695000,6 [FLog::Error] Error: Spin146903171 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:17:08.634Z,1755.634888,10592000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:17:55.818Z,1802.818481,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:17:55 GMT
+2025-02-02T18:17:55.819Z,1802.819214,1007a000,6 [FLog::Output] Settings Date timestamp is 1738520275
+2025-02-02T18:18:01.866Z,1808.866333,10592000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:18:03.098Z,1810.098999,10695000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:18:26.894Z,1833.894287,10695000,6 [FLog::Error] Error: Spin1069256950 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:18:30.496Z,1837.496460,10592000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:18:39.376Z,1846.376221,10592000,6 [FLog::Error] Error: Spin1442670324 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:18:43.245Z,1850.245117,10592000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:19:00.128Z,1867.128906,10695000,6 [FLog::Error] Error: Spin1371511326 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:19:00.129Z,1867.129761,10695000,6 [FLog::Error] Error: Spin1069256950 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:19:04.083Z,1871.083496,1048f000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:19:55.911Z,1922.911865,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:19:56 GMT
+2025-02-02T18:19:55.912Z,1922.912598,1007a000,6 [FLog::Output] Settings Date timestamp is 1738520396
+2025-02-02T18:19:58.032Z,1925.032104,1048f000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:20:20.707Z,1947.707397,10592000,6 [FLog::Error] Error: Spin205185347 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:20:24.313Z,1951.313599,10695000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:20:29.298Z,1956.298218,1048f000,6 [FLog::Error] Error: Spin1937159806 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:20:29.298Z,1956.298340,1048f000,6 [FLog::Error] Error: Spin1442670324 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:20:32.908Z,1959.908813,1048f000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:21:19.292Z,2006.292847,10695000,6 [FLog::Error] Error: Spin739219189 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:21:19.293Z,2006.293335,10695000,6 [FLog::Error] Error: Spin205185347 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:21:23.306Z,2010.306274,1048f000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:21:55.991Z,2042.991577,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:21:56 GMT
+2025-02-02T18:21:55.991Z,2042.991577,1007a000,6 [FLog::Output] Settings Date timestamp is 1738520516
+2025-02-02T18:21:57.357Z,2044.357422,10695000,6 [FLog::Error] Error: Spin736523184 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:21:57.358Z,2044.358643,10695000,6 [FLog::Error] Error: Spin739219189 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:21:57.358Z,2044.358765,10695000,6 [FLog::Error] Error: Spin205185347 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:22:00.970Z,2047.970337,1048f000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:22:27.540Z,2074.540527,10592000,6 [FLog::Error] Error: Spin409726418 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:22:27.540Z,2074.540771,10592000,6 [FLog::Error] Error: Spin1937159806 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:22:27.540Z,2074.540771,10592000,6 [FLog::Error] Error: Spin1442670324 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:22:31.156Z,2078.156982,1048f000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:22:31.514Z,2078.514160,1048f000,6 [FLog::Error] Error: Spin1416444684 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:22:31.515Z,2078.515381,1048f000,6 [FLog::Error] Error: Spin736523184 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:22:31.515Z,2078.515625,1048f000,6 [FLog::Error] Error: Spin739219189 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:22:31.515Z,2078.515625,1048f000,6 [FLog::Error] Error: Spin205185347 is not a valid member of Part "Workspace.Live.paninorealaccount009.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:22:35.127Z,2082.127441,10592000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:23:26.581Z,2133.581543,10592000,6 [FLog::Error] Error: Spin730945185 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:23:26.582Z,2133.582031,10592000,6 [FLog::Error] Error: Spin409726418 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:23:26.582Z,2133.582031,10592000,6 [FLog::Error] Error: Spin1937159806 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:23:26.582Z,2133.582275,10592000,6 [FLog::Error] Error: Spin1442670324 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:23:30.468Z,2137.468506,10695000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:23:56.076Z,2163.076172,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:23:56 GMT
+2025-02-02T18:23:56.076Z,2163.076416,1007a000,6 [FLog::Output] Settings Date timestamp is 1738520636
+2025-02-02T18:24:20.539Z,2187.539795,1048f000,6 [FLog::Error] Error: Spin79660084 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:24:20.540Z,2187.540527,1048f000,6 [FLog::Error] Error: Spin730945185 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:24:20.540Z,2187.540527,1048f000,6 [FLog::Error] Error: Spin409726418 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:24:20.540Z,2187.540527,1048f000,6 [FLog::Error] Error: Spin1937159806 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:24:20.540Z,2187.540771,1048f000,6 [FLog::Error] Error: Spin1442670324 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:24:24.091Z,2191.091797,1048f000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:24:45.663Z,2212.663086,10592000,6 [FLog::Error] Error: Spin1938241659 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:24:45.663Z,2212.663818,10592000,6 [FLog::Error] Error: Spin79660084 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:24:45.663Z,2212.663818,10592000,6 [FLog::Error] Error: Spin730945185 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:24:45.663Z,2212.663818,10592000,6 [FLog::Error] Error: Spin409726418 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:24:45.664Z,2212.664062,10592000,6 [FLog::Error] Error: Spin1937159806 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:24:45.664Z,2212.664062,10592000,6 [FLog::Error] Error: Spin1442670324 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:24:49.266Z,2216.266113,10592000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:25:26.796Z,2253.796143,1048f000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:25:56.183Z,2283.183105,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:25:56 GMT
+2025-02-02T18:25:56.183Z,2283.183838,1007a000,6 [FLog::Output] Settings Date timestamp is 1738520756
+2025-02-02T18:26:05.529Z,2292.529297,10695000,6 [FLog::Error] Error: Spin93749416 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:26:09.155Z,2296.155029,10695000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:26:37.129Z,2324.129150,10695000,6 [FLog::Error] Error: Spin598469410 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:26:37.130Z,2324.130127,10695000,6 [FLog::Error] Error: Spin93749416 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:26:40.747Z,2327.747803,1048f000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:27:15.101Z,2362.101807,1048f000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:27:49.949Z,2396.949951,10592000,6 [FLog::Error] Error: Spin1820879076 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:27:53.789Z,2400.789551,10592000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:27:56.254Z,2403.254639,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:27:56 GMT
+2025-02-02T18:27:56.254Z,2403.254883,1007a000,6 [FLog::Output] Settings Date timestamp is 1738520876
+2025-02-02T18:28:28.461Z,2435.461914,10592000,6 [FLog::Error] Error: Spin1633597884 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:28:28.462Z,2435.462891,10592000,6 [FLog::Error] Error: Spin1820879076 is not a valid member of Part "Workspace.Live.myfootisgoo.HumanoidRootPart"
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7101
+    Stack End
+2025-02-02T18:28:32.338Z,2439.338867,10695000,6 [FLog::Error] Error: Destroy is not a valid member of RBXScriptConnection
+    Stack Begin
+    Script 'Players.paninorealaccount009.PlayerScripts.Replication.User Error Interface', Line 7094
+    Stack End
+2025-02-02T18:29:02.286Z,2469.286865,10695000,6 [FLog::Warning] Warning: sync
+2025-02-02T18:29:02.375Z,2469.375732,10695000,6 [FLog::Warning] Warning: StarterGui:SetCoreGuiEnabled is not supported on type SelfView.
+2025-02-02T18:29:02.526Z,2469.526855,1007a000,6 [FLog::Error] Asset (Image) "https://assetdelivery.roblox.com/v1/asset?id=14214957542%2F" load failed in Workspace.BG.Bem.beams.Background.Texture: Request failed
+2025-02-02T18:29:02.527Z,2469.527100,1007a000,12 [DFLog::HttpTraceError] HttpResponse(#16426 0x7f8b80244420) time:211.7ms (net:147.3ms callback:0.1ms timeInRetryQueue:0.0ms)status:404 Not Found bodySize:63 url:{ "https://assetdelivery.roblox.com/v1/asset?id=14214957542%2F" } ip:128.116.44.4 external:0 numberOfTimesRetried:0
+2025-02-02T18:29:10.500Z,2477.500244,10592000,6 [FLog::Warning] Warning: theyung
+2025-02-02T18:29:13.302Z,2480.302246,1048f000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T18:29:13.305Z,2480.305664,1048f000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.324Z,2480.324707,10592000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.353Z,2480.353760,10695000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.385Z,2480.385742,1048f000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.419Z,2480.419189,10592000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.451Z,2480.451416,10695000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.485Z,2480.485596,10695000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.518Z,2480.518066,10592000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.553Z,2480.553223,10695000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.585Z,2480.585938,1048f000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.619Z,2480.619873,10592000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.652Z,2480.652344,10592000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.684Z,2480.684082,1048f000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.718Z,2480.718994,10695000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.752Z,2480.752197,10695000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.783Z,2480.783691,10695000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.819Z,2480.819824,10695000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.854Z,2480.854248,10592000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.885Z,2480.885742,10592000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.920Z,2480.920166,10592000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.955Z,2480.955566,1048f000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:13.990Z,2480.990479,10592000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:14.024Z,2481.024902,1048f000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:14.056Z,2481.056641,10592000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:14.090Z,2481.090088,10695000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:14.124Z,2481.124023,10592000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:14.152Z,2481.152344,10592000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:14.178Z,2481.178467,10695000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:14.207Z,2481.207520,10695000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:14.239Z,2481.239990,10592000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:14.273Z,2481.273193,1048f000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:14.298Z,2481.298096,10592000,6 [FLog::Warning] Warning: le bossuuuu
+2025-02-02T18:29:15.140Z,2482.140869,1048f000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T18:29:15.141Z,2482.141602,1048f000,6 [FLog::Output] did
+2025-02-02T18:29:15.141Z,2482.141602,1048f000,6 [FLog::Output] did
+2025-02-02T18:29:15.141Z,2482.141846,1048f000,6 [FLog::Output] did
+2025-02-02T18:29:15.976Z,2482.976318,10592000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T18:29:20.402Z,2487.402344,1048f000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T18:29:22.409Z,2489.409912,10695000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T18:29:25.310Z,2492.310059,10592000,6 [FLog::Warning] Warning: creppytpyeryeryea
+2025-02-02T18:29:28.820Z,2495.820312,10695000,6 [FLog::Warning] Warning: GuiService:AddSelectionParent already has selection group with name PlayerlistGuiSelection, overwriting selection group.
+2025-02-02T18:29:56.334Z,2523.334229,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:29:53 GMT
+2025-02-02T18:29:56.337Z,2523.337158,1007a000,6 [FLog::Output] Settings Date timestamp is 1738520993
+2025-02-02T18:31:56.410Z,2643.410889,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:31:56 GMT
+2025-02-02T18:31:56.411Z,2643.411133,1007a000,6 [FLog::Output] Settings Date timestamp is 1738521116
+2025-02-02T18:33:56.505Z,2763.505127,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:33:56 GMT
+2025-02-02T18:33:56.505Z,2763.505859,1007a000,6 [FLog::Output] Settings Date timestamp is 1738521236
+2025-02-02T18:35:56.579Z,2883.579346,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:35:57 GMT
+2025-02-02T18:35:56.580Z,2883.580322,1007a000,6 [FLog::Output] Settings Date timestamp is 1738521357
+2025-02-02T18:37:56.661Z,3003.661377,1007a000,6 [FLog::Output] Settings Date header was Sun, 02 Feb 2025 18:37:54 GMT
+2025-02-02T18:37:56.661Z,3003.661865,1007a000,6 [FLog::Output] Settings Date timestamp is 1738521474
+2025-02-02T18:38:37.180Z,3044.180664,4ea5efc0,6 [FLog::Graphics] SceneManager: resizing main targets to 2560x1440
+2025-02-02T18:38:48.955Z,3055.955078,10695000,6,Warning [DFLog::DMNotificationMonitor] DM notification received. Type 35
+2025-02-02T18:38:48.966Z,3055.966797,4ea5efc0,6 [FLog::SingleSurfaceApp] leaveUGCGame: (stage:UGCGame) blocking=0.
+2025-02-02T18:38:48.966Z,3055.966797,4ea5efc0,6 [FLog::SingleSurfaceApp] leaveUGCGameInternal
+2025-02-02T18:38:48.968Z,3055.968994,4ea5efc0,6 [FLog::SurfaceController] stop
+2025-02-02T18:38:48.968Z,3055.968994,4ea5efc0,6 [FLog::SurfaceController] drainRenderingJobs
+2025-02-02T18:38:48.969Z,3055.969238,4ea5efc0,6 [FLog::SurfaceController] SurfaceController::RenderJob[_:1]::~RenderJob
+2025-02-02T18:38:49.009Z,3056.009766,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: begin
+2025-02-02T18:38:49.011Z,3056.011475,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: destroyCaptureModeDataModelIfExists: end
+2025-02-02T18:38:49.011Z,3056.011475,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: stop: begin (blocking=false dataModel=0x7f8ba6f7e600)
+2025-02-02T18:38:49.011Z,3056.011475,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: sendAnalyticsBeforeLeave: sending event None_None
+2025-02-02T18:38:49.011Z,3056.011475,4ea5efc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: onCoordinatorTransitionEvent Stopped - Ugc
+2025-02-02T18:38:49.011Z,3056.011475,4ea5efc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: removing all observers for type Ugc
+2025-02-02T18:38:49.015Z,3056.015869,4ea5efc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)
+2025-02-02T18:38:49.015Z,3056.015869,4ea5efc0,6 [DFLog::SignalRCoreError] ID: 1 Disconnected - stop() called
+2025-02-02T18:38:49.027Z,3056.027832,1048f000,7 [FLog::Network] Client:Disconnect
+2025-02-02T18:38:49.038Z,3056.038086,1048f000,7 [FLog::Network] Time to disconnect replication data: 10.137927
+2025-02-02T18:38:49.041Z,3056.041504,1048f000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-02T18:38:49.041Z,3056.041504,1048f000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-02T18:38:49.041Z,3056.041504,fe6e000,7 [FLog::Network] Sending disconnect with reason: 285
+2025-02-02T18:38:49.041Z,3056.041748,fe6e000,7 [FLog::Network] Connection lost
+2025-02-02T18:38:49.041Z,3056.041748,fe6e000,7 [FLog::Network] Connection lost: connectMode: Disconnect ASAP, timeMS:3056041, connectionTime 9412
+2025-02-02T18:38:49.041Z,3056.041748,fe6e000,7 [FLog::Network] Connection lost: AckTimeout 0, IsOutgoingDataWaiting 0
+2025-02-02T18:38:49.041Z,3056.041748,fe6e000,7 [FLog::Network] Disconnection Notification. Reason: 285
+2025-02-02T18:38:50.080Z,3057.080322,1048f000,6,Info [FLog::AudioFocusService] AudioFocusService onServiceProvider invokation
+2025-02-02T18:38:50.080Z,3057.080566,1048f000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() onServiceProvider teardown
+2025-02-02T18:38:50.080Z,3057.080811,1048f000,7 [FLog::Network] Client:Disconnect
+2025-02-02T18:38:50.289Z,3057.289795,1048f000,6,Info [FLog::AudioFocusService] AudioFocusService::AudioFocusService() destructor
+2025-02-02T18:38:50.289Z,3057.289795,1048f000,7 [FLog::Network] NetworkClient:Remove
+2025-02-02T18:38:50.289Z,3057.289795,1048f000,7 [DFLog::MegaReplicatorLogDisconnectCleanUpLog] Destroying MegaReplicator.
+2025-02-02T18:38:50.756Z,3057.756348,10695000,7 [FLog::Network] Replicator destroyed: 0x7f8bd1a77050
+2025-02-02T18:38:51.183Z,3058.183594,4ea5efc0,6 [FLog::SingleSurfaceApp] shutDown: (stage:Native).
+2025-02-02T18:38:51.183Z,3058.183594,4ea5efc0,6 [FLog::SingleSurfaceApp] destroyLuaApp: (stage:Native) blocking:true.
+2025-02-02T18:38:51.183Z,3058.183594,4ea5efc0,6,Warning [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController: finalize: Did not finalize due to state.
+2025-02-02T18:38:51.183Z,3058.183594,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController: finalized
+2025-02-02T18:38:51.183Z,3058.183838,4ea5efc0,6,Warning [FLog::SingleSurfaceApp] destroyLuaApp: (stage:Native)... finished destroying luaApp.
+2025-02-02T18:38:51.183Z,3058.183838,4ea5efc0,6 [FLog::SingleSurfaceApp] setStage: (stage:None)
+2025-02-02T18:38:51.183Z,3058.183838,4ea5efc0,6 [FLog::SingleSurfaceApp] destroy controllers
+2025-02-02T18:38:51.183Z,3058.183838,4ea5efc0,6,Info [FLog::CrossExperienceVoiceController] CrossExperienceVoiceController::CrossExperienceVoiceController()
+2025-02-02T18:38:51.183Z,3058.183838,4ea5efc0,6,Info [FLog::UgcExperienceController] UgcExperienceController::~UgcExperienceController()
+2025-02-02T18:38:51.183Z,3058.183838,4ea5efc0,6 [FLog::SurfaceController] SurfaceController[_:1]::~SurfaceController, count: 0
+2025-02-02T18:38:51.183Z,3058.183838,4ea5efc0,6,Warning [FLog::Graphics] RenderView destroyed[1]
+2025-02-02T18:38:51.241Z,3058.241699,4ea5efc0,6 [FLog::SingleSurfaceApp] setStage: (stage:Native)
